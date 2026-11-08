@@ -22,10 +22,10 @@ export const SITE = {
   /** The working name of the site; change it here only. */
   name: "KNM",
   /**
-   * The colour palette (styles/palettes.css): "oranje" (navy with orange) or "rwb" (the red, white and blue of the
-   * flag). The header colour of the installed app follows it (THEME_COLOR).
+   * The design (styles/palettes.css): "mondriaan", De Stijl in the red, white and blue of the flag with orange. The
+   * header colour of the installed app follows it (THEME_COLOR).
    */
-  palette: "oranje" as "oranje" | "rwb",
+  palette: "mondriaan" as const,
   /** The contact address. */
   email: "info@nederlands.app",
   defaultLocale: "nl",
@@ -43,8 +43,9 @@ export const SITE = {
   ] as const,
 };
 
-/** The browser and app bar colour of each palette (the header colour). */
-export const THEME_COLOR = { oranje: "#14213d", rwb: "#21468b" } as const;
+/** The browser and app bar colour of each design (the header colour), light and dark. */
+export const THEME_COLOR = { mondriaan: "#ffffff" } as const;
+export const THEME_COLOR_DARK = { mondriaan: "#111111" } as const;
 
 export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;

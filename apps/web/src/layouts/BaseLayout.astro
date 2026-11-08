@@ -3,7 +3,7 @@ import Seo from "../components/Seo.astro";
 import SearchHighlight from "../components/SearchHighlight.astro";
 import HighlightLib from "../components/HighlightLib.astro";
 import Search from "../components/Search.astro";
-import { ANALYTICS, SITE, SITE_URL, THEME_COLOR } from "../config/site";
+import { ANALYTICS, SITE, SITE_URL, THEME_COLOR, THEME_COLOR_DARK } from "../config/site";
 import { LIVE_LOCALES, dirOf, fmt, t } from "../i18n";
 // Fonts are served from this site (no requests to Google): only the weights the site uses.
 import "@fontsource/atkinson-hyperlegible/latin-400.css";
@@ -16,10 +16,12 @@ import "@fontsource/bricolage-grotesque/latin-ext-700.css";
 import "@fontsource/literata/latin-400.css";
 import "@fontsource/literata/latin-ext-400.css";
 import "@fontsource/literata/latin-700.css";
+import "@fontsource/bricolage-grotesque/latin-800.css";
+import "@fontsource/bricolage-grotesque/latin-ext-800.css";
 // The faces of the first lines of text, preloaded so the text does not reflow when they arrive.
 import atkinson400 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2?url";
 import atkinson700 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2?url";
-import bricolage700 from "@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2?url";
+import bricolage800 from "@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2?url";
 import literata400 from "@fontsource/literata/files/literata-latin-400-normal.woff2?url";
 
 import "../styles/global.css";
@@ -95,8 +97,9 @@ const tabs = studyHere
     <script is:inline src={headSettingsScript}></script>
     <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
     <script is:inline src={headStudyScript}></script>
-    <meta name="theme-color" content={THEME_COLOR[SITE.palette]} />
-    {(studyHere ? [atkinson400, atkinson700, bricolage700] : [atkinson400, bricolage700, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    <meta name="theme-color" content={THEME_COLOR[SITE.palette]} media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content={THEME_COLOR_DARK[SITE.palette]} media="(prefers-color-scheme: dark)" />
+    {(studyHere ? [atkinson400, atkinson700, bricolage800] : [atkinson400, bricolage800, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
@@ -108,7 +111,7 @@ const tabs = studyHere
       <div class="site-tabs">
         <div class="wrap wrap-wide">
           <a class="brand" href={`/${locale}/`}>
-            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect x="20" y="20" width="24" height="24" transform="rotate(45 32 32)" fill="var(--red)" /><path d="M27 22v20M27 32l9-10M30 30l7 12" stroke="var(--on-red)" stroke-width="3.6" stroke-linecap="square" fill="none" /></svg></span>
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="36" height="36"><rect width="64" height="64" fill="var(--stijl-black)" /><rect x="4" y="4" width="38" height="38" fill="var(--stijl-orange)" /><rect x="46" y="4" width="14" height="38" fill="var(--stijl-blue)" /><rect x="4" y="46" width="38" height="14" fill="var(--stijl-white)" /><rect x="46" y="46" width="14" height="14" fill="var(--stijl-red)" /><path d="M15 12v22M17 22l9-10M19 21l8 13" stroke="var(--stijl-black)" stroke-width="4.5" stroke-linecap="square" fill="none" /></svg></span>
             <span class="brand-latin">{SITE.name}</span>
           </a>
           <nav class="site-nav" aria-label={N.main}>

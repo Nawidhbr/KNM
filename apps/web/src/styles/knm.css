@@ -1,4 +1,4 @@
-/* Additions for the KNM course on top of The Mantiqi house style (global.css): black, white and one red. */
+/* Additions for the KNM course on top of The Mantiqi house style (global.css); the design itself is in palettes.css. */
 
 :root { --font-arabic: var(--font-body); }
 
