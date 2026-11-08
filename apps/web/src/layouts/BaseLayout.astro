@@ -3,7 +3,7 @@ import Seo from "../components/Seo.astro";
 import SearchHighlight from "../components/SearchHighlight.astro";
 import HighlightLib from "../components/HighlightLib.astro";
 import Search from "../components/Search.astro";
-import { ANALYTICS, SITE, SITE_URL } from "../config/site";
+import { ANALYTICS, SITE, SITE_URL, THEME_COLOR } from "../config/site";
 import { LIVE_LOCALES, dirOf, fmt, t } from "../i18n";
 // Fonts are served from this site (no requests to Google): only the weights the site uses.
 import "@fontsource/atkinson-hyperlegible/latin-400.css";
@@ -24,6 +24,7 @@ import literata400 from "@fontsource/literata/files/literata-latin-400-normal.wo
 
 import "../styles/global.css";
 import "../styles/knm.css";
+import "../styles/palettes.css";
 
 import errorReportScript from "../scripts/error-report.js?url";
 import headSettingsScript from "../scripts/head-settings.js?url";
@@ -86,7 +87,7 @@ const tabs = studyHere
 ---
 
 <!doctype html>
-<html lang={locale} dir={dirOf(locale)} data-area={studyHere ? "study" : "kb"}>
+<html lang={locale} dir={dirOf(locale)} data-area={studyHere ? "study" : "kb"} data-palette={SITE.palette}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -94,7 +95,7 @@ const tabs = studyHere
     <script is:inline src={headSettingsScript}></script>
     <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
     <script is:inline src={headStudyScript}></script>
-    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="theme-color" content={THEME_COLOR[SITE.palette]} />
     {(studyHere ? [atkinson400, atkinson700, bricolage700] : [atkinson400, bricolage700, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
@@ -107,7 +108,7 @@ const tabs = studyHere
       <div class="site-tabs">
         <div class="wrap wrap-wide">
           <a class="brand" href={`/${locale}/`}>
-            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect x="20" y="20" width="24" height="24" transform="rotate(45 32 32)" fill="var(--red)" /><path d="M27 22v20M27 32l9-10M30 30l7 12" stroke="#fff" stroke-width="3.6" stroke-linecap="square" fill="none" /></svg></span>
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect x="20" y="20" width="24" height="24" transform="rotate(45 32 32)" fill="var(--red)" /><path d="M27 22v20M27 32l9-10M30 30l7 12" stroke="var(--on-red)" stroke-width="3.6" stroke-linecap="square" fill="none" /></svg></span>
             <span class="brand-latin">{SITE.name}</span>
           </a>
           <nav class="site-nav" aria-label={N.main}>

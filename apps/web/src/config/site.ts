@@ -1,7 +1,7 @@
 /**
  * Single source of truth for the site's name, address and indexing state.
  *
- * - SITE_URL: the canonical origin (https://awqatu.nl). Changing the domain is this one value, or the SITE_URL
+ * - SITE_URL: the canonical origin (https://www.nederlands.app). Changing the domain is this one value, or the SITE_URL
  *   environment variable in Vercel.
  * - INDEXING: "on" allows search engines to index the site. Anything else (including unset) puts noindex on every
  *   page. Preview deployments on Vercel are never indexed, whatever INDEXING says.
@@ -9,7 +9,7 @@
 
 const env = process.env;
 
-export const SITE_URL = (env.SITE_URL ?? "https://awqatu.nl").replace(/\/+$/, "");
+export const SITE_URL = (env.SITE_URL ?? "https://www.nederlands.app").replace(/\/+$/, "");
 
 const isPreview = env.VERCEL_ENV !== undefined && env.VERCEL_ENV !== "production";
 
@@ -20,9 +20,14 @@ export const ANALYTICS = env.VERCEL_ENV === "production" && env.ANALYTICS !== "o
 
 export const SITE = {
   /** The working name of the site; change it here only. */
-  name: "KNM Leren",
+  name: "Inburgeren",
+  /**
+   * The colour palette (styles/palettes.css): "oranje" (navy with orange) or "rwb" (the red, white and blue of the
+   * flag). The header colour of the installed app follows it (THEME_COLOR).
+   */
+  palette: "oranje" as "oranje" | "rwb",
   /** The contact address. */
-  email: "info@awqatu.nl",
+  email: "info@nederlands.app",
   defaultLocale: "nl",
   /**
    * Languages offered in the language menu. A language gets pages once its interface dictionary exists
@@ -37,6 +42,9 @@ export const SITE = {
     { code: "ti", name: "ትግርኛ", english: "Tigrinya", dir: "ltr" },
   ] as const,
 };
+
+/** The browser and app bar colour of each palette (the header colour). */
+export const THEME_COLOR = { oranje: "#14213d", rwb: "#21468b" } as const;
 
 export function absoluteUrl(path: string): string {
   return `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;

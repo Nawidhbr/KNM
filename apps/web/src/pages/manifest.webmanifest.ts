@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { SITE } from "../config/site";
+import { SITE, THEME_COLOR } from "../config/site";
 
 export const GET: APIRoute = () =>
   new Response(
@@ -14,7 +14,7 @@ export const GET: APIRoute = () =>
         scope: "/",
         display: "standalone",
         background_color: "#ffffff",
-        theme_color: "#0a0a0a",
+        theme_color: THEME_COLOR[SITE.palette],
         categories: ["education"],
         icons: [
           { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },

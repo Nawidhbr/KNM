@@ -9,7 +9,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, relative, dirname, normalize } from "node:path";
 
 const dist = process.argv[2] ?? "apps/web/dist";
-const site = (process.env.SITE_URL ?? "https://awqatu.nl").replace(/\/+$/, "");
+const site = (process.env.SITE_URL ?? "https://www.nederlands.app").replace(/\/+$/, "");
 const pages = [];
 const walk = (dir) => {
   for (const name of readdirSync(dir)) {

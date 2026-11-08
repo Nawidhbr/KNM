@@ -1,0 +1,132 @@
+/*
+ * Dutch palettes over The Mantiqi's tokens (global.css). The palette is chosen in config/site.ts (SITE.palette) and set
+ * as data-palette on <html>. Each palette sets the same tokens, light and dark, so pages never name a colour.
+ * Contrast (WCAG): text on fills and accent text on the background are at least 4.5:1.
+ *
+ * - oranje: navy structure (#14213D) with orange for the current item and the main action. White on orange is too
+ *   weak (2.6:1), so text on orange is navy (6.1:1).
+ * - rwb: the flag. Blue (#21468B) for structure and the header, red (#AE1C28) for the current item and the main
+ *   action, and a red-white-blue band under the header.
+ */
+
+:root[data-palette="oranje"] {
+  --ink: #101828;
+  --muted: #5c6475;
+  --line: #e3e7ef;
+  --header: #14213d;
+  --header-ink: #ffffff;
+  --header-sub: #c9d2e3;
+  --primary: #14213d;
+  --primary-ink: #14213d;
+  --on-primary: #ffffff;
+  --primary-soft: #eef2f8;
+  --red: #ff7a00;
+  --red-ink: #b54708;
+  --red-soft: #ffead5;
+  --red-fill: #ff7a00;
+  --on-red: #14213d;
+  --on-dark-red: #ffa552;
+  --lock: #f1f3f7;
+  --dg-focus: #ffead5;
+  --band: linear-gradient(#ff7a00, #ff7a00);
+}
+
+:root[data-palette="rwb"] {
+  --ink: #0f1a2e;
+  --muted: #5c6475;
+  --line: #e3e7ef;
+  --header: #21468b;
+  --header-ink: #ffffff;
+  --header-sub: #d3dcee;
+  --primary: #21468b;
+  --primary-ink: #21468b;
+  --on-primary: #ffffff;
+  --primary-soft: #e9eef7;
+  --red: #ae1c28;
+  --red-ink: #ae1c28;
+  --red-soft: #fbe8ea;
+  --red-fill: #ae1c28;
+  --on-red: #ffffff;
+  --on-dark-red: #ffb3b9;
+  --lock: #f1f3f7;
+  --dg-focus: #fbe8ea;
+  --band: linear-gradient(#ae1c28 0 33.4%, #ffffff 33.4% 66.6%, #21468b 66.6%);
+}
+
+/* Dark: the same idea on a deep navy page. */
+:root[data-palette][data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #121a2b;
+  --ink: #f3f5f9;
+  --muted: #a5aec2;
+  --line: #24304a;
+  --lock: rgb(255 255 255 / 0.06);
+  --primary-soft: rgb(255 255 255 / 0.08);
+}
+:root[data-palette="oranje"][data-theme="dark"] {
+  --header: #0a1020;
+  --primary: #f3f5f9;
+  --primary-ink: #f3f5f9;
+  --on-primary: #0b1220;
+  --red: #ff8a1f;
+  --red-ink: #ff9a3d;
+  --red-soft: rgb(255 138 31 / 0.15);
+  --red-fill: #ff8a1f;
+  --on-red: #0f1626;
+  --dg-focus: rgb(255 138 31 / 0.15);
+}
+:root[data-palette="rwb"][data-theme="dark"] {
+  --header: #13284f;
+  --header-sub: #c8d3ea;
+  --primary: #a9c1f0;
+  --primary-ink: #a9c1f0;
+  --on-primary: #0b1220;
+  --red: #ff5a66;
+  --red-ink: #ff6b6b;
+  --red-soft: rgb(255 90 102 / 0.15);
+  --red-fill: #d62f3c;
+  --on-red: #ffffff;
+  --dg-focus: rgb(255 90 102 / 0.15);
+}
+@media (prefers-color-scheme: dark) {
+  :root[data-palette]:not([data-theme="light"]) {
+    --bg: #0b1220;
+    --surface: #121a2b;
+    --ink: #f3f5f9;
+    --muted: #a5aec2;
+    --line: #24304a;
+    --lock: rgb(255 255 255 / 0.06);
+    --primary-soft: rgb(255 255 255 / 0.08);
+  }
+  :root[data-palette="oranje"]:not([data-theme="light"]) {
+    --header: #0a1020;
+    --primary: #f3f5f9;
+    --primary-ink: #f3f5f9;
+    --on-primary: #0b1220;
+    --red: #ff8a1f;
+    --red-ink: #ff9a3d;
+    --red-soft: rgb(255 138 31 / 0.15);
+    --red-fill: #ff8a1f;
+    --on-red: #0f1626;
+    --dg-focus: rgb(255 138 31 / 0.15);
+  }
+  :root[data-palette="rwb"]:not([data-theme="light"]) {
+    --header: #13284f;
+    --header-sub: #c8d3ea;
+    --primary: #a9c1f0;
+    --primary-ink: #a9c1f0;
+    --on-primary: #0b1220;
+    --red: #ff5a66;
+    --red-ink: #ff6b6b;
+    --red-soft: rgb(255 90 102 / 0.15);
+    --red-fill: #d62f3c;
+    --on-red: #ffffff;
+    --dg-focus: rgb(255 90 102 / 0.15);
+  }
+}
+
+/* The band under the header: orange, or the flag. */
+:root[data-palette] .site-header { border-bottom: 0; }
+:root[data-palette] .site-tabs { box-shadow: none; }
+:root[data-palette] .site-header::after { content: ""; display: block; height: 6px; background: var(--band); }
+:root[data-palette="rwb"] .site-header::after { height: 9px; }

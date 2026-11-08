@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config/site.ts";
 
-const site = (process.env.SITE_URL ?? "https://awqatu.nl").replace(/\/+$/, "");
+const site = (process.env.SITE_URL ?? "https://www.nederlands.app").replace(/\/+$/, "");
 
 export default defineConfig({
   site,
