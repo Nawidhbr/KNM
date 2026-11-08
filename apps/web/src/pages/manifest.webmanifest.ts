@@ -5,7 +5,7 @@ export const GET: APIRoute = () =>
   new Response(
     JSON.stringify(
       {
-        name: `${SITE.name}: oefenen voor het KNM-examen`,
+        name: `${SITE.name}: oefenen voor het inburgeringsexamen`,
         short_name: SITE.name,
         description: "Oefen voor het KNM-examen van de inburgering: korte lessen per thema met toetsen, een kennisbank en herhalen.",
         lang: "nl",

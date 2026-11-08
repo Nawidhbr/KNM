@@ -1,4 +1,4 @@
-# Inburgeren
+# KNM
 
 Oefenen voor het KNM-examen (Kennis van de Nederlandse Maatschappij) van de inburgering: korte lessen per thema met toetsen, een kennisbank over Nederland, herhalen en woorduitleg. Gebouwd op de infrastructuur van The Mantiqi. Live op www.nederlands.app.
 

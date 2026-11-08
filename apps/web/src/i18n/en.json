@@ -30,7 +30,7 @@
     "langNote": "All explanations are drafts until a qualified teacher has reviewed them. Where a translation is still missing, you see the Dutch."
   },
   "footer": {
-    "draft": "{site} is in development. All lessons and pages are drafts still to be reviewed by a qualified teacher. {site} is not affiliated with DUO or the government.",
+    "draft": "This site is in development. All lessons and pages are drafts still to be reviewed by a qualified teacher. The site is not affiliated with DUO or the government.",
     "privacy": "Privacy"
   },
   "search": {
@@ -181,19 +181,19 @@
     "close": "Close"
   },
   "about": {
-    "title": "About {site}",
-    "description": "What {site} is, how the lessons are made and who is behind it.",
-    "lead": "{site} helps people prepare for the Knowledge of Dutch Society (KNM) exam of the civic integration.",
+    "title": "About this site",
+    "description": "What this site is, how the lessons are made and who is behind it.",
+    "lead": "This site helps people prepare for the Knowledge of Dutch Society (KNM) exam of the civic integration.",
     "body": [
       "The lessons follow the attainment targets of the KNM exam in force since 1 July 2025 (Staatscourant 2024, 15802). Every test question belongs to a target, and every lesson and page names its sources.",
       "The lessons are drafted with the help of AI and checked against the attainment targets and official sources. They stay marked as drafts until a qualified Dutch-as-a-second-language teacher has reviewed them.",
-      "{site} uses no real exam questions and is not affiliated with DUO or the government. For the official practice exam, go to inburgeren.nl.",
+      "The site uses no real exam questions and is not affiliated with DUO or the government. For the official practice exam, go to inburgeren.nl.",
       "Spotted a mistake? Let us know through the contact page."
     ]
   },
   "privacy": {
     "title": "Privacy",
-    "description": "What {site} does and does not keep: your progress stays in your own browser.",
+    "description": "What this site does and does not keep: your progress stays in your own browser.",
     "body": [
       "Your progress (your scores and which lessons are open) is kept only in your own browser (localStorage). We never see it.",
       "On the live site we count visits without cookies (Vercel Web Analytics). Nothing is kept that could identify you.",
@@ -203,7 +203,7 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Contact {site}: a question, a mistake in a lesson, or working together as a language school.",
+    "description": "Contact us: a question, a mistake in a lesson, or working together as a language school.",
     "lead": "All lessons are drafts until a teacher has reviewed them. We are glad to hear from you.",
     "emailLabel": "Or email directly",
     "reasonsTitle": "What can you write about?",

@@ -20,7 +20,7 @@ export const ANALYTICS = env.VERCEL_ENV === "production" && env.ANALYTICS !== "o
 
 export const SITE = {
   /** The working name of the site; change it here only. */
-  name: "Inburgeren",
+  name: "KNM",
   /**
    * The colour palette (styles/palettes.css): "oranje" (navy with orange) or "rwb" (the red, white and blue of the
    * flag). The header colour of the installed app follows it (THEME_COLOR).

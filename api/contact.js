@@ -4,7 +4,7 @@
  *
  * Vercel environment variables:
  *   RESEND_API_KEY  the API key (without it the form answers 503 and the page offers the writer's own mail program)
- *   CONTACT_FROM    the sender, on a domain verified in Resend (default: Inburgeren <contact@nederlands.app>)
+ *   CONTACT_FROM    the sender, on a domain verified in Resend (default: KNM <contact@nederlands.app>)
  *   CONTACT_TO      where messages go (default: info@nederlands.app)
  *
  * Spam: a hidden field that people leave empty, a minimum time on the page, and limits on every field.
@@ -39,7 +39,7 @@ export default async function handler(req, res) {
   const key = process.env.RESEND_API_KEY;
   if (!key) return res.status(503).json({ ok: false, error: "unconfigured" });
 
-  const subject = `[Inburgeren · ${f.topic}] ${f.name}`.replace(/[\r\n]+/g, " ");
+  const subject = `[KNM · ${f.topic}] ${f.name}`.replace(/[\r\n]+/g, " ");
   const lang = String(b.locale || "").slice(0, 5);
   const text = [`Name: ${f.name}`, `Email: ${f.email}`, `Topic: ${f.topic}`, f.page ? `Page: ${f.page}` : null, lang ? `Language: ${lang}` : null, "", f.message].filter((x) => typeof x === "string").join("\n");
 
@@ -48,7 +48,7 @@ export default async function handler(req, res) {
       method: "POST",
       headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: process.env.CONTACT_FROM || "Inburgeren <contact@nederlands.app>",
+        from: process.env.CONTACT_FROM || "KNM <contact@nederlands.app>",
         to: [process.env.CONTACT_TO || "info@nederlands.app"],
         reply_to: f.email,
         subject,

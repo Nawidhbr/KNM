@@ -30,7 +30,7 @@
     "langNote": "Alle uitleg is een concept tot een bevoegde docent die heeft nagekeken. Waar een vertaling nog ontbreekt, zie je het Nederlands."
   },
   "footer": {
-    "draft": "{site} is in ontwikkeling. Alle lessen en pagina's zijn concepten die nog door een bevoegde docent worden nagekeken. {site} is niet verbonden aan DUO of de overheid.",
+    "draft": "Deze site is in ontwikkeling. Alle lessen en pagina's zijn concepten die nog door een bevoegde docent worden nagekeken. De site is niet verbonden aan DUO of de overheid.",
     "privacy": "Privacy"
   },
   "search": {
@@ -181,19 +181,19 @@
     "close": "Sluiten"
   },
   "about": {
-    "title": "Over {site}",
-    "description": "Wat {site} is, hoe de lessen gemaakt worden en wie erachter zit.",
-    "lead": "{site} helpt inburgeraars zich voor te bereiden op het examen Kennis van de Nederlandse Maatschappij (KNM).",
+    "title": "Over deze site",
+    "description": "Wat deze site is, hoe de lessen gemaakt worden en wie erachter zit.",
+    "lead": "Deze site helpt inburgeraars zich voor te bereiden op het examen Kennis van de Nederlandse Maatschappij (KNM).",
     "body": [
       "De lessen volgen de eindtermen van het KNM-examen die sinds 1 juli 2025 gelden (Staatscourant 2024, 15802). Elke toetsvraag hoort bij een eindterm, en elke les en pagina noemt haar bronnen.",
       "De lessen worden opgesteld met hulp van AI en gecontroleerd tegen de eindtermen en officiële bronnen. Ze blijven als concept gemarkeerd tot een bevoegde NT2-docent ze heeft nagekeken.",
-      "{site} gebruikt geen echte examenvragen en is niet verbonden aan DUO of de overheid. Voor het officiële oefenexamen ga je naar inburgeren.nl.",
+      "De site gebruikt geen echte examenvragen en is niet verbonden aan DUO of de overheid. Voor het officiële oefenexamen ga je naar inburgeren.nl.",
       "Zie je een fout? Laat het ons weten via de contactpagina."
     ]
   },
   "privacy": {
     "title": "Privacy",
-    "description": "Wat {site} wel en niet bewaart: je voortgang staat alleen in je eigen browser.",
+    "description": "Wat deze site wel en niet bewaart: je voortgang staat alleen in je eigen browser.",
     "body": [
       "Je voortgang (je scores en welke lessen open zijn) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
       "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics). Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
@@ -203,7 +203,7 @@
   },
   "contact": {
     "title": "Contact",
-    "description": "Neem contact op met {site}: een vraag, een fout in een les, of samenwerken als taalschool.",
+    "description": "Neem contact met ons op: een vraag, een fout in een les, of samenwerken als taalschool.",
     "lead": "Alle lessen zijn concepten tot een docent ze heeft nagekeken. We horen graag van je.",
     "emailLabel": "Of mail direct",
     "reasonsTitle": "Waarover kun je schrijven?",
