@@ -1,0 +1,149 @@
+{
+  "entries": [
+    {
+      "id": "vacancy",
+      "forms": [
+        "vacancy",
+        "vacancies"
+      ],
+      "plain": "a job that is open"
+    },
+    {
+      "id": "employment-agency",
+      "forms": [
+        "employment agency"
+      ],
+      "plain": "a company that finds work for you at other companies"
+    },
+    {
+      "id": "cao",
+      "forms": [
+        "cao",
+        "collective labour agreement"
+      ],
+      "plain": "agreements on pay and work for all employees in a sector"
+    },
+    {
+      "id": "social-assistance",
+      "forms": [
+        "social assistance"
+      ],
+      "plain": "a benefit from the municipality for people with no other income",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "uwv",
+      "forms": [
+        "UWV"
+      ],
+      "plain": "the agency for unemployment, incapacity for work and finding work",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "kvk",
+      "forms": [
+        "KVK",
+        "Chamber of Commerce"
+      ],
+      "plain": "the organisation where you register your business"
+    },
+    {
+      "id": "confidential-adviser",
+      "forms": [
+        "confidential adviser"
+      ],
+      "plain": "someone at work you can talk to in confidence about problems"
+    },
+    {
+      "id": "trade-union",
+      "forms": [
+        "trade union",
+        "union"
+      ],
+      "plain": "an organisation that stands up for employees"
+    },
+    {
+      "id": "works-council",
+      "forms": [
+        "works council"
+      ],
+      "plain": "a group of employees who talk to the management on behalf of the staff"
+    },
+    {
+      "id": "part-time",
+      "forms": [
+        "part-time"
+      ],
+      "plain": "working fewer hours than a full working week"
+    },
+    {
+      "id": "deductible",
+      "forms": [
+        "deductible"
+      ],
+      "plain": "an amount per year you first pay yourself for care (eigen risico)",
+      "topic": "zorgverzekering-eigen-risico"
+    },
+    {
+      "id": "allowance",
+      "forms": [
+        "allowances",
+        "healthcare allowance",
+        "rent allowance",
+        "childcare allowance"
+      ],
+      "plain": "a contribution from the government to your costs when your income is low (toeslag)",
+      "topic": "toeslagen"
+    },
+    {
+      "id": "digid",
+      "forms": [
+        "DigiD"
+      ],
+      "plain": "your personal login for the government",
+      "topic": "digid"
+    },
+    {
+      "id": "bsn",
+      "forms": [
+        "BSN",
+        "citizen service number"
+      ],
+      "plain": "your personal number with the government",
+      "topic": "digid"
+    },
+    {
+      "id": "out-of-hours",
+      "forms": [
+        "out-of-hours GP service",
+        "huisartsenpost"
+      ],
+      "plain": "the GP for emergencies in the evening, at night and at weekends",
+      "topic": "spoed-112-huisartsenpost"
+    },
+    {
+      "id": "practice-nurse",
+      "forms": [
+        "practice nurse",
+        "POH"
+      ],
+      "plain": "a care worker in the GP practice, also for mental health complaints",
+      "topic": "huisarts"
+    },
+    {
+      "id": "basic-qualification",
+      "forms": [
+        "basic qualification"
+      ],
+      "plain": "a havo, vwo or mbo level 2 diploma or higher",
+      "topic": "leerplicht"
+    },
+    {
+      "id": "diploma-evaluation",
+      "forms": [
+        "diploma evaluation"
+      ],
+      "plain": "finding out what a foreign diploma is worth in the Netherlands"
+    }
+  ]
+}

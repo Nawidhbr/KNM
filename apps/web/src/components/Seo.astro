@@ -1,0 +1,67 @@
+---
+import { INDEXING, SITE, absoluteUrl } from "../config/site";
+import { LIVE_LOCALES, seoFor, t } from "../i18n";
+
+interface Props {
+  title: string;
+  description: string;
+  /** Path of this page within its locale, e.g. "/terms/jins/". */
+  path: string;
+  locale?: string;
+  /** JSON-LD objects for this page. */
+  jsonLd?: object[];
+  /** Set for pages that should never be indexed, regardless of INDEXING. */
+  noindex?: boolean;
+}
+
+const { title, description, path, locale = SITE.defaultLocale, jsonLd = [], noindex = false } = Astro.props;
+const shareImage = absoluteUrl("/og/default.jpg");
+const shareAlt = SITE.name;
+const canonical = absoluteUrl(`/${locale}${path}`);
+// The error page is no page of its own: no canonical, no other languages. Pages kept out of the index name no other languages either.
+const isError = path === "/404/";
+const alternates = !noindex && !isError ? LIVE_LOCALES : [];
+// Search results show about 60 characters of a title and 155 of a description: keep both within that,
+// cutting at a word (or, for a description, at the end of a sentence) rather than letting Google cut.
+const clip = (text: string, max: number) => {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  return cut.slice(0, Math.max(cut.lastIndexOf(" "), max * 0.6)).replace(/[\s,;:–—-]+$/, "") + "…";
+};
+// A main page may have a search title and description of its own (`seo` in the dictionary), written for what people type.
+const own = seoFor(locale, path);
+const fullTitle = (() => {
+  if (own?.title) return own.title.includes(SITE.name) || `${own.title} | ${SITE.name}`.length > 65 ? own.title : `${own.title} | ${SITE.name}`;
+  if (path === "/") return `${SITE.name} – ${t(locale).meta.tagline}`;
+  const withName = `${title} | ${SITE.name}`;
+  return withName.length <= 65 ? withName : clip(title, 65);
+})();
+const metaDescription = (() => {
+  const text = (own?.description ?? description).replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+  if (text.length <= 160) return text;
+  const sentence = text.slice(0, 160).match(/^.*[.!?؟](?=\s)/)?.[0];
+  return sentence && sentence.length >= 70 ? sentence : clip(text, 155);
+})();
+const robots = INDEXING && !noindex ? "index, follow" : "noindex, nofollow";
+---
+
+<title>{fullTitle}</title>
+<meta name="description" content={metaDescription} />
+<meta name="robots" content={robots} />
+{!isError && <link rel="canonical" href={canonical} />}
+{alternates.length > 1 && alternates.map((l) => <link rel="alternate" hreflang={l} href={absoluteUrl(`/${l}${path}`)} />)}
+{alternates.length > 1 && <link rel="alternate" hreflang="x-default" href={absoluteUrl(`/${SITE.defaultLocale}${path}`)} />}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={metaDescription} />
+{!isError && <meta property="og:url" content={canonical} />}
+<meta property="og:locale" content={locale} />
+<meta property="og:image" content={shareImage} />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={shareAlt} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content={shareImage} />
+{jsonLd.map((data) => <script type="application/ld+json" set:html={JSON.stringify(data)} />)}

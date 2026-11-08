@@ -1,0 +1,11 @@
+---
+import searchHighlightScript from "../scripts/search-highlight.js?url";
+/**
+ * After a search, the page opened from the results shows the searched words in red.
+ * The search adds `?hl=<query>` to each result link; this script marks the words in the page
+ * with the shared marker (`window.__hl`, see HighlightLib), opens a folded section that holds
+ * the first one and scrolls to it, then removes `hl` from the address.
+ */
+---
+
+<script is:inline src={searchHighlightScript}></script>

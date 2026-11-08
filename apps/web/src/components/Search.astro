@@ -1,0 +1,36 @@
+---
+interface Props {
+  locale: string;
+}
+const { locale } = Astro.props;
+import { t } from "../i18n";
+import searchScript from "../scripts/search.js?url";
+const ui = t(locale);
+---
+
+<button type="button" class="theme-toggle" id="search-open" aria-label={ui.header.search} title={`${ui.header.search} ( / )`} aria-haspopup="dialog">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+</button>
+
+<dialog class="search" id="search" aria-label={ui.header.search}>
+  <form method="dialog" class="search-bar" role="search">
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+    <input
+      id="search-input"
+      type="search"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder={ui.search.placeholder}
+      aria-label={ui.header.search}
+      aria-controls="search-results"
+      aria-autocomplete="list"
+      role="combobox"
+      aria-expanded="false"
+    />
+    <button type="submit" class="search-close" aria-label={ui.search.close}>Esc</button>
+  </form>
+  <p class="search-hint muted" id="search-hint" data-hint={ui.search.hint} data-none={ui.search.none}>{ui.search.hint}</p>
+  <ul class="search-results" id="search-results" role="listbox" aria-label={ui.search.results}></ul>
+</dialog>
+
+<script is:inline src={searchScript} data-vars={JSON.stringify({ indexUrl: `/${locale}/search.json` })}></script>

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "kabinetsreactie-tussenevaluatie-2026",
+      "date": "2026-01-28",
+      "headline": { "nl": "Kabinet reageert op de tussenevaluatie van de Wet inburgering", "en": "Government responds to the interim evaluation of the Civic Integration Act" },
+      "gist": { "nl": "Meer tijd voor wie werkt naast de inburgering, en het kabinet wil minder mensen in de Z-route. De volledige evaluatie volgt in 2027.", "en": "More time for people who work alongside their integration, and fewer people in the Z-route. The full evaluation follows in 2027." },
+      "source": { "title": "Kabinetsreactie tussenevaluatie Wi2021", "url": "https://app.1848.nl/static/pdf/c6/b5/c6b55d272a8d9c7f5258b2fb7787a0129c576e83.pdf" }
+    },
+    {
+      "id": "nieuwe-eindtermen-knm-2025",
+      "date": "2025-07-01",
+      "headline": { "nl": "Het KNM-examen gaat over nieuwe eindtermen", "en": "The KNM exam now follows new attainment targets" },
+      "gist": { "nl": "Meer nadruk op kennis in plaats van gedrag, met onder meer de holocaust, het zelfbeschikkingsrecht van vrouwen en DigiD.", "en": "More weight on knowledge instead of behaviour, including the Holocaust, women's right to self-determination and DigiD." },
+      "source": { "title": "Rijksoverheid: inburgeringsexamen vernieuwd", "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/30/inburgeringsexamen-vernieuwd-extra-aandacht-voor-zelfbeschikking-vrouwen-en-kennis-holocaust" }
+    },
+    {
+      "id": "eindtermen-gepubliceerd-2024",
+      "date": "2024-05-16",
+      "headline": { "nl": "De nieuwe KNM-eindtermen staan in de Staatscourant", "en": "The new KNM attainment targets are published" },
+      "gist": { "nl": "Acht thema's, vier praktijksituaties en per thema de kennis die je nodig hebt. Ze gelden sinds 1 juli 2025.", "en": "Eight themes, four practical situations and, per theme, the knowledge you need. They apply since 1 July 2025." },
+      "source": { "title": "Staatscourant 2024, 15802", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" }
+    }
+  ]
+}

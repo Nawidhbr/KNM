@@ -1,0 +1,74 @@
+{
+  "slug": "toeslagen",
+  "theme": "instanties",
+  "title": {
+    "nl": "Toeslagen en kinderbijslag",
+    "en": "Allowances and child benefit"
+  },
+  "summary": {
+    "nl": "Zorgtoeslag, huurtoeslag en kinderopvangtoeslag vraag je aan bij Dienst Toeslagen; kinderbijslag bij de SVB.",
+    "en": "You apply for healthcare, rent and childcare allowances at the Benefits service; child benefit at the SVB."
+  },
+  "eindtermen": [
+    "6.3.3"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Welke toeslagen zijn er?",
+        "en": "Which allowances are there?"
+      },
+      "paragraphs": {
+        "nl": [
+          "Met een laag inkomen kun je een bijdrage krijgen in je kosten: zorgtoeslag voor de zorgverzekering, huurtoeslag voor de huur en kinderopvangtoeslag voor de kinderopvang. Je vraagt ze aan bij Dienst Toeslagen van de Belastingdienst, als je er recht op hebt."
+        ],
+        "en": [
+          "With a low income you can get a contribution to your costs: healthcare allowance for health insurance, rent allowance for rent and childcare allowance for childcare. You apply to the Benefits service (Dienst Toeslagen) of the Tax Administration, if you are entitled."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Veranderingen doorgeven",
+        "en": "Reporting changes"
+      },
+      "paragraphs": {
+        "nl": [
+          "Verandert je inkomen? Geef dat dan op tijd door. Anders krijg je misschien te veel toeslag en moet je later geld terugbetalen."
+        ],
+        "en": [
+          "Does your income change? Then report it in time. Otherwise you may receive too much and have to pay money back later."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Kinderbijslag",
+        "en": "Child benefit"
+      },
+      "paragraphs": {
+        "nl": [
+          "Kinderbijslag is een bijdrage in de kosten van je kinderen. Die vraag je aan bij de Sociale Verzekeringsbank (SVB)."
+        ],
+        "en": [
+          "Child benefit is a contribution to the costs of your children. You apply for it at the Social Insurance Bank (SVB)."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Toeslagen (Belastingdienst)",
+      "url": "https://www.toeslagen.nl/"
+    },
+    {
+      "title": "SVB: kinderbijslag",
+      "url": "https://www.svb.nl/nl/kinderbijslag"
+    }
+  ],
+  "checked": "2026-11-08"
+}

@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../../i18n";
+import { getGlossary } from "@knm/content";
+
+/** The words of the pop-ups, A–Z, each with its plain explanation and, where there is one, the page about it. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const G = ui.glossary;
+const words = [...getGlossary(locale).entries].sort((a, b) => a.forms[0].localeCompare(b.forms[0], locale, { sensitivity: "base" }));
+---
+
+<BaseLayout title={G.title} description={G.description} path="/glossary/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {G.title}</p>
+  <h1>{G.title}</h1>
+  <p class="lead">{G.lead}</p>
+  <dl class="word-list">
+    {words.map((w) => (
+      <div id={w.id}>
+        <dt>{w.forms[0]}</dt>
+        <dd>{w.plain}{w.topic && <> · <a href={`/${locale}/topics/${w.topic}/`}>{G.topicLink}</a></>}</dd>
+      </div>
+    ))}
+  </dl>
+</BaseLayout>

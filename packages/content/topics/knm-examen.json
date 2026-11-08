@@ -1,0 +1,80 @@
+{
+  "slug": "knm-examen",
+  "title": {
+    "nl": "Het KNM-examen: zo werkt het",
+    "en": "The KNM exam: how it works"
+  },
+  "summary": {
+    "nl": "Het examen Kennis van de Nederlandse Maatschappij: wat er getoetst wordt, hoe het gaat en hoe je je aanmeldt.",
+    "en": "The Knowledge of Dutch Society exam: what it tests, how it works and how to register."
+  },
+  "eindtermen": [
+    "1.1",
+    "7.1"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Wat is KNM?",
+        "en": "What is KNM?"
+      },
+      "paragraphs": {
+        "nl": [
+          "KNM staat voor Kennis van de Nederlandse Maatschappij. Het is een verplicht onderdeel van het inburgeringsexamen voor de meeste inburgeraars.",
+          "Het examen toetst wat je moet weten om mee te doen in Nederland: over werk, wonen, zorg, onderwijs, instanties, geschiedenis en de rechtsstaat."
+        ],
+        "en": [
+          "KNM stands for Knowledge of Dutch Society. It is a compulsory part of the civic integration exam for most people who have to integrate.",
+          "The exam tests what you need to know to take part in the Netherlands: about work, housing, healthcare, education, public bodies, history and the rule of law."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Hoe gaat het examen?",
+        "en": "How does the exam work?"
+      },
+      "paragraphs": {
+        "nl": [
+          "Je doet het examen op de computer, op een examenlocatie van DUO. Je hebt 45 minuten. De vragen zijn meerkeuzevragen met plaatjes, in eenvoudig Nederlands (niveau A2).",
+          "Sinds 1 juli 2025 gaat het examen over nieuwe eindtermen. Die zijn verdeeld in acht thema's. De nadruk ligt op kennis: weten hoe Nederland werkt."
+        ],
+        "en": [
+          "You take the exam on a computer at a DUO exam location. You have 45 minutes. The questions are multiple choice with pictures, in simple Dutch (level A2).",
+          "Since 1 July 2025 the exam follows new attainment targets. They are divided into eight themes. The focus is on knowledge: knowing how the Netherlands works."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Aanmelden, kosten en uitslag",
+        "en": "Registering, costs and results"
+      },
+      "paragraphs": {
+        "nl": [
+          "Je meldt je aan via Mijn Inburgering op inburgeren.nl. Het examen kost € 50 (2026). Sommige asielstatushouders onder de Wet inburgering 2021 hebben gratis pogingen.",
+          "De uitslag krijg je binnen acht weken. Meld je op tijd aan: soms moet je weken wachten op een plek."
+        ],
+        "en": [
+          "You register through Mijn Inburgering on inburgeren.nl. The exam costs €50 (2026). Some asylum permit holders under the Civic Integration Act 2021 have free attempts.",
+          "You get the result within eight weeks. Register in good time: sometimes you have to wait weeks for a place."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: inburgeringsexamen vernieuwd",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2025/06/30/inburgeringsexamen-vernieuwd-extra-aandacht-voor-zelfbeschikking-vrouwen-en-kennis-holocaust"
+    },
+    {
+      "title": "DUO: kennisexamens",
+      "url": "https://www.inburgeren.nl/examen-doen/inhoud-kennisexamens.jsp"
+    }
+  ],
+  "checked": "2026-11-08"
+}

@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../i18n";
+
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+---
+
+<BaseLayout title={ui.offline.title} description={ui.offline.description} path="/offline/" locale={locale} noindex>
+  <h1>{ui.offline.title}</h1>
+  <p>{ui.offline.body}</p>
+  <p><a href={`/${locale}/study/`}>{ui.nav.themes} →</a></p>
+</BaseLayout>

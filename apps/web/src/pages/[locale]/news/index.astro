@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../../i18n";
+import { getNews, tx } from "@knm/content";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+/** What is changing: changes in the rules of inburgering and the exam, newest first, each with its official source. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const N = ui.news;
+const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const host = (u: string) => new URL(u).hostname.replace(/^www\./, "");
+---
+
+<BaseLayout title={N.title} description={N.description} path="/news/" locale={locale} jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: N.title, path: `/${locale}/news/` }])]}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {N.title}</p>
+  <h1>{N.title}</h1>
+  <p class="lead">{N.lead}</p>
+  <ul class="news-list">
+    {getNews().map((n) => (
+      <li class="card" id={n.id}>
+        <time datetime={n.date}>{dateOf(n.date)}</time>
+        <h2>{tx(n.headline, locale)}</h2>
+        <p>{tx(n.gist, locale)}</p>
+        <a href={n.source.url} rel="noopener" target="_blank">{fmt(N.readAt, { site: host(n.source.url) })} ↗</a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>

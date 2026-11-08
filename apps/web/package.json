@@ -1,0 +1,25 @@
+{
+  "name": "@knm/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "npm run validate -w @knm/content",
+    "dev": "astro dev",
+    "prebuild": "npm run validate -w @knm/content",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/literata": "^5.3.0",
+    "@knm/content": "*",
+    "astro": "^7.4.0"
+  },
+  "devDependencies": {
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,203 @@
+---
+import Seo from "../components/Seo.astro";
+import SearchHighlight from "../components/SearchHighlight.astro";
+import HighlightLib from "../components/HighlightLib.astro";
+import Search from "../components/Search.astro";
+import { ANALYTICS, SITE, SITE_URL } from "../config/site";
+import { LIVE_LOCALES, dirOf, fmt, t } from "../i18n";
+// Fonts are served from this site (no requests to Google): only the weights the site uses.
+import "@fontsource/atkinson-hyperlegible/latin-400.css";
+import "@fontsource/atkinson-hyperlegible/latin-ext-400.css";
+import "@fontsource/atkinson-hyperlegible/latin-700.css";
+import "@fontsource/atkinson-hyperlegible/latin-ext-700.css";
+import "@fontsource/atkinson-hyperlegible/latin-400-italic.css";
+import "@fontsource/bricolage-grotesque/latin-700.css";
+import "@fontsource/bricolage-grotesque/latin-ext-700.css";
+import "@fontsource/literata/latin-400.css";
+import "@fontsource/literata/latin-ext-400.css";
+import "@fontsource/literata/latin-700.css";
+// The faces of the first lines of text, preloaded so the text does not reflow when they arrive.
+import atkinson400 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2?url";
+import atkinson700 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2?url";
+import bricolage700 from "@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-700-normal.woff2?url";
+import literata400 from "@fontsource/literata/files/literata-latin-400-normal.woff2?url";
+
+import "../styles/global.css";
+import "../styles/knm.css";
+
+import errorReportScript from "../scripts/error-report.js?url";
+import headSettingsScript from "../scripts/head-settings.js?url";
+import headStudyScript from "../scripts/head-study.js?url";
+import { studyData } from "../lib/study-data";
+import swRegisterScript from "../scripts/sw-register.js?url";
+import settingsMenuScript from "../scripts/settings-menu.js?url";
+import installScript from "../scripts/install.js?url";
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  locale?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+  /** Wider content column, for overview pages. */
+  wide?: boolean;
+}
+
+const { locale = SITE.defaultLocale, wide = false, ...seo } = Astro.props;
+const here = Astro.url.pathname;
+const ui = t(locale);
+const N = ui.nav;
+const under = (...xs: string[]) => xs.some((x) => here.startsWith(`/${locale}${x}`));
+// Two areas, as on The Mantiqi: the knowledge base (home, topics, news, about) and the study portal (themes, lessons, review, words).
+const studyHere = under("/study/", "/practice/", "/glossary/");
+const nav = [
+  { href: `/${locale}/topics/`, label: N.topics, current: under("/topics/") },
+  { href: `/${locale}/news/`, label: N.news, current: under("/news/") },
+  { href: `/${locale}/about/`, label: N.about, current: under("/about/", "/contact/", "/privacy/") },
+];
+const studyNav = [
+  { href: `/${locale}/study/`, label: N.themes, current: under("/study/") },
+  { href: `/${locale}/practice/`, label: N.practice, current: under("/practice/") },
+  { href: `/${locale}/glossary/`, label: N.glossary, current: under("/glossary/") },
+];
+const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "local";
+const icon = {
+  home: '<path d="M3 10.5 12 3l9 7.5V21H3z"></path><path d="M9 21v-6h6v6"></path>',
+  book: '<path d="M2 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H2z"></path><path d="M22 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8z"></path>',
+  review: '<rect x="6" y="6" width="12" height="12" rx="2" transform="rotate(45 12 12)"></rect><path d="m9.5 12 2 2 3.5-4"></path>',
+  words: '<path d="M4 5h3M4 12h3M4 19h3"></path><path d="M10 5h10M10 12h10M10 19h7"></path>',
+  topics: '<path d="M4 4h4v16H4zM10 4h4v16h-4z"></path><path d="m16 5 3.5-1 3 15.5-3.5 1z"></path>',
+  news: '<path d="M4 5h13v14H6a2 2 0 0 1-2-2z"></path><path d="M17 9h3v8a2 2 0 0 1-2 2"></path><path d="M8 9h5M8 13h5"></path>',
+};
+const tabs = studyHere
+  ? [
+      { href: `/${locale}/`, label: N.home, icon: icon.home, current: false },
+      { href: `/${locale}/study/`, label: N.themes, icon: icon.book, current: under("/study/") },
+      { href: `/${locale}/practice/`, label: N.practice, icon: icon.review, current: under("/practice/") },
+      { href: `/${locale}/glossary/`, label: N.glossary, icon: icon.words, current: under("/glossary/") },
+    ]
+  : [
+      { href: `/${locale}/`, label: N.home, icon: icon.home, current: here === `/${locale}/` },
+      { href: `/${locale}/topics/`, label: N.topics, icon: icon.topics, current: under("/topics/") },
+      { href: `/${locale}/news/`, label: N.newsShort, icon: icon.news, current: under("/news/") },
+      { href: `/${locale}/study/`, label: N.studyShort, icon: icon.book, current: false, study: true },
+    ];
+---
+
+<!doctype html>
+<html lang={locale} dir={dirOf(locale)} data-area={studyHere ? "study" : "kb"}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline src={errorReportScript} data-vars={JSON.stringify({ origin: SITE_URL, version: buildVersion })}></script>
+    <script is:inline src={headSettingsScript}></script>
+    <script is:inline src={`/${locale}/study-data.js?v=${studyData(locale).v}`}></script>
+    <script is:inline src={headStudyScript}></script>
+    <meta name="theme-color" content="#0a0a0a" />
+    {(studyHere ? [atkinson400, atkinson700, bricolage700] : [atkinson400, bricolage700, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <Seo locale={locale} {...seo} />
+    <HighlightLib />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-tabs">
+        <div class="wrap wrap-wide">
+          <a class="brand" href={`/${locale}/`}>
+            <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" width="34" height="34"><rect x="20" y="20" width="24" height="24" transform="rotate(45 32 32)" fill="var(--red)" /><path d="M27 22v20M27 32l9-10M30 30l7 12" stroke="#fff" stroke-width="3.6" stroke-linecap="square" fill="none" /></svg></span>
+            <span class="brand-latin">{SITE.name}</span>
+          </a>
+          <nav class="site-nav" aria-label={N.main}>
+            {nav.map((item) => <a href={item.href} aria-current={item.current ? "page" : undefined}>{item.label}</a>)}
+            <a class="nav-study" href={`/${locale}/study/`} aria-current={studyHere ? "page" : undefined}>{N.study}</a>
+          </nav>
+          <div class="header-tools">
+            <Search locale={locale} />
+            <button type="button" class="theme-toggle settings-toggle" popovertarget="settings" aria-label={ui.header.settings} title={ui.header.settings}>
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </button>
+            <div class="lang-menu settings-menu" id="settings" popover>
+              <p class="eyebrow">{ui.header.settings}</p>
+              <div class="setting-rows">
+                <div class="setting-row">
+                  <span class="setting-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg></span>
+                  <span class="setting-label" id="lbl-theme">{ui.header.darkTheme}</span>
+                  <button type="button" class="switch" role="switch" id="theme-toggle" aria-checked="false" aria-labelledby="lbl-theme"><span></span></button>
+                </div>
+              </div>
+              <div class="install" hidden>
+                <button type="button" class="btn btn-outline install-btn" data-install>
+                  <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M12 7v7m-3-3 3 3 3-3"></path></svg>
+                  {ui.header.install}
+                </button>
+                <p class="muted install-help" hidden data-ios={ui.header.installIos} data-other={ui.header.installOther}></p>
+              </div>
+              <p class="eyebrow">{ui.header.language}</p>
+              <ul>
+                {SITE.languages.map((l) => {
+                  const live = LIVE_LOCALES.includes(l.code);
+                  return (
+                    <li>
+                      {live ? (
+                        <a href={seo.path === "/404/" ? `/${l.code}/` : `/${l.code}${seo.path}`} hreflang={l.code} aria-current={l.code === locale ? "true" : undefined}>
+                          <span lang={l.code} dir={l.dir}>{l.name}</span>{l.code === locale && <span class="lang-check" aria-hidden="true">✓</span>}
+                        </a>
+                      ) : (
+                        <span class="lang-soon" aria-disabled="true">
+                          <span lang={l.code} dir={l.dir}>{l.name}</span><small>{ui.header.inPreparation}</small>
+                        </span>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+              <p class="muted lang-note">{ui.header.langNote}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {studyHere && (
+        <nav class="study-nav" aria-label={N.study}>
+          <div class="wrap wrap-wide">
+            <span class="study-nav-label">{N.study}</span>
+            {studyNav.map((item) => <a href={item.href} aria-current={item.current ? "page" : undefined}>{item.label}</a>)}
+          </div>
+        </nav>
+      )}
+    </header>
+    <main>
+      <div class={wide ? "wrap wrap-wide" : "wrap"}>
+        <slot />
+      </div>
+    </main>
+    <nav class="tabbar" aria-label={N.main}>
+      {tabs.map((x) => (
+        <a href={x.href} aria-current={x.current ? "page" : undefined} class={(x as { study?: boolean }).study ? "tab-study" : undefined}>
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={x.icon}></svg>
+          {x.label}
+        </a>
+      ))}
+    </nav>
+    <footer class="site-footer">
+      <div class="wrap wrap-wide">
+        <p>{fmt(ui.footer.draft, { site: SITE.name })}</p>
+        <p><a href={`/${locale}/about/`}>{N.about}</a> · <a href={`/${locale}/contact/`}>{N.contact}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a> · <a href={`/${locale}/privacy/`}>{ui.footer.privacy}</a></p>
+      </div>
+    </footer>
+    <div id="gloss-pop" class="gloss-pop" popover role="dialog" aria-labelledby="gloss-plain" data-src={`/${locale}/glossary.json`} data-label={ui.gloss.label} data-lock-title={ui.lock.title} data-lock-lesson={ui.lock.lessonBody} data-lock-cta={ui.lock.cta}>
+      <button type="button" class="gloss-close" aria-label={ui.gloss.close} data-close>×</button>
+      <p class="gloss-word"></p>
+      <p class="gloss-plain" id="gloss-plain"></p>
+      <p class="gloss-note"></p>
+      <a class="gloss-link" href={`/${locale}/glossary/`} hidden><span class="gloss-link-text"></span><span aria-hidden="true">{dirOf(locale) === "rtl" ? "←" : "→"}</span></a>
+    </div>
+    <script is:inline src={swRegisterScript}></script>
+    {ANALYTICS && <script is:inline defer src="/_vercel/insights/script.js"></script>}
+    <script is:inline src={settingsMenuScript}></script>
+    <script is:inline src={installScript}></script>
+    <SearchHighlight />
+  </body>
+</html>

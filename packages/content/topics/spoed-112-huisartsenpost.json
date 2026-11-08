@@ -1,0 +1,61 @@
+{
+  "slug": "spoed-112-huisartsenpost",
+  "theme": "gezondheid",
+  "title": {
+    "nl": "Spoed: 112 en de huisartsenpost",
+    "en": "Emergencies: 112 and the out-of-hours GP"
+  },
+  "summary": {
+    "nl": "Wanneer bel je 112, en waar ga je 's avonds en in het weekend naartoe als het niet kan wachten?",
+    "en": "When do you call 112, and where do you go in the evening and at weekends when it cannot wait?"
+  },
+  "eindtermen": [
+    "4.3.1",
+    "4.3.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "112: levensgevaar",
+        "en": "112: danger to life"
+      },
+      "paragraphs": {
+        "nl": [
+          "Bij een levensbedreigende situatie bel je 112. Bijvoorbeeld bij een ernstig ongeluk, als iemand niet meer ademt of bij brand."
+        ],
+        "en": [
+          "In a life-threatening situation you call 112. For example after a serious accident, when someone stops breathing or in a fire."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "De huisartsenpost",
+        "en": "The out-of-hours GP service"
+      },
+      "paragraphs": {
+        "nl": [
+          "Is je eigen huisarts dicht en kan het niet wachten tot de volgende werkdag? Dan bel je 's avonds, 's nachts en in het weekend de huisartsenpost. Bel altijd eerst, voordat je erheen gaat."
+        ],
+        "en": [
+          "Is your own GP closed and can it not wait until the next working day? Then in the evening, at night and at weekends you call the out-of-hours GP service (huisartsenpost). Always call first, before you go there."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Government.nl: emergency number 112",
+      "url": "https://www.government.nl/topics/emergency-number-112"
+    },
+    {
+      "title": "Huisartsenpost.nl",
+      "url": "https://www.huisartsenpost.nl/"
+    }
+  ],
+  "checked": "2026-11-08"
+}

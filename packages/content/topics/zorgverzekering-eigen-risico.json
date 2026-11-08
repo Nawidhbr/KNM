@@ -1,0 +1,61 @@
+{
+  "slug": "zorgverzekering-eigen-risico",
+  "theme": "gezondheid",
+  "title": {
+    "nl": "Zorgverzekering en eigen risico",
+    "en": "Health insurance and the deductible"
+  },
+  "summary": {
+    "nl": "Een zorgverzekering is verplicht. Wat zit in het basispakket, wat is het eigen risico en wanneer mag je wisselen?",
+    "en": "Health insurance is compulsory. What is in the basic package, what is the deductible and when can you switch?"
+  },
+  "eindtermen": [
+    "4.4.1",
+    "4.4.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Verplicht",
+        "en": "Compulsory"
+      },
+      "paragraphs": {
+        "nl": [
+          "Iedereen die in Nederland woont of werkt, moet een zorgverzekering hebben. Je kiest zelf een zorgverzekeraar en je mag elk jaar wisselen.",
+          "Het basispakket is voor iedereen gelijk. Daarin zitten onder meer huisartsenzorg, wijkverpleging, zwangerschaps- en geboortezorg en geestelijke gezondheidszorg. Daarnaast kun je je vrijwillig aanvullend verzekeren."
+        ],
+        "en": [
+          "Everyone who lives or works in the Netherlands must have health insurance. You choose an insurer yourself and you may switch every year.",
+          "The basic package is the same for everyone. It includes GP care, district nursing, pregnancy and maternity care and mental healthcare. You can also take out supplementary insurance voluntarily."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Eigen risico en eigen bijdrage",
+        "en": "Deductible and personal contribution"
+      },
+      "paragraphs": {
+        "nl": [
+          "Het eigen risico is een bedrag per jaar dat je eerst zelf betaalt voor bepaalde zorg uit het basispakket. Een bezoek aan de huisarts gaat niet van je eigen risico af. Je kunt het eigen risico in delen betalen.",
+          "Voor kinderen tot 18 jaar zitten tandarts en fysiotherapie in het basispakket. Volwassenen kunnen zich daarvoor aanvullend verzekeren."
+        ],
+        "en": [
+          "The deductible (eigen risico) is an amount per year that you first pay yourself for certain care in the basic package. A visit to the GP does not count towards the deductible. You can pay the deductible in instalments.",
+          "For children under 18, the dentist and physiotherapy are in the basic package. Adults can take supplementary insurance for these."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: zorgverzekering",
+      "url": "https://www.rijksoverheid.nl/onderwerpen/zorgverzekering"
+    }
+  ],
+  "checked": "2026-11-08"
+}

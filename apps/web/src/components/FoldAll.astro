@@ -1,0 +1,19 @@
+---
+import { t } from "../i18n";
+
+import foldAllScript from "../scripts/fold-all.js?url";
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const ui = t(locale);
+---
+
+<div class="fold-all-row">
+  <button type="button" class="fold-all" data-fold-all data-open={ui.structure.expandAll} data-close={ui.structure.collapseAll}>
+    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m7 15 5 5 5-5"></path><path d="m7 9 5-5 5 5"></path></svg>
+    <span>{ui.structure.expandAll}</span>
+  </button>
+</div>
+<script is:inline src={foldAllScript}></script>

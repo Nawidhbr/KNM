@@ -1,0 +1,65 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ReviewBadge from "../../../components/ReviewBadge.astro";
+import { LIVE_LOCALES, fmt, t } from "../../../i18n";
+import { getReview, getThemeIndex, getTopics, tx, txl, type Topic } from "@knm/content";
+import { themePath, themes } from "../../../lib/course";
+import { gloss } from "../../../lib/gloss";
+import { article, breadcrumbs } from "../../../lib/structured-data";
+
+/** A page of the knowledge base: sections to read, the eindtermen it covers, its sources and the date it was checked. */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => getTopics().map((topic) => ({ params: { locale, slug: topic.slug }, props: { topic } })));
+}
+const { locale } = Astro.params as { locale: string };
+const { topic } = Astro.props as { topic: Topic };
+const ui = t(locale);
+const T = ui.topics;
+const title = tx(topic.title, locale);
+const theme = getThemeIndex().find((x) => x.id === topic.theme);
+const hasCourse = theme && themes().some((x) => x.id === theme.id);
+const checked = new Date(`${topic.checked}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const path = `/topics/${topic.slug}/`;
+---
+
+<BaseLayout
+  title={title}
+  description={tx(topic.summary, locale)}
+  path={path}
+  locale={locale}
+  jsonLd={[
+    breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: T.title, path: `/${locale}/topics/` }, { name: title, path: `/${locale}${path}` }]),
+    article({ title, description: tx(topic.summary, locale), path: `/${locale}${path}`, locale, date: topic.checked }),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/topics/`}>{T.title}</a> / {title}</p>
+  <article>
+    <p class="eyebrow">{theme ? `${T.theme} ${theme.n} · ${tx(theme.title, locale)}` : T.general}</p>
+    <h1>{title}</h1>
+    <p class="lead">{tx(topic.summary, locale)}</p>
+    <ReviewBadge review={getReview(`topic:${topic.slug}`)} locale={locale} />
+    <div class="topic-body">
+      {topic.sections.map((s) => (
+        <section>
+          <h2>{tx(s.heading, locale)}</h2>
+          {txl(s.paragraphs, locale).map((p) => <p set:html={gloss(p, locale)} />)}
+        </section>
+      ))}
+    </div>
+    {hasCourse && (
+      <section class="card next">
+        <p class="u-m0"><strong>{tx(theme!.title, locale)}</strong></p>
+        <a class="btn btn-red" href={themePath(locale, theme!.id)}>{T.study}</a>
+      </section>
+    )}
+    <section class="card">
+      <h2>{T.sources}</h2>
+      <ul class="sources-list">
+        {topic.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title} ↗</a></li>)}
+      </ul>
+      <p class="muted u-mt14">{T.eindtermen}</p>
+      <ul class="codes">{topic.eindtermen.map((c) => <li>{c}</li>)}</ul>
+      <p class="muted">{fmt(T.checked, { date: checked })}</p>
+    </section>
+  </article>
+</BaseLayout>

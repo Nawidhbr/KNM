@@ -1,0 +1,19 @@
+---
+import { SITE } from "../config/site";
+// Vercel redirects "/" to the default locale (vercel.json); this page is the fallback.
+const target = `/${SITE.defaultLocale}/`;
+---
+
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>{SITE.name}</title>
+  </head>
+  <body>
+    <p><a href={target}>Ga naar {SITE.name}</a></p>
+  </body>
+</html>

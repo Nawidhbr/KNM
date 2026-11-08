@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../../i18n";
+import { getThemeIndex, tx } from "@knm/content";
+import { themePath, themes } from "../../../lib/course";
+import { breadcrumbs, course } from "../../../lib/structured-data";
+
+/** The study portal: the eight themes of the exam as cards; those with a course link to it, the others are in preparation. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const S = ui.study;
+const courses = new Map(themes().map((x) => [x.id, x]));
+---
+
+<BaseLayout
+  title={S.title}
+  description={S.description}
+  path="/study/"
+  locale={locale}
+  wide
+  jsonLd={[
+    breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: S.title, path: `/${locale}/study/` }]),
+    ...themes().map((x) => course({ name: tx(x.title, locale), description: tx(x.lead, locale), path: themePath(locale, x.id), locale })),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {S.title}</p>
+  <header class="study-head">
+    <h1>{S.title}</h1>
+    <p class="lead">{S.lead}</p>
+  </header>
+  <ul class="theme-grid">
+    {getThemeIndex().map((x) => {
+      const c = courses.get(x.id);
+      return (
+        <li>
+          {c ? (
+            <a class="card theme-card" href={themePath(locale, x.id)} data-theme-progress={x.id}>
+              <span class="tile-wrap" aria-hidden="true"><span class="tile tile-filled"><span>{x.n}</span></span></span>
+              <span class="theme-body">
+                <span class="eyebrow">{fmt(S.themeLabel, { n: x.n })}</span>
+                <strong>{tx(x.title, locale)}</strong>
+                <span class="theme-lead">{tx(x.lead, locale)}</span>
+                <span class="theme-meta">{fmt(S.lessons, { n: c.lessons.length })}</span>
+                <span class="theme-count" data-count data-text={S.progress} hidden></span>
+              </span>
+            </a>
+          ) : (
+            <div class="card theme-card" data-soon>
+              <span class="tile-wrap" aria-hidden="true"><span class="tile"><span>{x.n}</span></span></span>
+              <span class="theme-body">
+                <span class="eyebrow">{fmt(S.themeLabel, { n: x.n })}</span>
+                <strong>{tx(x.title, locale)}</strong>
+                <span class="theme-lead">{tx(x.lead, locale)}</span>
+                <span class="theme-meta">{S.soonLong}</span>
+              </span>
+            </div>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+</BaseLayout>

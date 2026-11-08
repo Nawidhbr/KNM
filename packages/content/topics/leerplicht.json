@@ -1,0 +1,58 @@
+{
+  "slug": "leerplicht",
+  "theme": "onderwijs-en-opvoeding",
+  "title": {
+    "nl": "Leerplicht en kwalificatieplicht",
+    "en": "Compulsory education"
+  },
+  "summary": {
+    "nl": "Kinderen van 5 tot 16 jaar zijn leerplichtig, van 16 tot 18 kwalificatieplichtig. Wat dat voor ouders betekent.",
+    "en": "Children aged 5 to 16 must attend school, and from 16 to 18 must work towards a qualification. What that means for parents."
+  },
+  "eindtermen": [
+    "8.1.3"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Wat is leerplicht?",
+        "en": "What is compulsory education?"
+      },
+      "paragraphs": {
+        "nl": [
+          "In Nederland zijn kinderen van 5 tot 16 jaar leerplichtig: ze moeten naar school. De meeste kinderen gaan al vanaf hun vierde naar de basisschool.",
+          "Van 16 tot 18 jaar zijn jongeren kwalificatieplichtig. Ze gaan naar school tot ze een startkwalificatie hebben, zoals een diploma havo, vwo of mbo niveau 2."
+        ],
+        "en": [
+          "In the Netherlands children aged 5 to 16 must attend school. Most children already start primary school at four.",
+          "From 16 to 18, young people must work towards a basic qualification. They go to school until they have it, such as a havo, vwo or mbo level 2 diploma."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Vakanties en verlof",
+        "en": "Holidays and leave"
+      },
+      "paragraphs": {
+        "nl": [
+          "De vakanties van de school zijn bindend. Op vakantie gaan buiten de schoolvakanties mag alleen met toestemming van de school. De gemeente controleert de leerplicht."
+        ],
+        "en": [
+          "The school holidays are binding. Going on holiday outside the school holidays is only allowed with the school's permission. The municipality checks compulsory education."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: leerplicht",
+      "url": "https://www.rijksoverheid.nl/onderwerpen/leerplicht"
+    }
+  ],
+  "checked": "2026-11-08"
+}

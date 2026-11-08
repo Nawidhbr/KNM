@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../../i18n";
+import { tx } from "@knm/content";
+import { lessonKey, themePath, themes } from "../../../lib/course";
+import practiceScript from "../../../scripts/practice.js?url";
+
+/**
+ * Review (tikrār on The Mantiqi): tests over the lessons already passed. Each theme is a fold with its passed lessons;
+ * lessons not yet passed are not listed one by one but counted on one line, with the way to the theme.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const P = ui.practice;
+const letters = "ABC";
+---
+
+<BaseLayout title={P.title} description={P.description} path="/practice/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {P.title}</p>
+  <h1>{P.title}</h1>
+  <p class="lead">{P.lead}</p>
+
+  <ol class="tikrar-steps" aria-label={P.howTitle}>
+    {(P.how as string[]).map((x, i) => (
+      <li>
+        <span class="tile-wrap" aria-hidden="true"><span class={i === 0 ? "tile tile-current" : "tile"}><span>{i + 1}</span></span></span>
+        <span>{x}</span>
+      </li>
+    ))}
+  </ol>
+
+  <section class="card tikrar-empty" data-empty hidden>
+    <h2>{P.emptyTitle}</h2>
+    <p>{P.emptyBody}</p>
+    <a class="btn btn-red" href={`/${locale}/study/`}>{P.emptyCta}</a>
+  </section>
+
+  <form class="tikrar" data-src={`/${locale}/practice/questions.json`} data-count={P.count} data-none={P.none} data-right-text={P.right} data-wrong-text={P.wrong} data-score-text={ui.quiz.score} data-letters={letters} data-of={P.passedOf} data-rest={P.notYet} data-chosen-text={P.chosen}>
+    <div class="tikrar-bar card">
+      <label class="check tikrar-all"><input type="checkbox" data-all /> <span>{P.selectAll}</span></label>
+      <p class="tikrar-count" aria-live="polite"></p>
+      <button type="submit" class="btn btn-red" data-start>{P.start}</button>
+      <details class="tikrar-options">
+        <summary>{P.options}</summary>
+        <label class="check"><input type="checkbox" name="shuffleQ" checked /> <span>{P.shuffleQuestions}</span></label>
+        <label class="check"><input type="checkbox" name="shuffleA" checked /> <span>{P.shuffleAnswers}</span></label>
+      </details>
+    </div>
+
+    <div class="tikrar-paths">
+      <section class="tikrar-path" data-tikrar-path="knm">
+        {themes().map((th) => (
+          <details class="card tikrar-book" data-book={th.id}>
+            <summary>
+              <span class="tikrar-book-titles">
+                <span class="eyebrow">{fmt(ui.study.themeLabel, { n: th.n })}</span>
+                <strong>{tx(th.title, locale)}</strong>
+              </span>
+              <span class="tikrar-book-count" data-book-count data-total={th.lessons.length}>{fmt(P.passedOf, { n: "0", m: String(th.lessons.length) })}</span>
+            </summary>
+            <div class="tikrar-book-body">
+              <label class="check tikrar-book-all"><input type="checkbox" data-book-all /> <span>{P.selectBook}</span></label>
+              <fieldset class="tikrar-chapter" data-chapter={`theme-${th.id}`}>
+                <legend class="sr-only">{tx(th.title, locale)}</legend>
+                <ul class="tikrar-lessons">
+                  {th.lessons.map((l) => (
+                    <li>
+                      <label class="check" data-lesson={lessonKey(th.id, l.n)}>
+                        <input type="checkbox" name="lesson" value={lessonKey(th.id, l.n)} />
+                        <span class="tikrar-name">{l.n}. {tx(l.title, locale)}</span>
+                        <span class="stars" hidden data-label={ui.quiz.starsLabel}></span>
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+                <p class="tikrar-rest muted" hidden><span class="lock-glyph" aria-hidden="true"></span><span data-rest-text></span></p>
+              </fieldset>
+              <p class="tikrar-go"><a href={themePath(locale, th.id)}>{fmt(P.toBook, { book: tx(th.title, locale) })} →</a></p>
+            </div>
+          </details>
+        ))}
+      </section>
+      <h2 class="tikrar-others-head" hidden></h2>
+    </div>
+  </form>
+
+  <section class="tikrar-test" hidden>
+    <ol class="quiz"></ol>
+    <div class="quiz-result card" hidden aria-live="polite">
+      <p class="quiz-stars" aria-hidden="true"></p>
+      <p class="quiz-score"></p>
+      <div class="tikrar-actions">
+        <button type="button" class="btn btn-red" data-reshuffle>{P.reshuffle}</button>
+        <button type="button" class="btn btn-outline" data-choose>{P.choose}</button>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline src={practiceScript}></script>
+</BaseLayout>

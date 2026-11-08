@@ -1,0 +1,19 @@
+---
+import highlightScript from "../scripts/highlight.js?url";
+/**
+ * One way to mark searched words in red, shared by every search on the site:
+ * the site search (its result list and the page opened from it, see SearchHighlight),
+ * the glossary A–Z, the scholars list and the book catalogues.
+ *
+ * `window.__hl` folds text the way the site search does (no case, diacritics, ʿ/ʾ, tashkīl,
+ * one alif, the article al-/ال dropped), so what is found is also what is marked.
+ *   terms(query)          the folded words of a query, longest first
+ *   matches(text, terms)  whether every word occurs in the text
+ *   mark(root, terms)     wrap each occurrence under root in <mark class="search-hl">; returns the marks
+ *   clear(root)           remove the marks again
+ *   snippet(text, terms)  a short piece of text around the first occurrence ("" if none)
+ * Rendered in <head> so the scripts of a page can use it.
+ */
+---
+
+<script is:inline src={highlightScript}></script>

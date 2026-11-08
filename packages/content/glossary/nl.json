@@ -1,0 +1,187 @@
+{
+  "entries": [
+    {
+      "id": "vacature",
+      "forms": [
+        "vacature",
+        "vacatures"
+      ],
+      "plain": "een baan die vrij is"
+    },
+    {
+      "id": "uitzendbureau",
+      "forms": [
+        "uitzendbureau"
+      ],
+      "plain": "een bedrijf dat werk voor jou zoekt bij andere bedrijven"
+    },
+    {
+      "id": "cao",
+      "forms": [
+        "cao",
+        "cao's",
+        "collectieve arbeidsovereenkomst"
+      ],
+      "plain": "afspraken over loon en werk voor alle werknemers in een sector"
+    },
+    {
+      "id": "uitkering",
+      "forms": [
+        "uitkering",
+        "uitkeringen"
+      ],
+      "plain": "geld van de overheid als je (tijdelijk) geen inkomen hebt",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "bijstand",
+      "forms": [
+        "bijstand",
+        "bijstandsuitkering"
+      ],
+      "plain": "een uitkering van de gemeente voor wie geen ander inkomen heeft",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "ww",
+      "forms": [
+        "WW",
+        "werkloosheidsuitkering"
+      ],
+      "plain": "een uitkering van het UWV als je werkloos wordt na een baan",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "uwv",
+      "forms": [
+        "UWV"
+      ],
+      "plain": "de instantie voor werkloosheid, arbeidsongeschiktheid en werk zoeken",
+      "topic": "werkloos-uwv-gemeente"
+    },
+    {
+      "id": "arbeidsongeschikt",
+      "forms": [
+        "arbeidsongeschikt",
+        "arbeidsongeschiktheid",
+        "arbeidsongeschiktheidsuitkering"
+      ],
+      "plain": "door ziekte of een handicap niet (volledig) kunnen werken"
+    },
+    {
+      "id": "kvk",
+      "forms": [
+        "KVK",
+        "Kamer van Koophandel"
+      ],
+      "plain": "de organisatie waar je je bedrijf inschrijft"
+    },
+    {
+      "id": "vertrouwenspersoon",
+      "forms": [
+        "vertrouwenspersoon"
+      ],
+      "plain": "iemand op je werk met wie je in vertrouwen over problemen kunt praten"
+    },
+    {
+      "id": "vakbond",
+      "forms": [
+        "vakbond",
+        "vakbonden"
+      ],
+      "plain": "een organisatie die opkomt voor werknemers"
+    },
+    {
+      "id": "ondernemingsraad",
+      "forms": [
+        "ondernemingsraad"
+      ],
+      "plain": "een groep werknemers die namens het personeel met de directie praat"
+    },
+    {
+      "id": "deeltijd",
+      "forms": [
+        "deeltijd"
+      ],
+      "plain": "minder uren werken dan een volle werkweek"
+    },
+    {
+      "id": "eigen-risico",
+      "forms": [
+        "eigen risico"
+      ],
+      "plain": "een bedrag per jaar dat je eerst zelf betaalt voor zorg",
+      "topic": "zorgverzekering-eigen-risico"
+    },
+    {
+      "id": "toeslag",
+      "forms": [
+        "toeslag",
+        "toeslagen",
+        "zorgtoeslag",
+        "huurtoeslag",
+        "kinderopvangtoeslag"
+      ],
+      "plain": "een bijdrage van de overheid in je kosten als je inkomen laag is",
+      "topic": "toeslagen"
+    },
+    {
+      "id": "digid",
+      "forms": [
+        "DigiD"
+      ],
+      "plain": "je persoonlijke inlog voor de overheid",
+      "topic": "digid"
+    },
+    {
+      "id": "bsn",
+      "forms": [
+        "BSN",
+        "burgerservicenummer"
+      ],
+      "plain": "je persoonlijke nummer bij de overheid",
+      "topic": "digid"
+    },
+    {
+      "id": "huisartsenpost",
+      "forms": [
+        "huisartsenpost"
+      ],
+      "plain": "de huisarts voor spoed in de avond, de nacht en het weekend",
+      "topic": "spoed-112-huisartsenpost"
+    },
+    {
+      "id": "praktijkondersteuner",
+      "forms": [
+        "praktijkondersteuner",
+        "POH"
+      ],
+      "plain": "een zorgverlener in de huisartsenpraktijk, ook voor psychische klachten",
+      "topic": "huisarts"
+    },
+    {
+      "id": "leerplicht",
+      "forms": [
+        "leerplichtig",
+        "leerplicht"
+      ],
+      "plain": "de plicht voor kinderen van 5 tot 16 jaar om naar school te gaan",
+      "topic": "leerplicht"
+    },
+    {
+      "id": "startkwalificatie",
+      "forms": [
+        "startkwalificatie"
+      ],
+      "plain": "een diploma havo, vwo of mbo niveau 2 of hoger",
+      "topic": "leerplicht"
+    },
+    {
+      "id": "diplomawaardering",
+      "forms": [
+        "diplomawaardering"
+      ],
+      "plain": "uitzoeken wat een buitenlands diploma waard is in Nederland"
+    }
+  ]
+}

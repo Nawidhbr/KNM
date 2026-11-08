@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../config/site";
+import { t } from "../i18n";
+const ui = t(SITE.defaultLocale);
+---
+
+<BaseLayout title={ui.notFound.title} description={ui.notFound.description} path="/404/" noindex>
+  <h1>{ui.notFound.title}</h1>
+  <p>{ui.notFound.body} <a href={`/${SITE.defaultLocale}/study/`}>{ui.nav.themes}</a> · <a href={`/${SITE.defaultLocale}/`}>{ui.nav.home}</a></p>
+</BaseLayout>

@@ -1,0 +1,75 @@
+{
+  "slug": "huisarts",
+  "theme": "gezondheid",
+  "title": {
+    "nl": "De huisarts en de praktijkondersteuner",
+    "en": "The GP and the practice nurse"
+  },
+  "summary": {
+    "nl": "De huisarts is je eerste aanspreekpunt bij gezondheidsklachten, ook bij psychische klachten. Zo werkt het.",
+    "en": "The GP is your first point of contact for health complaints, mental ones too. How it works."
+  },
+  "eindtermen": [
+    "4.1.1",
+    "4.2.1"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Je eerste aanspreekpunt",
+        "en": "Your first point of contact"
+      },
+      "paragraphs": {
+        "nl": [
+          "Ben je ziek of heb je een vraag over je gezondheid? Dan ga je eerst naar de huisarts. Je kiest zelf een huisarts, meestal in je buurt, en schrijft je daar in.",
+          "Voor een afspraak bel je de praktijk, of je maakt online een afspraak."
+        ],
+        "en": [
+          "Are you ill or do you have a question about your health? Then you go to the GP first. You choose a GP yourself, usually in your neighbourhood, and register there.",
+          "For an appointment you call the practice, or you book online."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "De praktijkondersteuner",
+        "en": "The practice nurse"
+      },
+      "paragraphs": {
+        "nl": [
+          "Bij veel huisartsen werkt een praktijkondersteuner (POH). Bij de POH kun je bijvoorbeeld terecht voor langdurige klachten en ook voor psychische klachten."
+        ],
+        "en": [
+          "Many GPs have a practice nurse (POH). You can go to the POH for example for long-term complaints and also for mental health complaints."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Doorverwijzing, tolk en geheim",
+        "en": "Referral, interpreter and confidentiality"
+      },
+      "paragraphs": {
+        "nl": [
+          "Heb je specialistische zorg nodig? Dan verwijst de huisarts je door, bijvoorbeeld naar het ziekenhuis of een psycholoog.",
+          "Je hebt het recht om een tolk te gebruiken. Alles wat je met de huisarts of de POH bespreekt, valt onder het medisch beroepsgeheim."
+        ],
+        "en": [
+          "Do you need specialist care? Then the GP refers you, for example to the hospital or a psychologist.",
+          "You have the right to use an interpreter. Everything you discuss with the GP or the POH falls under medical confidentiality."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Thuisarts.nl (NHG)",
+      "url": "https://www.thuisarts.nl/"
+    }
+  ],
+  "checked": "2026-11-08"
+}

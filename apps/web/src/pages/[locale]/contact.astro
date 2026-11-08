@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { SITE } from "../../config/site";
+import contactScript from "../../scripts/contact.js?url";
+
+/**
+ * How to reach the site: a form (name, email, subject, page, message) that sends through /api/contact
+ * (api/contact.js, Resend) to SITE.email; if that fails, the reader's own mail program opens with the message
+ * filled in. `?topic=correction&page=…` fills in the subject and the page.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const C = ui.contact;
+const F = C.form;
+const topics = F.topics as Record<string, string>;
+---
+
+<BaseLayout title={C.title} description={fmt(C.description, { site: SITE.name })} path="/contact/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {C.title}</p>
+  <header class="contact-head">
+    <h1>{C.title}</h1>
+    <p class="lead">{C.lead}</p>
+  </header>
+
+  <div class="contact-grid">
+    <form class="card contact-form" data-contact novalidate data-to={SITE.email} data-site={SITE.name} data-locale={locale} data-texts={JSON.stringify({ invalid: F.invalid, failed: fmt(F.failed, { email: SITE.email }) })}>
+      <h2>{F.title}</h2>
+      <div class="contact-row">
+        <label class="field">
+          <span>{F.name}</span>
+          <input name="name" autocomplete="name" required maxlength="120" />
+        </label>
+        <label class="field">
+          <span>{F.email}</span>
+          <input name="email" type="email" autocomplete="email" required maxlength="200" aria-describedby="email-hint" />
+          <small id="email-hint" class="muted">{F.emailHint}</small>
+        </label>
+      </div>
+      <label class="field">
+        <span>{F.topic}</span>
+        <select name="topic">
+          {Object.entries(topics).map(([k, v]) => <option value={k}>{v}</option>)}
+        </select>
+      </label>
+      <label class="field">
+        <span>{F.page}</span>
+        <input name="page" maxlength="300" aria-describedby="page-hint" />
+        <small id="page-hint" class="muted">{F.pageHint}</small>
+      </label>
+      <label class="field">
+        <span>{F.message}</span>
+        <textarea name="message" rows="8" required maxlength="5000"></textarea>
+      </label>
+      {/* Left empty by people; robots fill it in. */}
+      <label class="contact-trap" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off" /></label>
+      <p class="contact-status" role="status" aria-live="polite" hidden></p>
+      <div class="contact-actions">
+        <button type="submit" class="btn btn-red" data-send data-sending={F.sending}>{F.send}</button>
+        <small class="muted">{fmt(F.note, { email: SITE.email })}</small>
+      </div>
+      <p class="contact-sent card" hidden data-sent>{F.sent}</p>
+    </form>
+
+    <aside class="card contact-side">
+      <p class="eyebrow">{C.emailLabel}</p>
+      <p class="contact-email"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+      <h2>{C.reasonsTitle}</h2>
+      <ul>
+        {(C.reasons as string[]).map((r) => <li>{r}</li>)}
+      </ul>
+      <p class="muted">{C.reply}</p>
+    </aside>
+  </div>
+
+  <script is:inline src={contactScript}></script>
+</BaseLayout>

@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
+import { getTopics, tx } from "@knm/content";
+import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course";
+import { breadcrumbs, course } from "../../../../lib/structured-data";
+
+/** A theme: its lessons in order, as a path of tiles with stars, and the eindtermen it follows. */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => themes().map((th) => ({ params: { locale, theme: th.id }, props: { th } })));
+}
+const { locale } = Astro.params as { locale: string };
+const { th } = Astro.props;
+const ui = t(locale);
+const S = ui.study;
+const title = tx(th.title, locale);
+const codes = [...new Set(th.lessons.flatMap((l) => l.quiz.map((q) => q.eindterm)))].sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+const related = getTopics().filter((x) => x.theme === th.id);
+---
+
+<BaseLayout
+  title={`${title} – ${fmt(S.themeLabel, { n: th.n })}`}
+  description={tx(th.lead, locale)}
+  path={`/study/${th.id}/`}
+  locale={locale}
+  jsonLd={[
+    breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: S.title, path: `/${locale}/study/` }, { name: title, path: themePath(locale, th.id) }]),
+    course({ name: title, description: tx(th.lead, locale), path: themePath(locale, th.id), locale }),
+  ]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/study/`}>{S.title}</a> / {title}</p>
+  <header class="study-head" data-theme-progress={th.id}>
+    <p class="eyebrow">{fmt(S.themeLabel, { n: th.n })}</p>
+    <h1>{title}</h1>
+    <p class="lead">{tx(th.lead, locale)}</p>
+    <p class="theme-count" data-count data-text={S.progress} hidden></p>
+    <div class="hero-actions">
+      <a class="btn btn-red" href={lessonPath(locale, th.id, 1)} data-continue data-label={S.continue} data-done={S.allDone}>{S.start}</a>
+      <a class="btn btn-outline" href={`/${locale}/practice/`}>{S.practiceCta}</a>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>{S.lessonsTitle}</h2>
+    <ol class="path">
+      {th.lessons.map((l) => (
+        <li>
+          <a href={lessonPath(locale, th.id, l.n)} data-slug={lessonKey(th.id, l.n)}>
+            <span class="tile-wrap" aria-hidden="true"><span class="tile"><span>{l.n}</span></span></span>
+            <span class="name">
+              <strong>{tx(l.title, locale)}</strong>
+              <span class="stars" hidden data-label={ui.quiz.starsLabel}></span>
+              <br /><small>{tx(l.situation, locale)}</small>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>{S.eindtermenTitle}</h2>
+    <p class="muted">{S.eindtermenLead}</p>
+    <ul class="codes">{codes.map((c) => <li>{c}</li>)}</ul>
+  </section>
+
+  {related.length > 0 && (
+    <section class="card">
+      <h2>{ui.topics.title}</h2>
+      <ul class="topic-list">
+        {related.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
+      </ul>
+    </section>
+  )}
+</BaseLayout>

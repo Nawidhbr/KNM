@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../../i18n";
+import { getThemeIndex, getTopics, tx } from "@knm/content";
+import { breadcrumbs } from "../../../lib/structured-data";
+
+/** The knowledge base: every page, grouped by theme (the page about the exam first). */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const T = ui.topics;
+const all = getTopics();
+const groups = [
+  { title: T.general, items: all.filter((x) => !x.theme) },
+  ...getThemeIndex().map((th) => ({ title: tx(th.title, locale), items: all.filter((x) => x.theme === th.id) })),
+].filter((g) => g.items.length > 0);
+---
+
+<BaseLayout title={T.title} description={T.description} path="/topics/" locale={locale} jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: T.title, path: `/${locale}/topics/` }])]}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {T.title}</p>
+  <h1>{T.title}</h1>
+  <p class="lead">{T.lead}</p>
+  {groups.map((g) => (
+    <section>
+      <h2>{g.title}</h2>
+      <ul class="topic-list">
+        {g.items.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
+      </ul>
+    </section>
+  ))}
+</BaseLayout>

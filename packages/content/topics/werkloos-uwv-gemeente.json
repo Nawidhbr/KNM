@@ -1,0 +1,63 @@
+{
+  "slug": "werkloos-uwv-gemeente",
+  "theme": "werk-en-inkomen",
+  "title": {
+    "nl": "Werkloos: naar het UWV of de gemeente?",
+    "en": "Unemployed: UWV or the municipality?"
+  },
+  "summary": {
+    "nl": "Wie al gewerkt heeft gaat naar het UWV; wie nog niet gewerkt heeft naar de gemeente. Met een uitkering heb je ook plichten.",
+    "en": "If you have worked, go to UWV; if not, go to the municipality. A benefit comes with duties too."
+  },
+  "eindtermen": [
+    "1.1.7",
+    "1.1.8"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Waar moet je zijn?",
+        "en": "Where do you go?"
+      },
+      "paragraphs": {
+        "nl": [
+          "Heb je gewerkt en word je werkloos of arbeidsongeschikt? Neem dan direct contact op met het UWV, voor een werkloosheidsuitkering (WW) of een arbeidsongeschiktheidsuitkering.",
+          "Heb je nog niet gewerkt in Nederland en geen inkomen? Ga dan direct naar de gemeente, bijvoorbeeld voor bijstand."
+        ],
+        "en": [
+          "Have you worked and do you become unemployed or unable to work? Then contact UWV straight away, for unemployment benefit (WW) or incapacity benefit.",
+          "Have you not yet worked in the Netherlands and have no income? Then go to the municipality straight away, for example for social assistance."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Rechten en plichten",
+        "en": "Rights and duties"
+      },
+      "paragraphs": {
+        "nl": [
+          "Met een uitkering moet je in principe werk aannemen dat je wordt aangeboden. Veranderingen in je inkomen geef je altijd door. Met de gemeente of het UWV kun je ook praten over scholing."
+        ],
+        "en": [
+          "With a benefit you must in principle accept work you are offered. You always report changes in your income. You can also discuss training with the municipality or UWV."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "UWV: WW-uitkering",
+      "url": "https://www.uwv.nl/nl/ww"
+    },
+    {
+      "title": "Rijksoverheid: bijstand",
+      "url": "https://www.rijksoverheid.nl/onderwerpen/bijstand"
+    }
+  ],
+  "checked": "2026-11-08"
+}

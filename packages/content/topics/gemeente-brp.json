@@ -1,0 +1,59 @@
+{
+  "slug": "gemeente-brp",
+  "theme": "instanties",
+  "title": {
+    "nl": "De gemeente en wijzigingen doorgeven",
+    "en": "The municipality and reporting changes"
+  },
+  "summary": {
+    "nl": "Een verhuizing, een geboorte of een huwelijk geef je door aan de gemeente. Waarom dat belangrijk is.",
+    "en": "You report a move, a birth or a marriage to the municipality. Why that matters."
+  },
+  "eindtermen": [
+    "6.2.1",
+    "6.2.4"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Wijzigingen doorgeven",
+        "en": "Reporting changes"
+      },
+      "paragraphs": {
+        "nl": [
+          "De gemeente houdt bij wie waar woont, in de Basisregistratie Personen (BRP). Daarom geef je wijzigingen in je gezin door aan de gemeente: een geboorte, een huwelijk, samenwonen, een scheiding, een overlijden en een verhuizing.",
+          "Een wijziging in je huishouden kan invloed hebben op een uitkering of toeslag. Geef het daarom op tijd door."
+        ],
+        "en": [
+          "The municipality records who lives where, in the Personal Records Database (BRP). That is why you report changes in your family to the municipality: a birth, a marriage, living together, a divorce, a death and a move.",
+          "A change in your household can affect a benefit or allowance. So report it in time."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Wat doet de gemeente nog meer?",
+        "en": "What else does the municipality do?"
+      },
+      "paragraphs": {
+        "nl": [
+          "Bij de gemeente vraag je bijvoorbeeld een paspoort of identiteitskaart aan. De gemeente int ook gemeentelijke belastingen, zoals de onroerendezaakbelasting (ozb), rioolheffing, afvalstoffenheffing en parkeerbelasting."
+        ],
+        "en": [
+          "At the municipality you apply, for example, for a passport or ID card. The municipality also collects local taxes, such as property tax (ozb), sewerage charges, waste charges and parking charges."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: gemeenten",
+      "url": "https://www.rijksoverheid.nl/onderwerpen/gemeenten"
+    }
+  ],
+  "checked": "2026-11-08"
+}

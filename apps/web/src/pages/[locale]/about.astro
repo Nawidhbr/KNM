@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE } from "../../config/site";
+import { fmt, localePaths, t } from "../../i18n";
+
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const A = ui.about;
+const v = { site: SITE.name };
+---
+
+<BaseLayout title={fmt(A.title, v)} description={fmt(A.description, v)} path="/about/" locale={locale}>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {ui.nav.about}</p>
+  <h1>{fmt(A.title, v)}</h1>
+  <p class="lead">{fmt(A.lead, v)}</p>
+  {(A.body as string[]).map((p) => <p>{fmt(p, v)}</p>)}
+  <p><a href={`/${locale}/contact/`}>{ui.nav.contact} →</a> · <a href={`/${locale}/privacy/`}>{ui.nav.privacy} →</a></p>
+</BaseLayout>

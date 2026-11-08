@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "tagline": "Practise for the KNM exam, lesson by lesson",
+    "homeDescription": "Prepare for the KNM civic integration exam: short lessons per theme with tests, a knowledge base about the Netherlands and review. In simple language."
+  },
+  "nav": {
+    "main": "Main menu",
+    "home": "Home",
+    "study": "Study",
+    "studyShort": "Study",
+    "topics": "Knowledge base",
+    "news": "What is changing",
+    "newsShort": "News",
+    "about": "About",
+    "practice": "Review",
+    "glossary": "Words",
+    "themes": "Themes",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "header": {
+    "search": "Search",
+    "settings": "Settings",
+    "darkTheme": "Dark theme",
+    "install": "Install as app",
+    "installIos": "In Safari, tap Share and choose 'Add to Home Screen'.",
+    "installOther": "In your browser's menu, choose 'Install app' or 'Add to home screen'.",
+    "language": "Language",
+    "inPreparation": "In preparation",
+    "langNote": "All explanations are drafts until a qualified teacher has reviewed them. Where a translation is still missing, you see the Dutch."
+  },
+  "footer": {
+    "draft": "{site} is in development. All lessons and pages are drafts still to be reviewed by a qualified teacher. {site} is not affiliated with DUO or the government.",
+    "privacy": "Privacy"
+  },
+  "search": {
+    "placeholder": "Search a topic, lesson or word",
+    "close": "Close",
+    "hint": "Type to search the lessons, the knowledge base and the words.",
+    "none": "Nothing found. Try another word.",
+    "results": "Search results"
+  },
+  "home": {
+    "kicker": "Knowledge of Dutch Society",
+    "title": "Pass your KNM exam, lesson by lesson",
+    "lead": "Short lessons in simple language about work, housing, healthcare, public bodies and the rule of law. After each lesson a short test: with two stars the next lesson opens.",
+    "start": "Start learning",
+    "continueTo": "Continue with: {name}",
+    "searchLabel": "Search the lessons and the knowledge base",
+    "themesTitle": "The eight themes of the exam",
+    "themesLead": "The exam covers eight themes. Start wherever you like; within each theme the lessons open one by one.",
+    "topicsTitle": "Knowledge base",
+    "topicsLead": "Subjects from the exam, explained calmly.",
+    "allTopics": "All subjects",
+    "newsTitle": "What is changing",
+    "allNews": "All changes",
+    "examTitle": "How does the KNM exam work?",
+    "examLead": "45 minutes on a computer at DUO, multiple-choice questions with pictures, in simple Dutch.",
+    "examCta": "Read how the exam works",
+    "steps": [
+      "Choose a theme",
+      "Read a short lesson",
+      "Take the test: with two stars the next lesson opens",
+      "Review what you have passed"
+    ],
+    "stepsTitle": "How it works"
+  },
+  "study": {
+    "title": "Study",
+    "description": "Practise for the KNM exam by theme: short lessons with a five-question test. With two stars the next lesson opens.",
+    "lead": "Choose a theme. Within each theme the lessons open one by one: get at least two stars on the test (7 out of 10) and the next lesson opens.",
+    "themeLabel": "Theme {n}",
+    "lessons": "{n} lessons",
+    "soon": "In preparation",
+    "soonLong": "This theme is coming soon. Read the knowledge base in the meantime.",
+    "progress": "{n} of {m} passed",
+    "start": "Start with lesson 1",
+    "continue": "Continue with lesson {n}",
+    "allDone": "All lessons passed",
+    "practiceCta": "Review what you have passed",
+    "lessonsTitle": "The lessons",
+    "eindtermenTitle": "What the exam asks",
+    "eindtermenLead": "This theme follows the attainment targets of the KNM exam (Staatscourant 2024, 15802). Every question belongs to a target."
+  },
+  "lesson": {
+    "of": "Lesson {n} of {m}",
+    "situation": "The situation",
+    "theLesson": "The lesson",
+    "remember": "Remember",
+    "sources": "Sources",
+    "eindtermen": "Attainment targets",
+    "next": "Next lesson:",
+    "continue": "Continue",
+    "themeDone": "You have passed all lessons of {theme}.",
+    "backToTheme": "Back to {theme}",
+    "toThemes": "To the themes",
+    "quizIntro": "Five questions about this lesson. With 7 out of 10 (two stars) the next lesson opens.",
+    "quizPassed": "Passed! The next lesson is open.",
+    "quizFailed": "Not passed yet. Read the lesson again and try once more.",
+    "themeDoneQuiz": "Passed! You have passed all lessons of this theme."
+  },
+  "lock": {
+    "title": "Not open yet",
+    "lessonBody": "This lesson opens when you have passed {name} with at least two stars.",
+    "page": "This lesson opens when you have passed the lesson before it with at least two stars.",
+    "cta": "To lesson {name}"
+  },
+  "quiz": {
+    "title": "Test",
+    "intro": "{n} questions. With two stars the next lesson opens.",
+    "score": "{score} out of 10",
+    "passed": "Passed!",
+    "failed": "Not passed yet. Try again.",
+    "best": "Your best score: {score} out of 10",
+    "starsLabel": "{n} of 3 stars",
+    "again": "Again"
+  },
+  "practice": {
+    "title": "Review",
+    "description": "Review the lessons you have passed: choose lessons, shuffle the questions and answers, and take a review test.",
+    "lead": "Reviewing is the best way to remember. Here you only review lessons you have already passed.",
+    "howTitle": "How it works",
+    "how": [
+      "Choose one or more lessons you have passed.",
+      "The questions and answers are shuffled.",
+      "Take the test and see your score."
+    ],
+    "emptyTitle": "Nothing to review yet",
+    "emptyBody": "First pass a lesson with at least two stars. Then you can review it here.",
+    "emptyCta": "To the themes",
+    "count": "{n} questions",
+    "none": "Choose one or more lessons.",
+    "chosen": "{n} chosen",
+    "right": "Right!",
+    "wrong": "Not right.",
+    "passedOf": "{n} of {m} passed",
+    "notYet": "{n} not passed yet",
+    "selectAll": "Choose all",
+    "selectBook": "Choose the whole theme",
+    "start": "Start reviewing",
+    "options": "Options",
+    "shuffleQuestions": "Shuffle questions",
+    "shuffleAnswers": "Shuffle answers",
+    "toBook": "To {book}",
+    "reshuffle": "Shuffle again",
+    "choose": "Choose other lessons",
+    "question": "Question {n}",
+    "yourPath": "",
+    "otherPaths": ""
+  },
+  "term": {
+    "draft": "Draft · not yet reviewed by a teacher",
+    "reviewedBy": "Reviewed by {name} · {date}"
+  },
+  "topics": {
+    "title": "Knowledge base",
+    "description": "Subjects from the KNM exam in simple language: DigiD, the GP, allowances, compulsory education, parliament and more.",
+    "lead": "Subjects from the KNM exam, explained calmly. Every page names the attainment targets and the official sources.",
+    "eindtermen": "Attainment targets",
+    "checked": "Checked on {date}",
+    "sources": "Sources",
+    "theme": "Theme",
+    "study": "Practise this theme",
+    "general": "About the exam"
+  },
+  "news": {
+    "title": "What is changing",
+    "description": "Changes in civic integration and the KNM exam, each with its official source.",
+    "lead": "Changes in the rules of civic integration and the KNM exam, each with the official source.",
+    "readAt": "Read at {site}"
+  },
+  "glossary": {
+    "title": "Words",
+    "description": "The difficult words from the KNM lessons, explained in simple language.",
+    "lead": "Difficult words from the lessons, with a simple explanation. In the lessons you can tap these words.",
+    "filter": "Search a word",
+    "topicLink": "Read more"
+  },
+  "gloss": {
+    "label": "Explanation",
+    "close": "Close"
+  },
+  "about": {
+    "title": "About {site}",
+    "description": "What {site} is, how the lessons are made and who is behind it.",
+    "lead": "{site} helps people prepare for the Knowledge of Dutch Society (KNM) exam of the civic integration.",
+    "body": [
+      "The lessons follow the attainment targets of the KNM exam in force since 1 July 2025 (Staatscourant 2024, 15802). Every test question belongs to a target, and every lesson and page names its sources.",
+      "The lessons are drafted with the help of AI and checked against the attainment targets and official sources. They stay marked as drafts until a qualified Dutch-as-a-second-language teacher has reviewed them.",
+      "{site} uses no real exam questions and is not affiliated with DUO or the government. For the official practice exam, go to inburgeren.nl.",
+      "Spotted a mistake? Let us know through the contact page."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy",
+    "description": "What {site} does and does not keep: your progress stays in your own browser.",
+    "body": [
+      "Your progress (your scores and which lessons are open) is kept only in your own browser (localStorage). We never see it.",
+      "On the live site we count visits without cookies (Vercel Web Analytics). Nothing is kept that could identify you.",
+      "If a script on a page goes wrong, a short error report is sent to our server: the page, the message, the site version and your browser's name. Nothing about you.",
+      "If you use the contact form, your message is emailed to us. It is not stored on the site."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact {site}: a question, a mistake in a lesson, or working together as a language school.",
+    "lead": "All lessons are drafts until a teacher has reviewed them. We are glad to hear from you.",
+    "emailLabel": "Or email directly",
+    "reasonsTitle": "What can you write about?",
+    "reasons": [
+      "A question about a lesson or subject",
+      "A mistake in a lesson, question or translation (name the page)",
+      "Working together as a language school, municipality or organisation"
+    ],
+    "reply": "We read every message, but cannot promise to answer quickly.",
+    "form": {
+      "title": "Send a message",
+      "name": "Name",
+      "email": "Email address",
+      "emailHint": "So that we can answer you. We use it for nothing else.",
+      "topic": "Subject",
+      "topics": {
+        "question": "A question about a lesson or subject",
+        "correction": "A mistake in a lesson or question",
+        "school": "Working together as a school or organisation",
+        "other": "Something else"
+      },
+      "page": "Which page? (optional)",
+      "pageHint": "The address or name of the page.",
+      "message": "Your message",
+      "send": "Send",
+      "sending": "Sending…",
+      "sent": "Thank you, your message has been sent.",
+      "invalid": "Please fill in your name, a valid email address and a message.",
+      "failed": "The message could not be sent from here. Your mail program will open with the message filled in; or email us directly at {email}.",
+      "note": "Your message is sent to {email}. It is not stored on this site."
+    }
+  },
+  "offline": {
+    "title": "You are offline",
+    "description": "This page has not been saved for offline use.",
+    "body": "This page has not been saved on your device yet. Lessons you have already opened can be read offline."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page does not exist (any more).",
+    "body": "This page does not exist (any more). Go to the themes or search for what you need."
+  },
+  "seo": {
+    "/": {
+      "title": "KNM exam practice: lessons, tests and explanations",
+      "description": "Prepare for the KNM civic integration exam with short lessons per theme, tests with stars and a knowledge base about the Netherlands. In simple language."
+    },
+    "/study/": {
+      "title": "KNM practice by theme",
+      "description": "Practise for the KNM exam by theme: work and income, housing, health, public bodies and more. Short lessons with a five-question test."
+    }
+  }
+}

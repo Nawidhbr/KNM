@@ -1,0 +1,63 @@
+/* Additions for the KNM course on top of The Mantiqi house style (global.css): black, white and one red. */
+
+:root { --font-arabic: var(--font-body); }
+
+/* Home: a black panel with the title, the search and the main action. */
+.home-panel { background: var(--header); color: var(--header-ink); border-radius: var(--radius-l); padding: 28px 24px; margin: 20px 0 8px; display: grid; gap: 14px; }
+.home-panel .eyebrow { color: var(--on-dark-red); }
+.home-panel h1 { font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.05; letter-spacing: -0.02em; max-width: 20ch; hyphens: manual; }
+.home-panel-main { display: grid; gap: 14px; align-content: start; }
+.home-steps ol { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 10px; }
+.home-steps li { display: flex; align-items: center; gap: 12px; color: var(--header-sub); }
+.home-steps .tile:not(.tile-current) { background: transparent; border-color: var(--header-sub); color: var(--header-ink); }
+.home-steps .tile-current { box-shadow: 0 0 0 5px rgb(212 42 31 / 0.35); }
+@media (min-width: 900px) { .home-panel { grid-template-columns: 1.3fr 1fr; gap: 32px; align-items: center; padding: 36px 36px; } .home-steps { border-inline-start: 1px solid rgb(255 255 255 / 0.15); padding-inline-start: 32px; } }
+.lesson-hero { margin-top: 10px; }
+.home-panel .lead { margin: 0; color: var(--header-sub); max-width: 46ch; }
+.home-panel .btn-outline { border-color: var(--header-ink); color: var(--header-ink); }
+.home-panel .btn-outline:hover { background: rgb(255 255 255 / 0.1); }
+
+/* Theme cards: one per theme of the exam, open or in preparation. */
+.theme-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.theme-card { display: flex; gap: 14px; align-items: flex-start; height: 100%; text-decoration: none; color: var(--ink); margin: 0; }
+.theme-card:hover { border-color: var(--primary); }
+.theme-card .theme-body { display: grid; gap: 4px; min-width: 0; }
+.theme-card strong { font-family: var(--font-head); font-size: 1.15rem; line-height: 1.2; }
+.theme-card .theme-meta { font-size: 0.88rem; color: var(--muted); }
+.theme-card .theme-count { font-size: 0.88rem; font-weight: 700; color: var(--red-ink); }
+.theme-card[data-soon] { background: var(--lock); border-style: dashed; }
+.theme-card[data-soon] strong, .theme-card[data-soon] .theme-lead { color: var(--muted); }
+.theme-card[data-soon] .tile { border-style: dashed; opacity: 0.6; }
+
+/* Lesson page: the situation and the rule to remember. */
+.situation { border-inline-start: 4px solid var(--primary); padding: 4px 0 4px 16px; margin: 0; font-size: 1.1rem; }
+.remember { background: var(--red-soft); border-color: transparent; }
+.remember p:last-child { margin-bottom: 0; }
+.codes { display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 8px 0 0; list-style: none; }
+.codes li { font-size: 0.8rem; font-weight: 700; padding: 2px 9px; border-radius: 999px; background: var(--primary-soft); color: var(--primary-ink); }
+.sources-list { margin: 0; padding-inline-start: 1.1em; }
+.sources-list li + li { margin-top: 4px; }
+
+/* Knowledge base: reading text in Literata, as on The Mantiqi. */
+.topic-body { font-family: var(--font-kb); font-size: 1.05rem; line-height: 1.7; }
+.topic-body h2 { font-family: var(--font-head); }
+.topic-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.topic-list a { display: grid; gap: 2px; text-decoration: none; color: var(--ink); }
+.topic-list a strong { font-family: var(--font-head); font-size: 1.1rem; }
+.topic-list a span { color: var(--muted); font-size: 0.95rem; }
+.topic-list a:hover strong { text-decoration: underline; }
+
+/* What is changing. */
+.news-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.news-list time { font-size: 0.85rem; color: var(--muted); font-weight: 700; }
+.news-list h2, .news-list h3 { margin: 4px 0 6px; font-size: 1.15rem; }
+.news-list p { margin: 0 0 6px; }
+
+/* Words. */
+.word-list { margin: 0; display: grid; gap: 10px; }
+.word-list div { padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.word-list dt { font-weight: 700; }
+.word-list dd { margin: 2px 0 0; color: var(--muted); }
+
+.split-2 { display: grid; gap: 24px; }
+@media (min-width: 860px) { .split-2 { grid-template-columns: 1.4fr 1fr; align-items: start; } }

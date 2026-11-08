@@ -1,0 +1,22 @@
+{
+  "name": "knm",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @knm/web && rm -rf dist && cp -r apps/web/dist dist",
+    "dev": "npm run dev -w @knm/web",
+    "test": "npm test -w @knm/web && npm run validate -w @knm/content",
+    "check": "npm test && npm run build && node scripts/check-site.mjs apps/web/dist && playwright test",
+    "test:e2e": "playwright test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

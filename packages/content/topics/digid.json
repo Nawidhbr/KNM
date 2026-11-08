@@ -1,0 +1,75 @@
+{
+  "slug": "digid",
+  "theme": "instanties",
+  "title": {
+    "nl": "DigiD",
+    "en": "DigiD"
+  },
+  "summary": {
+    "nl": "Met DigiD log je veilig in bij de overheid, de zorgverzekeraar en andere instanties. Zo gebruik je het veilig.",
+    "en": "With DigiD you log in safely to the government, your health insurer and other bodies. How to use it safely."
+  },
+  "eindtermen": [
+    "6.1.1",
+    "4.4.4"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Wat is DigiD?",
+        "en": "What is DigiD?"
+      },
+      "paragraphs": {
+        "nl": [
+          "DigiD is je digitale identiteit. Je logt ermee in op websites van de overheid, bijvoorbeeld bij de Belastingdienst, de gemeente, DUO en je zorgverzekeraar.",
+          "Veel contact met de overheid gaat in Nederland via internet. Daarom heb je DigiD bijna altijd nodig, ook om zorg of toeslagen aan te vragen."
+        ],
+        "en": [
+          "DigiD is your digital identity. You use it to log in to government websites, for example the Tax Administration, the municipality, DUO and your health insurer.",
+          "Much contact with the government in the Netherlands goes through the internet. That is why you almost always need DigiD, also to apply for care or allowances."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Veilig gebruiken",
+        "en": "Using it safely"
+      },
+      "paragraphs": {
+        "nl": [
+          "Je DigiD is persoonlijk. Geef je wachtwoord of code nooit aan iemand anders, ook niet aan familie of iemand die zegt dat hij van de overheid is.",
+          "Je burgerservicenummer (BSN) deel je alleen met instanties die het nodig hebben. Gebruik bij voorkeur de DigiD-app."
+        ],
+        "en": [
+          "Your DigiD is personal. Never give your password or code to anyone else, not to family either, nor to someone who says they are from the government.",
+          "You share your citizen service number (BSN) only with bodies that need it. Preferably use the DigiD app."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Hulp",
+        "en": "Help"
+      },
+      "paragraphs": {
+        "nl": [
+          "Lukt het niet? In veel bibliotheken is een Informatiepunt Digitale Overheid. Daar helpen ze je gratis met DigiD en digitale zaken."
+        ],
+        "en": [
+          "Not managing? Many public libraries have a Digital Government Information Point. They help you with DigiD and online matters for free."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "DigiD",
+      "url": "https://www.digid.nl/"
+    }
+  ],
+  "checked": "2026-11-08"
+}

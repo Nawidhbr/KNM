@@ -1,0 +1,106 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { SITE } from "../../config/site";
+import { fmt, localePaths, t } from "../../i18n";
+import { getNews, getThemeIndex, getTopics, tx } from "@knm/content";
+import { lessonPath, themePath, themes } from "../../lib/course";
+import { website } from "../../lib/structured-data";
+
+/** The home page: what the site is, the way into the study portal, the eight themes, the knowledge base and what is changing. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const H = ui.home;
+const courses = new Map(themes().map((x) => [x.id, x]));
+const first = themes()[0];
+const topics = getTopics().filter((x) => x.slug !== "knm-examen").slice(0, 6);
+const news = getNews().slice(0, 3);
+const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout title={ui.meta.tagline} description={ui.meta.homeDescription} path="/" locale={locale} wide jsonLd={[website(locale)]}>
+  <section class="home-panel">
+    <div class="home-panel-main">
+    <p class="eyebrow">{H.kicker}</p>
+    <h1>{H.title}</h1>
+    <p class="lead">{H.lead}</p>
+    <div class="hero-actions">
+      {first && <a class="btn btn-red" href={lessonPath(locale, first.id, 1)} data-home-continue data-label={H.continueTo}>{H.start}</a>}
+      <a class="btn btn-outline" href={`/${locale}/topics/knm-examen/`}>{H.examCta}</a>
+    </div>
+    </div>
+    <div class="home-steps">
+      <p class="eyebrow">{H.stepsTitle}</p>
+      <ol>
+        {(H.steps as string[]).map((x, i) => (
+          <li><span class="tile-wrap" aria-hidden="true"><span class={i === 0 ? "tile tile-current" : "tile"}><span>{i + 1}</span></span></span><span>{x}</span></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section aria-labelledby="themes-title">
+    <h2 id="themes-title">{H.themesTitle}</h2>
+    <p class="muted">{H.themesLead}</p>
+    <ul class="theme-grid">
+      {getThemeIndex().map((x) => {
+        const c = courses.get(x.id);
+        return (
+          <li>
+            {c ? (
+              <a class="card theme-card" href={themePath(locale, x.id)} data-theme-progress={x.id}>
+                <span class="tile-wrap" aria-hidden="true"><span class="tile tile-filled"><span>{x.n}</span></span></span>
+                <span class="theme-body">
+                  <strong>{tx(x.title, locale)}</strong>
+                  <span class="theme-lead">{tx(x.lead, locale)}</span>
+                  <span class="theme-meta">{fmt(ui.study.lessons, { n: c.lessons.length })}</span>
+                  <span class="theme-count" data-count data-text={ui.study.progress} hidden></span>
+                </span>
+              </a>
+            ) : (
+              <div class="card theme-card" data-soon>
+                <span class="tile-wrap" aria-hidden="true"><span class="tile"><span>{x.n}</span></span></span>
+                <span class="theme-body">
+                  <strong>{tx(x.title, locale)}</strong>
+                  <span class="theme-lead">{tx(x.lead, locale)}</span>
+                  <span class="theme-meta">{ui.study.soon}</span>
+                </span>
+              </div>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <div class="split-2">
+    <section aria-labelledby="topics-title">
+      <h2 id="topics-title">{H.topicsTitle}</h2>
+      <p class="muted">{H.topicsLead}</p>
+      <ul class="topic-list">
+        {topics.map((x) => (
+          <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>
+        ))}
+      </ul>
+      <p><a href={`/${locale}/topics/`}>{H.allTopics} →</a></p>
+    </section>
+    <section aria-labelledby="news-title">
+      <h2 id="news-title">{H.newsTitle}</h2>
+      <ul class="news-list">
+        {news.map((n) => (
+          <li class="card">
+            <time datetime={n.date}>{dateOf(n.date)}</time>
+            <h3>{tx(n.headline, locale)}</h3>
+            <p>{tx(n.gist, locale)}</p>
+          </li>
+        ))}
+      </ul>
+      <p><a href={`/${locale}/news/`}>{H.allNews} →</a></p>
+      <section class="card">
+        <h3 class="u-m0">{H.examTitle}</h3>
+        <p class="muted">{H.examLead}</p>
+        <a href={`/${locale}/topics/knm-examen/`}>{H.examCta} →</a>
+      </section>
+    </section>
+  </div>
+</BaseLayout>

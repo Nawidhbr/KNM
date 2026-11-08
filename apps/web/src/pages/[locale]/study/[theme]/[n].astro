@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import ReviewBadge from "../../../../components/ReviewBadge.astro";
+import TermQuiz from "../../../../components/TermQuiz.astro";
+import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
+import { getReview, tx, txl, type Lesson, type Theme } from "@knm/content";
+import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course";
+import { gloss } from "../../../../lib/gloss";
+import { breadcrumbs } from "../../../../lib/structured-data";
+import lessonLockScript from "../../../../scripts/lesson-lock.js?url";
+
+/**
+ * One lesson: the situation, the lesson in a few short paragraphs, the rule to remember, its sources and a test.
+ * A lesson opens when the one before it in its theme has two stars (head-study.js sets data-locked before paint).
+ */
+export function getStaticPaths() {
+  return LIVE_LOCALES.flatMap((locale) => themes().flatMap((th) => th.lessons.map((l, i) => ({ params: { locale, theme: th.id, n: String(l.n) }, props: { th, i } }))));
+}
+const { locale } = Astro.params as { locale: string };
+const { th, i } = Astro.props as { th: Theme; i: number };
+const ui = t(locale);
+const L = ui.lesson;
+const lesson: Lesson = th.lessons[i];
+const next = th.lessons[i + 1];
+const theme = tx(th.title, locale);
+const title = tx(lesson.title, locale);
+const of = fmt(L.of, { n: lesson.n, m: th.lessons.length });
+const path = `/study/${th.id}/${lesson.n}/`;
+const quiz = {
+  items: lesson.quiz.map((q) => ({ prompt: tx(q.prompt, locale), options: txl(q.options, locale), answer: q.answer, explanation: tx(q.explanation, locale) })),
+};
+const codes = [...new Set(lesson.quiz.map((q) => q.eindterm))].sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
+const body = txl(lesson.body, locale);
+---
+
+<BaseLayout
+  title={`${title} – ${theme} (${of})`}
+  description={`${theme}, ${of}: ${title}. ${body[0].split(/(?<=\.)\s/)[0]}`}
+  path={path}
+  locale={locale}
+  jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: theme, path: themePath(locale, th.id) }, { name: title, path: `/${locale}${path}` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={themePath(locale, th.id)}>{theme}</a> / {of}</p>
+
+  <section class="card lock-note" data-lock-note>
+    <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span>{ui.lock.title}</p>
+    <p class="lock-title" role="heading" aria-level="1">{title}</p>
+    <p data-lock-text={ui.lock.lessonBody}>{ui.lock.page}</p>
+    <a class="btn btn-red" data-lock-go data-label={ui.lock.cta} href={lessonPath(locale, th.id, 1)}>{fmt(L.backToTheme, { theme })}</a>
+  </section>
+
+  <div class="lockable">
+    <section class="card card-current">
+      <p class="eyebrow">{fmt(ui.study.themeLabel, { n: th.n })} · {theme} · {of}</p>
+      <div class="term-hero lesson-hero">
+        <span class="tile-wrap" aria-hidden="true"><span class="tile tile-current"><span>{lesson.n}</span></span></span>
+        <div class="titles"><h1>{title}</h1></div>
+      </div>
+      <ReviewBadge review={getReview(lessonKey(th.id, lesson.n))} locale={locale} />
+    </section>
+
+    <section class="card">
+      <h2>{L.situation}</h2>
+      <p class="situation">{tx(lesson.situation, locale)}</p>
+    </section>
+
+    <section class="card primer-body">
+      <h2>{L.theLesson}</h2>
+      {body.map((para) => <p set:html={gloss(para, locale)} />)}
+    </section>
+
+    <section class="card remember">
+      <h2>{L.remember}</h2>
+      <p set:html={gloss(tx(lesson.remember, locale), locale)} />
+    </section>
+
+    <TermQuiz quiz={quiz} slug={lessonKey(th.id, lesson.n)} locale={locale} intro={L.quizIntro} passed={next ? L.quizPassed : L.themeDoneQuiz} failed={L.quizFailed} />
+
+    {next ? (
+      <section class="card next" data-gated>
+        <p class="u-m0"><strong>{L.next}</strong> {tx(next.title, locale)}</p>
+        <a class="btn btn-red" href={lessonPath(locale, th.id, next.n)}>{L.continue}</a>
+      </section>
+    ) : (
+      <section class="card next" data-gated>
+        <p class="u-m0"><strong>{fmt(L.themeDone, { theme })}</strong></p>
+        <a class="btn btn-red" href={`/${locale}/study/`}>{L.toThemes}</a>
+      </section>
+    )}
+
+    <section class="card">
+      <h2>{L.sources}</h2>
+      <ul class="sources-list">
+        {lesson.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title} ↗</a></li>)}
+      </ul>
+      <p class="muted u-mt14">{L.eindtermen}</p>
+      <ul class="codes">{codes.map((c) => <li>{c}</li>)}</ul>
+    </section>
+  </div>
+
+  <script is:inline src={lessonLockScript}></script>
+</BaseLayout>

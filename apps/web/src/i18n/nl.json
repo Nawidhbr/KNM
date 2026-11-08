@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "tagline": "Oefen voor het KNM-examen, les voor les",
+    "homeDescription": "Leer voor het KNM-examen van de inburgering: korte lessen per thema met toetsen, een kennisbank over Nederland en herhalen. In eenvoudig Nederlands."
+  },
+  "nav": {
+    "main": "Hoofdmenu",
+    "home": "Home",
+    "study": "Leren",
+    "studyShort": "Leren",
+    "topics": "Kennisbank",
+    "news": "Wat verandert er",
+    "newsShort": "Nieuws",
+    "about": "Over",
+    "practice": "Herhalen",
+    "glossary": "Woorden",
+    "themes": "Thema's",
+    "contact": "Contact",
+    "privacy": "Privacy"
+  },
+  "header": {
+    "search": "Zoeken",
+    "settings": "Instellingen",
+    "darkTheme": "Donker thema",
+    "install": "Installeren als app",
+    "installIos": "Tik in Safari op Delen en kies 'Zet op beginscherm'.",
+    "installOther": "Kies in het menu van je browser 'App installeren' of 'Toevoegen aan startscherm'.",
+    "language": "Taal",
+    "inPreparation": "In voorbereiding",
+    "langNote": "Alle uitleg is een concept tot een bevoegde docent die heeft nagekeken. Waar een vertaling nog ontbreekt, zie je het Nederlands."
+  },
+  "footer": {
+    "draft": "{site} is in ontwikkeling. Alle lessen en pagina's zijn concepten die nog door een bevoegde docent worden nagekeken. {site} is niet verbonden aan DUO of de overheid.",
+    "privacy": "Privacy"
+  },
+  "search": {
+    "placeholder": "Zoek een onderwerp, les of woord",
+    "close": "Sluiten",
+    "hint": "Typ om te zoeken in de lessen, de kennisbank en de woorden.",
+    "none": "Niets gevonden. Probeer een ander woord.",
+    "results": "Zoekresultaten"
+  },
+  "home": {
+    "kicker": "Kennis van de Nederlandse Maatschappij",
+    "title": "Haal je KNM-examen, les voor les",
+    "lead": "Korte lessen in eenvoudig Nederlands over werk, wonen, zorg, instanties en de rechtsstaat. Na elke les een korte toets: met twee sterren gaat de volgende les open.",
+    "start": "Begin met leren",
+    "continueTo": "Verder met: {name}",
+    "searchLabel": "Zoek in de lessen en de kennisbank",
+    "themesTitle": "De acht thema's van het examen",
+    "themesLead": "Het examen gaat over acht thema's. Begin waar je wilt; in elk thema gaan de lessen een voor een open.",
+    "topicsTitle": "Kennisbank",
+    "topicsLead": "Onderwerpen uit het examen, rustig uitgelegd.",
+    "allTopics": "Alle onderwerpen",
+    "newsTitle": "Wat verandert er",
+    "allNews": "Alle veranderingen",
+    "examTitle": "Hoe werkt het KNM-examen?",
+    "examLead": "45 minuten op de computer bij DUO, meerkeuzevragen met plaatjes, in eenvoudig Nederlands.",
+    "examCta": "Lees hoe het examen werkt",
+    "steps": [
+      "Kies een thema",
+      "Lees een korte les",
+      "Maak de toets: met twee sterren gaat de volgende les open",
+      "Herhaal wat je hebt gehaald"
+    ],
+    "stepsTitle": "Zo werkt het"
+  },
+  "study": {
+    "title": "Leren",
+    "description": "Oefen voor het KNM-examen per thema: korte lessen met een toets van vijf vragen. Met twee sterren gaat de volgende les open.",
+    "lead": "Kies een thema. In elk thema gaan de lessen een voor een open: haal minstens twee sterren op de toets (7 van 10) en de volgende les gaat open.",
+    "themeLabel": "Thema {n}",
+    "lessons": "{n} lessen",
+    "soon": "In voorbereiding",
+    "soonLong": "Dit thema komt binnenkort. Lees intussen de kennisbank.",
+    "progress": "{n} van {m} gehaald",
+    "start": "Begin bij les 1",
+    "continue": "Verder met les {n}",
+    "allDone": "Alle lessen gehaald",
+    "practiceCta": "Herhaal wat je hebt gehaald",
+    "lessonsTitle": "De lessen",
+    "eindtermenTitle": "Wat het examen vraagt",
+    "eindtermenLead": "Dit thema volgt de eindtermen van het KNM-examen (Staatscourant 2024, 15802). Elke vraag hoort bij een eindterm."
+  },
+  "lesson": {
+    "of": "Les {n} van {m}",
+    "situation": "De situatie",
+    "theLesson": "De les",
+    "remember": "Onthoud",
+    "sources": "Bronnen",
+    "eindtermen": "Eindtermen",
+    "next": "Volgende les:",
+    "continue": "Verder",
+    "themeDone": "Je hebt alle lessen van {theme} gehaald.",
+    "backToTheme": "Terug naar {theme}",
+    "toThemes": "Naar de thema's",
+    "quizIntro": "Vijf vragen over deze les. Met 7 van de 10 (twee sterren) gaat de volgende les open.",
+    "quizPassed": "Gehaald! De volgende les is open.",
+    "quizFailed": "Nog niet gehaald. Lees de les nog eens en probeer het opnieuw.",
+    "themeDoneQuiz": "Gehaald! Je hebt alle lessen van dit thema gehaald."
+  },
+  "lock": {
+    "title": "Nog niet open",
+    "lessonBody": "Deze les gaat open als je {name} hebt gehaald, met minstens twee sterren.",
+    "page": "Deze les gaat open als je de les ervoor hebt gehaald, met minstens twee sterren.",
+    "cta": "Naar les {name}"
+  },
+  "quiz": {
+    "title": "Toets",
+    "intro": "{n} vragen. Met twee sterren gaat de volgende les open.",
+    "score": "{score} van de 10",
+    "passed": "Gehaald!",
+    "failed": "Nog niet gehaald. Probeer het opnieuw.",
+    "best": "Je beste score: {score} van de 10",
+    "starsLabel": "{n} van de 3 sterren",
+    "again": "Opnieuw"
+  },
+  "practice": {
+    "title": "Herhalen",
+    "description": "Herhaal de lessen die je hebt gehaald: kies lessen, schud de vragen en de antwoorden, en maak een herhaaltoets.",
+    "lead": "Herhalen is de beste manier om iets te onthouden. Hier herhaal je alleen lessen die je al hebt gehaald.",
+    "howTitle": "Zo werkt het",
+    "how": [
+      "Kies een of meer lessen die je hebt gehaald.",
+      "De vragen en antwoorden worden geschud.",
+      "Maak de toets en zie je score."
+    ],
+    "emptyTitle": "Nog niets om te herhalen",
+    "emptyBody": "Haal eerst een les met minstens twee sterren. Daarna kun je die hier herhalen.",
+    "emptyCta": "Naar de thema's",
+    "count": "{n} vragen",
+    "none": "Kies een of meer lessen.",
+    "chosen": "{n} gekozen",
+    "right": "Goed!",
+    "wrong": "Niet goed.",
+    "passedOf": "{n} van {m} gehaald",
+    "notYet": "{n} nog niet gehaald",
+    "selectAll": "Alles kiezen",
+    "selectBook": "Hele thema kiezen",
+    "start": "Begin met herhalen",
+    "options": "Opties",
+    "shuffleQuestions": "Vragen schudden",
+    "shuffleAnswers": "Antwoorden schudden",
+    "toBook": "Naar {book}",
+    "reshuffle": "Opnieuw schudden",
+    "choose": "Andere lessen kiezen",
+    "question": "Vraag {n}",
+    "yourPath": "",
+    "otherPaths": ""
+  },
+  "term": {
+    "draft": "Concept · nog niet nagekeken door een docent",
+    "reviewedBy": "Nagekeken door {name} · {date}"
+  },
+  "topics": {
+    "title": "Kennisbank",
+    "description": "Onderwerpen uit het KNM-examen in eenvoudig Nederlands: DigiD, de huisarts, toeslagen, leerplicht, het parlement en meer.",
+    "lead": "Onderwerpen uit het KNM-examen, rustig uitgelegd. Elke pagina noemt de eindtermen en de officiële bronnen.",
+    "eindtermen": "Eindtermen",
+    "checked": "Gecontroleerd op {date}",
+    "sources": "Bronnen",
+    "theme": "Thema",
+    "study": "Oefen dit thema",
+    "general": "Over het examen"
+  },
+  "news": {
+    "title": "Wat verandert er",
+    "description": "Veranderingen in de inburgering en het KNM-examen, met de officiële bron erbij.",
+    "lead": "Veranderingen in de regels van de inburgering en het KNM-examen, elk met de officiële bron.",
+    "readAt": "Lees bij {site}"
+  },
+  "glossary": {
+    "title": "Woorden",
+    "description": "De moeilijke woorden uit de KNM-lessen, uitgelegd in eenvoudig Nederlands.",
+    "lead": "Moeilijke woorden uit de lessen, met een eenvoudige uitleg. In de lessen kun je op deze woorden tikken.",
+    "filter": "Zoek een woord",
+    "topicLink": "Lees meer"
+  },
+  "gloss": {
+    "label": "Uitleg",
+    "close": "Sluiten"
+  },
+  "about": {
+    "title": "Over {site}",
+    "description": "Wat {site} is, hoe de lessen gemaakt worden en wie erachter zit.",
+    "lead": "{site} helpt inburgeraars zich voor te bereiden op het examen Kennis van de Nederlandse Maatschappij (KNM).",
+    "body": [
+      "De lessen volgen de eindtermen van het KNM-examen die sinds 1 juli 2025 gelden (Staatscourant 2024, 15802). Elke toetsvraag hoort bij een eindterm, en elke les en pagina noemt haar bronnen.",
+      "De lessen worden opgesteld met hulp van AI en gecontroleerd tegen de eindtermen en officiële bronnen. Ze blijven als concept gemarkeerd tot een bevoegde NT2-docent ze heeft nagekeken.",
+      "{site} gebruikt geen echte examenvragen en is niet verbonden aan DUO of de overheid. Voor het officiële oefenexamen ga je naar inburgeren.nl.",
+      "Zie je een fout? Laat het ons weten via de contactpagina."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy",
+    "description": "Wat {site} wel en niet bewaart: je voortgang staat alleen in je eigen browser.",
+    "body": [
+      "Je voortgang (je scores en welke lessen open zijn) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
+      "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics). Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
+      "Gaat er iets mis in een script op een pagina, dan sturen we een korte foutmelding naar onze server: de pagina, de melding, de versie van de site en de naam van je browser. Niets over jou.",
+      "Als je het contactformulier gebruikt, gaat je bericht per e-mail naar ons. Het wordt niet op de site bewaard."
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Neem contact op met {site}: een vraag, een fout in een les, of samenwerken als taalschool.",
+    "lead": "Alle lessen zijn concepten tot een docent ze heeft nagekeken. We horen graag van je.",
+    "emailLabel": "Of mail direct",
+    "reasonsTitle": "Waarover kun je schrijven?",
+    "reasons": [
+      "Een vraag over een les of een onderwerp",
+      "Een fout in een les, een vraag of een vertaling (noem de pagina)",
+      "Samenwerken als taalschool, gemeente of organisatie"
+    ],
+    "reply": "We lezen elk bericht, maar kunnen niet beloven dat we snel antwoorden.",
+    "form": {
+      "title": "Stuur een bericht",
+      "name": "Naam",
+      "email": "E-mailadres",
+      "emailHint": "Zodat we je kunnen antwoorden. We gebruiken het nergens anders voor.",
+      "topic": "Onderwerp",
+      "topics": {
+        "question": "Een vraag over een les of onderwerp",
+        "correction": "Een fout in een les of vraag",
+        "school": "Samenwerken als taalschool of organisatie",
+        "other": "Iets anders"
+      },
+      "page": "Welke pagina? (mag leeg blijven)",
+      "pageHint": "Het adres of de naam van de pagina.",
+      "message": "Je bericht",
+      "send": "Versturen",
+      "sending": "Bezig met versturen…",
+      "sent": "Dank je, je bericht is verstuurd.",
+      "invalid": "Vul je naam, een geldig e-mailadres en een bericht in.",
+      "failed": "Het bericht kon hier niet worden verstuurd. Je e-mailprogramma gaat open met het bericht erin; of mail ons direct op {email}.",
+      "note": "Je bericht gaat naar {email}. Het wordt niet op de site bewaard."
+    }
+  },
+  "offline": {
+    "title": "Je bent offline",
+    "description": "Deze pagina is niet bewaard voor offline gebruik.",
+    "body": "Deze pagina is nog niet bewaard op je apparaat. Lessen die je al hebt geopend, kun je wel offline lezen."
+  },
+  "notFound": {
+    "title": "Pagina niet gevonden",
+    "description": "Deze pagina bestaat niet (meer).",
+    "body": "Deze pagina bestaat niet (meer). Ga naar de thema's of zoek wat je nodig hebt."
+  },
+  "seo": {
+    "/": {
+      "title": "KNM-examen oefenen: lessen, toetsen en uitleg",
+      "description": "Oefen voor het KNM-examen van de inburgering met korte lessen per thema, toetsen met sterren en een kennisbank over Nederland. In eenvoudig Nederlands."
+    },
+    "/study/": {
+      "title": "KNM oefenen per thema",
+      "description": "Oefen voor het KNM-examen per thema: werk en inkomen, wonen, gezondheid, instanties en meer. Korte lessen met een toets van vijf vragen."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+---
+import type { ReviewState } from "@knm/content";
+import { fmt, t } from "../i18n";
+
+/**
+ * The review of a lesson, term or text, the same everywhere: "Draft · awaiting review", or "Reviewed by <teacher> ·
+ * <date>" once a qualified teacher has checked it (packages/content/reviews.json; terms in their own file).
+ */
+interface Props {
+  review: ReviewState;
+  locale: string;
+  class?: string;
+}
+const { review, locale, class: cls = "badge u-ib" } = Astro.props;
+const ui = t(locale);
+const date = review.date ? new Date(`${review.date}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : "";
+---
+
+{review.status === "reviewed" ? (
+  <p class={`${cls} badge-reviewed`}>{fmt(ui.term.reviewedBy, { name: review.by ?? "", date })}</p>
+) : (
+  <p class={cls}>{ui.term.draft}</p>
+)}

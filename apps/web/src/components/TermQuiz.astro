@@ -1,0 +1,62 @@
+---
+import { fmt, t } from "../i18n";
+import { gloss } from "../lib/gloss";
+
+import termQuizScript from "../scripts/term-quiz.js?url";
+/**
+ * The test at the end of a lesson (taken over from The Mantiqi). Scored out of 10; the best score is kept in this
+ * browser ("scores"). Two stars (7/10) open the next lesson: the page's gated parts (the "next" card) appear as soon
+ * as the test is passed.
+ */
+interface Props {
+  quiz: { items: { prompt: string; options: string[]; answer: number; explanation: string; arabic?: string }[] };
+  slug: string;
+  locale: string;
+  /** Texts for a lesson of level 2 or later instead of a term ("the next lesson opens"). */
+  intro?: string;
+  passed?: string;
+  failed?: string;
+}
+
+const { quiz, slug, locale } = Astro.props;
+const ui = t(locale);
+const intro = Astro.props.intro ?? fmt(ui.quiz.intro, { n: quiz.items.length });
+const letters = "ABCDEFG";
+---
+
+<section class="card term-quiz" id="test" data-slug={slug} data-score-text={ui.quiz.score} data-passed-text={Astro.props.passed ?? ui.quiz.passed} data-failed-text={Astro.props.failed ?? ui.quiz.failed} data-best-text={ui.quiz.best} data-stars-label={ui.quiz.starsLabel} data-right-text={ui.practice.right} data-wrong-text={ui.practice.wrong}>
+  <h2>{ui.quiz.title}</h2>
+  <p class="muted">{intro}</p>
+  <p class="quiz-best muted" hidden></p>
+  <ol class="quiz">
+    {
+      quiz.items.map((item, n) => (
+        <li class="question" data-answer={item.answer}>
+          <p class="q-number eyebrow">{fmt(ui.practice.question, { n: n + 1 })}</p>
+          <p class="q-prompt">{item.prompt}</p>
+          {item.arabic && <p class="ar q-ar" lang="ar">{item.arabic}</p>}
+          <div class="options">
+            {item.options.map((option, i) => (
+              <button type="button" class="option" data-index={i}>
+                <span class="option-key" aria-hidden="true"><span>{letters[i]}</span></span>
+                <span>{option}</span>
+              </button>
+            ))}
+          </div>
+          <div class="feedback" hidden aria-live="polite">
+            <p class="verdict" />
+            <p set:html={gloss(item.explanation, locale)} />
+          </div>
+        </li>
+      ))
+    }
+  </ol>
+  <div class="quiz-result" hidden aria-live="polite">
+    <p class="quiz-stars" aria-hidden="true"></p>
+    <p class="quiz-score"></p>
+    <p class="quiz-verdict"></p>
+    <button type="button" class="btn btn-outline" data-again>{ui.quiz.again}</button>
+  </div>
+</section>
+
+<script is:inline src={termQuizScript}></script>

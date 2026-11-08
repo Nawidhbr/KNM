@@ -1,0 +1,81 @@
+{
+  "slug": "parlement-en-regering",
+  "theme": "staatsinrichting",
+  "title": {
+    "nl": "Koning, parlement en regering",
+    "en": "King, parliament and government"
+  },
+  "summary": {
+    "nl": "Nederland is een democratische rechtsstaat met een koning. Hoe het parlement, de regering en de rechters samenwerken.",
+    "en": "The Netherlands is a democratic state under the rule of law with a king. How parliament, government and the courts work together."
+  },
+  "eindtermen": [
+    "7.1.1",
+    "7.1.3"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Koning en parlement",
+        "en": "King and parliament"
+      },
+      "paragraphs": {
+        "nl": [
+          "Nederland is een koninkrijk. De koning is Willem-Alexander. Hij heeft vooral een ceremoniële functie.",
+          "Het parlement heet de Staten-Generaal en bestaat uit twee kamers: de Tweede Kamer (150 leden) en de Eerste Kamer (75 leden). Samen met de regering maken zij de wetten."
+        ],
+        "en": [
+          "The Netherlands is a kingdom. The king is Willem-Alexander. His role is mainly ceremonial.",
+          "Parliament is called the States General and has two houses: the House of Representatives (150 members) and the Senate (75 members). Together with the government they make the laws."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "De regering",
+        "en": "The government"
+      },
+      "paragraphs": {
+        "nl": [
+          "Na verkiezingen vormen politieke partijen een regering. De ministers maken deel uit van de regering. De minister-president leidt de ministers.",
+          "De naam van de minister-president moet je kennen voor het examen. Die naam verandert na een nieuwe regering: kijk daarom op rijksoverheid.nl wie het nu is."
+        ],
+        "en": [
+          "After elections, political parties form a government. The ministers are part of the government. The prime minister leads the ministers.",
+          "You need to know the name of the prime minister for the exam. That name changes with a new government, so check rijksoverheid.nl to see who it is now."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Drie machten",
+        "en": "Three powers"
+      },
+      "paragraphs": {
+        "nl": [
+          "De macht is verdeeld over drie machten: de wetgevende macht (wetten maken), de uitvoerende macht (wetten uitvoeren) en de rechterlijke macht (rechtspreken). Een uitspraak van een rechter moet je accepteren, maar je kunt in hoger beroep gaan.",
+          "Nederland kent drie bestuurslagen: het Rijk, de provincies en de gemeenten."
+        ],
+        "en": [
+          "Power is divided over three branches: the legislature (making laws), the executive (carrying them out) and the judiciary (judging). You must accept a court's ruling, but you can appeal.",
+          "The Netherlands has three levels of government: the national government, the provinces and the municipalities."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Tweede Kamer",
+      "url": "https://www.tweedekamer.nl/"
+    },
+    {
+      "title": "Eerste Kamer",
+      "url": "https://www.eerstekamer.nl/"
+    }
+  ],
+  "checked": "2026-11-08"
+}

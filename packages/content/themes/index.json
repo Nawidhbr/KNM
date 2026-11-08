@@ -1,0 +1,52 @@
+{
+  "themes": [
+    {
+      "id": "werk-en-inkomen",
+      "n": 1,
+      "title": { "nl": "Werk en inkomen", "en": "Work and income" },
+      "lead": { "nl": "Werk zoeken, je contract, een uitkering, discriminatie op het werk en een eigen bedrijf.", "en": "Finding work, your contract, benefits, discrimination at work and starting a business." }
+    },
+    {
+      "id": "omgangsvormen",
+      "n": 2,
+      "title": { "nl": "Omgangsvormen, waarden en normen", "en": "Manners, values and norms" },
+      "lead": { "nl": "Afspraken maken, samenlevingsvormen, feestdagen en familiegebeurtenissen.", "en": "Making appointments, ways of living together, holidays and family occasions." }
+    },
+    {
+      "id": "wonen",
+      "n": 3,
+      "title": { "nl": "Wonen", "en": "Housing" },
+      "lead": { "nl": "Een woning vinden, je rechten als huurder, energie en water, en afval scheiden.", "en": "Finding a home, your rights as a tenant, energy and water, and sorting waste." }
+    },
+    {
+      "id": "gezondheid",
+      "n": 4,
+      "title": { "nl": "Gezondheid en gezondheidszorg", "en": "Health and healthcare" },
+      "lead": { "nl": "De huisarts, de apotheek, spoed, de zorgverzekering en het eigen risico.", "en": "The GP, the pharmacy, emergencies, health insurance and the deductible." }
+    },
+    {
+      "id": "geschiedenis-en-geografie",
+      "n": 5,
+      "title": { "nl": "Geschiedenis en geografie", "en": "History and geography" },
+      "lead": { "nl": "De Gouden Eeuw, het koloniale verleden, de Tweede Wereldoorlog, de provincies en het openbaar vervoer.", "en": "The Golden Age, the colonial past, the Second World War, the provinces and public transport." }
+    },
+    {
+      "id": "instanties",
+      "n": 6,
+      "title": { "nl": "Instanties", "en": "Public bodies" },
+      "lead": { "nl": "DigiD, de gemeente, belasting en toeslagen, de politie, juridische hulp en verzekeringen.", "en": "DigiD, the municipality, tax and allowances, the police, legal help and insurance." }
+    },
+    {
+      "id": "staatsinrichting",
+      "n": 7,
+      "title": { "nl": "Staatsinrichting en rechtsstaat", "en": "Government and the rule of law" },
+      "lead": { "nl": "Koning, parlement en regering, kiesrecht, grondrechten en gelijke behandeling.", "en": "King, parliament and government, the right to vote, fundamental rights and equal treatment." }
+    },
+    {
+      "id": "onderwijs-en-opvoeding",
+      "n": 8,
+      "title": { "nl": "Onderwijs en opvoeding", "en": "Education and upbringing" },
+      "lead": { "nl": "Het schoolsysteem, leerplicht, kinderopvang, de rol van ouders en schoolkosten.", "en": "The school system, compulsory education, childcare, the role of parents and school costs." }
+    }
+  ]
+}
