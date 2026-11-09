@@ -14,7 +14,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
     "@fontsource/atkinson-hyperlegible": "^5.3.0",
-    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
     "@fontsource/literata": "^5.3.0",
     "@knm/content": "*",
     "astro": "^7.4.0"

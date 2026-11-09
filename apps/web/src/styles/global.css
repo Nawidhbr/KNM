@@ -31,7 +31,7 @@
   --radius-m: 14px;
   --measure: 46rem;
   --font-body: "Atkinson Hyperlegible", system-ui, sans-serif;
-  --font-head: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-head: "Inter Tight", system-ui, sans-serif;
   --font-arabic: "Noto Kufi Arabic", "Noto Naskh Arabic", sans-serif;
   /* Knowledge base: Arabic titles are always Kufi, whatever the typeface setting; reading text is Literata. */
   --font-kufi: "Noto Kufi Arabic", sans-serif;
@@ -43,12 +43,12 @@
 /* Arabic typeface in the settings menu (study portal only; the head script sets data-font there): the Latin letters stay as they are; Arabic-script interface text (ar, ur, fa) follows the Arabic face. */
 :root[data-font="naskh"] {
   --font-body: "Atkinson Hyperlegible", "Mantiqi Naskh", system-ui, sans-serif;
-  --font-head: "Bricolage Grotesque", "Mantiqi Naskh", system-ui, sans-serif;
+  --font-head: "Inter Tight", "Mantiqi Naskh", system-ui, sans-serif;
   --font-arabic: "Mantiqi Naskh", serif;
 }
 :root[data-font="classic"] {
   --font-body: "Atkinson Hyperlegible", "Mantiqi Amiri", system-ui, sans-serif;
-  --font-head: "Bricolage Grotesque", "Mantiqi Amiri", system-ui, sans-serif;
+  --font-head: "Inter Tight", "Mantiqi Amiri", system-ui, sans-serif;
   --font-arabic: "Mantiqi Amiri", "Mantiqi Naskh", serif;
 }
 

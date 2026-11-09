@@ -1,11 +1,12 @@
 /*
- * The design "Mondriaan" (De Stijl) over The Mantiqi's tokens (global.css), set as data-palette on <html> (SITE.palette).
- * White page, thick black lines, square corners and blocks in the red, white and blue of the flag with orange:
+ * The design "Stedelijk": Mondriaan seen through Swiss modernism, over The Mantiqi's tokens (global.css), set as
+ * data-palette="mondriaan" on <html> (SITE.palette).
+ * Crisp white, a strict grid of thin black rules, square corners and tiles, headings in Inter Tight, and small exact
+ * blocks in the red, white and blue of the flag with orange:
  * - orange (--red-fill) for the current item and the main action, always with black text (7.2:1; white would be 2.6:1);
- * - flag red (--red) for accents, links in the study path and the shadow of the current tile;
- * - flag blue (--blue) for the home panel and the passed tiles, with white text (9.1:1).
- * Dark mode keeps the blocks and turns the lines light. The --stijl-* colours are the logo's and never change.
- * Contrast (WCAG): text on fills and accent text on the background are at least 4.5:1.
+ * - flag red (--red) for accents and kickers;
+ * - flag blue (--blue) for the steps field on the home page and the passed tiles, with white text (9.1:1).
+ * Dark mode keeps the blocks and turns the rules light. The --stijl-* colours are the logo's and never change.
  */
 
 :root[data-palette="mondriaan"] {
@@ -17,36 +18,37 @@
 
   --bg: #ffffff;
   --surface: #ffffff;
-  --ink: #111111;
-  --muted: #4a4a4a;
-  --line: #d9d9d9;
+  --ink: #0e0e0e;
+  --muted: #555555;
+  --line: #e4e4e4;
   --header: #ffffff;
-  --header-ink: #111111;
-  --header-sub: #111111;
-  --primary: #111111;
-  --primary-ink: #111111;
+  --header-ink: #0e0e0e;
+  --header-sub: #0e0e0e;
+  --primary: #0e0e0e;
+  --primary-ink: #0e0e0e;
   --on-primary: #ffffff;
-  --primary-soft: #f3f3f3;
+  --primary-soft: #f4f4f4;
   --red: #ae1c28;
   --red-ink: #ae1c28;
   --red-soft: #ffe3c7;
   --red-fill: #ff7a00;
   --on-red: #111111;
   --on-dark-red: #ffb066;
-  --lock: #f3f3f3;
+  --lock: #f4f4f4;
   --dg-focus: #ffe3c7;
   --blue: #21468b;
   --on-blue: #ffffff;
   --radius-l: 0px;
   --radius-m: 0px;
+  --font-head: "Inter Tight", system-ui, sans-serif;
   --band: linear-gradient(90deg,
-    var(--stijl-red) 0 20%, var(--ink) 20% calc(20% + 5px),
-    var(--bg) calc(20% + 5px) 55%, var(--ink) 55% calc(55% + 5px),
-    var(--stijl-blue) calc(55% + 5px) 82%, var(--ink) 82% calc(82% + 5px),
-    var(--stijl-orange) calc(82% + 5px));
+    var(--stijl-red) 0 6%, var(--ink) 6% calc(6% + 2px),
+    var(--bg) calc(6% + 2px) 78%, var(--ink) 78% calc(78% + 2px),
+    var(--stijl-blue) calc(78% + 2px) 92%, var(--ink) 92% calc(92% + 2px),
+    var(--stijl-orange) calc(92% + 2px));
 }
 
-/* Dark: the same blocks on a near-black page; the lines turn light. */
+/* Dark: the same blocks on a near-black page; the rules turn light. */
 :root[data-palette="mondriaan"][data-theme="dark"] {
   --bg: #111111;
   --surface: #1a1a1a;
@@ -88,61 +90,87 @@
   }
 }
 
-/* Headings: heavy. */
+/* Type: compact and heavy headings. */
 :root[data-palette="mondriaan"] h1,
 :root[data-palette="mondriaan"] h2,
-:root[data-palette="mondriaan"] .brand-latin { font-weight: 800; letter-spacing: -0.02em; }
+:root[data-palette="mondriaan"] .brand-latin { font-weight: 800; letter-spacing: -0.02em; word-spacing: 0.04em; }
+:root[data-palette="mondriaan"] h3,
+:root[data-palette="mondriaan"] .theme-card strong { font-weight: 700; letter-spacing: -0.01em; }
+:root[data-palette="mondriaan"] .eyebrow { letter-spacing: 0.12em; }
 
-/* Header: white, then a band of blocks between two black lines. */
+/* Header: white, then a thin band of blocks between two black rules. */
 :root[data-palette="mondriaan"] .site-header { border-bottom: 0; }
 :root[data-palette="mondriaan"] .site-tabs { box-shadow: none; }
-:root[data-palette="mondriaan"] .site-header::after { content: ""; display: block; height: 14px; background: var(--band); border-top: 5px solid var(--ink); border-bottom: 5px solid var(--ink); }
+:root[data-palette="mondriaan"] .site-header::after { content: ""; display: block; height: 8px; background: var(--band); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
 :root[data-palette="mondriaan"] .site-nav a { color: var(--ink); }
-:root[data-palette="mondriaan"] .site-nav .nav-study { border: 3px solid var(--ink); border-radius: 0; }
-:root[data-palette="mondriaan"] .site-tabs .theme-toggle { border: 3px solid var(--ink); border-radius: 0; color: var(--ink); }
+:root[data-palette="mondriaan"] .site-nav .nav-study { border: 2px solid var(--ink); border-radius: 0; }
+:root[data-palette="mondriaan"] .site-tabs .theme-toggle { border: 2px solid var(--ink); border-radius: 0; color: var(--ink); }
 :root[data-palette="mondriaan"] .brand-mark { border-radius: 0; background: transparent; }
 :root[data-palette="mondriaan"] .study-nav { background: var(--bg); border-bottom: 0; }
 
-/* Cards, answers and buttons: black lines, square corners. */
-:root[data-palette="mondriaan"] .card,
-:root[data-palette="mondriaan"] .option { border: 3px solid var(--ink); }
-:root[data-palette="mondriaan"] .btn { border: 3px solid var(--ink); border-radius: 0; }
-:root[data-palette="mondriaan"] .btn-red:hover { background: var(--stijl-red); color: var(--stijl-white); filter: none; }
+/* Cards: a hairline box under a black rule. Answers and buttons: thin black lines, square corners. */
+:root[data-palette="mondriaan"] .card { border: 1px solid var(--line); border-top: 2px solid var(--ink); }
+:root[data-palette="mondriaan"] .theme-card[data-soon] { border-top-color: var(--line); }
+:root[data-palette="mondriaan"] .option { border: 1px solid var(--ink); }
+:root[data-palette="mondriaan"] .btn { border: 2px solid var(--ink); border-radius: 0; }
+:root[data-palette="mondriaan"] .btn-red:hover { background: var(--stijl-red); border-color: var(--stijl-red); color: var(--stijl-white); filter: none; }
 
 /* Tiles: squares, not diamonds. */
 :root[data-palette="mondriaan"] .tile,
-:root[data-palette="mondriaan"] .option-key { transform: none; border-radius: 0; border-width: 3px; border-color: var(--ink); }
+:root[data-palette="mondriaan"] .option-key { transform: none; border-radius: 0; border-width: 2px; border-color: var(--ink); }
 :root[data-palette="mondriaan"] .tile > *,
 :root[data-palette="mondriaan"] .option-key > * { transform: none; }
-:root[data-palette="mondriaan"] .tile-current { border-color: var(--ink); box-shadow: 5px 5px 0 var(--red); }
+:root[data-palette="mondriaan"] .tile-current { border-color: var(--ink); box-shadow: none; }
 :root[data-palette="mondriaan"] .tile-filled { background: var(--blue); color: var(--on-blue); }
 :root[data-palette="mondriaan"] .theme-grid > li:nth-child(3n+2) .tile-filled { background: var(--stijl-red); color: var(--stijl-white); }
 :root[data-palette="mondriaan"] .theme-grid > li:nth-child(3n) .tile-filled { background: var(--stijl-orange); color: var(--stijl-black); }
 
-/* Home: a blue block with the title beside an orange block with the steps and a red corner. */
+/*
+ * Home: one composition. A dominant white field with the title and a small red block in its corner; beside it the
+ * blue field with the steps, under an orange and a white block.
+ */
 :root[data-palette="mondriaan"] .home-panel {
-  --header: var(--blue); --header-ink: var(--stijl-white); --header-sub: #e6ecf7; --on-dark-red: #ffb066;
-  border: 5px solid var(--ink); border-radius: 0; overflow: hidden;
+  --header: var(--surface); --header-ink: var(--ink); --header-sub: var(--muted); --on-dark-red: var(--red);
+  border: 2px solid var(--ink); border-radius: 0; padding: 0; gap: 0; overflow: hidden;
 }
-:root[data-palette="mondriaan"] .home-panel .btn-outline { border-color: var(--stijl-white); color: var(--stijl-white); }
-:root[data-palette="mondriaan"] .home-panel .btn-red { border-color: var(--stijl-black); }
+:root[data-palette="mondriaan"] .home-panel-main { padding: 28px 22px; }
+:root[data-palette="mondriaan"] .home-panel h1 { font-size: clamp(2.3rem, 6.4vw, 4.2rem); line-height: 0.98; max-width: 13ch; }
+:root[data-palette="mondriaan"] .home-panel .lead { color: var(--muted); }
+:root[data-palette="mondriaan"] .home-panel .btn-outline { border-color: var(--ink); color: var(--ink); }
+:root[data-palette="mondriaan"] .home-panel .btn-outline:hover { background: var(--primary-soft); }
 :root[data-palette="mondriaan"] .home-steps {
-  --header-ink: var(--stijl-black); --header-sub: var(--stijl-black); --on-dark-red: var(--stijl-black);
-  color: var(--stijl-black); padding: 26px 24px; margin: 0 -24px -28px; border-top: 5px solid var(--ink);
+  --header-ink: var(--stijl-white); --header-sub: var(--stijl-white); --on-dark-red: #ffb066;
+  color: var(--stijl-white); margin: 0; padding: 72px 22px 26px; border-top: 2px solid var(--ink);
   background:
-    linear-gradient(var(--stijl-red), var(--stijl-red)) top right / 26% 22% no-repeat,
-    linear-gradient(var(--ink), var(--ink)) top right / calc(26% + 5px) calc(22% + 5px) no-repeat,
-    var(--stijl-orange);
+    linear-gradient(var(--stijl-orange), var(--stijl-orange)) left top / 34% 44px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) left 34% top / 2px 44px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) left top 44px / 100% 2px no-repeat,
+    linear-gradient(var(--surface), var(--surface)) left top / 100% 44px no-repeat,
+    var(--stijl-blue);
 }
-:root[data-palette="mondriaan"] .home-steps li { color: var(--stijl-black); font-weight: 700; }
-:root[data-palette="mondriaan"] .home-steps .tile:not(.tile-current) { background: var(--stijl-white); border-color: var(--stijl-black); color: var(--stijl-black); }
-:root[data-palette="mondriaan"] .home-steps .tile-current { background: var(--stijl-red); border-color: var(--stijl-black); color: var(--stijl-white); box-shadow: 4px 4px 0 var(--stijl-black); }
+:root[data-palette="mondriaan"] .home-steps li { color: var(--stijl-white); font-weight: 600; }
+:root[data-palette="mondriaan"] .home-steps .tile:not(.tile-current) { background: transparent; border-color: var(--stijl-white); color: var(--stijl-white); }
+:root[data-palette="mondriaan"] .home-steps .tile-current { background: var(--stijl-orange); border-color: var(--stijl-orange); color: var(--stijl-black); box-shadow: none; }
 @media (min-width: 900px) {
-  :root[data-palette="mondriaan"] .home-panel { padding-block: 0; padding-inline-end: 0; }
-  :root[data-palette="mondriaan"] .home-panel-main { padding-block: 36px; }
-  :root[data-palette="mondriaan"] .home-steps { align-self: stretch; margin: 0; border-top: 0; border-inline-start: 5px solid var(--ink); padding: 36px 32px; display: grid; align-content: center; }
+  :root[data-palette="mondriaan"] .home-panel { grid-template-columns: 1.55fr 1fr; align-items: stretch; }
+  :root[data-palette="mondriaan"] .home-panel h1 { max-width: none; font-size: clamp(2.6rem, 4.6vw, 3.8rem); }
+  :root[data-palette="mondriaan"] .home-panel-main {
+    padding: 56px 48px 96px;
+    background:
+      linear-gradient(var(--stijl-red), var(--stijl-red)) left bottom / 56px 56px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left bottom / 58px 58px no-repeat;
+  }
+  :root[data-palette="mondriaan"] .home-steps {
+    border-top: 0; border-inline-start: 2px solid var(--ink); padding: 120px 34px 40px; display: grid; align-content: start;
+    background:
+      linear-gradient(var(--stijl-orange), var(--stijl-orange)) left top / 38% 80px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left 38% top / 2px 80px no-repeat,
+      linear-gradient(var(--ink), var(--ink)) left top 80px / 100% 2px no-repeat,
+      linear-gradient(var(--surface), var(--surface)) left top / 100% 80px no-repeat,
+      var(--stijl-blue);
+  }
 }
 
 /* Lessons. */
-:root[data-palette="mondriaan"] .situation { border-inline-start: 6px solid var(--blue); }
-:root[data-palette="mondriaan"] .remember { border: 3px solid var(--ink); background: var(--red-soft); }
+:root[data-palette="mondriaan"] .situation { border-inline-start: 4px solid var(--blue); }
+:root[data-palette="mondriaan"] .remember { border: 0; border-top: 2px solid var(--ink); background: var(--red-soft); }

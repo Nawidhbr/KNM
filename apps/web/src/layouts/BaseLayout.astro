@@ -11,17 +11,19 @@ import "@fontsource/atkinson-hyperlegible/latin-ext-400.css";
 import "@fontsource/atkinson-hyperlegible/latin-700.css";
 import "@fontsource/atkinson-hyperlegible/latin-ext-700.css";
 import "@fontsource/atkinson-hyperlegible/latin-400-italic.css";
-import "@fontsource/bricolage-grotesque/latin-700.css";
-import "@fontsource/bricolage-grotesque/latin-ext-700.css";
 import "@fontsource/literata/latin-400.css";
 import "@fontsource/literata/latin-ext-400.css";
 import "@fontsource/literata/latin-700.css";
-import "@fontsource/bricolage-grotesque/latin-800.css";
-import "@fontsource/bricolage-grotesque/latin-ext-800.css";
+import "@fontsource/inter-tight/latin-600.css";
+import "@fontsource/inter-tight/latin-ext-600.css";
+import "@fontsource/inter-tight/latin-700.css";
+import "@fontsource/inter-tight/latin-ext-700.css";
+import "@fontsource/inter-tight/latin-800.css";
+import "@fontsource/inter-tight/latin-ext-800.css";
 // The faces of the first lines of text, preloaded so the text does not reflow when they arrive.
 import atkinson400 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-400-normal.woff2?url";
 import atkinson700 from "@fontsource/atkinson-hyperlegible/files/atkinson-hyperlegible-latin-700-normal.woff2?url";
-import bricolage800 from "@fontsource/bricolage-grotesque/files/bricolage-grotesque-latin-800-normal.woff2?url";
+import interTight800 from "@fontsource/inter-tight/files/inter-tight-latin-800-normal.woff2?url";
 import literata400 from "@fontsource/literata/files/literata-latin-400-normal.woff2?url";
 
 import "../styles/global.css";
@@ -99,7 +101,7 @@ const tabs = studyHere
     <script is:inline src={headStudyScript}></script>
     <meta name="theme-color" content={THEME_COLOR[SITE.palette]} media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content={THEME_COLOR_DARK[SITE.palette]} media="(prefers-color-scheme: dark)" />
-    {(studyHere ? [atkinson400, atkinson700, bricolage800] : [atkinson400, bricolage800, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    {(studyHere ? [atkinson400, atkinson700, interTight800] : [atkinson400, interTight800, literata400]).map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
