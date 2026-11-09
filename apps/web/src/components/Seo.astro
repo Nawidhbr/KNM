@@ -30,10 +30,13 @@ const clip = (text: string, max: number) => {
 };
 // A main page may have a search title and description of its own (`seo` in the dictionary), written for what people type.
 const own = seoFor(locale, path);
+// Every title ends in the site's name with the words people search for ("KNM oefenen"), where it fits.
+const brand = t(locale).meta.titleSuffix ?? SITE.name;
 const fullTitle = (() => {
-  if (own?.title) return own.title.includes(SITE.name) || `${own.title} | ${SITE.name}`.length > 65 ? own.title : `${own.title} | ${SITE.name}`;
+  if (own?.title) return own.title.includes(SITE.name) || `${own.title} | ${brand}`.length > 65 ? own.title : `${own.title} | ${brand}`;
   if (path === "/") return `${SITE.name} – ${t(locale).meta.tagline}`;
-  const withName = `${title} | ${SITE.name}`;
+  if (title.includes(SITE.name)) return title.length <= 65 ? title : clip(title, 65);
+  const withName = `${title} | ${brand}`;
   return withName.length <= 65 ? withName : clip(title, 65);
 })();
 const metaDescription = (() => {

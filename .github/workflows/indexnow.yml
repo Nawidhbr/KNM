@@ -1,0 +1,31 @@
+# Once a day, tell the IndexNow engines (Bing, Yandex, …) which pages the live site has; also after a production
+# deploy when Vercel reports one to GitHub, and by hand (Actions → IndexNow → Run workflow).
+# At most once a day: the cache key holds the date, so later runs on the same day skip the call.
+name: IndexNow
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  deployment_status:
+
+jobs:
+  ping:
+    if: github.event_name != 'deployment_status' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - id: day
+        run: echo "date=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+      - id: done
+        uses: actions/cache@v4
+        with:
+          path: .indexnow-done
+          key: indexnow-${{ steps.day.outputs.date }}
+      - if: steps.done.outputs.cache-hit != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - if: steps.done.outputs.cache-hit != 'true'
+        run: node scripts/indexnow.mjs && touch .indexnow-done

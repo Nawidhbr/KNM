@@ -1,7 +1,8 @@
 {
   "meta": {
     "tagline": "Practise for the KNM exam, lesson by lesson",
-    "homeDescription": "Prepare for the KNM civic integration exam: short lessons per theme with tests, a knowledge base about the Netherlands and review. In simple language."
+    "homeDescription": "Prepare for the KNM civic integration exam: short lessons per theme with tests, a knowledge base about the Netherlands and review. In simple language.",
+    "titleSuffix": "KNM practice"
   },
   "nav": {
     "main": "Main menu",
@@ -80,7 +81,9 @@
     "practiceCta": "Review what you have passed",
     "lessonsTitle": "The lessons",
     "eindtermenTitle": "What the exam asks",
-    "eindtermenLead": "This theme follows the attainment targets of the KNM exam (Staatscourant 2024, 15802). Every question belongs to a target."
+    "eindtermenLead": "This theme follows the attainment targets of the KNM exam (Staatscourant 2024, 15802). Every question belongs to a target.",
+    "themeSeoTitle": "KNM {theme}: lessons and practice questions",
+    "lessonSeoTitle": "{lesson} – KNM {theme}"
   },
   "lesson": {
     "of": "Lesson {n} of {m}",
@@ -248,12 +251,28 @@
   },
   "seo": {
     "/": {
-      "title": "KNM exam practice: lessons, tests and explanations",
-      "description": "Prepare for the KNM civic integration exam with short lessons per theme, tests with stars and a knowledge base about the Netherlands. In simple language."
+      "title": "KNM exam practice: lessons and practice questions",
+      "description": "Prepare for the KNM civic integration exam: short lessons per theme with practice questions, explanations in simple language and a knowledge base."
     },
     "/study/": {
-      "title": "KNM practice by theme",
+      "title": "KNM practice questions by theme: work, housing, health",
       "description": "Practise for the KNM exam by theme: work and income, housing, health, public bodies and more. Short lessons with a five-question test."
+    },
+    "/practice/": {
+      "title": "KNM practice test: review your questions",
+      "description": "Take a practice test with the KNM questions of the lessons you have passed. Pick a theme or everything, and practise until you are sure."
+    },
+    "/topics/": {
+      "title": "KNM knowledge base: life in the Netherlands explained",
+      "description": "Simple explanations of DigiD, the GP, benefits, the municipality, work and parliament: what you need to know for the KNM exam."
+    },
+    "/glossary/": {
+      "title": "KNM word list: difficult Dutch words explained",
+      "description": "Difficult words from the KNM exam explained in simple language: from own risk to allowance and from BSN to benefit."
+    },
+    "/news/": {
+      "title": "Civic integration and the KNM exam: what is changing?",
+      "description": "Changes in civic integration and the KNM exam, briefly explained, each with its official source."
     }
   }
 }

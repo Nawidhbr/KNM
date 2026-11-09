@@ -19,7 +19,7 @@ const related = getTopics().filter((x) => x.theme === th.id);
 ---
 
 <BaseLayout
-  title={`${title} – ${fmt(S.themeLabel, { n: th.n })}`}
+  title={fmt(S.themeSeoTitle, { theme: title })}
   description={tx(th.lead, locale)}
   path={`/study/${th.id}/`}
   locale={locale}

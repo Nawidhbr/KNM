@@ -1,7 +1,8 @@
 {
   "meta": {
     "tagline": "Oefen voor het KNM-examen, les voor les",
-    "homeDescription": "Leer voor het KNM-examen van de inburgering: korte lessen per thema met toetsen, een kennisbank over Nederland en herhalen. In eenvoudig Nederlands."
+    "homeDescription": "Leer voor het KNM-examen van de inburgering: korte lessen per thema met toetsen, een kennisbank over Nederland en herhalen. In eenvoudig Nederlands.",
+    "titleSuffix": "KNM oefenen"
   },
   "nav": {
     "main": "Hoofdmenu",
@@ -80,7 +81,9 @@
     "practiceCta": "Herhaal wat je hebt gehaald",
     "lessonsTitle": "De lessen",
     "eindtermenTitle": "Wat het examen vraagt",
-    "eindtermenLead": "Dit thema volgt de eindtermen van het KNM-examen (Staatscourant 2024, 15802). Elke vraag hoort bij een eindterm."
+    "eindtermenLead": "Dit thema volgt de eindtermen van het KNM-examen (Staatscourant 2024, 15802). Elke vraag hoort bij een eindterm.",
+    "themeSeoTitle": "KNM {theme}: lessen en oefenvragen",
+    "lessonSeoTitle": "{lesson} – KNM {theme}"
   },
   "lesson": {
     "of": "Les {n} van {m}",
@@ -248,12 +251,28 @@
   },
   "seo": {
     "/": {
-      "title": "KNM-examen oefenen: lessen, toetsen en uitleg",
-      "description": "Oefen voor het KNM-examen van de inburgering met korte lessen per thema, toetsen met sterren en een kennisbank over Nederland. In eenvoudig Nederlands."
+      "title": "KNM oefenen voor het inburgeringsexamen: lessen en oefenvragen",
+      "description": "Oefen voor het KNM-examen van de inburgering: korte lessen per thema met oefenvragen, uitleg in eenvoudig Nederlands en een kennisbank over Nederland."
     },
     "/study/": {
-      "title": "KNM oefenen per thema",
-      "description": "Oefen voor het KNM-examen per thema: werk en inkomen, wonen, gezondheid, instanties en meer. Korte lessen met een toets van vijf vragen."
+      "title": "KNM oefenvragen per thema: werk, wonen, zorg en meer",
+      "description": "Oefen voor het KNM-examen per thema: werk en inkomen, wonen, gezondheid, instanties en meer. Korte lessen met een toets van vijf oefenvragen."
+    },
+    "/practice/": {
+      "title": "KNM oefentoets: herhaal je oefenvragen",
+      "description": "Maak een oefentoets met de KNM-vragen van de lessen die je hebt gehaald. Kies een thema of alles, en oefen tot je het zeker weet."
+    },
+    "/topics/": {
+      "title": "Kennisbank KNM: uitleg over leven in Nederland",
+      "description": "Uitleg in eenvoudig Nederlands over DigiD, de huisarts, toeslagen, de gemeente, werk en het parlement: alles wat je voor het KNM-examen moet weten."
+    },
+    "/glossary/": {
+      "title": "KNM woordenlijst: moeilijke woorden uitgelegd",
+      "description": "Moeilijke woorden uit het KNM-examen in eenvoudig Nederlands uitgelegd: van eigen risico tot toeslag en van BSN tot uitkering."
+    },
+    "/news/": {
+      "title": "Inburgering en KNM-examen: wat verandert er?",
+      "description": "Veranderingen in de inburgering en het KNM-examen, kort uitgelegd, elk met de officiële bron."
     }
   }
 }

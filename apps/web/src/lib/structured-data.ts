@@ -15,7 +15,7 @@ export const course = (o: { name: string; description: string; path: string; loc
   description: o.description,
   inLanguage: o.locale,
   url: absoluteUrl(o.path),
-  provider: { "@type": "Organization", name: SITE.name, url: absoluteUrl("/") },
+  provider: { "@type": "Organization", "@id": absoluteUrl("/#organization"), name: SITE.name, url: absoluteUrl("/") },
 });
 
 export const article = (o: { title: string; description: string; path: string; locale: string; date: string }) => ({
@@ -27,13 +27,28 @@ export const article = (o: { title: string; description: string; path: string; l
   inLanguage: o.locale,
   dateModified: o.date,
   url: absoluteUrl(o.path),
-  publisher: { "@type": "Organization", name: SITE.name, url: absoluteUrl("/") },
+  publisher: { "@type": "Organization", "@id": absoluteUrl("/#organization"), name: SITE.name, url: absoluteUrl("/") },
+});
+
+/** The publisher: one entity in every language, with the logo search engines may show. */
+export const organization = () => ({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": absoluteUrl("/#organization"),
+  name: SITE.name,
+  alternateName: new URL(absoluteUrl("/")).host.replace(/^www\./, ""),
+  url: absoluteUrl("/"),
+  logo: absoluteUrl("/icons/icon-512.png"),
+  email: SITE.email,
 });
 
 export const website = (locale: string) => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": absoluteUrl(`/${locale}/#website`),
   name: SITE.name,
+  alternateName: [new URL(absoluteUrl("/")).host.replace(/^www\./, ""), "KNM oefenen"],
   url: absoluteUrl(`/${locale}/`),
   inLanguage: locale,
+  publisher: { "@id": absoluteUrl("/#organization") },
 });
