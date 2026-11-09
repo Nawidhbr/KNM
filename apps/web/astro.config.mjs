@@ -12,8 +12,8 @@ export default defineConfig({
   vite: { build: { assetsInlineLimit: 0 } },
   integrations: [
     sitemap({
-      // The root only redirects; the offline page is a fallback. Neither belongs in the sitemap.
-      filter: (page) => page !== `${site}/` && !page.endsWith("/offline/"),
+      // The root only redirects; the offline page is a fallback; the buy and terms pages are not indexed.
+      filter: (page) => page !== `${site}/` && !/\/(offline|unlock|terms)\/$/.test(page),
       i18n: { defaultLocale: SITE.defaultLocale, locales: { nl: "nl", en: "en" } },
     }),
   ],

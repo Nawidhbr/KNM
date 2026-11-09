@@ -1,4 +1,5 @@
 ---
+import { needsAccess, priceText, selling } from "../../../lib/offer";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { fmt, localePaths, t } from "../../../i18n";
 import { getThemeIndex, tx } from "@knm/content";
@@ -29,6 +30,16 @@ const courses = new Map(themes().map((x) => [x.id, x]));
     <h1>{S.title}</h1>
     <p class="lead">{S.lead}</p>
   </header>
+
+  {selling() && (
+    <section class="card buy-banner" data-buy>
+      <div>
+        <h2>{fmt(ui.buy.bannerTitle, { price: priceText(locale) })}</h2>
+        <p class="u-m0">{fmt(ui.buy.bannerBody, { price: priceText(locale) })}</p>
+      </div>
+      <a class="btn btn-red" href={`/${locale}/unlock/`}>{fmt(ui.buy.cta, { price: priceText(locale) })}</a>
+    </section>
+  )}
   <ul class="theme-grid">
     {getThemeIndex().map((x) => {
       const c = courses.get(x.id);
@@ -41,7 +52,7 @@ const courses = new Map(themes().map((x) => [x.id, x]));
                 <span class="eyebrow">{fmt(S.themeLabel, { n: x.n })}</span>
                 <strong>{tx(x.title, locale)}</strong>
                 <span class="theme-lead">{tx(x.lead, locale)}</span>
-                <span class="theme-meta">{fmt(S.lessons, { n: c.lessons.length })}</span>
+                <span class="theme-meta">{fmt(S.lessons, { n: c.lessons.length })}{needsAccess(x.n) && <span class="theme-tag" data-buy>{ui.buy.tag}</span>}</span>
                 <span class="theme-count" data-count data-text={S.progress} hidden></span>
               </span>
             </a>

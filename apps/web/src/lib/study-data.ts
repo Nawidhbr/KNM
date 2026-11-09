@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
-import { trackSteps } from "./course";
+import { themes, trackSteps } from "./course";
+import { needsAccess } from "./offer";
 import progressSource from "./progress.js?raw";
 
 /**
@@ -12,9 +13,11 @@ const memo = new Map<string, { body: string; v: string }>();
 export function studyData(locale: string): { body: string; v: string } {
   const hit = memo.get(locale);
   if (hit) return hit;
-  const data = { path: [], gates: {}, tracks: trackSteps(locale), previews: [] };
+  // The themes that need access, only while selling is on (otherwise every theme is free).
+  const paid = themes().filter((x) => needsAccess(x.n)).map((x) => x.id);
+  const data = { path: [], gates: {}, tracks: trackSteps(locale), previews: [], paid };
   const rules = progressSource.replace(/^export /gm, "");
-  const body = `window.__studyVars=${JSON.stringify(data)};\nwindow.__progress=(()=>{${rules}\nreturn { progress, stars };})();\n`;
+  const body = `window.__studyVars=${JSON.stringify(data)};\nwindow.__progress=(()=>{${rules}\nreturn { progress, stars, hasAccess };})();\n`;
   const out = { body, v: createHash("sha256").update(body).digest("hex").slice(0, 10) };
   memo.set(locale, out);
   return out;

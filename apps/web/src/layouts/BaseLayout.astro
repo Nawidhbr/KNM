@@ -1,4 +1,5 @@
 ---
+import { selling } from "../lib/offer";
 import Seo from "../components/Seo.astro";
 import SearchHighlight from "../components/SearchHighlight.astro";
 import HighlightLib from "../components/HighlightLib.astro";
@@ -190,7 +191,7 @@ const tabs = studyHere
     <footer class="site-footer">
       <div class="wrap wrap-wide">
         <p>{fmt(ui.footer.draft, { site: SITE.name })}</p>
-        <p><a href={`/${locale}/about/`}>{N.about}</a> · <a href={`/${locale}/contact/`}>{N.contact}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a> · <a href={`/${locale}/privacy/`}>{ui.footer.privacy}</a></p>
+        <p><a href={`/${locale}/about/`}>{N.about}</a> · <a href={`/${locale}/contact/`}>{N.contact}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a> · <a href={`/${locale}/privacy/`}>{ui.footer.privacy}</a>{selling() && <> · <a href={`/${locale}/terms/`}>{ui.footer.terms}</a></>}</p>
       </div>
     </footer>
     <div id="gloss-pop" class="gloss-pop" popover role="dialog" aria-labelledby="gloss-plain" data-src={`/${locale}/glossary.json`} data-label={ui.gloss.label} data-lock-title={ui.lock.title} data-lock-lesson={ui.lock.lessonBody} data-lock-cta={ui.lock.cta}>

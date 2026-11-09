@@ -1,0 +1,80 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { PAYMENTS, SITE } from "../../config/site";
+import { OFFER } from "../../config/offer.js";
+import { companyComplete } from "../../config/company.js";
+import unlockScript from "../../scripts/unlock.js?url";
+
+/**
+ * Buying access (config/offer.js): the offer, a form that starts a Mollie payment (api/checkout.js), and the place
+ * the buyer returns to with ?code=… (checked by api/redeem.js; the access is then kept in this browser as `access`).
+ * Not indexed and not in the sitemap. While selling is off (PAYMENTS, company details), the page says so.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const B = ui.buy;
+const price = Number(OFFER.price).toLocaleString(locale === "en" ? "en-GB" : "nl-NL", { minimumFractionDigits: 2 });
+const on = PAYMENTS && companyComplete();
+const texts = Object.fromEntries(
+  ["checking", "redirecting", "pending", "pendingLong", "failed", "refunded", "invalid", "missing", "error", "done", "already"].map((k) => [k, fmt((B as any)[k], { email: SITE.email })]),
+);
+---
+
+<BaseLayout title={B.title} description={fmt(B.description, { price })} path="/unlock/" locale={locale} noindex>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/study/`}>{ui.study.title}</a> / {B.title}</p>
+  <div class="unlock" data-unlock data-vars={JSON.stringify({ locale, on, texts })}>
+    <header>
+      <h1>{B.title}</h1>
+      <p class="lead">{fmt(B.lead, { price })}</p>
+    </header>
+
+    <p class="unlock-status" data-status role="status" aria-live="polite" hidden></p>
+    <section class="card unlock-done" data-done hidden>
+      <p class="unlock-done-text" data-done-text></p>
+      <p class="muted">{B.doneLink}</p>
+      <a class="btn btn-red" href={`/${locale}/study/`}>{B.start}</a>
+    </section>
+
+    <div class="unlock-grid" data-offer>
+      <section class="card unlock-offer">
+        <p class="unlock-price">€{price}</p>
+        <p class="muted u-m0">{B.priceLine}</p>
+        <ul class="unlock-points">{(B.points as string[]).map((x) => <li>{x}</li>)}</ul>
+        <p class="u-m0"><strong>{B.guarantee}</strong></p>
+      </section>
+
+      <form class="card unlock-form" data-buy-form novalidate>
+        {on ? (
+          <>
+            <label class="field">
+              <span>{B.email}</span>
+              <input type="email" name="email" autocomplete="email" required maxlength="200" />
+              <small class="muted">{B.emailHint}</small>
+            </label>
+            <label class="unlock-consent">
+              <input type="checkbox" name="consent" required />
+              <span>{B.consent} <a href={`/${locale}/terms/`} target="_blank">{B.termsLink}</a></span>
+            </label>
+            <button type="submit" class="btn btn-red unlock-pay">{fmt(B.pay, { price })}</button>
+            <p class="muted u-m0">{B.payNote}</p>
+          </>
+        ) : (
+          <p class="u-m0">{B.off}</p>
+        )}
+      </form>
+    </div>
+
+    <form class="card unlock-code" data-code-form novalidate>
+      <h2>{B.haveCode}</h2>
+      <p class="muted">{B.haveCodeBody}</p>
+      <label class="field">
+        <span>{B.codeLabel}</span>
+        <input type="text" name="code" autocomplete="off" spellcheck="false" required />
+      </label>
+      <button type="submit" class="btn btn-outline">{B.redeem}</button>
+    </form>
+  </div>
+  <script is:inline src={unlockScript}></script>
+</BaseLayout>

@@ -61,3 +61,34 @@
 
 .split-2 { display: grid; gap: 24px; }
 @media (min-width: 860px) { .split-2 { grid-template-columns: 1.4fr 1fr; align-items: start; } }
+
+/* Paid access (lib/offer.ts): the note on the pages of a theme that needs access, shown before paint by head-study.js
+   (data-paywall), and the offers, hidden once bought (data-access). */
+.paywall-note { display: none; }
+html[data-paywall] .paywall-note { display: block; }
+html[data-paywall] .lockable, html[data-paywall] .lock-note { display: none !important; }
+.paywall-note .lock-title { font-family: var(--font-head); font-weight: 800; line-height: 1.1; margin: 6px 0 10px; font-size: clamp(1.8rem, 6vw, 2.4rem); }
+.paywall-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 0; }
+html[data-access] [data-buy] { display: none !important; }
+.theme-tag { display: inline-block; margin-inline-start: 8px; padding: 1px 8px; font-size: 0.78rem; font-weight: 700; background: var(--red-soft); color: var(--ink); }
+.buy-banner { margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; justify-content: space-between; }
+.buy-banner h2 { margin: 0 0 4px; }
+
+/* The buy page. */
+.unlock { max-width: 900px; }
+.unlock [hidden] { display: none !important; }
+.unlock-grid { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; margin-top: 16px; }
+@media (max-width: 760px) { .unlock-grid { grid-template-columns: 1fr; } }
+.unlock-grid > .card { margin: 0; }
+.unlock-price { font-family: var(--font-head); font-weight: 800; font-size: 3rem; line-height: 1; margin: 0 0 6px; letter-spacing: -0.02em; }
+.unlock-points { margin: 16px 0; padding-inline-start: 1.2em; }
+.unlock-points li { margin-bottom: 6px; }
+.unlock-consent { display: flex; gap: 10px; align-items: flex-start; margin: 0 0 16px; }
+.unlock-consent input { width: 20px; height: 20px; margin-top: 2px; flex: none; accent-color: var(--primary); }
+.unlock-pay { width: 100%; justify-content: center; margin-bottom: 10px; cursor: pointer; font: inherit; font-weight: 700; }
+.unlock-pay[disabled] { cursor: progress; filter: grayscale(0.4); }
+.unlock-code { margin-top: 16px; }
+.unlock-code .btn { cursor: pointer; font: inherit; font-weight: 700; }
+.unlock-status { margin: 16px 0 0; padding: 10px 14px; background: var(--primary-soft); font-weight: 700; }
+.unlock-status[data-kind="warn"] { background: var(--warn-soft); color: var(--warn-ink); }
+.unlock-done-text { font-family: var(--font-head); font-weight: 800; font-size: 1.4rem; margin: 0 0 8px; }

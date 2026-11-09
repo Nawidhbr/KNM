@@ -1,4 +1,5 @@
 ---
+import { needsAccess, priceText } from "../../../../lib/offer";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
 import { getTopics, tx } from "@knm/content";
@@ -39,6 +40,17 @@ const related = getTopics().filter((x) => x.theme === th.id);
       <a class="btn btn-outline" href={`/${locale}/practice/`}>{S.practiceCta}</a>
     </div>
   </header>
+
+  {needsAccess(th.n) && (
+    <section class="card paywall-note">
+      <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span>{ui.buy.lockTitle}</p>
+      <p>{fmt(ui.buy.themeBody, { price: priceText(locale) })}</p>
+      <p class="paywall-actions">
+        <a class="btn btn-red" href={`/${locale}/unlock/`}>{fmt(ui.buy.cta, { price: priceText(locale) })}</a>
+        <a class="btn btn-outline" href={`/${locale}/study/`}>{ui.buy.tryFree}</a>
+      </p>
+    </section>
+  )}
 
   <section class="card">
     <h2>{S.lessonsTitle}</h2>

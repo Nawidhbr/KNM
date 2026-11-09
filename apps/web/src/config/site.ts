@@ -18,6 +18,13 @@ export const INDEXING = env.INDEXING === "on" && !isPreview;
 /** Cookieless page counts (Vercel Web Analytics), only on the production deployment. */
 export const ANALYTICS = env.VERCEL_ENV === "production" && env.ANALYTICS !== "off";
 
+/**
+ * Selling access (Mollie): "on" shows the offer and locks the themes after the free ones for readers without access.
+ * It also needs MOLLIE_API_KEY and ACCESS_SECRET in Vercel, and the business details in config/company.ts; while any
+ * of these is missing, every theme stays free and the buy page says that buying is not possible yet.
+ */
+export const PAYMENTS = env.PAYMENTS === "on";
+
 export const SITE = {
   /** The working name of the site; change it here only. */
   name: "KNM",

@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { SITE } from "../../config/site";
+import { OFFER } from "../../config/offer.js";
+import { COMPANY, companyComplete } from "../../config/company.js";
+
+/** The terms of sale (config/offer.js, config/company.js). Not indexed and not in the sitemap. */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const T = ui.terms;
+const price = Number(OFFER.price).toLocaleString(locale === "en" ? "en-GB" : "nl-NL", { minimumFractionDigits: 2 });
+const vars = { site: SITE.name, price, days: OFFER.days, vatRate: OFFER.vatRate, email: SITE.email, company: COMPANY.name, address: COMPANY.address, kvk: COMPANY.kvk, vat: COMPANY.vat };
+const complete = companyComplete();
+---
+
+<BaseLayout title={T.title} description={T.description} path="/terms/" locale={locale} noindex>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {T.title}</p>
+  <h1>{T.title}</h1>
+  {(T.sections as { h: string; p: string[] }[]).map((s, i) => (
+    <section>
+      <h2>{s.h}</h2>
+      {i === 0 && !complete ? <p>{T.missing}</p> : s.p.map((p) => <p>{fmt(p, vars)}</p>)}
+    </section>
+  ))}
+</BaseLayout>

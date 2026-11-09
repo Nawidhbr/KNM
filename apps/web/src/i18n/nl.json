@@ -32,7 +32,8 @@
   },
   "footer": {
     "draft": "Deze site is in ontwikkeling. Alle lessen en pagina's zijn concepten die nog door een bevoegde docent worden nagekeken. De site is niet verbonden aan DUO of de overheid.",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "terms": "Voorwaarden"
   },
   "search": {
     "placeholder": "Zoek een onderwerp, les of woord",
@@ -202,6 +203,10 @@
       "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics). Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
       "Gaat er iets mis in een script op een pagina, dan sturen we een korte foutmelding naar onze server: de pagina, de melding, de versie van de site en de naam van je browser. Niets over jou.",
       "Als je het contactformulier gebruikt, gaat je bericht per e-mail naar ons. Het wordt niet op de site bewaard."
+    ],
+    "payments": [
+      "Als je toegang koopt, betaal je via Mollie. Mollie verwerkt je betaling; wij zien alleen of en wanneer je hebt betaald, en het e-mailadres dat je opgeeft. Dat gebruiken we alleen om je toegangslink en de bevestiging van je aankoop te sturen (via Resend). Een eigen klantenbestand houden we niet bij: de betaling staat bij Mollie, waar we haar voor de belasting zeven jaar bewaren.",
+      "Je toegang (een code en de einddatum) staat alleen in je eigen browser (localStorage)."
     ]
   },
   "contact": {
@@ -274,5 +279,109 @@
       "title": "Inburgering en KNM-examen: wat verandert er?",
       "description": "Veranderingen in de inburgering en het KNM-examen, kort uitgelegd, elk met de officiële bron."
     }
+  },
+  "buy": {
+    "title": "Toegang tot alle thema's",
+    "description": "Oefen alle thema's van het KNM-examen voor €{price}, een jaar lang. Eenmalig betalen, geen abonnement.",
+    "lead": "Thema 1 en de kennisbank zijn gratis. Voor €{price} oefen je een jaar lang alle andere thema's, met lessen, toetsen en herhalen.",
+    "points": [
+      "Alle thema's van het KNM-examen, met korte lessen en oefenvragen",
+      "Herhalen met een oefentoets van alles wat je hebt gehaald",
+      "Een jaar toegang, ook op je telefoon of een andere computer",
+      "Eenmalig betalen, geen abonnement"
+    ],
+    "priceLine": "Eenmalig, inclusief btw",
+    "email": "Je e-mailadres",
+    "emailHint": "Hier sturen we je toegangslink naartoe.",
+    "consent": "Ik ga akkoord met de voorwaarden en wil direct toegang. Daardoor vervalt mijn bedenktijd van 14 dagen.",
+    "termsLink": "Lees de voorwaarden",
+    "pay": "Betalen: €{price}",
+    "payNote": "Je betaalt veilig via Mollie, met iDEAL of een andere betaalmethode.",
+    "guarantee": "Niet tevreden? Mail ons binnen 14 dagen en je krijgt je geld terug.",
+    "haveCode": "Heb je al betaald?",
+    "haveCodeBody": "Open de link uit je mail op dit apparaat, of plak hem hier.",
+    "codeLabel": "Toegangslink of code",
+    "redeem": "Ontgrendel",
+    "checking": "Even controleren…",
+    "redirecting": "Je gaat naar de betaalpagina…",
+    "pending": "Je betaling is nog niet binnen. We kijken over een paar seconden opnieuw.",
+    "pendingLong": "Je betaling is nog niet binnen. Open later de link uit je mail, of mail {email}.",
+    "failed": "Deze betaling is niet gelukt of afgebroken. Er is niets afgeschreven.",
+    "refunded": "Deze betaling is terugbetaald. Daarom geeft hij geen toegang meer.",
+    "invalid": "Deze code klopt niet. Kopieer de hele link uit je mail.",
+    "missing": "Vul je e-mailadres in en vink het vakje aan.",
+    "error": "Er ging iets mis. Probeer het later opnieuw of mail {email}.",
+    "off": "Kopen is nog niet mogelijk. Thema 1 en de kennisbank kun je nu al gratis gebruiken.",
+    "done": "Gelukt! Je hebt toegang tot {date}.",
+    "doneLink": "Wil je ook op een ander apparaat oefenen? Open daar de link uit je mail.",
+    "already": "Je hebt al toegang, tot {date}.",
+    "start": "Naar de thema's",
+    "lockTitle": "Met toegang",
+    "lessonBody": "Deze les hoort bij de thema's met toegang. Voor €{price} oefen je een jaar lang alle thema's. Thema 1 is gratis.",
+    "themeBody": "Dit thema hoort bij de thema's met toegang. Voor €{price} oefen je een jaar lang alle thema's. Thema 1 is gratis.",
+    "cta": "Toegang voor €{price}",
+    "tryFree": "Probeer thema 1 gratis",
+    "tag": "Met toegang",
+    "bannerTitle": "Alle thema's voor €{price}",
+    "bannerBody": "Thema 1 is gratis. Voor de andere thema's betaal je één keer €{price} en oefen je een jaar lang."
+  },
+  "terms": {
+    "title": "Voorwaarden",
+    "description": "De voorwaarden voor toegang tot alle thema's: wat je koopt, levering, bedenktijd, geld terug en wie wij zijn.",
+    "missing": "De gegevens van het bedrijf volgen.",
+    "sections": [
+      {
+        "h": "Wie wij zijn",
+        "p": [
+          "{site} (nederlands.app) is een dienst van {company}, {address}. KvK-nummer {kvk}, btw-id {vat}. E-mail: {email}."
+        ]
+      },
+      {
+        "h": "Wat je koopt",
+        "p": [
+          "Voor €{price} (inclusief {vatRate}% btw) krijg je {days} dagen toegang tot alle thema's van de site, vanaf het moment dat je betaalt. Het is een eenmalige betaling, geen abonnement: na {days} dagen stopt de toegang vanzelf.",
+          "Thema 1 en de kennisbank zijn altijd gratis."
+        ]
+      },
+      {
+        "h": "Levering",
+        "p": [
+          "Na je betaling heb je meteen toegang op het apparaat waarmee je betaalt. Je krijgt ook een e-mail met een link; met die link krijg je toegang op je andere apparaten.",
+          "Je toegang wordt in je browser bewaard. Wis je je browsergegevens, open dan de link uit je mail opnieuw."
+        ]
+      },
+      {
+        "h": "Bedenktijd en geld terug",
+        "p": [
+          "Je vraagt om directe toegang. Daardoor vervalt je wettelijke bedenktijd van 14 dagen zodra je toegang hebt (artikel 6:230p Burgerlijk Wetboek).",
+          "Toch geven we je je geld terug als je binnen 14 dagen na je aankoop mailt naar {email}. Je toegang stopt dan."
+        ]
+      },
+      {
+        "h": "Over de inhoud",
+        "p": [
+          "De lessen zijn concepten die nog door een bevoegde docent worden nagekeken. We doen ons best om alles juist en actueel te houden, maar we geven geen garantie dat je slaagt voor het examen.",
+          "De site is niet verbonden aan DUO of de overheid en gebruikt geen echte examenvragen."
+        ]
+      },
+      {
+        "h": "Betalen",
+        "p": [
+          "Betalen gaat via Mollie. Wij zien geen bankgegevens of creditcardnummers; we krijgen alleen te horen of en wanneer je hebt betaald."
+        ]
+      },
+      {
+        "h": "Vragen en klachten",
+        "p": [
+          "Mail naar {email}. We antwoorden binnen vijf werkdagen."
+        ]
+      },
+      {
+        "h": "Recht",
+        "p": [
+          "Op deze voorwaarden en je aankoop is Nederlands recht van toepassing."
+        ]
+      }
+    ]
   }
 }

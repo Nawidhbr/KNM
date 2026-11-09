@@ -32,7 +32,8 @@
   },
   "footer": {
     "draft": "This site is in development. All lessons and pages are drafts still to be reviewed by a qualified teacher. The site is not affiliated with DUO or the government.",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "search": {
     "placeholder": "Search a topic, lesson or word",
@@ -202,6 +203,10 @@
       "On the live site we count visits without cookies (Vercel Web Analytics). Nothing is kept that could identify you.",
       "If a script on a page goes wrong, a short error report is sent to our server: the page, the message, the site version and your browser's name. Nothing about you.",
       "If you use the contact form, your message is emailed to us. It is not stored on the site."
+    ],
+    "payments": [
+      "If you buy access, you pay through Mollie. Mollie processes your payment; we only see whether and when you paid, and the email address you give. We use it only to send your access link and the confirmation of your purchase (through Resend). We keep no customer database of our own: the payment stays at Mollie, where we keep it for seven years for tax purposes.",
+      "Your access (a code and the end date) is kept only in your own browser (localStorage)."
     ]
   },
   "contact": {
@@ -274,5 +279,109 @@
       "title": "Civic integration and the KNM exam: what is changing?",
       "description": "Changes in civic integration and the KNM exam, briefly explained, each with its official source."
     }
+  },
+  "buy": {
+    "title": "Access to every theme",
+    "description": "Practise every theme of the KNM exam for €{price}, for a whole year. One payment, no subscription.",
+    "lead": "Theme 1 and the knowledge base are free. For €{price} you practise every other theme for a year, with lessons, tests and review.",
+    "points": [
+      "Every theme of the KNM exam, with short lessons and practice questions",
+      "Review with a practice test of everything you have passed",
+      "A year of access, also on your phone or another computer",
+      "One payment, no subscription"
+    ],
+    "priceLine": "One payment, VAT included",
+    "email": "Your email address",
+    "emailHint": "We send your access link here.",
+    "consent": "I accept the terms and want access straight away. With that, my 14-day right of withdrawal lapses.",
+    "termsLink": "Read the terms",
+    "pay": "Pay: €{price}",
+    "payNote": "You pay safely through Mollie, with iDEAL, a card or another method.",
+    "guarantee": "Not happy? Mail us within 14 days and you get your money back.",
+    "haveCode": "Already paid?",
+    "haveCodeBody": "Open the link from your mail on this device, or paste it here.",
+    "codeLabel": "Access link or code",
+    "redeem": "Unlock",
+    "checking": "Checking…",
+    "redirecting": "Taking you to the payment page…",
+    "pending": "Your payment has not come in yet. We will look again in a few seconds.",
+    "pendingLong": "Your payment has not come in yet. Open the link from your mail later, or mail {email}.",
+    "failed": "This payment did not go through or was cancelled. Nothing was charged.",
+    "refunded": "This payment was refunded, so it no longer gives access.",
+    "invalid": "This code is not right. Copy the whole link from your mail.",
+    "missing": "Fill in your email address and tick the box.",
+    "error": "Something went wrong. Try again later or mail {email}.",
+    "off": "Buying is not possible yet. You can already use theme 1 and the knowledge base for free.",
+    "done": "Done! You have access until {date}.",
+    "doneLink": "Want to practise on another device too? Open the link from your mail there.",
+    "already": "You already have access, until {date}.",
+    "start": "To the themes",
+    "lockTitle": "With access",
+    "lessonBody": "This lesson belongs to the themes with access. For €{price} you practise every theme for a year. Theme 1 is free.",
+    "themeBody": "This theme belongs to the themes with access. For €{price} you practise every theme for a year. Theme 1 is free.",
+    "cta": "Access for €{price}",
+    "tryFree": "Try theme 1 for free",
+    "tag": "With access",
+    "bannerTitle": "Every theme for €{price}",
+    "bannerBody": "Theme 1 is free. For the other themes you pay €{price} once and practise for a year."
+  },
+  "terms": {
+    "title": "Terms",
+    "description": "The terms for access to every theme: what you buy, delivery, withdrawal, refunds and who we are.",
+    "missing": "The company details will follow.",
+    "sections": [
+      {
+        "h": "Who we are",
+        "p": [
+          "{site} (nederlands.app) is a service of {company}, {address}. Chamber of Commerce (KvK) number {kvk}, VAT number {vat}. Email: {email}."
+        ]
+      },
+      {
+        "h": "What you buy",
+        "p": [
+          "For €{price} (including {vatRate}% VAT) you get {days} days of access to every theme of the site, from the moment you pay. It is one payment, not a subscription: after {days} days the access simply ends.",
+          "Theme 1 and the knowledge base are always free."
+        ]
+      },
+      {
+        "h": "Delivery",
+        "p": [
+          "After paying you have access straight away on the device you paid with. You also get an email with a link; that link gives you access on your other devices.",
+          "Your access is kept in your browser. If you clear your browser data, open the link from your mail again."
+        ]
+      },
+      {
+        "h": "Withdrawal and refunds",
+        "p": [
+          "You ask for access straight away. With that, your statutory 14-day right of withdrawal lapses once you have access (article 6:230p of the Dutch Civil Code).",
+          "Even so, we refund you if you mail {email} within 14 days of buying. Your access then ends."
+        ]
+      },
+      {
+        "h": "About the content",
+        "p": [
+          "The lessons are drafts still to be reviewed by a qualified teacher. We do our best to keep everything correct and up to date, but we do not guarantee that you pass the exam.",
+          "The site is not affiliated with DUO or the government and uses no real exam questions."
+        ]
+      },
+      {
+        "h": "Paying",
+        "p": [
+          "Payments go through Mollie. We see no bank details or card numbers; we only learn whether and when you paid."
+        ]
+      },
+      {
+        "h": "Questions and complaints",
+        "p": [
+          "Mail {email}. We answer within five working days."
+        ]
+      },
+      {
+        "h": "Law",
+        "p": [
+          "These terms and your purchase are governed by Dutch law."
+        ]
+      }
+    ]
   }
 }

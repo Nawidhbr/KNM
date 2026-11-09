@@ -17,6 +17,14 @@ export function stars(x) {
   return x >= 9 ? 3 : x >= 7 ? 2 : x >= 4 ? 1 : 0;
 }
 
+/**
+ * Paid access (see config/offer.js): `access` is what the buy page stored ({ code, until } with until a time in ms);
+ * it counts while `until` lies after `now`.
+ */
+export function hasAccess(access, now) {
+  return Boolean(access && typeof access.code === "string" && access.code && Number.isFinite(access.until) && access.until > now);
+}
+
 export function progress(data, scores, visited) {
   const { path, tracks } = data;
   // Passed: two stars on its test, or, for a step without a test, seen.

@@ -1,4 +1,5 @@
 ---
+import { selling } from "../../lib/offer";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE } from "../../config/site";
 import { fmt, localePaths, t } from "../../i18n";
@@ -13,4 +14,5 @@ const P = ui.privacy;
   <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {P.title}</p>
   <h1>{P.title}</h1>
   {(P.body as string[]).map((p) => <p>{p}</p>)}
+  {selling() && (P.payments as string[]).map((p) => <p>{p}</p>)}
 </BaseLayout>
