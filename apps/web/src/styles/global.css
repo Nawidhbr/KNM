@@ -396,6 +396,7 @@ html { overflow-x: clip; }
   display: inline; padding: 0; margin: 0; border: 0; background: none; font: inherit; color: inherit; cursor: pointer; text-align: inherit;
   text-decoration: underline dotted; text-decoration-color: var(--muted); text-decoration-thickness: 1.5px; text-underline-offset: 0.22em;
 }
+.gloss-nb { white-space: nowrap; }
 .gloss:hover, .gloss[aria-expanded="true"] { color: var(--primary-ink); text-decoration-color: var(--primary-ink); }
 .gloss:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 3px; }
 .gloss-pop {

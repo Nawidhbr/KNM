@@ -1,0 +1,68 @@
+{
+  "slug": "4-en-5-mei",
+  "theme": "geschiedenis-en-geografie",
+  "title": {
+    "nl": "De Tweede Wereldoorlog en 4 en 5 mei",
+    "en": "The Second World War and 4 and 5 May"
+  },
+  "summary": {
+    "nl": "Van 1940 tot 1945 was Nederland bezet. Op 4 mei herdenken we de slachtoffers, op 5 mei vieren we de vrijheid.",
+    "en": "From 1940 to 1945 the Netherlands was occupied. On 4 May we remember the victims, on 5 May we celebrate freedom."
+  },
+  "eindtermen": [
+    "5.1.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "De bezetting",
+        "en": "The occupation"
+      },
+      "paragraphs": {
+        "nl": [
+          "Op 10 mei 1940 viel Duitsland Nederland binnen. Meer dan honderdduizend Joodse Nederlanders werden vermoord. Anne Frank is het bekendste slachtoffer uit Nederland. Op 5 mei 1945 was Nederland bevrijd."
+        ],
+        "en": [
+          "On 10 May 1940 Germany invaded the Netherlands. More than one hundred thousand Jewish Dutch people were murdered. Anne Frank is the best-known victim from the Netherlands. On 5 May 1945 the Netherlands was liberated."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Herdenken en vieren",
+        "en": "Remembering and celebrating"
+      },
+      "paragraphs": {
+        "nl": [
+          "Op 4 mei herdenken we alle oorlogsslachtoffers; om acht uur 's avonds is het twee minuten stil. Op 5 mei, Bevrijdingsdag, vieren we dat we in vrijheid leven."
+        ],
+        "en": [
+          "On 4 May we remember all war victims; at eight in the evening there are two minutes of silence. On 5 May, Liberation Day, we celebrate living in freedom."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Canon van Nederland: de Tweede Wereldoorlog",
+      "url": "https://www.canonvannederland.nl/nl/tweedewereldoorlog"
+    },
+    {
+      "title": "Canon van Nederland: Anne Frank",
+      "url": "https://www.canonvannederland.nl/nl/annefrank"
+    },
+    {
+      "title": "Nationaal Comité 4 en 5 mei",
+      "url": "https://www.4en5mei.nl/"
+    },
+    {
+      "title": "Nationaal Comité 4 en 5 mei: veelgestelde vragen",
+      "url": "https://www.4en5mei.nl/faq"
+    }
+  ],
+  "checked": "2026-11-14"
+}

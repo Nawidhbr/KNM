@@ -1,0 +1,60 @@
+{
+  "slug": "openbaar-vervoer",
+  "theme": "geschiedenis-en-geografie",
+  "title": {
+    "nl": "Reizen met het openbaar vervoer",
+    "en": "Travelling by public transport"
+  },
+  "summary": {
+    "nl": "Plan je reis, check in en check uit: zo reis je met de trein, bus, tram en metro.",
+    "en": "Plan your journey, check in and check out: that is how you travel by train, bus, tram and metro."
+  },
+  "eindtermen": [
+    "5.2.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Je reis plannen",
+        "en": "Planning your journey"
+      },
+      "paragraphs": {
+        "nl": [
+          "Met een reisplanner, zoals 9292 of de app van de vervoerder, zie je hoe laat je vertrekt, waar je overstapt en wat de reis kost."
+        ],
+        "en": [
+          "With a journey planner, such as 9292 or the transport company's app, you see when you leave, where you change and what the journey costs."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "In- en uitchecken",
+        "en": "Checking in and out"
+      },
+      "paragraphs": {
+        "nl": [
+          "Je checkt in aan het begin en uit aan het eind van je reis, met je betaalpas, creditcard, telefoon of een OV-pas. Met een betaalpas wordt het geld van je rit van je rekening afgeschreven. Reis je vaak, dan kan een abonnement voordeliger zijn."
+        ],
+        "en": [
+          "You check in at the start and out at the end of your journey, with your bank card, credit card, phone or an OV-pas. With a bank card the money for your trip is taken from your account. If you travel often, a subscription can be cheaper."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Connexxion: OVpay, in- en uitchecken met je betaalpas",
+      "url": "https://www.connexxion.nl/nl/reisinformatie/in-en-uitchecken/ovpay-het-nieuwe-in-en-uitchecken-met-je-betaalpas"
+    },
+    {
+      "title": "9292: reisinformatie openbaar vervoer",
+      "url": "https://9292.nl/"
+    }
+  ],
+  "checked": "2026-11-14"
+}

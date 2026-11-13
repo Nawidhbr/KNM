@@ -1,0 +1,79 @@
+{
+  "slug": "huren-rechten-en-plichten",
+  "theme": "wonen",
+  "title": {
+    "nl": "Huren: je rechten en plichten",
+    "en": "Renting: your rights and duties"
+  },
+  "summary": {
+    "nl": "Wat staat er in een huurcontract, wie betaalt welk onderhoud en waar ga je heen als je het niet eens bent met je verhuurder?",
+    "en": "What is in a rental contract, who pays for which maintenance and where do you go if you disagree with your landlord?"
+  },
+  "eindtermen": [
+    "3.1.1",
+    "3.1.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Het huurcontract",
+        "en": "The rental contract"
+      },
+      "paragraphs": {
+        "nl": [
+          "In het huurcontract staan de afspraken tussen jou en de verhuurder, zoals de huur, de borg en de begindatum. De verhuurder moet het contract op papier zetten. Lees het goed voordat je tekent."
+        ],
+        "en": [
+          "The rental contract contains the agreements between you and the landlord, such as the rent, the deposit and the start date. The landlord must put the contract in writing. Read it carefully before you sign."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Onderhoud",
+        "en": "Maintenance"
+      },
+      "paragraphs": {
+        "nl": [
+          "Kleine reparaties doe je zelf, zoals een leertje in de kraan of een nieuwe wc-bril. Groot onderhoud is voor de verhuurder, zoals een nieuwe cv-ketel of buitenschilderwerk."
+        ],
+        "en": [
+          "You do small repairs yourself, such as a washer in the tap or a new toilet seat. Major maintenance is for the landlord, such as a new boiler or outside painting."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Als je het niet eens bent",
+        "en": "If you disagree"
+      },
+      "paragraphs": {
+        "nl": [
+          "Tegen een huurverhoging kun je bezwaar maken bij je verhuurder. Kom je er samen niet uit over de huur of het onderhoud? Dan kun je in de meeste gevallen naar de Huurcommissie. Advies krijg je ook bij de gemeente of het Juridisch Loket."
+        ],
+        "en": [
+          "You can object to a rent increase with your landlord. Can't agree about the rent or maintenance? Then in most cases you can go to the Rent Tribunal (Huurcommissie). You can also get advice from the municipality or the Juridisch Loket."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: welke rechten en plichten heb ik als huurder?",
+      "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-rechten-en-plichten-heb-ik-als-huurder"
+    },
+    {
+      "title": "Rijksoverheid: welke kosten zijn voor de huurder en welke voor de verhuurder?",
+      "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-kosten-zijn-voor-de-huurder-en-welke-voor-de-verhuurder"
+    },
+    {
+      "title": "Rijksoverheid: wanneer kan ik terecht bij de Huurcommissie?",
+      "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/wanneer-kan-ik-terecht-bij-de-huurcommissie-en-wanneer-bij-de-kantonrechter"
+    }
+  ],
+  "checked": "2026-11-14"
+}

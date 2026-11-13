@@ -1,0 +1,1118 @@
+{
+  "id": "onderwijs-en-opvoeding",
+  "n": 8,
+  "title": {
+    "nl": "Onderwijs en opvoeding",
+    "en": "Education and parenting"
+  },
+  "lead": {
+    "nl": "Het schoolsysteem, de leerplicht, opvang, ouders en school, hulp bij opvoeden en schoolkosten.",
+    "en": "The school system, compulsory education, childcare, parents and school, parenting support and school costs."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "8.1"
+      ],
+      "title": {
+        "nl": "Het Nederlandse schoolsysteem",
+        "en": "The Dutch school system"
+      },
+      "situation": {
+        "nl": "Mustafa heeft een dochter van 3 en een zoon van 11. Hij wil weten welke scholen er zijn en hoe zijn zoon naar de middelbare school gaat.",
+        "en": "Mustafa has a daughter of 3 and a son of 11. He wants to know which schools there are and how his son moves on to secondary school."
+      },
+      "body": {
+        "nl": [
+          "Kinderen jonger dan 4 jaar kunnen naar de kinderopvang. Heeft een peuter moeite met taal? Dan kan hij voorschoolse educatie krijgen. Daar hoor je meestal over via het consultatiebureau.",
+          "De meeste kinderen gaan naar de basisschool als ze 4 jaar zijn. De basisschool heeft 8 groepen. In groep 8 krijgt je kind een schooladvies. Met dat advies meld je je kind aan bij de middelbare school.",
+          "In het voortgezet onderwijs zijn er verschillende schoolsoorten: praktijkonderwijs, vmbo, havo en vwo. Daarna kunnen jongeren verder leren, bijvoorbeeld op het mbo, het hbo of de universiteit. Voor een vervolgopleiding kunnen toelatingseisen gelden.",
+          "Heeft een kind specialistische ondersteuning nodig die een gewone school niet kan bieden? Dan is er speciaal onderwijs, bijvoorbeeld voor kinderen die blind of doof zijn of een verstandelijke beperking hebben."
+        ],
+        "en": [
+          "Children under 4 can go to childcare. Does a toddler have difficulty with language? Then he can get pre-school education. You usually hear about it through the child health clinic.",
+          "Most children start primary school at 4. Primary school has 8 groups (years). In group 8 your child gets a school recommendation. With that recommendation you register your child at a secondary school.",
+          "In secondary education there are different types of school: practical training (praktijkonderwijs), vmbo, havo and vwo. After that young people can continue learning, for example at mbo, hbo or university. Further education can have admission requirements.",
+          "Does a child need specialist support that an ordinary school cannot provide? Then there is special education, for example for children who are blind or deaf or have an intellectual disability."
+        ]
+      },
+      "remember": {
+        "nl": "Na de basisschool (8 groepen) krijgt je kind een schooladvies voor praktijkonderwijs, vmbo, havo of vwo. Voor kinderen die extra ondersteuning nodig hebben is er speciaal onderwijs.",
+        "en": "After primary school (8 groups) your child gets a recommendation for praktijkonderwijs, vmbo, havo or vwo. For children who need extra support there is special education."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: krijgt mijn peuter of kleuter voorschoolse of vroegschoolse educatie?",
+          "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/voorschoolse-en-vroegschoolse-educatie/wat-is-voorschoolse-en-vroegschoolse-educatie-vve"
+        },
+        {
+          "title": "Rijksoverheid: schooladvies en toelating voortgezet onderwijs",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/schooladvies-en-doorstroomtoets-basisschool/toelating-voortgezet-onderwijs-gebaseerd-op-definitief-schooladvies"
+        },
+        {
+          "title": "Rijksoverheid: welke soort scholen voor het voortgezet onderwijs zijn er?",
+          "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/voortgezet-onderwijs/soorten-scholen-voortgezet-onderwijs"
+        },
+        {
+          "title": "Rijksoverheid: (voortgezet) speciaal onderwijs",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/passend-onderwijs/speciaal-onderwijs"
+        },
+        {
+          "title": "Rijksoverheid: leerplicht en kwalificatieplicht",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/leerplicht/leerplicht-en-kwalificatieplicht"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-1-1",
+          "eindterm": "8.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Mustafa's dochter van 3 heeft moeite met de Nederlandse taal. Wat kan haar helpen?",
+            "en": "Mustafa's daughter of 3 has difficulty with Dutch. What can help her?"
+          },
+          "options": {
+            "nl": [
+              "Voorschoolse educatie.",
+              "Het vwo.",
+              "Studiefinanciering."
+            ],
+            "en": [
+              "Pre-school education.",
+              "Vwo.",
+              "Student finance."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Voorschoolse educatie is voor peuters van 2,5 tot 4 jaar met een mogelijke (taal)achterstand.",
+            "en": "Pre-school education is for toddlers aged 2.5 to 4 with a possible (language) delay."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-1-2",
+          "eindterm": "8.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer krijgt een leerling het schooladvies voor de middelbare school?",
+            "en": "When does a pupil get the recommendation for secondary school?"
+          },
+          "options": {
+            "nl": [
+              "In groep 1.",
+              "In groep 8.",
+              "Na het eindexamen."
+            ],
+            "en": [
+              "In group 1.",
+              "In group 8.",
+              "After the final exams."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Leerlingen krijgen in groep 8 van de basisschool een schooladvies. Dit hebben ze nodig voor de toelating tot de middelbare school.",
+            "en": "Pupils get a school recommendation in group 8 of primary school. They need it for admission to secondary school."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-1-3",
+          "eindterm": "8.1.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Welke schoolsoorten zijn er in het voortgezet onderwijs?",
+            "en": "Which types of school are there in secondary education?"
+          },
+          "options": {
+            "nl": [
+              "Alleen het gymnasium.",
+              "Kleuterschool en peuterspeelzaal.",
+              "Praktijkonderwijs, vmbo, havo en vwo."
+            ],
+            "en": [
+              "Only the gymnasium.",
+              "Kindergarten and playgroup.",
+              "Practical training, vmbo, havo and vwo."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "In het voortgezet onderwijs zijn er verschillende schoolsoorten: praktijkonderwijs, vmbo, havo en vwo.",
+            "en": "In secondary education there are different school types: praktijkonderwijs, vmbo, havo and vwo."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-1-4",
+          "eindterm": "8.1.1",
+          "source": 4,
+          "prompt": {
+            "nl": "Een kind is doof en heeft speciale ondersteuning nodig die een gewone school niet kan geven. Wat is er dan?",
+            "en": "A child is deaf and needs special support an ordinary school cannot give. What is available?"
+          },
+          "options": {
+            "nl": [
+              "Niets; het kind blijft thuis.",
+              "Speciaal onderwijs.",
+              "Alleen bijles."
+            ],
+            "en": [
+              "Nothing; the child stays at home.",
+              "Special education.",
+              "Only tutoring."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Het (voortgezet) speciaal onderwijs is er voor leerlingen die specialistische ondersteuning nodig hebben, bijvoorbeeld dove of slechthorende leerlingen.",
+            "en": "(Secondary) special education is for pupils who need specialist support, for example deaf or hard-of-hearing pupils."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-1-5",
+          "eindterm": "8.1.1",
+          "source": 5,
+          "prompt": {
+            "nl": "Op welke leeftijd gaan de meeste kinderen naar de basisschool?",
+            "en": "At what age do most children start primary school?"
+          },
+          "options": {
+            "nl": [
+              "Op 4 jaar.",
+              "Op 7 jaar.",
+              "Op 12 jaar."
+            ],
+            "en": [
+              "At 4.",
+              "At 7.",
+              "At 12."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De meeste kinderen gaan al naar school als ze 4 jaar zijn. De leerplicht begint pas als ze 5 zijn.",
+            "en": "Most children already go to school at 4. Compulsory education only starts when they are 5."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "8.1"
+      ],
+      "title": {
+        "nl": "Schoolkeuze en leerplicht",
+        "en": "Choosing a school and compulsory education"
+      },
+      "situation": {
+        "nl": "Familie Bakri wil in mei drie weken naar familie in het buitenland. Hun kinderen van 7 en 15 gaan naar school.",
+        "en": "The Bakri family want to visit relatives abroad for three weeks in May. Their children aged 7 and 15 go to school."
+      },
+      "body": {
+        "nl": [
+          "In Nederland bestaat vrijheid van onderwijs. Er zijn openbare scholen: die staan open voor iedereen en geven geen les vanuit een godsdienst. Er zijn ook bijzondere scholen: die geven les vanuit een godsdienst, levensovertuiging of een visie op onderwijs, zoals een christelijke, islamitische of montessorischool. De overheid betaalt voor beide soorten.",
+          "Kinderen van 5 tot 16 jaar zijn leerplichtig: ze moeten naar school. Ouders moeten hun kind inschrijven op een school en zorgen dat het ook echt gaat. Houden ouders hun leerplichtige kind thuis, dan zijn ze strafbaar.",
+          "Jongeren van 16 en 17 zonder startkwalificatie zijn kwalificatieplichtig. Een startkwalificatie is minimaal een diploma havo, vwo of mbo niveau 2. Tot ze die hebben, moeten ze naar school.",
+          "De vakanties die de school vaststelt, gelden voor iedereen. Je mag een leerplichtig kind niet meenemen op vakantie buiten de schoolvakanties; dan kun je een boete krijgen. Alleen als je door je werk in geen enkele schoolvakantie weg kunt, kun je de directeur toestemming vragen."
+        ],
+        "en": [
+          "There is freedom of education in the Netherlands. There are public schools: open to everyone and not teaching from a religion. There are also private (bijzondere) schools: they teach from a religion, belief or view on education, such as a Christian, Islamic or Montessori school. The government pays for both kinds.",
+          "Children aged 5 to 16 are of compulsory school age: they must go to school. Parents must register their child at a school and make sure the child really goes. Parents who keep a child of compulsory school age at home are committing an offence.",
+          "Young people of 16 and 17 without a basic qualification (startkwalificatie) must stay in education. A basic qualification is at least a havo, vwo or mbo level 2 diploma. Until they have one, they must go to school.",
+          "The holidays set by the school apply to everyone. You may not take a child of compulsory school age on holiday outside the school holidays; you can be fined if you do. Only if your job means you cannot go away in any school holiday can you ask the head teacher for permission."
+        ]
+      },
+      "remember": {
+        "nl": "Kinderen van 5 tot 16 jaar zijn leerplichtig, van 16 tot 18 kwalificatieplichtig. Op vakantie ga je in de schoolvakanties.",
+        "en": "Children aged 5 to 16 must attend school; from 16 to 18 they must work towards a qualification. You go on holiday during the school holidays."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: openbaar en bijzonder onderwijs",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/vrijheid-van-onderwijs/openbaar-en-bijzonder-onderwijs"
+        },
+        {
+          "title": "Rijksoverheid: leerplicht en kwalificatieplicht",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/leerplicht/leerplicht-en-kwalificatieplicht"
+        },
+        {
+          "title": "Rijksoverheid: mag ik mijn kind meenemen op vakantie buiten de schoolvakantie?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/leerplicht/leerplicht-schoolvakanties"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-2-1",
+          "eindterm": "8.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is een bijzondere school?",
+            "en": "What is a 'bijzondere' (private) school?"
+          },
+          "options": {
+            "nl": [
+              "Een school die alleen voor rijke kinderen is.",
+              "Een school die lesgeeft vanuit een godsdienst, levensovertuiging of onderwijsvisie.",
+              "Een school zonder leraren."
+            ],
+            "en": [
+              "A school only for rich children.",
+              "A school that teaches from a religion, belief or educational vision.",
+              "A school without teachers."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Bijzondere scholen geven les vanuit een godsdienst, levensovertuiging of een visie op het onderwijs.",
+            "en": "Bijzondere schools teach from a religion, belief or a vision on education."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-2-2",
+          "eindterm": "8.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wie betaalt voor openbare én bijzondere scholen?",
+            "en": "Who pays for both public and bijzondere schools?"
+          },
+          "options": {
+            "nl": [
+              "De overheid.",
+              "Alleen de ouders.",
+              "De kerk of moskee."
+            ],
+            "en": [
+              "The government.",
+              "Only the parents.",
+              "The church or mosque."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De overheid betaalt voor beide soorten onderwijs, als de scholen aan de voorwaarden voldoen.",
+            "en": "The government pays for both kinds of education, as long as the schools meet the conditions."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-2-3",
+          "eindterm": "8.1.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Van welke leeftijd tot welke leeftijd zijn kinderen leerplichtig?",
+            "en": "From what age to what age is school compulsory?"
+          },
+          "options": {
+            "nl": [
+              "Van 2 tot 10 jaar.",
+              "Van 5 tot 16 jaar.",
+              "Van 12 tot 21 jaar."
+            ],
+            "en": [
+              "From 2 to 10.",
+              "From 5 to 16.",
+              "From 12 to 21."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Alle kinderen tussen 5 en 16 jaar die in Nederland wonen zijn leerplichtig, ook kinderen met een andere nationaliteit.",
+            "en": "All children aged 5 to 16 living in the Netherlands must attend school, including children of other nationalities."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-2-4",
+          "eindterm": "8.1.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Een jongen van 16 heeft nog geen diploma havo, vwo of mbo 2. Mag hij stoppen met school en fulltime gaan werken?",
+            "en": "A 16-year-old boy doesn't yet have a havo, vwo or mbo 2 diploma. May he leave school and work full-time?"
+          },
+          "options": {
+            "nl": [
+              "Ja, vanaf 16 mag dat altijd.",
+              "Ja, als zijn ouders het goedvinden.",
+              "Nee, hij is kwalificatieplichtig tot hij een startkwalificatie heeft of 18 wordt."
+            ],
+            "en": [
+              "Yes, from 16 that is always allowed.",
+              "Yes, if his parents agree.",
+              "No, he must stay in education until he has a basic qualification or turns 18."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Jongeren tussen 16 en 18 zonder startkwalificatie zijn kwalificatieplichtig. Ze mogen niet voltijd werken.",
+            "en": "Young people aged 16 to 18 without a basic qualification must stay in education. They may not work full-time."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-2-5",
+          "eindterm": "8.1.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Familie Bakri wil met hun leerplichtige kinderen in mei, buiten de schoolvakantie, drie weken op vakantie. Mag dat?",
+            "en": "The Bakri family want to go on holiday for three weeks in May, outside the school holidays, with their school-age children. Is that allowed?"
+          },
+          "options": {
+            "nl": [
+              "Ja, als ze de school een kaart sturen.",
+              "Ja, drie weken mag altijd.",
+              "Nee, dat mag niet; ze kunnen een boete krijgen."
+            ],
+            "en": [
+              "Yes, if they send the school a postcard.",
+              "Yes, three weeks is always allowed.",
+              "No, it is not allowed; they can be fined."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Je mag een leerplichtig kind niet meenemen op vakantie buiten de schoolvakanties. Je kunt een boete krijgen. Alleen bij uitzondering door je werk geeft de directeur maximaal 10 dagen vrij.",
+            "en": "You may not take a child of compulsory school age on holiday outside the school holidays. You can be fined. Only exceptionally, because of your job, can the head give up to 10 days off."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "8.1"
+      ],
+      "title": {
+        "nl": "Kinderopvang en seksuele vorming op school",
+        "en": "Childcare and sex education at school"
+      },
+      "situation": {
+        "nl": "Joyce gaat weer werken. Haar zoon van 2 moet naar de opvang en haar dochter van 6 moet na school opgevangen worden.",
+        "en": "Joyce is going back to work. Her son of 2 needs childcare and her daughter of 6 needs care after school."
+      },
+      "body": {
+        "nl": [
+          "Er is kinderopvang voor kinderen die nog niet naar school gaan, en buitenschoolse opvang (bso) voor schoolkinderen voor en na schooltijd en in de vakanties.",
+          "Kinderopvang kost geld. Werk je, studeer je of volg je verplicht inburgering? En gaat je kind naar een geregistreerde kinderopvang? Dan kun je kinderopvangtoeslag krijgen, een bijdrage in de kosten.",
+          "Voorschoolse educatie (vve) is voor peuters van 2,5 tot 4 jaar met een mogelijke (taal)achterstand. De gemeente bepaalt welke kinderen dat krijgen. Informatie krijg je via het consultatiebureau en de website van je gemeente.",
+          "Scholen in het basis- en voortgezet onderwijs zijn verplicht om les te geven over relaties, seksualiteit en seksuele diversiteit. Kinderen leren bijvoorbeeld over vriendschap, grenzen aangeven en respectvol omgaan met mensen die anders zijn. De lessen passen bij de leeftijd. De Inspectie van het Onderwijs controleert dit."
+        ],
+        "en": [
+          "There is childcare for children who don't go to school yet, and out-of-school care (bso) for schoolchildren before and after school and in the holidays.",
+          "Childcare costs money. Do you work, study or follow compulsory civic integration? And does your child go to registered childcare? Then you can get childcare allowance, a contribution to the costs.",
+          "Pre-school education (vve) is for toddlers aged 2.5 to 4 with a possible (language) delay. The municipality decides which children get it. You get information through the child health clinic and your municipality's website.",
+          "Primary and secondary schools are obliged to teach about relationships, sexuality and sexual diversity. Children learn, for example, about friendship, setting boundaries and treating people who are different with respect. The lessons suit the children's age. The Education Inspectorate checks this."
+        ]
+      },
+      "remember": {
+        "nl": "Voor opvang kun je kinderopvangtoeslag krijgen; voor vve hoor je meer bij het consultatiebureau en de gemeente. Seksuele vorming is een verplicht onderdeel van het onderwijs.",
+        "en": "For childcare you can get childcare allowance; for vve ask the child health clinic and the municipality. Sex education is a compulsory part of education."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wanneer heb ik recht op kinderopvangtoeslag?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/kinderopvangtoeslag/wanneer-heb-ik-recht-op-kinderopvangtoeslag"
+        },
+        {
+          "title": "Rijksoverheid: krijgt mijn peuter of kleuter voorschoolse of vroegschoolse educatie?",
+          "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/voorschoolse-en-vroegschoolse-educatie/wat-is-voorschoolse-en-vroegschoolse-educatie-vve"
+        },
+        {
+          "title": "Rijksoverheid: veelgestelde vragen over relationele en seksuele vorming in het onderwijs",
+          "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/gezondheid-en-preventie/seksuele-gezondheid/relationele-en-seksuele-vorming/veelgestelde-vragen-over-relationele-en-seksuele-vorming"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-3-1",
+          "eindterm": "8.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Joyce's dochter van 6 moet na school opgevangen worden. Waar kan ze naartoe?",
+            "en": "Joyce's daughter of 6 needs care after school. Where can she go?"
+          },
+          "options": {
+            "nl": [
+              "Naar de buitenschoolse opvang (bso).",
+              "Naar het mbo.",
+              "Naar het consultatiebureau."
+            ],
+            "en": [
+              "To out-of-school care (bso).",
+              "To mbo.",
+              "To the child health clinic."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De buitenschoolse opvang (bso) is er voor schoolkinderen, voor en na schooltijd.",
+            "en": "Out-of-school care (bso) is for schoolchildren, before and after school."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-3-2",
+          "eindterm": "8.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Joyce werkt en haar zoon gaat naar een geregistreerde kinderopvang. Wat kan ze aanvragen?",
+            "en": "Joyce works and her son goes to registered childcare. What can she apply for?"
+          },
+          "options": {
+            "nl": [
+              "Kinderbijslag bij de school.",
+              "Een uitkering bij het UWV.",
+              "Kinderopvangtoeslag."
+            ],
+            "en": [
+              "Child benefit at the school.",
+              "A benefit from the UWV.",
+              "Childcare allowance."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Gaat je kind naar geregistreerde dagopvang of bso en werk je? Dan krijg je mogelijk kinderopvangtoeslag.",
+            "en": "Does your child go to registered day care or bso and do you work? Then you may get childcare allowance."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-3-3",
+          "eindterm": "8.1.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Waar hoor je meestal of je peuter voorschoolse educatie kan krijgen?",
+            "en": "Where do you usually hear whether your toddler can get pre-school education?"
+          },
+          "options": {
+            "nl": [
+              "Bij de Belastingdienst.",
+              "Bij het consultatiebureau.",
+              "Bij de politie."
+            ],
+            "en": [
+              "At the Tax Administration.",
+              "At the child health clinic.",
+              "At the police."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Het consultatiebureau laat je weten of je kind in aanmerking komt voor voorschoolse educatie. De gemeente bepaalt de voorwaarden.",
+            "en": "The child health clinic tells you whether your child qualifies for pre-school education. The municipality sets the conditions."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-3-4",
+          "eindterm": "8.1.5",
+          "source": 3,
+          "prompt": {
+            "nl": "Moeten scholen lesgeven over relaties en seksualiteit?",
+            "en": "Must schools teach about relationships and sexuality?"
+          },
+          "options": {
+            "nl": [
+              "Nee, dat is alleen voor de ouders.",
+              "Alleen op de universiteit.",
+              "Ja, basis- en middelbare scholen zijn daartoe verplicht."
+            ],
+            "en": [
+              "No, that is only for parents.",
+              "Only at university.",
+              "Yes, primary and secondary schools are obliged to."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Door de landelijke kerndoelen zijn scholen verplicht aandacht te besteden aan relationele en seksuele vorming.",
+            "en": "Because of the national attainment targets, schools are obliged to pay attention to relationships and sex education."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-3-5",
+          "eindterm": "8.1.5",
+          "source": 3,
+          "prompt": {
+            "nl": "Waarover gaan lessen over seksuele vorming bijvoorbeeld?",
+            "en": "What are sex education lessons about, for example?"
+          },
+          "options": {
+            "nl": [
+              "Over vriendschap, grenzen aangeven en respect voor mensen die anders zijn.",
+              "Over autorijden.",
+              "Over belasting betalen."
+            ],
+            "en": [
+              "Friendship, setting boundaries and respect for people who are different.",
+              "Driving a car.",
+              "Paying tax."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het gaat ook over vriendschap, verliefdheid, grenzen en wensen aangeven en kunnen omgaan met mensen die anders zijn dan jijzelf.",
+            "en": "It is also about friendship, falling in love, setting boundaries and wishes, and dealing with people who are different from you."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "8.2"
+      ],
+      "title": {
+        "nl": "Ouders, kinderen en school",
+        "en": "Parents, children and school"
+      },
+      "situation": {
+        "nl": "De zoon van Bilal (10) gooit met een bal een ruit bij de buren in. Een week later krijgt Bilal een uitnodiging voor een gesprek met de juf.",
+        "en": "Bilal's son (10) breaks the neighbours' window with a ball. A week later Bilal gets an invitation to a meeting with the teacher."
+      },
+      "body": {
+        "nl": [
+          "Ouders zijn verantwoordelijk voor het gedrag van hun kinderen. Maakt een kind jonger dan 14 jaar schade? Dan zijn de ouders aansprakelijk. Is het kind 14 of 15, dan is het zelf aansprakelijk, maar de ouders soms ook. Krijgt een kind onder de 16 een bekeuring, bijvoorbeeld in het verkeer? Dan betalen de ouders die. Een aansprakelijkheidsverzekering kan de schade betalen.",
+          "Scholen verwachten dat ouders betrokken zijn bij de ontwikkeling van hun kind. Er zijn gesprekken tussen leraren en ouders, bijvoorbeeld over de resultaten en het gedrag van je kind. Ga daar naartoe.",
+          "Een school mag van je verwachten dat je de school informeert over belangrijke dingen thuis, dat je thuis zorgt voor een rustige plek voor huiswerk en dat je goed samenwerkt met de school.",
+          "Ouders kunnen ook vrijwillig helpen op school, bijvoorbeeld bij een schoolreisje of als leesouder. Wil je meepraten over het schoolbeleid? Word dan lid van de ouderraad of de medezeggenschapsraad."
+        ],
+        "en": [
+          "Parents are responsible for their children's behaviour. Does a child under 14 cause damage? Then the parents are liable. If the child is 14 or 15, the child is liable, but sometimes the parents are too. Does a child under 16 get a fine, for example in traffic? Then the parents pay it. Liability insurance can pay for the damage.",
+          "Schools expect parents to be involved in their child's development. There are meetings between teachers and parents, for example about your child's results and behaviour. Go to them.",
+          "A school may expect you to inform the school about important things at home, to provide a quiet place at home for homework and to work well with the school.",
+          "Parents can also help at school voluntarily, for example on a school trip or as a reading parent. Want to have a say in school policy? Then join the parents' council or the participation council."
+        ]
+      },
+      "remember": {
+        "nl": "Ouders zijn aansprakelijk voor schade door kinderen onder de 14. Ga naar gesprekken met de leraar en werk samen met de school.",
+        "en": "Parents are liable for damage caused by children under 14. Go to meetings with the teacher and work together with the school."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: ben ik aansprakelijk voor de schulden van mijn minderjarige kinderen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/schulden-van-kinderen"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik als ouder bij de school betrokken zijn?",
+          "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/basisonderwijs/hoe-kan-ik-als-ouder-bij-de-school-betrokken-zijn"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-4-1",
+          "eindterm": "8.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "De zoon van Bilal is 10 en gooit per ongeluk een ruit in. Wie is aansprakelijk voor de schade?",
+            "en": "Bilal's son is 10 and accidentally breaks a window. Who is liable for the damage?"
+          },
+          "options": {
+            "nl": [
+              "Niemand.",
+              "De school.",
+              "Bilal, de ouder."
+            ],
+            "en": [
+              "Nobody.",
+              "The school.",
+              "Bilal, the parent."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Is je kind jonger dan 14 jaar? Dan ligt de aansprakelijkheid bij de ouders. Een aansprakelijkheidsverzekering kan de schade vaak betalen.",
+            "en": "Is your child under 14? Then the parents are liable. Liability insurance can often pay for the damage."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-4-2",
+          "eindterm": "8.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Een kind van 13 krijgt een bekeuring voor fietsen zonder licht. Wie betaalt die?",
+            "en": "A 13-year-old gets a fine for cycling without lights. Who pays it?"
+          },
+          "options": {
+            "nl": [
+              "De ouders.",
+              "De gemeente.",
+              "De fietsenwinkel."
+            ],
+            "en": [
+              "The parents.",
+              "The municipality.",
+              "The bike shop."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Is je kind jonger dan 16 en krijgt het een bekeuring, bijvoorbeeld voor een lichte verkeersovertreding? Dan moet de ouder die betalen.",
+            "en": "Is your child under 16 and gets a fine, for example for a minor traffic offence? Then the parent must pay it."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-4-3",
+          "eindterm": "8.2.2",
+          "source": 0,
+          "prompt": {
+            "nl": "De juf van Bilals zoon nodigt hem uit voor een gesprek. Wat wordt van Bilal verwacht?",
+            "en": "Bilal's son's teacher invites him to a meeting. What is expected of Bilal?"
+          },
+          "options": {
+            "nl": [
+              "Dat hij niet komt; school is de taak van de juf.",
+              "Dat hij komt en praat over de ontwikkeling van zijn zoon.",
+              "Dat hij een advocaat meeneemt."
+            ],
+            "en": [
+              "That he doesn't come; school is the teacher's job.",
+              "That he comes and talks about his son's development.",
+              "That he brings a lawyer."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Scholen verwachten betrokkenheid van ouders. Er zijn overlegmomenten tussen leraren en ouders over de ontwikkeling van het kind.",
+            "en": "Schools expect parents to be involved. There are meetings between teachers and parents about the child's development."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-4-4",
+          "eindterm": "8.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat mag een school van ouders verwachten?",
+            "en": "What may a school expect from parents?"
+          },
+          "options": {
+            "nl": [
+              "Dat ze het huiswerk maken voor hun kind.",
+              "Dat ze de school informeren over belangrijke dingen thuis.",
+              "Dat ze de leraar betalen."
+            ],
+            "en": [
+              "That they do their child's homework.",
+              "That they inform the school about important things at home.",
+              "That they pay the teacher."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Een school mag verwachten dat je de school informeert over belangrijke ontwikkelingen thuis en zorgt voor een rustige plek voor huiswerk.",
+            "en": "A school may expect you to inform it about important developments at home and to provide a quiet place for homework."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-4-5",
+          "eindterm": "8.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Hoe kunnen ouders vrijwillig helpen op de basisschool?",
+            "en": "How can parents help voluntarily at primary school?"
+          },
+          "options": {
+            "nl": [
+              "Door mee te gaan met een schoolreisje of leesouder te worden.",
+              "Door de cijfers te veranderen.",
+              "Door les te geven in plaats van de leraar."
+            ],
+            "en": [
+              "By going on a school trip or becoming a reading parent.",
+              "By changing the grades.",
+              "By teaching instead of the teacher."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op de basisschool kun je bijvoorbeeld meegaan met schoolreisjes of leesouder worden.",
+            "en": "At primary school you can, for example, go on school trips or become a reading parent."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "8.2"
+      ],
+      "title": {
+        "nl": "Hulp bij opvoeding",
+        "en": "Help with parenting"
+      },
+      "situation": {
+        "nl": "De dochter van Aisha (12) is thuis vaak boos, slaapt slecht en wil niet meer naar school. Aisha weet niet meer wat ze moet doen.",
+        "en": "Aisha's daughter (12) is often angry at home, sleeps badly and no longer wants to go to school. Aisha doesn't know what to do any more."
+      },
+      "body": {
+        "nl": [
+          "Opvoeden is niet altijd makkelijk. Heb je vragen of problemen met de opvoeding, thuis of op school? Dan zijn er veel plekken waar je terecht kunt: het Centrum voor Jeugd en Gezin (CJG), het sociaal wijkteam of jeugdteam van de gemeente, de huisarts en de school.",
+          "Het CJG helpt bij vragen over opvoeden en de ontwikkeling van je kind, bijvoorbeeld bij slaap- of eetproblemen of moeilijk gedrag. Het sociaal wijkteam kan tijdelijk helpen en ook zwaardere jeugdhulp regelen. Vraag je gemeente naar welk team je kunt gaan.",
+          "Is de ontwikkeling van een kind ernstig in gevaar, en helpt vrijwillige hulp niet? Dan kan de Raad voor de Kinderbescherming onderzoek doen. Alleen bij ernstige zorgen vraagt de Raad de kinderrechter om een maatregel. De kinderrechter beslist, bijvoorbeeld over een ondertoezichtstelling: dan krijgen ouders verplicht hulp bij de opvoeding."
+        ],
+        "en": [
+          "Parenting is not always easy. Do you have questions or problems with parenting, at home or at school? There are many places you can go: the Centre for Youth and Family (CJG), the municipality's social neighbourhood team or youth team, the GP and the school.",
+          "The CJG helps with questions about parenting and your child's development, for example sleeping or eating problems or difficult behaviour. The social neighbourhood team can help for a while and also arrange more intensive youth care. Ask your municipality which team you can go to.",
+          "Is a child's development seriously at risk, and does voluntary help not work? Then the Child Protection Board (Raad voor de Kinderbescherming) can investigate. Only when there are serious concerns does the Board ask the juvenile court for a measure. The juvenile judge decides, for example on a supervision order: the parents then get compulsory help with parenting."
+        ]
+      },
+      "remember": {
+        "nl": "Voor hulp bij opvoeden ga je naar het CJG, het wijkteam, de huisarts of de school. De kinderbescherming grijpt alleen in bij ernstige zorgen, via de rechter.",
+        "en": "For help with parenting go to the CJG, the neighbourhood team, the GP or the school. Child protection only intervenes in serious cases, through the court."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: waar vind ik hulp voor mijn kind van 4-18 jaar?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/jeugdhulp/hulp-vinden-voor-kind-4-18-jaar"
+        },
+        {
+          "title": "Rijksoverheid: maatregelen jeugdbescherming",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/jeugdbescherming/maatregelen-jeugdbescherming"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-5-1",
+          "eindterm": "8.2.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Aisha heeft vragen over het gedrag van haar dochter. Waar kan ze altijd terecht?",
+            "en": "Aisha has questions about her daughter's behaviour. Where can she always go?"
+          },
+          "options": {
+            "nl": [
+              "Bij het Centrum voor Jeugd en Gezin of het sociaal wijkteam.",
+              "Bij de Belastingdienst.",
+              "Bij de IND."
+            ],
+            "en": [
+              "At the Centre for Youth and Family or the social neighbourhood team.",
+              "At the Tax Administration.",
+              "At the IND."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bij het CJG en het sociaal wijkteam of jeugdteam kun je altijd terecht met vragen over opvoeding en gedrag.",
+            "en": "You can always go to the CJG and the social neighbourhood or youth team with questions about parenting and behaviour."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-5-2",
+          "eindterm": "8.2.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke van deze kan ouders ook helpen bij problemen met de opvoeding?",
+            "en": "Which of these can also help parents with parenting problems?"
+          },
+          "options": {
+            "nl": [
+              "De belastingadviseur.",
+              "De huisarts.",
+              "De makelaar."
+            ],
+            "en": [
+              "The tax adviser.",
+              "The GP.",
+              "The estate agent."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ouders kunnen hulp krijgen bij instanties als de gemeente, jeugdzorg, de huisarts en de school.",
+            "en": "Parents can get help from bodies such as the municipality, youth care, the GP and the school."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-5-3",
+          "eindterm": "8.2.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat kan het sociaal wijkteam doen?",
+            "en": "What can the social neighbourhood team do?"
+          },
+          "options": {
+            "nl": [
+              "Alleen boetes geven.",
+              "Je kind van school halen.",
+              "Tijdelijk helpen en zo nodig zwaardere hulp regelen."
+            ],
+            "en": [
+              "Only give fines.",
+              "Take your child out of school.",
+              "Help for a while and arrange more intensive help if needed."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Het sociaal wijkteam kan tijdelijke ondersteuning bieden en regelt ook zwaardere hulp.",
+            "en": "The social neighbourhood team can offer temporary support and also arranges more intensive help."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-5-4",
+          "eindterm": "8.2.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer grijpt de kinderbescherming in?",
+            "en": "When does child protection intervene?"
+          },
+          "options": {
+            "nl": [
+              "Als een kind een slecht rapport heeft.",
+              "Bij ernstige zorgen, als vrijwillige hulp niet werkt.",
+              "Altijd als ouders gaan scheiden."
+            ],
+            "en": [
+              "When a child has a bad report.",
+              "When there are serious concerns and voluntary help doesn't work.",
+              "Always when parents divorce."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Heeft vrijwillige hulp geen effect en is de ontwikkeling van het kind ernstig in gevaar? Dan kan de Raad voor de Kinderbescherming de kinderrechter om een maatregel vragen.",
+            "en": "If voluntary help has no effect and the child's development is seriously at risk, the Child Protection Board can ask the juvenile court for a measure."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-5-5",
+          "eindterm": "8.2.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Wie beslist of een kind onder toezicht wordt gesteld?",
+            "en": "Who decides whether a child is placed under supervision?"
+          },
+          "options": {
+            "nl": [
+              "De kinderrechter.",
+              "De buren.",
+              "De leraar."
+            ],
+            "en": [
+              "The juvenile judge.",
+              "The neighbours.",
+              "The teacher."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De kinderrechter beslist of een kinderbeschermingsmaatregel, zoals een ondertoezichtstelling, nodig is.",
+            "en": "The juvenile judge decides whether a child protection measure, such as a supervision order, is necessary."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "8.3"
+      ],
+      "title": {
+        "nl": "Kosten van school en studie",
+        "en": "The cost of school and study"
+      },
+      "situation": {
+        "nl": "Monique heeft een laag inkomen. Haar zoon gaat naar de middelbare school en de school vraagt geld voor een schoolreis. Haar dochter wordt 18 en gaat naar het mbo.",
+        "en": "Monique has a low income. Her son goes to secondary school and the school asks for money for a school trip. Her daughter turns 18 and is going to mbo."
+      },
+      "body": {
+        "nl": [
+          "Aan school en studie zijn kosten verbonden, bijvoorbeeld voor leermiddelen, reiskosten, schoolgeld of lesgeld, en een vrijwillige ouderbijdrage voor extra activiteiten.",
+          "De ouderbijdrage voor extra activiteiten, zoals een schoolreis of een sportdag, is vrijwillig. Je hoeft niet te betalen en ook niet uit te leggen waarom. Je kind mag toch meedoen. Voor andere kosten kun je de school vragen om vermindering of kwijtschelding.",
+          "Heb je een laag inkomen? Dan zijn er regelingen voor kosten van school, studie, zorg of opvang. De gemeente helpt bijvoorbeeld als kinderen door geldgebrek niet mee kunnen doen. Vraag ernaar bij je gemeente.",
+          "Ben je 18 of ouder en volg je voltijd vmbo, havo of vwo? Dan kun je een tegemoetkoming scholieren krijgen. Studeer je aan het mbo, hbo of de universiteit? Dan kun je studiefinanciering krijgen. Beide vraag je aan bij DUO (Dienst Uitvoering Onderwijs), via Mijn DUO met je DigiD."
+        ],
+        "en": [
+          "School and study involve costs, for example for learning materials, travel, school or tuition fees, and a voluntary parental contribution for extra activities.",
+          "The parental contribution for extra activities, such as a school trip or sports day, is voluntary. You don't have to pay and don't have to explain why. Your child may still take part. For other costs you can ask the school for a reduction or exemption.",
+          "Do you have a low income? Then there are schemes for the costs of school, study, care or childcare. The municipality helps, for example, when children can't take part because of a lack of money. Ask your municipality.",
+          "Are you 18 or older and in full-time vmbo, havo or vwo? Then you can get a pupil's allowance (tegemoetkoming scholieren). Do you study at mbo, hbo or university? Then you can get student finance. You apply for both at DUO (the Education Executive Agency), through Mijn DUO with your DigiD."
+        ]
+      },
+      "remember": {
+        "nl": "De ouderbijdrage is vrijwillig. Bij een laag inkomen kan de gemeente helpen. Studiefinanciering en een tegemoetkoming scholieren vraag je aan bij DUO.",
+        "en": "The parental contribution is voluntary. If you have a low income, the municipality can help. You apply for student finance and pupil's allowance at DUO."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: is de vrijwillige ouderbijdrage verplicht?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/financiering-onderwijs/is-de-vrijwillige-ouderbijdrage-op-de-basisschool-en-middelbare-school-verplicht"
+        },
+        {
+          "title": "Rijksoverheid: kinderarmoede",
+          "url": "https://www.rijksoverheid.nl/themas/belastingen-uitkeringen-en-toeslagen/armoedebestrijding/kinderarmoede"
+        },
+        {
+          "title": "DUO: hoe werkt studiefinanciering?",
+          "url": "https://duo.nl/particulier/studiefinanciering/"
+        },
+        {
+          "title": "DUO: studiefinanciering aanvragen",
+          "url": "https://duo.nl/particulier/studiefinanciering/aanvragen.jsp"
+        },
+        {
+          "title": "DUO: tegemoetkoming scholieren, voor wie?",
+          "url": "https://duo.nl/particulier/tegemoetkoming-scholieren/voor-wie.jsp"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "onderwijs-en-opvoeding-6-1",
+          "eindterm": "8.3.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Voor welke kosten kun je te maken krijgen als je kind naar school gaat?",
+            "en": "What costs can you face when your child goes to school?"
+          },
+          "options": {
+            "nl": [
+              "Leermiddelen, reiskosten en een ouderbijdrage.",
+              "Geen enkele; school is altijd helemaal gratis.",
+              "Alleen het salaris van de leraar."
+            ],
+            "en": [
+              "Learning materials, travel costs and a parental contribution.",
+              "None; school is always completely free.",
+              "Only the teacher's salary."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Aan onderwijs zijn kosten verbonden, zoals schoolgeld, een vrijwillige ouderbijdrage, leermiddelen en reiskosten.",
+            "en": "Education involves costs, such as school fees, a voluntary parental contribution, learning materials and travel."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-6-2",
+          "eindterm": "8.3.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Monique kan de vrijwillige ouderbijdrage voor de schoolreis niet betalen. Mag haar zoon mee?",
+            "en": "Monique cannot pay the voluntary contribution for the school trip. May her son go?"
+          },
+          "options": {
+            "nl": [
+              "Nee, alleen kinderen die betalen gaan mee.",
+              "Ja, kinderen van ouders die niet betalen mogen altijd meedoen.",
+              "Alleen als ze een brief schrijft met de reden."
+            ],
+            "en": [
+              "No, only children who pay go.",
+              "Yes, children of parents who don't pay may always take part.",
+              "Only if she writes a letter giving the reason."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De vrijwillige ouderbijdrage is niet verplicht. Kinderen van ouders die niet betalen, mogen altijd meedoen.",
+            "en": "The voluntary parental contribution is not compulsory. Children of parents who don't pay may always take part."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-6-3",
+          "eindterm": "8.3.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Monique heeft een laag inkomen en kan sport en schoolspullen voor haar kinderen moeilijk betalen. Waar kan ze om hulp vragen?",
+            "en": "Monique has a low income and can hardly pay for her children's sport and school items. Where can she ask for help?"
+          },
+          "options": {
+            "nl": [
+              "Bij de gemeente.",
+              "Bij de IND.",
+              "Bij de politie."
+            ],
+            "en": [
+              "At the municipality.",
+              "At the IND.",
+              "At the police."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Gemeenten kunnen helpen als kinderen door geldgebrek van hun ouders niet met leeftijdsgenoten kunnen meedoen.",
+            "en": "Municipalities can help when children cannot join in with their peers because their parents lack money."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-6-4",
+          "eindterm": "8.3.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Monique's dochter gaat naar het mbo. Waar vraagt ze studiefinanciering aan?",
+            "en": "Monique's daughter is going to mbo. Where does she apply for student finance?"
+          },
+          "options": {
+            "nl": [
+              "Bij de school.",
+              "Bij de gemeente.",
+              "Bij DUO."
+            ],
+            "en": [
+              "At the school.",
+              "At the municipality.",
+              "At DUO."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Ben je ingeschreven aan het mbo, hbo of de universiteit? Dan kun je studiefinanciering aanvragen bij DUO.",
+            "en": "Are you enrolled at mbo, hbo or university? Then you can apply for student finance at DUO."
+          }
+        },
+        {
+          "id": "onderwijs-en-opvoeding-6-5",
+          "eindterm": "8.3.3",
+          "source": 5,
+          "prompt": {
+            "nl": "Een scholier van 18 zit voltijd op de havo. Welke regeling van DUO kan hij aanvragen?",
+            "en": "An 18-year-old pupil is in full-time havo. Which DUO scheme can he apply for?"
+          },
+          "options": {
+            "nl": [
+              "Kinderopvangtoeslag.",
+              "De tegemoetkoming scholieren.",
+              "Een WW-uitkering."
+            ],
+            "en": [
+              "Childcare allowance.",
+              "The pupil's allowance (tegemoetkoming scholieren).",
+              "Unemployment benefit."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Doe je voltijd vmbo, havo of vwo en ben je 18 of ouder? Dan kun je de tegemoetkoming scholieren krijgen. Je vraagt die aan via Mijn DUO.",
+            "en": "Are you 18 or older and in full-time vmbo, havo or vwo? Then you can get the pupil's allowance. You apply through Mijn DUO."
+          }
+        }
+      ]
+    }
+  ]
+}

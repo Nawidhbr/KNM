@@ -105,14 +105,6 @@
       "topic": "digid"
     },
     {
-      "id": "basic-qualification",
-      "forms": [
-        "basic qualification"
-      ],
-      "plain": "a havo, vwo or mbo level 2 diploma or higher",
-      "topic": "leerplicht"
-    },
-    {
       "id": "diploma-evaluation",
       "forms": [
         "diploma evaluation"
@@ -199,34 +191,6 @@
       "plain": "a free clinic that follows the growth and development of babies and young children (consultatiebureau)"
     },
     {
-      "id": "voc-en",
-      "forms": [
-        "Dutch East India Company"
-      ],
-      "plain": "the VOC, a large Dutch trading company of the seventeenth century"
-    },
-    {
-      "id": "polder-en",
-      "forms": [
-        "polder"
-      ],
-      "plain": "low-lying land that used to be water and is kept dry by dikes"
-    },
-    {
-      "id": "guest-worker",
-      "forms": [
-        "guest workers"
-      ],
-      "plain": "workers recruited abroad in the sixties and seventies (gastarbeiders)"
-    },
-    {
-      "id": "self-determination",
-      "forms": [
-        "self-determination"
-      ],
-      "plain": "being allowed to decide about your own life and body"
-    },
-    {
       "id": "bsn-en",
       "forms": [
         "citizen service number"
@@ -288,6 +252,55 @@
         "Donor Register"
       ],
       "plain": "the register that records whether you want to donate organs after death"
+    },
+    {
+      "id": "out-of-school-care",
+      "forms": [
+        "out-of-school care"
+      ],
+      "plain": "care for schoolchildren before and after school (bso)"
+    },
+    {
+      "id": "basic-qualification",
+      "forms": [
+        "basic qualification"
+      ],
+      "plain": "at least a havo, vwo or mbo level 2 diploma (startkwalificatie)"
+    },
+    {
+      "id": "student-finance",
+      "forms": [
+        "student finance"
+      ],
+      "plain": "money from DUO for students at mbo, hbo or university"
+    },
+    {
+      "id": "voc-en",
+      "forms": [
+        "Dutch East India Company"
+      ],
+      "plain": "the VOC, a large Dutch trading company of the seventeenth century"
+    },
+    {
+      "id": "polder-en",
+      "forms": [
+        "polder"
+      ],
+      "plain": "low-lying land that used to be water and is kept dry by dikes"
+    },
+    {
+      "id": "guest-worker",
+      "forms": [
+        "guest workers"
+      ],
+      "plain": "workers recruited abroad in the sixties and seventies (gastarbeiders)"
+    },
+    {
+      "id": "self-determination",
+      "forms": [
+        "self-determination"
+      ],
+      "plain": "being allowed to decide about your own life and body"
     }
   ]
 }

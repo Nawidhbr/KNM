@@ -1,0 +1,56 @@
+{
+  "slug": "verzekeringen",
+  "theme": "instanties",
+  "title": {
+    "nl": "Welke verzekeringen heb je nodig?",
+    "en": "Which insurance do you need?"
+  },
+  "summary": {
+    "nl": "Sommige verzekeringen zijn verplicht, andere zijn verstandig. Een overzicht.",
+    "en": "Some insurance is compulsory, other insurance is wise. An overview."
+  },
+  "eindtermen": [
+    "6.6.1"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Verplicht",
+        "en": "Compulsory"
+      },
+      "paragraphs": {
+        "nl": [
+          "Een zorgverzekering is verplicht. Heb je een auto, motor of brommer? Dan moet je een WA-verzekering hebben, die de schade aan anderen betaalt."
+        ],
+        "en": [
+          "Health insurance is compulsory. Do you have a car, motorbike or moped? Then you must have third-party (WA) insurance, which pays for damage to others."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Verstandig",
+        "en": "Wise"
+      },
+      "paragraphs": {
+        "nl": [
+          "Een aansprakelijkheidsverzekering is niet verplicht, maar wel heel verstandig: die betaalt schade die jij of je kinderen per ongeluk bij een ander veroorzaken. Heb je een huis met een hypotheek? Dan eist de hypotheekverstrekker meestal een opstalverzekering."
+        ],
+        "en": [
+          "Liability insurance is not compulsory, but very wise: it pays for damage that you or your children accidentally cause to others. Do you have a home with a mortgage? Then the lender usually requires buildings insurance."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Wijzer in geldzaken: alles over verzekeringen",
+      "url": "https://www.wijzeringeldzaken.nl/verzekering/alles-over-verzekeringen/alles-over-verzekeringen.pdf"
+    }
+  ],
+  "checked": "2026-11-14"
+}

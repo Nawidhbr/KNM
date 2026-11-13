@@ -1,0 +1,65 @@
+{
+  "slug": "slavernijverleden",
+  "theme": "geschiedenis-en-geografie",
+  "title": {
+    "nl": "Koloniën en het slavernijverleden",
+    "en": "Colonies and the history of slavery"
+  },
+  "summary": {
+    "nl": "Nederland had koloniën en maakte mensen tot slaaf. In 1863 werd de slavernij afgeschaft; op 1 juli is Keti Koti.",
+    "en": "The Netherlands had colonies and enslaved people. Slavery was abolished in 1863; 1 July is Keti Koti."
+  },
+  "eindtermen": [
+    "5.1.1",
+    "5.1.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Koloniën",
+        "en": "Colonies"
+      },
+      "paragraphs": {
+        "nl": [
+          "Vanaf de zeventiende eeuw had Nederland koloniën in Azië en rond de Atlantische Oceaan, zoals Nederlands-Indië (nu Indonesië), Suriname en de Caribische eilanden. Indonesië werd na de Tweede Wereldoorlog onafhankelijk, Suriname in 1975. De Caribische eilanden horen nog bij het Koninkrijk."
+        ],
+        "en": [
+          "From the seventeenth century the Netherlands had colonies in Asia and around the Atlantic, such as the Dutch East Indies (now Indonesia), Suriname and the Caribbean islands. Indonesia became independent after the Second World War, Suriname in 1975. The Caribbean islands are still part of the Kingdom."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Slavernij",
+        "en": "Slavery"
+      },
+      "paragraphs": {
+        "nl": [
+          "Nederlandse handelaren maakten mensen tot slaaf en lieten hen zonder loon werken op plantages. Op 1 juli 1863 werd de slavernij in Suriname en op de Caribische eilanden afgeschaft. Elk jaar op 1 juli wordt dat herdacht en gevierd met Keti Koti."
+        ],
+        "en": [
+          "Dutch traders enslaved people and made them work without pay on plantations. On 1 July 1863 slavery was abolished in Suriname and on the Caribbean islands. Every year on 1 July this is commemorated and celebrated with Keti Koti."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Canon van Nederland: slavernij",
+      "url": "https://www.canonvannederland.nl/nl/slavernij"
+    },
+    {
+      "title": "Canon van Nederland: Suriname en de Nederlandse Antillen",
+      "url": "https://www.canonvannederland.nl/nl/caribischgebied"
+    },
+    {
+      "title": "Canon van Nederland: Indonesië",
+      "url": "https://www.canonvannederland.nl/nl/indonesie"
+    }
+  ],
+  "checked": "2026-11-14"
+}

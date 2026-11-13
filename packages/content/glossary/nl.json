@@ -230,14 +230,16 @@
       "forms": [
         "huurcontract"
       ],
-      "plain": "het contract met de afspraken tussen huurder en verhuurder"
+      "plain": "het contract met de afspraken tussen huurder en verhuurder",
+      "topic": "huren-rechten-en-plichten"
     },
     {
       "id": "verhuurder",
       "forms": [
         "verhuurder"
       ],
-      "plain": "de eigenaar die de woning aan jou verhuurt"
+      "plain": "de eigenaar die de woning aan jou verhuurt",
+      "topic": "huren-rechten-en-plichten"
     },
     {
       "id": "borg",
@@ -251,7 +253,8 @@
       "forms": [
         "Huurcommissie"
       ],
-      "plain": "een organisatie die helpt bij ruzie tussen huurder en verhuurder over huur of onderhoud"
+      "plain": "een organisatie die helpt bij ruzie tussen huurder en verhuurder over huur of onderhoud",
+      "topic": "huren-rechten-en-plichten"
     },
     {
       "id": "juridisch-loket",
@@ -303,7 +306,8 @@
       "forms": [
         "termijnbedrag"
       ],
-      "plain": "het bedrag dat je elke maand vooraf betaalt voor energie"
+      "plain": "het bedrag dat je elke maand vooraf betaalt voor energie",
+      "topic": "energie-en-afval"
     },
     {
       "id": "opzegvergoeding",
@@ -317,21 +321,24 @@
       "forms": [
         "gft"
       ],
-      "plain": "groente-, fruit- en tuinafval"
+      "plain": "groente-, fruit- en tuinafval",
+      "topic": "energie-en-afval"
     },
     {
       "id": "pmd",
       "forms": [
         "pmd"
       ],
-      "plain": "plastic en metalen verpakkingen en drinkpakken"
+      "plain": "plastic en metalen verpakkingen en drinkpakken",
+      "topic": "energie-en-afval"
     },
     {
       "id": "restafval",
       "forms": [
         "restafval"
       ],
-      "plain": "afval dat overblijft als je alles hebt gescheiden"
+      "plain": "afval dat overblijft als je alles hebt gescheiden",
+      "topic": "energie-en-afval"
     },
     {
       "id": "praktijkondersteuner",
@@ -456,126 +463,6 @@
         "wijkteam"
       ],
       "plain": "een team van de gemeente dat helpt bij zorg, geld en andere problemen"
-    },
-    {
-      "id": "voc",
-      "forms": [
-        "VOC"
-      ],
-      "plain": "de Verenigde Oostindische Compagnie, een groot handelsbedrijf uit de zeventiende eeuw"
-    },
-    {
-      "id": "kolonie",
-      "forms": [
-        "koloniën",
-        "kolonie"
-      ],
-      "plain": "een gebied in een ander werelddeel dat door een land werd bestuurd"
-    },
-    {
-      "id": "plantage",
-      "forms": [
-        "plantages",
-        "plantage"
-      ],
-      "plain": "een groot landbouwbedrijf, bijvoorbeeld voor suiker of koffie"
-    },
-    {
-      "id": "keti-koti",
-      "forms": [
-        "Keti Koti"
-      ],
-      "plain": "het feest op 1 juli waarop de afschaffing van de slavernij wordt herdacht en gevierd"
-    },
-    {
-      "id": "polder",
-      "forms": [
-        "polders",
-        "polder"
-      ],
-      "plain": "laag land dat vroeger water was en door dijken droog wordt gehouden"
-    },
-    {
-      "id": "deltawerken",
-      "forms": [
-        "Deltawerken"
-      ],
-      "plain": "dammen en keringen in het zuidwesten die het land beschermen tegen de zee"
-    },
-    {
-      "id": "wilhelmus",
-      "forms": [
-        "Wilhelmus"
-      ],
-      "plain": "het volkslied van Nederland"
-    },
-    {
-      "id": "holocaust",
-      "forms": [
-        "Holocaust"
-      ],
-      "plain": "de moord door de nazi's op ongeveer zes miljoen Joden"
-    },
-    {
-      "id": "bezetting",
-      "forms": [
-        "bezet",
-        "bezetter"
-      ],
-      "plain": "een ander land had de macht in Nederland"
-    },
-    {
-      "id": "gastarbeider",
-      "forms": [
-        "gastarbeiders",
-        "gastarbeider"
-      ],
-      "plain": "een arbeider uit het buitenland die naar Nederland werd gehaald om te werken"
-    },
-    {
-      "id": "navo",
-      "forms": [
-        "NAVO"
-      ],
-      "plain": "een samenwerking van landen uit Europa en Noord-Amerika voor veiligheid"
-    },
-    {
-      "id": "zelfbeschikking",
-      "forms": [
-        "zelfbeschikking"
-      ],
-      "plain": "zelf mogen beslissen over je eigen leven en je eigen lichaam"
-    },
-    {
-      "id": "euthanasie",
-      "forms": [
-        "euthanasie"
-      ],
-      "plain": "een arts helpt een ernstig zieke patiënt op zijn eigen verzoek te sterven"
-    },
-    {
-      "id": "provincie",
-      "forms": [
-        "provincies",
-        "provincie"
-      ],
-      "plain": "een van de twaalf grote delen van Nederland, met een eigen bestuur"
-    },
-    {
-      "id": "inchecken",
-      "forms": [
-        "in- en uitchecken",
-        "inchecken",
-        "uitchecken"
-      ],
-      "plain": "je pas langs de paal of lezer houden aan het begin en eind van je reis"
-    },
-    {
-      "id": "streekvervoer",
-      "forms": [
-        "streekvervoer"
-      ],
-      "plain": "bussen en ander openbaar vervoer in een regio"
     },
     {
       "id": "machtigen",
@@ -716,21 +603,24 @@
       "forms": [
         "aansprakelijkheidsverzekering"
       ],
-      "plain": "een verzekering die schade betaalt die jij per ongeluk bij een ander maakt"
+      "plain": "een verzekering die schade betaalt die jij per ongeluk bij een ander maakt",
+      "topic": "verzekeringen"
     },
     {
       "id": "wa-verzekering",
       "forms": [
         "WA-verzekering"
       ],
-      "plain": "de verplichte verzekering voor je auto of brommer voor schade aan anderen"
+      "plain": "de verplichte verzekering voor je auto of brommer voor schade aan anderen",
+      "topic": "verzekeringen"
     },
     {
       "id": "opstalverzekering",
       "forms": [
         "opstalverzekering"
       ],
-      "plain": "een verzekering voor schade aan het huis zelf"
+      "plain": "een verzekering voor schade aan het huis zelf",
+      "topic": "verzekeringen"
     },
     {
       "id": "staatshoofd",
@@ -801,14 +691,16 @@
       "forms": [
         "kiesrecht"
       ],
-      "plain": "het recht om te stemmen en gekozen te worden"
+      "plain": "het recht om te stemmen en gekozen te worden",
+      "topic": "kiesrecht"
     },
     {
       "id": "gemeenteraad",
       "forms": [
         "gemeenteraad"
       ],
-      "plain": "de gekozen leden die over de plannen en regels van de gemeente beslissen"
+      "plain": "de gekozen leden die over de plannen en regels van de gemeente beslissen",
+      "topic": "kiesrecht"
     },
     {
       "id": "waterschap",
@@ -823,14 +715,16 @@
       "forms": [
         "Grondwet"
       ],
-      "plain": "de belangrijkste wet van Nederland, met de grondrechten"
+      "plain": "de belangrijkste wet van Nederland, met de grondrechten",
+      "topic": "grondrechten"
     },
     {
       "id": "levensovertuiging",
       "forms": [
         "levensovertuiging"
       ],
-      "plain": "wat je gelooft of belangrijk vindt in het leven, met of zonder godsdienst"
+      "plain": "wat je gelooft of belangrijk vindt in het leven, met of zonder godsdienst",
+      "topic": "grondrechten"
     },
     {
       "id": "persoonsgegevens",
@@ -844,14 +738,16 @@
       "forms": [
         "Veilig Thuis"
       ],
-      "plain": "het advies- en meldpunt voor huiselijk geweld en kindermishandeling"
+      "plain": "het advies- en meldpunt voor huiselijk geweld en kindermishandeling",
+      "topic": "huiselijk-geweld"
     },
     {
       "id": "huwelijksdwang",
       "forms": [
         "huwelijksdwang"
       ],
-      "plain": "iemand dwingen om te trouwen"
+      "plain": "iemand dwingen om te trouwen",
+      "topic": "huiselijk-geweld"
     },
     {
       "id": "donorregister",
@@ -859,6 +755,260 @@
         "Donorregister"
       ],
       "plain": "het register waarin staat of je na je overlijden organen wilt afstaan"
+    },
+    {
+      "id": "kinderopvang",
+      "forms": [
+        "kinderopvang"
+      ],
+      "plain": "opvang voor kinderen terwijl de ouders werken of studeren"
+    },
+    {
+      "id": "bso",
+      "forms": [
+        "buitenschoolse opvang",
+        "bso"
+      ],
+      "plain": "opvang voor schoolkinderen voor en na schooltijd"
+    },
+    {
+      "id": "vve",
+      "forms": [
+        "voorschoolse educatie",
+        "vve"
+      ],
+      "plain": "extra hulp voor peuters, vooral met de Nederlandse taal"
+    },
+    {
+      "id": "schooladvies",
+      "forms": [
+        "schooladvies"
+      ],
+      "plain": "het advies in groep 8 over welke middelbare school past"
+    },
+    {
+      "id": "vmbo",
+      "forms": [
+        "vmbo"
+      ],
+      "plain": "voorbereidend middelbaar beroepsonderwijs: middelbare school die voorbereidt op het mbo",
+      "topic": "schoolsysteem"
+    },
+    {
+      "id": "havo",
+      "forms": [
+        "havo"
+      ],
+      "plain": "hoger algemeen voortgezet onderwijs: middelbare school van 5 jaar, voorbereiding op het hbo",
+      "topic": "schoolsysteem"
+    },
+    {
+      "id": "vwo",
+      "forms": [
+        "vwo"
+      ],
+      "plain": "voorbereidend wetenschappelijk onderwijs: middelbare school van 6 jaar, voorbereiding op de universiteit",
+      "topic": "schoolsysteem"
+    },
+    {
+      "id": "mbo",
+      "forms": [
+        "mbo"
+      ],
+      "plain": "middelbaar beroepsonderwijs: een opleiding voor een beroep"
+    },
+    {
+      "id": "hbo",
+      "forms": [
+        "hbo"
+      ],
+      "plain": "hoger beroepsonderwijs"
+    },
+    {
+      "id": "speciaal-onderwijs",
+      "forms": [
+        "speciaal onderwijs"
+      ],
+      "plain": "onderwijs voor kinderen die extra ondersteuning nodig hebben"
+    },
+    {
+      "id": "bijzondere-school",
+      "forms": [
+        "bijzondere scholen",
+        "bijzondere school"
+      ],
+      "plain": "een school die lesgeeft vanuit een geloof of een visie op onderwijs",
+      "topic": "schoolsysteem"
+    },
+    {
+      "id": "openbare-school",
+      "forms": [
+        "openbare scholen",
+        "openbare school"
+      ],
+      "plain": "een school voor iedereen, niet vanuit een geloof",
+      "topic": "schoolsysteem"
+    },
+    {
+      "id": "kwalificatieplicht",
+      "forms": [
+        "kwalificatieplichtig",
+        "kwalificatieplicht"
+      ],
+      "plain": "de plicht om tot je 18e naar school te gaan als je nog geen startkwalificatie hebt"
+    },
+    {
+      "id": "ouderbijdrage",
+      "forms": [
+        "ouderbijdrage"
+      ],
+      "plain": "vrijwillig geld dat ouders aan school geven voor extra activiteiten"
+    },
+    {
+      "id": "ondertoezichtstelling",
+      "forms": [
+        "ondertoezichtstelling"
+      ],
+      "plain": "een maatregel van de rechter waarbij ouders verplicht hulp krijgen bij de opvoeding"
+    },
+    {
+      "id": "duo",
+      "forms": [
+        "DUO"
+      ],
+      "plain": "Dienst Uitvoering Onderwijs, die onder andere studiefinanciering regelt"
+    },
+    {
+      "id": "studiefinanciering",
+      "forms": [
+        "studiefinanciering"
+      ],
+      "plain": "geld van DUO voor studenten aan het mbo, hbo of de universiteit"
+    },
+    {
+      "id": "voc",
+      "forms": [
+        "VOC"
+      ],
+      "plain": "de Verenigde Oostindische Compagnie, een groot handelsbedrijf uit de zeventiende eeuw"
+    },
+    {
+      "id": "kolonie",
+      "forms": [
+        "koloniën",
+        "kolonie"
+      ],
+      "plain": "een gebied in een ander werelddeel dat door een land werd bestuurd",
+      "topic": "slavernijverleden"
+    },
+    {
+      "id": "plantage",
+      "forms": [
+        "plantages",
+        "plantage"
+      ],
+      "plain": "een groot landbouwbedrijf, bijvoorbeeld voor suiker of koffie"
+    },
+    {
+      "id": "keti-koti",
+      "forms": [
+        "Keti Koti"
+      ],
+      "plain": "het feest op 1 juli waarop de afschaffing van de slavernij wordt herdacht en gevierd",
+      "topic": "slavernijverleden"
+    },
+    {
+      "id": "polder",
+      "forms": [
+        "polders",
+        "polder"
+      ],
+      "plain": "laag land dat vroeger water was en door dijken droog wordt gehouden"
+    },
+    {
+      "id": "deltawerken",
+      "forms": [
+        "Deltawerken"
+      ],
+      "plain": "dammen en keringen in het zuidwesten die het land beschermen tegen de zee"
+    },
+    {
+      "id": "wilhelmus",
+      "forms": [
+        "Wilhelmus"
+      ],
+      "plain": "het volkslied van Nederland"
+    },
+    {
+      "id": "holocaust",
+      "forms": [
+        "Holocaust"
+      ],
+      "plain": "de moord door de nazi's op ongeveer zes miljoen Joden",
+      "topic": "4-en-5-mei"
+    },
+    {
+      "id": "bezetting",
+      "forms": [
+        "bezet",
+        "bezetter"
+      ],
+      "plain": "een ander land had de macht in Nederland"
+    },
+    {
+      "id": "gastarbeider",
+      "forms": [
+        "gastarbeiders",
+        "gastarbeider"
+      ],
+      "plain": "een arbeider uit het buitenland die naar Nederland werd gehaald om te werken"
+    },
+    {
+      "id": "navo",
+      "forms": [
+        "NAVO"
+      ],
+      "plain": "een samenwerking van landen uit Europa en Noord-Amerika voor veiligheid"
+    },
+    {
+      "id": "zelfbeschikking",
+      "forms": [
+        "zelfbeschikking"
+      ],
+      "plain": "zelf mogen beslissen over je eigen leven en je eigen lichaam"
+    },
+    {
+      "id": "euthanasie",
+      "forms": [
+        "euthanasie"
+      ],
+      "plain": "een arts helpt een ernstig zieke patiënt op zijn eigen verzoek te sterven"
+    },
+    {
+      "id": "provincie",
+      "forms": [
+        "provincies",
+        "provincie"
+      ],
+      "plain": "een van de twaalf grote delen van Nederland, met een eigen bestuur"
+    },
+    {
+      "id": "inchecken",
+      "forms": [
+        "in- en uitchecken",
+        "inchecken",
+        "uitchecken"
+      ],
+      "plain": "je pas langs de paal of lezer houden aan het begin en eind van je reis",
+      "topic": "openbaar-vervoer"
+    },
+    {
+      "id": "streekvervoer",
+      "forms": [
+        "streekvervoer"
+      ],
+      "plain": "bussen en ander openbaar vervoer in een regio",
+      "topic": "openbaar-vervoer"
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "slug": "schoolsysteem",
+  "theme": "onderwijs-en-opvoeding",
+  "title": {
+    "nl": "Het Nederlandse schoolsysteem",
+    "en": "The Dutch school system"
+  },
+  "summary": {
+    "nl": "Van kinderopvang en basisschool tot vmbo, havo, vwo en verder: hoe het onderwijs in Nederland is opgebouwd.",
+    "en": "From childcare and primary school to vmbo, havo, vwo and beyond: how education in the Netherlands is structured."
+  },
+  "eindtermen": [
+    "8.1.1",
+    "8.1.2"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Van 0 tot 12",
+        "en": "From 0 to 12"
+      },
+      "paragraphs": {
+        "nl": [
+          "Kinderen jonger dan 4 kunnen naar de kinderopvang; peuters met een taalachterstand kunnen voorschoolse educatie krijgen. De meeste kinderen gaan op hun vierde naar de basisschool, die 8 groepen heeft. In groep 8 krijgen ze een schooladvies."
+        ],
+        "en": [
+          "Children under 4 can go to childcare; toddlers with a language delay can get pre-school education. Most children start primary school at four; it has 8 groups. In group 8 they get a school recommendation."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Na de basisschool",
+        "en": "After primary school"
+      },
+      "paragraphs": {
+        "nl": [
+          "In het voortgezet onderwijs zijn er praktijkonderwijs, vmbo, havo en vwo. Daarna volgen bijvoorbeeld mbo, hbo of universiteit. Voor leerlingen die extra ondersteuning nodig hebben, is er speciaal onderwijs."
+        ],
+        "en": [
+          "Secondary education has praktijkonderwijs, vmbo, havo and vwo. After that come, for example, mbo, hbo or university. For pupils who need extra support, there is special education."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Openbaar en bijzonder",
+        "en": "Public and private"
+      },
+      "paragraphs": {
+        "nl": [
+          "Er is vrijheid van onderwijs. Openbare scholen staan open voor iedereen en geven geen les vanuit een godsdienst. Bijzondere scholen geven les vanuit een godsdienst, levensovertuiging of onderwijsvisie. De overheid betaalt voor beide."
+        ],
+        "en": [
+          "There is freedom of education. Public schools are open to everyone and do not teach from a religion. Bijzondere schools teach from a religion, belief or educational vision. The government pays for both."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: welke soort scholen voor het voortgezet onderwijs zijn er?",
+      "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/voortgezet-onderwijs/soorten-scholen-voortgezet-onderwijs"
+    },
+    {
+      "title": "Rijksoverheid: openbaar en bijzonder onderwijs",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/vrijheid-van-onderwijs/openbaar-en-bijzonder-onderwijs"
+    },
+    {
+      "title": "Rijksoverheid: schooladvies en toelating voortgezet onderwijs",
+      "url": "https://www.rijksoverheid.nl/themas/onderwijs/schooladvies-en-doorstroomtoets-basisschool/toelating-voortgezet-onderwijs-gebaseerd-op-definitief-schooladvies"
+    }
+  ],
+  "checked": "2026-11-14"
+}

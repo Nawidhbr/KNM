@@ -1,0 +1,61 @@
+{
+  "slug": "huiselijk-geweld",
+  "theme": "staatsinrichting",
+  "title": {
+    "nl": "Huiselijk geweld en Veilig Thuis",
+    "en": "Domestic violence and Veilig Thuis"
+  },
+  "summary": {
+    "nl": "Geweld is altijd strafbaar, ook thuis. Bij huiselijk geweld of kindermishandeling bel je Veilig Thuis: 0800-2000.",
+    "en": "Violence is always punishable, including at home. For domestic violence or child abuse call Veilig Thuis: 0800-2000."
+  },
+  "eindtermen": [
+    "7.2.6",
+    "7.2.8"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Strafbaar",
+        "en": "Punishable"
+      },
+      "paragraphs": {
+        "nl": [
+          "De wet beschermt je lichaam. Huiselijk geweld, eerwraak, het slaan van kinderen, de besnijdenis van meisjes en huwelijksdwang zijn strafbaar. Vrouwen beslissen zelf over hun eigen lichaam en leven, bijvoorbeeld met wie ze trouwen."
+        ],
+        "en": [
+          "The law protects your body. Domestic violence, honour-related violence, hitting children, female circumcision and forced marriage are punishable. Women decide about their own body and life, for example whom they marry."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Hulp",
+        "en": "Help"
+      },
+      "paragraphs": {
+        "nl": [
+          "Ben je slachtoffer, getuige of vermoed je huiselijk geweld of kindermishandeling? Bel Veilig Thuis: 0800-2000, gratis en dag en nacht bereikbaar. Je kunt anoniem blijven. Ben je in direct gevaar? Bel 112."
+        ],
+        "en": [
+          "Are you a victim or witness, or do you suspect domestic violence or child abuse? Call Veilig Thuis: 0800-2000, free and available day and night. You can remain anonymous. In immediate danger? Call 112."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: wat moet ik doen bij huiselijk geweld?",
+      "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/huiselijk-geweld/wat-moet-ik-doen-bij-huiselijk-geweld"
+    },
+    {
+      "title": "Rijksoverheid: huwelijksdwang voorkomen",
+      "url": "https://www.rijksoverheid.nl/themas/recht-veiligheid-en-defensie/huwelijksdwang/huwelijksdwang-voorkomen"
+    }
+  ],
+  "checked": "2026-11-14"
+}

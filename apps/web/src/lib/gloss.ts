@@ -73,8 +73,16 @@ export function gloss(text: string, locale: string, skip?: string): string {
     if (!entry || seen.has(entry.id)) continue;
     seen.add(entry.id);
     out += escapeHtml(text.slice(last, hit.index));
-    out += `<button type="button" class="gloss" data-g="${entry.id}" aria-haspopup="dialog">${escapeHtml(word)}</button>`;
+    const button = `<button type="button" class="gloss" data-g="${entry.id}" aria-haspopup="dialog">${escapeHtml(word)}</button>`;
     last = hit.index + word.length;
+    // A button is an atomic inline box, so a comma or full stop right after it
+    // could wrap onto the next line on its own. Keep them together.
+    const punct = /^[.,;:!?)\]»”’،؛؟]+/.exec(text.slice(last))?.[0];
+    if (punct) {
+      out += `<span class="gloss-nb">${button}${escapeHtml(punct)}</span>`;
+      last += punct.length;
+      m.re.lastIndex = last;
+    } else out += button;
   }
   return out + escapeHtml(text.slice(last));
 }

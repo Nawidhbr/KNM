@@ -1,0 +1,67 @@
+{
+  "slug": "grondrechten",
+  "theme": "staatsinrichting",
+  "title": {
+    "nl": "Grondrechten: gelijkheid, godsdienst en meningsuiting",
+    "en": "Fundamental rights: equality, religion and expression"
+  },
+  "summary": {
+    "nl": "Iedereen wordt gelijk behandeld, mag zijn eigen geloof kiezen en zijn mening uiten, binnen de grenzen van de wet.",
+    "en": "Everyone is treated equally, may choose their own religion and express their opinion, within the limits of the law."
+  },
+  "eindtermen": [
+    "7.2.1",
+    "7.2.2",
+    "7.2.3",
+    "7.2.4"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Artikel 1: gelijke behandeling",
+        "en": "Article 1: equal treatment"
+      },
+      "paragraphs": {
+        "nl": [
+          "Allen die zich in Nederland bevinden, worden in gelijke gevallen gelijk behandeld. Discriminatie wegens godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, handicap, seksuele gerichtheid of op welke grond dan ook, is niet toegestaan. Discriminatie kun je melden bij een antidiscriminatiebureau of de politie."
+        ],
+        "en": [
+          "All persons in the Netherlands shall be treated equally in equal circumstances. Discrimination on grounds of religion, belief, political opinion, race, sex, disability, sexual orientation or any other ground is not permitted. You can report discrimination to an anti-discrimination office or the police."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Godsdienst en meningsuiting",
+        "en": "Religion and expression"
+      },
+      "paragraphs": {
+        "nl": [
+          "Iedereen mag zijn godsdienst of levensovertuiging vrij belijden (artikel 6). Je mag je mening uiten zonder dat de overheid je tegenhoudt (artikel 7). Maar wat volgens de wet verboden is, zoals bedreigen, mag niet. De wetten van de staat gaan boven de regels van godsdienst en traditie."
+        ],
+        "en": [
+          "Everyone may freely profess their religion or belief (Article 6). You may express your opinion without the government stopping you (Article 7). But what the law prohibits, such as threats, is not allowed. The laws of the state come before the rules of religion and tradition."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Rijksoverheid: uitlegvideo artikel 1 van de Grondwet",
+      "url": "https://www.rijksoverheid.nl/documenten/videos/2023/07/07/uitlegvideo-artikel-1-grondwet"
+    },
+    {
+      "title": "Rijksoverheid: uitlegvideo artikel 6 van de Grondwet",
+      "url": "https://www.rijksoverheid.nl/documenten/videos/2023/10/13/uitlegvideo-artikel-6-grondwet"
+    },
+    {
+      "title": "Rijksoverheid: uitlegvideo sociale grondrechten (over artikel 7)",
+      "url": "https://www.rijksoverheid.nl/documenten/videos/2023/10/25/uitlegvideo-sociale-grondrechten"
+    }
+  ],
+  "checked": "2026-11-14"
+}

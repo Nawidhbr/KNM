@@ -1,0 +1,60 @@
+{
+  "slug": "kiesrecht",
+  "theme": "staatsinrichting",
+  "title": {
+    "nl": "Kiesrecht en verkiezingen",
+    "en": "Voting rights and elections"
+  },
+  "summary": {
+    "nl": "Wie mag stemmen, voor welke verkiezingen, en mag je als niet-Nederlander meestemmen voor de gemeenteraad?",
+    "en": "Who may vote, in which elections, and may you vote for the municipal council if you are not Dutch?"
+  },
+  "eindtermen": [
+    "7.1.4"
+  ],
+  "sections": [
+    {
+      "heading": {
+        "nl": "Actief en passief kiesrecht",
+        "en": "Active and passive voting rights"
+      },
+      "paragraphs": {
+        "nl": [
+          "Actief kiesrecht is het recht om te stemmen; passief kiesrecht is het recht om gekozen te worden. Nederlanders van 18 jaar en ouder hebben kiesrecht."
+        ],
+        "en": [
+          "Active voting rights are the right to vote; passive voting rights are the right to be elected. Dutch nationals aged 18 and over have voting rights."
+        ]
+      }
+    },
+    {
+      "heading": {
+        "nl": "Welke verkiezingen?",
+        "en": "Which elections?"
+      },
+      "paragraphs": {
+        "nl": [
+          "Er zijn verkiezingen voor de gemeenteraad, de Provinciale Staten, de waterschappen, de Tweede Kamer en het Europees Parlement. Woon je als niet-Nederlander minstens vijf jaar onafgebroken legaal in Nederland? Dan mag je stemmen voor de gemeenteraad."
+        ],
+        "en": [
+          "There are elections for the municipal council, the Provincial Council, the water boards, the House of Representatives and the European Parliament. Have you, as a non-Dutch national, lived legally in the Netherlands for at least five years without interruption? Then you may vote for the municipal council."
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+    },
+    {
+      "title": "Parlement.com (Montesquieu Instituut): kiesrecht",
+      "url": "https://parlement.com/kiesrecht"
+    },
+    {
+      "title": "Rijksoverheid: waar stem ik voor bij gemeenteraadsverkiezingen?",
+      "url": "https://www.rijksoverheid.nl/wetten-en-regelingen/productbeschrijvingen/stemmen-gemeenteraadsverkiezingen"
+    }
+  ],
+  "checked": "2026-11-14"
+}
