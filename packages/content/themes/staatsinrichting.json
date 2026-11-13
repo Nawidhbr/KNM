@@ -1,0 +1,1299 @@
+{
+  "id": "staatsinrichting",
+  "n": 7,
+  "title": {
+    "nl": "Staatsinrichting en rechtsstaat",
+    "en": "The constitution and the rule of law"
+  },
+  "lead": {
+    "nl": "De koning, het parlement, de scheiding der machten, verkiezingen en je grondrechten.",
+    "en": "The king, parliament, the separation of powers, elections and your fundamental rights."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "7.1"
+      ],
+      "title": {
+        "nl": "De koning, het parlement en de regering",
+        "en": "The king, parliament and the government"
+      },
+      "situation": {
+        "nl": "Op televisie ziet Ali de koning met de ministers op de trap van een paleis. Hij vraagt zich af wie in Nederland de beslissingen neemt.",
+        "en": "On television Ali sees the king with the ministers on the steps of a palace. He wonders who makes the decisions in the Netherlands."
+      },
+      "body": {
+        "nl": [
+          "Nederland is een koninkrijk met een koningshuis. De koning is het staatshoofd, maar zijn bevoegdheden zijn zeer beperkt. Hij heeft vooral een ceremoniële rol. De ministers zijn verantwoordelijk voor wat de regering doet.",
+          "Nederland is een democratische rechtsstaat. Het parlement bestaat uit twee Kamers: de Tweede Kamer en de Eerste Kamer. Het parlement controleert de regering en maakt samen met de regering de wetten. Een wet gaat pas in als beide Kamers het wetsvoorstel hebben aangenomen.",
+          "Er zijn veel politieke partijen. Na de verkiezingen vormen een of meer partijen samen een regering. De regering bestaat uit de koning en de ministers. De minister-president leidt de ministers.",
+          "Nederland heeft drie bestuurslagen, elk met eigen taken: het Rijk (de landelijke overheid), de provincies en de gemeenten."
+        ],
+        "en": [
+          "The Netherlands is a kingdom with a royal house. The king is the head of state, but his powers are very limited. He mainly has a ceremonial role. The ministers are responsible for what the government does.",
+          "The Netherlands is a democratic state under the rule of law. Parliament consists of two chambers: the House of Representatives (Tweede Kamer) and the Senate (Eerste Kamer). Parliament checks the government and makes the laws together with the government. A law only comes into force once both chambers have passed the bill.",
+          "There are many political parties. After the elections one or more parties together form a government. The government consists of the king and the ministers. The prime minister leads the ministers.",
+          "The Netherlands has three layers of government, each with its own tasks: the central government, the provinces and the municipalities."
+        ]
+      },
+      "remember": {
+        "nl": "De koning heeft vooral een ceremoniële rol. Het parlement (Tweede en Eerste Kamer) maakt samen met de regering de wetten.",
+        "en": "The king mainly has a ceremonial role. Parliament (House of Representatives and Senate) makes the laws together with the government."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: over de regering",
+          "url": "https://www.rijksoverheid.nl/regering/over-de-regering"
+        },
+        {
+          "title": "Rijksoverheid: taken en rechten parlement",
+          "url": "https://www.rijksoverheid.nl/themas/overheid-en-democratie/parlement/taken-en-rechten-parlement"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-1-1",
+          "eindterm": "7.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Welke rol heeft de koning in Nederland?",
+            "en": "What role does the king have in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Hij maakt alle wetten alleen.",
+              "Hij heeft vooral een ceremoniële rol; de ministers zijn verantwoordelijk.",
+              "Hij is de baas van de rechters."
+            ],
+            "en": [
+              "He makes all the laws alone.",
+              "He mainly has a ceremonial role; the ministers are responsible.",
+              "He is the boss of the judges."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De bevoegdheden van de koning zijn zeer beperkt. De koning is onschendbaar; de ministers zijn verantwoordelijk.",
+            "en": "The king's powers are very limited. The king is inviolable; the ministers are responsible."
+          }
+        },
+        {
+          "id": "staatsinrichting-1-2",
+          "eindterm": "7.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Uit welke twee Kamers bestaat het Nederlandse parlement?",
+            "en": "Which two chambers make up the Dutch parliament?"
+          },
+          "options": {
+            "nl": [
+              "De Tweede Kamer en de Eerste Kamer.",
+              "De Kamer van Koophandel en de Tweede Kamer.",
+              "De gemeenteraad en de provincie."
+            ],
+            "en": [
+              "The House of Representatives and the Senate.",
+              "The Chamber of Commerce and the House of Representatives.",
+              "The municipal council and the province."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het parlement bestaat uit de Eerste Kamer en de Tweede Kamer.",
+            "en": "Parliament consists of the Senate and the House of Representatives."
+          }
+        },
+        {
+          "id": "staatsinrichting-1-3",
+          "eindterm": "7.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer gaat een nieuwe wet in?",
+            "en": "When does a new law come into force?"
+          },
+          "options": {
+            "nl": [
+              "Als de koning hem op televisie voorleest.",
+              "Als de minister-president het wil.",
+              "Als de Tweede en de Eerste Kamer het wetsvoorstel hebben aangenomen."
+            ],
+            "en": [
+              "When the king reads it out on TV.",
+              "When the prime minister wants it.",
+              "When both the House and the Senate have passed the bill."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Een wet gaat pas in als de Eerste en de Tweede Kamer het wetsvoorstel hebben aangenomen.",
+            "en": "A law only comes into force once the Senate and the House of Representatives have passed the bill."
+          }
+        },
+        {
+          "id": "staatsinrichting-1-4",
+          "eindterm": "7.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wie vormen samen de regering?",
+            "en": "Who together form the government?"
+          },
+          "options": {
+            "nl": [
+              "De koning en de ministers.",
+              "Alle burgemeesters.",
+              "De rechters."
+            ],
+            "en": [
+              "The king and the ministers.",
+              "All mayors.",
+              "The judges."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De koning en de ministers vormen samen de regering. De minister-president leidt de ministers.",
+            "en": "The king and the ministers together form the government. The prime minister leads the ministers."
+          }
+        },
+        {
+          "id": "staatsinrichting-1-5",
+          "eindterm": "7.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke drie bestuurslagen heeft Nederland?",
+            "en": "Which three layers of government does the Netherlands have?"
+          },
+          "options": {
+            "nl": [
+              "Koning, kerk en leger.",
+              "Het Rijk, de provincies en de gemeenten.",
+              "Noord, midden en zuid."
+            ],
+            "en": [
+              "King, church and army.",
+              "The central government, the provinces and the municipalities.",
+              "North, middle and south."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Nederland kent drie bestuursniveaus: rijk, provincies en gemeenten, elk met eigen taken.",
+            "en": "The Netherlands has three levels of government: central government, provinces and municipalities, each with its own tasks."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "7.1"
+      ],
+      "title": {
+        "nl": "Nederland in de Europese Unie",
+        "en": "The Netherlands in the European Union"
+      },
+      "situation": {
+        "nl": "Ewa komt uit Polen en werkt in een kas in het Westland. Ze had geen werkvergunning nodig.",
+        "en": "Ewa is from Poland and works in a greenhouse in the Westland. She did not need a work permit."
+      },
+      "body": {
+        "nl": [
+          "Nederland is lid van de Europese Unie (EU). In de EU werken 27 Europese landen samen. Als lidstaat moet Nederland zich houden aan de afspraken en regels die in de EU zijn gemaakt.",
+          "Voor burgers betekent de EU onder meer vrij verkeer van personen en goederen. Inwoners van EU-landen kunnen in principe in andere EU-landen wonen, werken en reizen. Producten kunnen zonder grenscontroles binnen de EU vervoerd worden.",
+          "Om de 5 jaar kiezen de inwoners van de EU het Europees Parlement. De leden van het Europees Parlement beslissen mee over nieuwe Europese wetten."
+        ],
+        "en": [
+          "The Netherlands is a member of the European Union (EU). In the EU, 27 European countries work together. As a member state the Netherlands must keep to the agreements and rules made in the EU.",
+          "For citizens the EU means, among other things, free movement of people and goods. Residents of EU countries can in principle live, work and travel in other EU countries. Goods can be transported within the EU without border checks.",
+          "Every 5 years the residents of the EU elect the European Parliament. Members of the European Parliament help decide on new European laws."
+        ]
+      },
+      "remember": {
+        "nl": "Nederland is lid van de EU en moet zich aan EU-regels houden. EU-burgers mogen in principe vrij wonen, werken en reizen in andere EU-landen.",
+        "en": "The Netherlands is an EU member and must follow EU rules. EU citizens may in principle live, work and travel freely in other EU countries."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wat heeft Nederland aan de EU?",
+          "url": "https://www.rijksoverheid.nl/actueel/weblogs/bzers-wereldwijd/2024/wat-heeft-nederland-aan-de-eu"
+        },
+        {
+          "title": "Canon van Nederland: Europa",
+          "url": "https://www.canonvannederland.nl/nl/europa"
+        },
+        {
+          "title": "Rijksoverheid: waar stem ik voor bij de verkiezing voor het Europees Parlement?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/verkiezingen/waar-stem-ik-voor-bij-de-europees-parlementsverkiezing"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-2-1",
+          "eindterm": "7.1.2",
+          "source": 0,
+          "prompt": {
+            "nl": "Nederland is lid van de EU. Wat betekent dat voor Nederlandse wetten en regels?",
+            "en": "The Netherlands is an EU member. What does that mean for Dutch laws and rules?"
+          },
+          "options": {
+            "nl": [
+              "Nederland moet zich houden aan de afspraken en regels van de EU.",
+              "Nederland mag EU-regels altijd negeren.",
+              "De EU maakt alle Nederlandse wetten."
+            ],
+            "en": [
+              "The Netherlands must keep to EU agreements and rules.",
+              "The Netherlands may always ignore EU rules.",
+              "The EU makes all Dutch laws."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Als lidstaat moet Nederland de afspraken en regels die in de EU zijn gemaakt nakomen.",
+            "en": "As a member state the Netherlands must comply with the agreements and rules made in the EU."
+          }
+        },
+        {
+          "id": "staatsinrichting-2-2",
+          "eindterm": "7.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Ewa komt uit een ander EU-land. Mag ze in Nederland wonen en werken?",
+            "en": "Ewa comes from another EU country. May she live and work in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Nee, nooit.",
+              "Ja, in principe wel: in de EU is er vrij verkeer van personen.",
+              "Alleen als ze met een Nederlander trouwt."
+            ],
+            "en": [
+              "No, never.",
+              "Yes, in principle: in the EU there is free movement of people.",
+              "Only if she marries a Dutch person."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Binnen de EU kunnen inwoners gemakkelijker emigreren en reizen. Er is in principe vrij verkeer van personen.",
+            "en": "Within the EU residents can move and travel more easily. There is in principle free movement of people."
+          }
+        },
+        {
+          "id": "staatsinrichting-2-3",
+          "eindterm": "7.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Hoeveel landen werken samen in de EU?",
+            "en": "How many countries work together in the EU?"
+          },
+          "options": {
+            "nl": [
+              "12.",
+              "193.",
+              "27."
+            ],
+            "en": [
+              "12.",
+              "193.",
+              "27."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "In de EU werken 27 Europese landen samen.",
+            "en": "In the EU, 27 European countries work together."
+          }
+        },
+        {
+          "id": "staatsinrichting-2-4",
+          "eindterm": "7.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Hoe vaak zijn er verkiezingen voor het Europees Parlement?",
+            "en": "How often are there elections for the European Parliament?"
+          },
+          "options": {
+            "nl": [
+              "Elk jaar.",
+              "Om de 5 jaar.",
+              "Nooit; de leden worden benoemd."
+            ],
+            "en": [
+              "Every year.",
+              "Every 5 years.",
+              "Never; members are appointed."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Om de 5 jaar kiezen de inwoners van de Europese Unie de leden van het Europees Parlement.",
+            "en": "Every 5 years the residents of the European Union elect the members of the European Parliament."
+          }
+        },
+        {
+          "id": "staatsinrichting-2-5",
+          "eindterm": "7.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat is een voordeel van de EU voor producten?",
+            "en": "What is an advantage of the EU for goods?"
+          },
+          "options": {
+            "nl": [
+              "Producten kunnen zonder grenscontroles binnen de EU vervoerd worden.",
+              "Producten worden overal duurder.",
+              "Je mag niets meer uit het buitenland kopen."
+            ],
+            "en": [
+              "Goods can be transported within the EU without border checks.",
+              "Goods become more expensive everywhere.",
+              "You may no longer buy anything from abroad."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Binnen de EU kunnen goederen zonder grenscontroles overal vervoerd worden.",
+            "en": "Within the EU goods can be transported anywhere without border checks."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "7.1"
+      ],
+      "title": {
+        "nl": "De scheiding der machten",
+        "en": "The separation of powers"
+      },
+      "situation": {
+        "nl": "De rechter heeft beslist in de ruzie tussen Samir en zijn oude werkgever. Samir is het niet eens met de uitspraak.",
+        "en": "The court has decided in the dispute between Samir and his former employer. Samir disagrees with the ruling."
+      },
+      "body": {
+        "nl": [
+          "In een rechtsstaat moet iedereen zich aan de wet houden: burgers, organisaties en de overheid. Om te voorkomen dat één persoon of groep te veel macht krijgt, is de macht verdeeld over drie machten. Dat heet de scheiding der machten of trias politica.",
+          "De wetgevende macht maakt de wetten: de regering en het parlement samen. De uitvoerende macht voert de wetten uit en bestuurt: de regering, met de ministers. De rechterlijke macht beslist bij conflicten over de regels: de rechters.",
+          "Rechters zijn onafhankelijk. Een uitspraak van de rechter moet je accepteren. Ben je het er niet mee eens? Dan kun je meestal in hoger beroep gaan. Een hogere rechter, bijvoorbeeld bij een gerechtshof, behandelt de zaak dan opnieuw."
+        ],
+        "en": [
+          "In a state under the rule of law everyone must obey the law: citizens, organisations and the government. To prevent one person or group from getting too much power, power is divided among three branches. This is called the separation of powers or trias politica.",
+          "The legislative power makes the laws: the government and parliament together. The executive power carries out the laws and governs: the government, with the ministers. The judicial power decides in disputes about the rules: the judges.",
+          "Judges are independent. You must accept a judge's ruling. If you disagree, you can usually appeal. A higher court, for example a court of appeal, then hears the case again."
+        ]
+      },
+      "remember": {
+        "nl": "De macht is verdeeld: wetgevend (wetten maken), uitvoerend (besturen) en rechterlijk (rechtspreken). Niet eens met de rechter? Ga in hoger beroep.",
+        "en": "Power is divided: legislative (making laws), executive (governing) and judicial (judging). Disagree with the court? Appeal."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "De Rechtspraak: democratische rechtsstaat",
+          "url": "https://www.rechtspraak.nl/Organisatie-en-contact/Rechtspraak-in-Nederland/Democratische-rechtsstaat"
+        },
+        {
+          "title": "De Rechtspraak: hoger beroep",
+          "url": "https://www.rechtspraak.nl/Naar-de-rechter/Hoger-beroep"
+        },
+        {
+          "title": "Rijksoverheid: taken en rechten parlement",
+          "url": "https://www.rijksoverheid.nl/themas/overheid-en-democratie/parlement/taken-en-rechten-parlement"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-3-1",
+          "eindterm": "7.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom is de macht in Nederland verdeeld over drie machten?",
+            "en": "Why is power in the Netherlands divided among three branches?"
+          },
+          "options": {
+            "nl": [
+              "Zodat niemand te veel macht krijgt.",
+              "Zodat er meer ambtenaren zijn.",
+              "Omdat de koning dat leuk vindt."
+            ],
+            "en": [
+              "So that nobody gets too much power.",
+              "So that there are more civil servants.",
+              "Because the king likes it."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Door de scheiding der machten krijgt niet één persoon of groep alle macht. Dat is belangrijk in een rechtsstaat.",
+            "en": "Thanks to the separation of powers no single person or group gets all the power. That is important under the rule of law."
+          }
+        },
+        {
+          "id": "staatsinrichting-3-2",
+          "eindterm": "7.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat doet de rechterlijke macht?",
+            "en": "What does the judicial power do?"
+          },
+          "options": {
+            "nl": [
+              "Wetten maken.",
+              "Beslissen bij conflicten over de regels.",
+              "Belasting innen."
+            ],
+            "en": [
+              "Make laws.",
+              "Decide in disputes about the rules.",
+              "Collect taxes."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De rechterlijke macht, de rechters, beslist bij conflicten over de regels.",
+            "en": "The judicial power, the judges, decides in disputes about the rules."
+          }
+        },
+        {
+          "id": "staatsinrichting-3-3",
+          "eindterm": "7.1.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Wie vormen samen de wetgevende macht?",
+            "en": "Who together form the legislative power?"
+          },
+          "options": {
+            "nl": [
+              "De rechters en de politie.",
+              "De gemeenten.",
+              "De regering en het parlement."
+            ],
+            "en": [
+              "The judges and the police.",
+              "The municipalities.",
+              "The government and parliament."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Het parlement heeft een wetgevende functie en maakt samen met de regering de wetten.",
+            "en": "Parliament has a legislative function and makes the laws together with the government."
+          }
+        },
+        {
+          "id": "staatsinrichting-3-4",
+          "eindterm": "7.1.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Samir is het niet eens met de uitspraak van de rechter. Wat kan hij meestal doen?",
+            "en": "Samir disagrees with the judge's ruling. What can he usually do?"
+          },
+          "options": {
+            "nl": [
+              "De uitspraak negeren.",
+              "In hoger beroep gaan.",
+              "De rechter een boete geven."
+            ],
+            "en": [
+              "Ignore the ruling.",
+              "Appeal to a higher court.",
+              "Give the judge a fine."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ben je het niet eens met een uitspraak? Meestal kun je in hoger beroep gaan. Een hogere rechter behandelt de zaak dan opnieuw.",
+            "en": "Disagree with a ruling? Usually you can appeal. A higher court then hears the case again."
+          }
+        },
+        {
+          "id": "staatsinrichting-3-5",
+          "eindterm": "7.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Wie moeten zich in een rechtsstaat aan de wet houden?",
+            "en": "Who must obey the law under the rule of law?"
+          },
+          "options": {
+            "nl": [
+              "Alleen burgers.",
+              "Iedereen: burgers, organisaties en de overheid.",
+              "Alleen buitenlanders."
+            ],
+            "en": [
+              "Only citizens.",
+              "Everyone: citizens, organisations and the government.",
+              "Only foreigners."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In een rechtsstaat moet iedereen zich aan het recht houden: burgers, organisaties en overheid.",
+            "en": "Under the rule of law everyone must keep to the law: citizens, organisations and the government."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "7.1"
+      ],
+      "title": {
+        "nl": "Kiesrecht en verkiezingen",
+        "en": "The right to vote and elections"
+      },
+      "situation": {
+        "nl": "Mariam woont al zeven jaar legaal in Nederland, maar heeft de Turkse nationaliteit. Ze krijgt een stempas voor de gemeenteraadsverkiezingen.",
+        "en": "Mariam has lived legally in the Netherlands for seven years but has Turkish nationality. She gets a voting pass for the municipal elections."
+      },
+      "body": {
+        "nl": [
+          "Kiesrecht is het recht om te kiezen en gekozen te worden. Actief kiesrecht is het recht om te stemmen. Passief kiesrecht is het recht om je verkiesbaar te stellen en gekozen te worden. Nederlanders van 18 jaar en ouder hebben kiesrecht.",
+          "Er zijn verschillende verkiezingen: voor de gemeenteraad, de Provinciale Staten, de waterschappen, de Tweede Kamer en het Europees Parlement. Soms is er een referendum.",
+          "Ben je geen Nederlander, maar woon je minstens vijf jaar onafgebroken legaal in Nederland? Dan mag je meedoen aan de gemeenteraadsverkiezingen. De gemeenteraad beslist over plannen en regels in je gemeente, bijvoorbeeld over afval, verkeer en woningbouw.",
+          "Door te stemmen heb je invloed op de besluiten die worden genomen."
+        ],
+        "en": [
+          "The right to vote (kiesrecht) is the right to elect and be elected. Active voting rights are the right to vote. Passive voting rights are the right to stand for election and be elected. Dutch nationals aged 18 and over have voting rights.",
+          "There are different elections: for the municipal council, the Provincial Council, the water boards, the House of Representatives and the European Parliament. Sometimes there is a referendum.",
+          "Are you not Dutch, but have you lived legally in the Netherlands for at least five years without interruption? Then you may take part in the municipal elections. The municipal council decides on plans and rules in your municipality, for example about waste, traffic and housing.",
+          "By voting you have influence on the decisions that are made."
+        ]
+      },
+      "remember": {
+        "nl": "Actief kiesrecht is stemmen, passief kiesrecht is gekozen worden. Na vijf jaar legaal verblijf mag je als niet-Nederlander stemmen voor de gemeenteraad.",
+        "en": "Active voting rights means voting, passive means being elected. After five years of legal residence a non-Dutch national may vote for the municipal council."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Parlement.com (Montesquieu Instituut): kiesrecht",
+          "url": "https://parlement.com/kiesrecht"
+        },
+        {
+          "title": "Rijksoverheid: waar stem ik voor bij gemeenteraadsverkiezingen?",
+          "url": "https://www.rijksoverheid.nl/wetten-en-regelingen/productbeschrijvingen/stemmen-gemeenteraadsverkiezingen"
+        },
+        {
+          "title": "Rijksoverheid: waar stem ik voor bij de verkiezing voor het Europees Parlement?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/verkiezingen/waar-stem-ik-voor-bij-de-europees-parlementsverkiezing"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-4-1",
+          "eindterm": "7.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is actief kiesrecht?",
+            "en": "What are active voting rights?"
+          },
+          "options": {
+            "nl": [
+              "Het recht om te stemmen.",
+              "Het recht om gekozen te worden.",
+              "De plicht om naar de sportschool te gaan."
+            ],
+            "en": [
+              "The right to vote.",
+              "The right to be elected.",
+              "The duty to go to the gym."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Kiesrecht is het recht om te kiezen (actief) en gekozen te worden (passief).",
+            "en": "Voting rights are the right to elect (active) and to be elected (passive)."
+          }
+        },
+        {
+          "id": "staatsinrichting-4-2",
+          "eindterm": "7.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is passief kiesrecht?",
+            "en": "What are passive voting rights?"
+          },
+          "options": {
+            "nl": [
+              "Het recht om thuis te blijven bij verkiezingen.",
+              "Het recht om gekozen te worden.",
+              "Het recht om voor iemand anders te stemmen."
+            ],
+            "en": [
+              "The right to stay home at elections.",
+              "The right to be elected.",
+              "The right to vote for someone else."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Passief kiesrecht is het recht om gekozen te worden, bijvoorbeeld als raadslid of Kamerlid.",
+            "en": "Passive voting rights are the right to be elected, for example as a councillor or MP."
+          }
+        },
+        {
+          "id": "staatsinrichting-4-3",
+          "eindterm": "7.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Mariam is geen Nederlander, maar woont al zeven jaar legaal in Nederland. Voor welke verkiezing mag ze stemmen?",
+            "en": "Mariam is not Dutch but has lived legally in the Netherlands for seven years. In which election may she vote?"
+          },
+          "options": {
+            "nl": [
+              "Voor de Tweede Kamer.",
+              "Voor geen enkele verkiezing.",
+              "Voor de gemeenteraad."
+            ],
+            "en": [
+              "The House of Representatives.",
+              "No election at all.",
+              "The municipal council."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Niet-Nederlanders die ten minste vijf jaar onafgebroken legaal in Nederland verblijven, hebben kiesrecht voor de gemeenteraadsverkiezingen.",
+            "en": "Non-Dutch nationals who have resided legally in the Netherlands for at least five years without interruption may vote in municipal elections."
+          }
+        },
+        {
+          "id": "staatsinrichting-4-4",
+          "eindterm": "7.1.4",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke verkiezing bestaat in Nederland?",
+            "en": "Which election exists in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "De verkiezing voor de koning.",
+              "De verkiezing voor de waterschappen.",
+              "De verkiezing voor de rechters."
+            ],
+            "en": [
+              "The election of the king.",
+              "The water board elections.",
+              "The election of judges."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Er zijn verkiezingen voor gemeenten, provincies, waterschappen, de Tweede Kamer en het Europees Parlement, en soms referenda.",
+            "en": "There are elections for municipalities, provinces, water boards, the House of Representatives and the European Parliament, and sometimes referendums."
+          }
+        },
+        {
+          "id": "staatsinrichting-4-5",
+          "eindterm": "7.1.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Waarover beslist de gemeenteraad?",
+            "en": "What does the municipal council decide on?"
+          },
+          "options": {
+            "nl": [
+              "Over plannen en regels in de gemeente, zoals afval en woningbouw.",
+              "Over oorlog en vrede.",
+              "Over de Europese wetten."
+            ],
+            "en": [
+              "Plans and rules in the municipality, such as waste and housing.",
+              "War and peace.",
+              "European laws."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De gemeenteraad beslist over plannen en regels in de gemeente, bijvoorbeeld over afval, verkeer en woningbouw.",
+            "en": "The municipal council decides on plans and rules in the municipality, for example waste, traffic and housing."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "7.2"
+      ],
+      "title": {
+        "nl": "Gelijkwaardigheid, meningsuiting en godsdienst",
+        "en": "Equality, freedom of expression and religion"
+      },
+      "situation": {
+        "nl": "Op een verjaardag zegt een oom van Leila dat meisjes niet hoeven te studeren. Leila wil dokter worden.",
+        "en": "At a birthday party Leila's uncle says girls don't need to study. Leila wants to become a doctor."
+      },
+      "body": {
+        "nl": [
+          "Vrouwen en mannen zijn voor de wet gelijkwaardig en moeten gelijk behandeld worden. Ze hebben dezelfde kansen om zich te ontwikkelen, bijvoorbeeld door te studeren en te werken.",
+          "De wet beschermt de vrijheid van meningsuiting: je mag je mening uiten zonder dat de overheid je tegenhoudt. Maar er zijn grenzen. Je mag niets zeggen of schrijven wat volgens de wet verboden is, zoals bedreigen of oproepen tot geweld of haat. En wat jij zegt, kan voor anderen kwetsend zijn.",
+          "In Nederland geldt godsdienstvrijheid. Iedereen mag zelf een godsdienst of levensovertuiging kiezen, of geen geloof hebben, en dat laten zien. De overheid bemoeit zich niet met de interne zaken van geloofsgemeenschappen, zolang die zich aan de wet houden.",
+          "De wetten van de staat gaan boven de regels van een godsdienst of traditie."
+        ],
+        "en": [
+          "Women and men are equal before the law and must be treated equally. They have the same opportunities to develop, for example by studying and working.",
+          "The law protects freedom of expression: you may express your opinion without the government stopping you. But there are limits. You may not say or write anything prohibited by law, such as threats or incitement to violence or hatred. And what you say can be hurtful to others.",
+          "There is freedom of religion in the Netherlands. Everyone may choose a religion or belief, or have no religion, and show it. The government does not interfere in the internal affairs of religious communities, as long as they obey the law.",
+          "The laws of the state come before the rules of a religion or tradition."
+        ]
+      },
+      "remember": {
+        "nl": "Mannen en vrouwen zijn gelijkwaardig. Je mag je mening uiten en je geloof kiezen, maar de wet van de staat gaat altijd voor.",
+        "en": "Men and women are equal. You may express your opinion and choose your religion, but the law of the state always comes first."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: uitlegvideo artikel 1 van de Grondwet",
+          "url": "https://www.rijksoverheid.nl/documenten/videos/2023/07/07/uitlegvideo-artikel-1-grondwet"
+        },
+        {
+          "title": "Rijksoverheid: uitlegvideo sociale grondrechten (over artikel 7)",
+          "url": "https://www.rijksoverheid.nl/documenten/videos/2023/10/25/uitlegvideo-sociale-grondrechten"
+        },
+        {
+          "title": "Rijksoverheid: uitlegvideo artikel 6 van de Grondwet",
+          "url": "https://www.rijksoverheid.nl/documenten/videos/2023/10/13/uitlegvideo-artikel-6-grondwet"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-5-1",
+          "eindterm": "7.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Leila wil dokter worden. Heeft zij als vrouw dezelfde kansen als een man?",
+            "en": "Leila wants to become a doctor. Does she as a woman have the same opportunities as a man?"
+          },
+          "options": {
+            "nl": [
+              "Nee, mannen gaan voor.",
+              "Ja, vrouwen en mannen zijn gelijkwaardig en hebben dezelfde kansen.",
+              "Alleen als haar familie dat goedvindt."
+            ],
+            "en": [
+              "No, men come first.",
+              "Yes, women and men are equal and have the same opportunities.",
+              "Only if her family agrees."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De Grondwet verbiedt onderscheid op grond van geslacht. Vrouwen en mannen hebben dezelfde kansen, bijvoorbeeld via scholing en werk.",
+            "en": "The Constitution prohibits discrimination on grounds of sex. Women and men have the same opportunities, for example through education and work."
+          }
+        },
+        {
+          "id": "staatsinrichting-5-2",
+          "eindterm": "7.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat betekent vrijheid van meningsuiting?",
+            "en": "What does freedom of expression mean?"
+          },
+          "options": {
+            "nl": [
+              "Je mag alles zeggen, ook bedreigingen.",
+              "Je mag je mening uiten zonder dat de overheid je tegenhoudt, binnen de grenzen van de wet.",
+              "Alleen politici mogen hun mening geven."
+            ],
+            "en": [
+              "You may say anything, including threats.",
+              "You may express your opinion without the government stopping you, within the limits of the law.",
+              "Only politicians may give their opinion."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Artikel 7 van de Grondwet beschermt je vrijheid om je mening te uiten. Maar je mag niets zeggen of schrijven wat volgens de wet verboden is.",
+            "en": "Article 7 of the Constitution protects your freedom to express your opinion. But you may not say or write anything prohibited by law."
+          }
+        },
+        {
+          "id": "staatsinrichting-5-3",
+          "eindterm": "7.2.2",
+          "source": 0,
+          "prompt": {
+            "nl": "Iemand zegt op internet dat hij een bekende Nederlander iets wil aandoen. Valt dat onder de vrijheid van meningsuiting?",
+            "en": "Someone writes online that he wants to harm a well-known Dutch person. Is that covered by freedom of expression?"
+          },
+          "options": {
+            "nl": [
+              "Nee, bedreigen is volgens de wet verboden.",
+              "Ja, op internet mag alles.",
+              "Ja, als hij het grappig bedoelt."
+            ],
+            "en": [
+              "No, threats are prohibited by law.",
+              "Yes, anything goes online.",
+              "Yes, if he means it as a joke."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De vrijheid van meningsuiting heeft grenzen: je mag niets zeggen of schrijven wat volgens de wet verboden is, zoals een bedreiging.",
+            "en": "Freedom of expression has limits: you may not say or write anything prohibited by law, such as a threat."
+          }
+        },
+        {
+          "id": "staatsinrichting-5-4",
+          "eindterm": "7.2.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat betekent godsdienstvrijheid?",
+            "en": "What does freedom of religion mean?"
+          },
+          "options": {
+            "nl": [
+              "Iedereen moet hetzelfde geloof hebben.",
+              "Alleen christenen mogen hun geloof laten zien.",
+              "Iedereen mag zelf een godsdienst of levensovertuiging kiezen."
+            ],
+            "en": [
+              "Everyone must have the same religion.",
+              "Only Christians may show their religion.",
+              "Everyone may choose their own religion or belief."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Artikel 6 van de Grondwet: ieder heeft het recht zijn godsdienst of levensovertuiging vrij te belijden.",
+            "en": "Article 6 of the Constitution: everyone has the right to profess their religion or belief freely."
+          }
+        },
+        {
+          "id": "staatsinrichting-5-5",
+          "eindterm": "7.2.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Een religieuze regel botst met een Nederlandse wet. Wat gaat voor?",
+            "en": "A religious rule conflicts with a Dutch law. Which comes first?"
+          },
+          "options": {
+            "nl": [
+              "De religieuze regel.",
+              "De wet van de staat.",
+              "Wat de familie beslist."
+            ],
+            "en": [
+              "The religious rule.",
+              "The law of the state.",
+              "What the family decides."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De wetten van de staat staan boven die van religie en traditie.",
+            "en": "The laws of the state come before those of religion and tradition."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "7.2"
+      ],
+      "title": {
+        "nl": "Discriminatieverbod en privacy",
+        "en": "The ban on discrimination, and privacy"
+      },
+      "situation": {
+        "nl": "Hasan solliciteert bij een bedrijf. Hij hoort dat ze 'liever geen buitenlanders' willen. Het bedrijf vraagt ook om een kopie van zijn paspoort.",
+        "en": "Hasan applies for a job at a company. He hears that they would 'rather not have foreigners'. The company also asks for a copy of his passport."
+      },
+      "body": {
+        "nl": [
+          "Artikel 1 van de Grondwet zegt: iedereen in Nederland moet in gelijke gevallen gelijk behandeld worden. Discriminatie wegens godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, handicap, seksuele gerichtheid of op welke grond dan ook is niet toegestaan.",
+          "Word je gediscrimineerd of uitgesloten? Meld het bij een antidiscriminatiebureau (Discriminatie.nl, ook telefonisch) of bij de politie.",
+          "De wet beschermt ook je privacy. Deel met de overheid en andere organisaties alleen de persoonsgegevens die zij nodig hebben voor hun taak. Vraagt een organisatie om een kopie van je identiteitsbewijs? Vraag dan waarom dat nodig is en maak je BSN onleesbaar.",
+          "Je mag altijd vragen welke gegevens een organisatie over jou heeft. Dat heet het recht op inzage. Kloppen je gegevens niet? Dan kun je vragen om ze te wijzigen."
+        ],
+        "en": [
+          "Article 1 of the Constitution says: everyone in the Netherlands must be treated equally in equal cases. Discrimination on grounds of religion, belief, political opinion, race, sex, disability, sexual orientation or any other ground is not allowed.",
+          "Are you discriminated against or excluded? Report it to an anti-discrimination office (Discriminatie.nl, also by phone) or to the police.",
+          "The law also protects your privacy. Share with the government and other organisations only the personal data they need for their task. Does an organisation ask for a copy of your ID? Ask why it is necessary and make your BSN unreadable.",
+          "You may always ask which data an organisation holds about you. That is called the right of access. Is your data wrong? Then you can ask for it to be corrected."
+        ]
+      },
+      "remember": {
+        "nl": "Discriminatie is verboden (artikel 1 Grondwet); meld het. Deel alleen de gegevens die nodig zijn, en je mag je gegevens altijd inzien.",
+        "en": "Discrimination is prohibited (Article 1 of the Constitution); report it. Share only the data that is needed, and you may always see your data."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: uitlegvideo artikel 1 van de Grondwet",
+          "url": "https://www.rijksoverheid.nl/documenten/videos/2023/07/07/uitlegvideo-artikel-1-grondwet"
+        },
+        {
+          "title": "Rijksoverheid: aanpak discriminatie en racisme",
+          "url": "https://www.rijksoverheid.nl/themas/migratie-en-reizen/discriminatie-en-racisme/aanpak-discriminatie-en-racisme"
+        },
+        {
+          "title": "Rijksoverheid: hoe voorkom ik fraude met een kopie van mijn identiteitsbewijs?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/identiteitsfraude/fraude-voorkomen-met-kopie-id-bewijs"
+        },
+        {
+          "title": "Autoriteit Persoonsgegevens: recht op inzage",
+          "url": "https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacyrechten-avg/recht-op-inzage"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-6-1",
+          "eindterm": "7.2.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat staat er in artikel 1 van de Grondwet?",
+            "en": "What does Article 1 of the Constitution say?"
+          },
+          "options": {
+            "nl": [
+              "Dat iedereen in gelijke gevallen gelijk behandeld moet worden en discriminatie niet is toegestaan.",
+              "Dat de koning altijd gelijk heeft.",
+              "Dat iedereen belasting moet betalen."
+            ],
+            "en": [
+              "That everyone must be treated equally in equal cases and discrimination is not allowed.",
+              "That the king is always right.",
+              "That everyone must pay tax."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Artikel 1: allen die zich in Nederland bevinden, worden in gelijke gevallen gelijk behandeld. Discriminatie is niet toegestaan.",
+            "en": "Article 1: all persons in the Netherlands shall be treated equally in equal circumstances. Discrimination is not permitted."
+          }
+        },
+        {
+          "id": "staatsinrichting-6-2",
+          "eindterm": "7.2.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Hasan wordt bij een sollicitatie gediscrimineerd vanwege zijn afkomst. Waar kan hij dat melden?",
+            "en": "Hasan is discriminated against in a job application because of his origin. Where can he report it?"
+          },
+          "options": {
+            "nl": [
+              "Bij een antidiscriminatiebureau of de politie.",
+              "Bij de voedselbank.",
+              "Nergens; dat is normaal."
+            ],
+            "en": [
+              "At an anti-discrimination office or the police.",
+              "At the food bank.",
+              "Nowhere; that is normal."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bijna iedere gemeente heeft een antidiscriminatiebureau (Discriminatie.nl). Discriminatie kun je ook bij de politie melden.",
+            "en": "Almost every municipality has an anti-discrimination office (Discriminatie.nl). You can also report discrimination to the police."
+          }
+        },
+        {
+          "id": "staatsinrichting-6-3",
+          "eindterm": "7.2.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Een verhuurder wil niet aan Ingrid verhuren omdat zij lesbisch is. Mag dat?",
+            "en": "A landlord won't rent to Ingrid because she is a lesbian. Is that allowed?"
+          },
+          "options": {
+            "nl": [
+              "Ja, de verhuurder mag kiezen.",
+              "Nee, discriminatie wegens seksuele gerichtheid is niet toegestaan.",
+              "Alleen in grote steden niet."
+            ],
+            "en": [
+              "Yes, the landlord may choose.",
+              "No, discrimination on grounds of sexual orientation is not allowed.",
+              "Only not in big cities."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Artikel 1 van de Grondwet verbiedt onder meer discriminatie wegens seksuele gerichtheid.",
+            "en": "Article 1 of the Constitution prohibits, among other things, discrimination on grounds of sexual orientation."
+          }
+        },
+        {
+          "id": "staatsinrichting-6-4",
+          "eindterm": "7.2.5",
+          "source": 3,
+          "prompt": {
+            "nl": "Een organisatie vraagt een kopie van je identiteitsbewijs. Wat mag je eerst vragen?",
+            "en": "An organisation asks for a copy of your ID. What may you ask first?"
+          },
+          "options": {
+            "nl": [
+              "Niets; je moet het altijd geven.",
+              "Om geld.",
+              "Waarom de kopie nodig is."
+            ],
+            "en": [
+              "Nothing; you must always give it.",
+              "For money.",
+              "Why the copy is needed."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De organisatie die om een kopie vraagt, moet uitleggen waarom die nodig is. Vaak is het documentnummer al genoeg.",
+            "en": "The organisation asking for a copy must explain why it is needed. Often the document number is enough."
+          }
+        },
+        {
+          "id": "staatsinrichting-6-5",
+          "eindterm": "7.2.5",
+          "source": 4,
+          "prompt": {
+            "nl": "Je wilt weten welke gegevens een organisatie over jou heeft. Mag je dat vragen?",
+            "en": "You want to know what data an organisation holds about you. May you ask?"
+          },
+          "options": {
+            "nl": [
+              "Ja, dat is het recht op inzage.",
+              "Nee, dat is geheim.",
+              "Alleen als je advocaat bent."
+            ],
+            "en": [
+              "Yes, that is the right of access.",
+              "No, that is secret.",
+              "Only if you are a lawyer."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je mag een organisatie vragen welke persoonsgegevens zij van je gebruikt. Kloppen ze niet, dan kun je vragen ze te wijzigen.",
+            "en": "You may ask an organisation which personal data it uses about you. If it is wrong, you can ask for it to be changed."
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "handeling": [
+        "7.2"
+      ],
+      "title": {
+        "nl": "Je lichaam, geweld en zelfbeschikking",
+        "en": "Your body, violence and self-determination"
+      },
+      "situation": {
+        "nl": "Fatma's buurvrouw schreeuwt vaak en Fatma hoort klappen. De kinderen huilen. Fatma weet niet wat ze moet doen.",
+        "en": "Fatma's neighbour often screams and Fatma hears blows. The children are crying. Fatma doesn't know what to do."
+      },
+      "body": {
+        "nl": [
+          "De wet beschermt je lichaam. Elke vorm van geweld en ongewenste intimiteit is strafbaar. Dat geldt ook binnen de familie: huiselijk geweld, eerwraak, het slaan van kinderen en de besnijdenis van meisjes zijn strafbaar. Ook geweld op straat is strafbaar.",
+          "Ben je slachtoffer of getuige van huiselijk geweld of kindermishandeling, of vermoed je het? Bel dan Veilig Thuis: 0800-2000, gratis en dag en nacht bereikbaar. Je kunt anoniem blijven. Ben je in direct gevaar? Bel 112.",
+          "Vrouwen hebben zelfbeschikkingsrecht: ze mogen zelf beslissen over hun eigen lichaam en leven. Bijvoorbeeld met wie ze trouwen. Huwelijksdwang is strafbaar. Een vrouw met een onbedoelde zwangerschap mag zelf kiezen voor een abortus.",
+          "Iedereen vanaf 18 jaar die in Nederland woont, staat in het Donorregister. Vul je niets in? Dan staat er 'geen bezwaar tegen orgaandonatie' bij je naam en kunnen je organen na je overlijden naar een patiënt gaan. Wil je dat niet, of maar gedeeltelijk? Leg dat dan vast in het Donorregister."
+        ],
+        "en": [
+          "The law protects your body. All forms of violence and unwanted intimacy are punishable. That also applies within the family: domestic violence, honour-related violence, hitting children and female circumcision are punishable. Violence in the street is punishable too.",
+          "Are you a victim of or witness to domestic violence or child abuse, or do you suspect it? Then call Veilig Thuis: 0800-2000, free and available day and night. You can remain anonymous. In immediate danger? Call 112.",
+          "Women have the right to self-determination: they may decide about their own body and life. For example whom they marry. Forced marriage is punishable. A woman with an unintended pregnancy may choose an abortion herself.",
+          "Everyone aged 18 or over living in the Netherlands is in the Donor Register. If you fill in nothing, 'no objection to organ donation' is recorded next to your name and your organs can go to a patient after your death. Don't want that, or only partly? Then record your choice in the Donor Register."
+        ]
+      },
+      "remember": {
+        "nl": "Geweld, ook in huis, is strafbaar; bel Veilig Thuis (0800-2000). Vrouwen beslissen zelf over hun lichaam. Vul je niets in, dan ben je orgaandonor.",
+        "en": "Violence, including at home, is punishable; call Veilig Thuis (0800-2000). Women decide about their own body. If you fill in nothing, you are an organ donor."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wat moet ik doen bij huiselijk geweld?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/huiselijk-geweld/wat-moet-ik-doen-bij-huiselijk-geweld"
+        },
+        {
+          "title": "Rijksoverheid: wat is kindermishandeling?",
+          "url": "https://www.rijksoverheid.nl/themas/recht-veiligheid-en-defensie/kindermishandeling/wat-kindermishandeling-is"
+        },
+        {
+          "title": "Rijksoverheid: huwelijksdwang voorkomen",
+          "url": "https://www.rijksoverheid.nl/themas/recht-veiligheid-en-defensie/huwelijksdwang/huwelijksdwang-voorkomen"
+        },
+        {
+          "title": "Donorregister",
+          "url": "https://www.donorregister.nl/"
+        },
+        {
+          "title": "Rijksoverheid: abortus regelen",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/abortus/abortus-regelen"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "staatsinrichting-7-1",
+          "eindterm": "7.2.6",
+          "source": 1,
+          "prompt": {
+            "nl": "Fatma vermoedt dat haar buren hun kinderen mishandelen. Wie kan ze bellen voor advies?",
+            "en": "Fatma suspects her neighbours are abusing their children. Whom can she call for advice?"
+          },
+          "options": {
+            "nl": [
+              "Veilig Thuis (0800-2000).",
+              "De Belastingdienst.",
+              "Niemand; het is hun zaak."
+            ],
+            "en": [
+              "Veilig Thuis (0800-2000).",
+              "The Tax Administration.",
+              "Nobody; it is their business."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bij (vermoedens van) huiselijk geweld en kindermishandeling kun je gratis en dag en nacht Veilig Thuis bellen: 0800-2000.",
+            "en": "For (suspected) domestic violence and child abuse you can call Veilig Thuis free of charge, day and night: 0800-2000."
+          }
+        },
+        {
+          "id": "staatsinrichting-7-2",
+          "eindterm": "7.2.6",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke van deze handelingen is strafbaar in Nederland?",
+            "en": "Which of these acts is punishable in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Je kind een knuffel geven.",
+              "De besnijdenis van een meisje.",
+              "Je kind naar bed sturen."
+            ],
+            "en": [
+              "Giving your child a hug.",
+              "Circumcising a girl.",
+              "Sending your child to bed."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De wet beschermt de integriteit van het lichaam. Besnijdenis van meisjes, eerwraak, huiselijk geweld en het slaan van kinderen zijn strafbaar.",
+            "en": "The law protects bodily integrity. Female circumcision, honour-related violence, domestic violence and hitting children are punishable."
+          }
+        },
+        {
+          "id": "staatsinrichting-7-3",
+          "eindterm": "7.2.7",
+          "source": 4,
+          "prompt": {
+            "nl": "Je hebt niets ingevuld in het Donorregister. Wat staat er dan bij je naam?",
+            "en": "You haven't filled in anything in the Donor Register. What is recorded next to your name?"
+          },
+          "options": {
+            "nl": [
+              "Geen donor.",
+              "Niets; je staat er niet in.",
+              "Geen bezwaar tegen orgaandonatie."
+            ],
+            "en": [
+              "Not a donor.",
+              "Nothing; you are not in it.",
+              "No objection to organ donation."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Als je geen keuze invult, komt 'geen bezwaar tegen orgaandonatie' bij je naam te staan.",
+            "en": "If you fill in no choice, 'no objection to organ donation' is recorded next to your name."
+          }
+        },
+        {
+          "id": "staatsinrichting-7-4",
+          "eindterm": "7.2.7",
+          "source": 4,
+          "prompt": {
+            "nl": "Je wilt na je overlijden geen organen afstaan. Wat doe je?",
+            "en": "You don't want to donate organs after your death. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je legt je keuze vast in het Donorregister.",
+              "Niets; dat gebeurt nooit zonder vragen.",
+              "Je zegt het tegen de buren."
+            ],
+            "en": [
+              "You record your choice in the Donor Register.",
+              "Nothing; it never happens without asking.",
+              "You tell the neighbours."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "In het Donorregister vul je je keuze in, online of per post. Je kunt registreren dat je niet of maar gedeeltelijk donor wilt zijn.",
+            "en": "In the Donor Register you record your choice, online or by post. You can register that you do not want to be a donor, or only partly."
+          }
+        },
+        {
+          "id": "staatsinrichting-7-5",
+          "eindterm": "7.2.8",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat betekent het zelfbeschikkingsrecht van vrouwen?",
+            "en": "What does women's right to self-determination mean?"
+          },
+          "options": {
+            "nl": [
+              "Haar man beslist over haar lichaam.",
+              "Haar familie kiest met wie ze trouwt.",
+              "Zij beslist zelf over haar eigen lichaam en leven."
+            ],
+            "en": [
+              "Her husband decides about her body.",
+              "Her family chooses whom she marries.",
+              "She decides about her own body and life."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Vrouwen beslissen zelf over hun leven en lichaam, bijvoorbeeld met wie ze trouwen. Huwelijksdwang is strafbaar.",
+            "en": "Women decide about their own life and body, for example whom they marry. Forced marriage is punishable."
+          }
+        }
+      ]
+    }
+  ]
+}

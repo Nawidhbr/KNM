@@ -260,6 +260,34 @@
         "National Ombudsman"
       ],
       "plain": "an independent body for complaints about the government"
+    },
+    {
+      "id": "rule-of-law",
+      "forms": [
+        "rule of law"
+      ],
+      "plain": "everyone, including the government, must obey the law"
+    },
+    {
+      "id": "separation-of-powers",
+      "forms": [
+        "separation of powers"
+      ],
+      "plain": "power divided into legislative, executive and judicial branches"
+    },
+    {
+      "id": "appeal",
+      "forms": [
+        "appeal"
+      ],
+      "plain": "asking a higher court to hear a case again (hoger beroep)"
+    },
+    {
+      "id": "donor-register",
+      "forms": [
+        "Donor Register"
+      ],
+      "plain": "the register that records whether you want to donate organs after death"
     }
   ]
 }

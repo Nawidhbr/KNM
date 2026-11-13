@@ -731,6 +731,134 @@
         "opstalverzekering"
       ],
       "plain": "een verzekering voor schade aan het huis zelf"
+    },
+    {
+      "id": "staatshoofd",
+      "forms": [
+        "staatshoofd"
+      ],
+      "plain": "de hoogste vertegenwoordiger van een land; in Nederland de koning"
+    },
+    {
+      "id": "parlement",
+      "forms": [
+        "parlement"
+      ],
+      "plain": "de Tweede Kamer en de Eerste Kamer samen"
+    },
+    {
+      "id": "tweede-kamer",
+      "forms": [
+        "Tweede Kamer"
+      ],
+      "plain": "het deel van het parlement dat de burgers direct kiezen"
+    },
+    {
+      "id": "eerste-kamer",
+      "forms": [
+        "Eerste Kamer"
+      ],
+      "plain": "het deel van het parlement dat wetten nog een keer controleert"
+    },
+    {
+      "id": "minister-president",
+      "forms": [
+        "minister-president"
+      ],
+      "plain": "de leider van de ministers, ook wel premier"
+    },
+    {
+      "id": "wetsvoorstel",
+      "forms": [
+        "wetsvoorstel"
+      ],
+      "plain": "een plan voor een nieuwe wet"
+    },
+    {
+      "id": "rechtsstaat",
+      "forms": [
+        "rechtsstaat"
+      ],
+      "plain": "een land waar iedereen zich aan de wet moet houden, ook de overheid"
+    },
+    {
+      "id": "trias-politica",
+      "forms": [
+        "trias politica",
+        "scheiding der machten"
+      ],
+      "plain": "de verdeling van de macht over wetgevend, uitvoerend en rechterlijk"
+    },
+    {
+      "id": "hoger-beroep",
+      "forms": [
+        "hoger beroep"
+      ],
+      "plain": "een zaak opnieuw laten behandelen door een hogere rechter"
+    },
+    {
+      "id": "kiesrecht",
+      "forms": [
+        "kiesrecht"
+      ],
+      "plain": "het recht om te stemmen en gekozen te worden"
+    },
+    {
+      "id": "gemeenteraad",
+      "forms": [
+        "gemeenteraad"
+      ],
+      "plain": "de gekozen leden die over de plannen en regels van de gemeente beslissen"
+    },
+    {
+      "id": "waterschap",
+      "forms": [
+        "waterschappen",
+        "waterschap"
+      ],
+      "plain": "een overheid die zorgt voor dijken en schoon water"
+    },
+    {
+      "id": "grondwet",
+      "forms": [
+        "Grondwet"
+      ],
+      "plain": "de belangrijkste wet van Nederland, met de grondrechten"
+    },
+    {
+      "id": "levensovertuiging",
+      "forms": [
+        "levensovertuiging"
+      ],
+      "plain": "wat je gelooft of belangrijk vindt in het leven, met of zonder godsdienst"
+    },
+    {
+      "id": "persoonsgegevens",
+      "forms": [
+        "persoonsgegevens"
+      ],
+      "plain": "gegevens over jou, zoals je naam, adres en geboortedatum"
+    },
+    {
+      "id": "veilig-thuis",
+      "forms": [
+        "Veilig Thuis"
+      ],
+      "plain": "het advies- en meldpunt voor huiselijk geweld en kindermishandeling"
+    },
+    {
+      "id": "huwelijksdwang",
+      "forms": [
+        "huwelijksdwang"
+      ],
+      "plain": "iemand dwingen om te trouwen"
+    },
+    {
+      "id": "donorregister",
+      "forms": [
+        "Donorregister"
+      ],
+      "plain": "het register waarin staat of je na je overlijden organen wilt afstaan"
     }
   ]
 }
