@@ -165,6 +165,36 @@
         "Keti Koti"
       ],
       "plain": "the day (1 July) on which the abolition of slavery is remembered and celebrated"
+    },
+    {
+      "id": "permit-holder",
+      "forms": [
+        "permit holders",
+        "permit holder"
+      ],
+      "plain": "someone who was granted a residence permit as a refugee (statushouder)"
+    },
+    {
+      "id": "housing-association",
+      "forms": [
+        "housing association",
+        "housing associations"
+      ],
+      "plain": "an organisation that rents out social housing (woningcorporatie)"
+    },
+    {
+      "id": "rent-tribunal",
+      "forms": [
+        "Rent Tribunal"
+      ],
+      "plain": "the Huurcommissie, which helps when tenant and landlord disagree about rent or maintenance"
+    },
+    {
+      "id": "instalment",
+      "forms": [
+        "instalment"
+      ],
+      "plain": "the amount you pay each month in advance for energy (termijnbedrag)"
     }
   ]
 }

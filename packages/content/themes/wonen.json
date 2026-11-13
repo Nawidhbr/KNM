@@ -1,0 +1,1104 @@
+{
+  "id": "wonen",
+  "n": 3,
+  "title": {
+    "nl": "Wonen",
+    "en": "Housing"
+  },
+  "lead": {
+    "nl": "Een woning vinden, je rechten als huurder, energie en water, en afval scheiden.",
+    "en": "Finding a home, your rights as a tenant, energy and water, and sorting waste."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "3.1"
+      ],
+      "title": {
+        "nl": "Je eerste woning en je huurcontract",
+        "en": "Your first home and your rental contract"
+      },
+      "situation": {
+        "nl": "Hamid heeft een verblijfsvergunning. Hij woont nog in een azc en wacht op een woning.",
+        "en": "Hamid has a residence permit. He still lives in an asylum seekers' centre (azc) and is waiting for a home."
+      },
+      "body": {
+        "nl": [
+          "Statushouders krijgen hun eerste woning meestal via de gemeente. Gemeenten moeten zorgen voor woonruimte voor statushouders. Je kunt ook zelf woonruimte zoeken, bijvoorbeeld via familie of vrienden. Kom je als gezinsmigrant bij je partner wonen? Dan woon je vaak in zijn of haar woning.",
+          "Huur je een woning? Dan krijg je een huurcontract. Daarin staan de afspraken tussen jou en de verhuurder. Bijvoorbeeld hoe hoog de huur is, wanneer je betaalt, hoe hoog de borg is en welke regels er gelden voor de bewoners. De verhuurder moet het huurcontract op papier zetten.",
+          "Lees het huurcontract goed voordat je tekent. Begrijp je iets niet? Vraag dan hulp, bijvoorbeeld bij je gemeente of het Juridisch Loket.",
+          "De woningmarkt is niet overal hetzelfde. De wachttijd voor een huurwoning is in elke gemeente anders."
+        ],
+        "en": [
+          "Permit holders (statushouders) usually get their first home through the municipality. Municipalities must provide housing for permit holders. You can also look for housing yourself, for example through family or friends. If you come to live with your partner as a family migrant, you often live in his or her home.",
+          "Do you rent a home? Then you get a rental contract. It contains the agreements between you and the landlord. For example how high the rent is, when you pay, how high the deposit (borg) is and which rules apply to residents. The landlord must put the rental contract in writing.",
+          "Read the rental contract carefully before you sign. Is something unclear? Ask for help, for example at your municipality or the Legal Services Counter (Juridisch Loket).",
+          "The housing market is not the same everywhere. The waiting time for a rental home is different in every municipality."
+        ]
+      },
+      "remember": {
+        "nl": "Lees je huurcontract goed voordat je tekent: daarin staan de huur, de borg en de afspraken met je verhuurder.",
+        "en": "Read your rental contract carefully before you sign: it contains the rent, the deposit and the agreements with your landlord."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: huisvesting statushouders",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/asielbeleid/huisvesting-asielzoekers-met-verblijfsvergunning"
+        },
+        {
+          "title": "Rijksoverheid: welke afspraken staan er in het huurcontract van mijn woning?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-afspraken-staan-er-in-het-huurcontract-van-mijn-woning"
+        },
+        {
+          "title": "Rijksoverheid: kom ik in aanmerking voor een sociale huurwoning?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/huurwoning-zoeken/vraag-en-antwoord/huurwoning-zoeken/wanneer-kom-ik-in-aanmerking-voor-een-sociale-huurwoning"
+        },
+        {
+          "title": "Rijksoverheid: welke rechten en plichten heb ik als huurder?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-rechten-en-plichten-heb-ik-als-huurder"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-1-1",
+          "eindterm": "3.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Hamid is statushouder en woont nog in een azc. Wie zorgt meestal voor zijn eerste woning?",
+            "en": "Hamid is a permit holder and still lives in an azc. Who usually provides his first home?"
+          },
+          "options": {
+            "nl": [
+              "De politie.",
+              "De gemeente.",
+              "Zijn werkgever."
+            ],
+            "en": [
+              "The police.",
+              "The municipality.",
+              "His employer."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Gemeenten moeten zorgen voor passende woonruimte voor statushouders.",
+            "en": "Municipalities must provide suitable housing for permit holders."
+          }
+        },
+        {
+          "id": "wonen-1-2",
+          "eindterm": "3.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat staat er in een huurcontract?",
+            "en": "What is in a rental contract?"
+          },
+          "options": {
+            "nl": [
+              "De afspraken tussen jou en de verhuurder, zoals de huur.",
+              "Je salaris en je werktijden.",
+              "Je zorgverzekering."
+            ],
+            "en": [
+              "The agreements between you and the landlord, such as the rent.",
+              "Your salary and your working hours.",
+              "Your health insurance."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "In een huurcontract staan de afspraken tussen huurder en verhuurder, bijvoorbeeld de huur, de borg en de begindatum.",
+            "en": "A rental contract contains the agreements between tenant and landlord, for example the rent, the deposit and the start date."
+          }
+        },
+        {
+          "id": "wonen-1-3",
+          "eindterm": "3.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Moet een verhuurder het huurcontract op papier zetten?",
+            "en": "Must a landlord put the rental contract in writing?"
+          },
+          "options": {
+            "nl": [
+              "Nee, een mondelinge afspraak is genoeg.",
+              "Alleen als de huurder erom vraagt.",
+              "Ja, het huurcontract moet schriftelijk zijn."
+            ],
+            "en": [
+              "No, a verbal agreement is enough.",
+              "Only if the tenant asks for it.",
+              "Yes, the rental contract must be in writing."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Een verhuurder moet een schriftelijk huurcontract opstellen.",
+            "en": "A landlord must draw up a written rental contract."
+          }
+        },
+        {
+          "id": "wonen-1-4",
+          "eindterm": "3.1.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Is de wachttijd voor een huurwoning overal in Nederland even lang?",
+            "en": "Is the waiting time for a rental home the same everywhere in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Nee, die is in elke gemeente anders.",
+              "Ja, overal precies een jaar.",
+              "Ja, de regering bepaalt dat voor het hele land."
+            ],
+            "en": [
+              "No, it differs in every municipality.",
+              "Yes, exactly one year everywhere.",
+              "Yes, the government sets it for the whole country."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De woningmarkt verschilt per gemeente. Daarom is de wachttijd voor een huurwoning overal anders.",
+            "en": "The housing market differs per municipality. That is why the waiting time for a rental home differs everywhere."
+          }
+        },
+        {
+          "id": "wonen-1-5",
+          "eindterm": "3.1.1",
+          "source": 4,
+          "prompt": {
+            "nl": "Je krijgt een huurcontract, maar een deel begrijp je niet. Wat doe je?",
+            "en": "You get a rental contract, but you do not understand part of it. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je tekent meteen; het is vast goed.",
+              "Je vraagt hulp voordat je tekent, bijvoorbeeld bij de gemeente of het Juridisch Loket.",
+              "Je tekent niet en zegt niets tegen de verhuurder."
+            ],
+            "en": [
+              "You sign straight away; it is probably fine.",
+              "You ask for help before signing, for example at the municipality or the Juridisch Loket.",
+              "You don't sign and say nothing to the landlord."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Heb je vragen over je huurcontract? Je kunt terecht bij je gemeente, het Juridisch Loket of de Huurcommissie.",
+            "en": "Questions about your rental contract? You can go to your municipality, the Juridisch Loket or the Rent Tribunal (Huurcommissie)."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "3.1"
+      ],
+      "title": {
+        "nl": "Je rechten als huurder",
+        "en": "Your rights as a tenant"
+      },
+      "situation": {
+        "nl": "De verwarming in het huurhuis van Olga is al weken kapot. De verhuurder doet er niets aan.",
+        "en": "The heating in Olga's rented home has been broken for weeks. The landlord does nothing about it."
+      },
+      "body": {
+        "nl": [
+          "Als huurder heb je plichten. Je betaalt de huur op tijd en je zorgt goed voor de woning. Kleine reparaties doe je zelf, zoals een nieuwe wc-bril of een leertje in de kraan.",
+          "Je hebt ook rechten. De verhuurder moet de woning onderhouden. Groot onderhoud is voor de verhuurder, zoals een nieuwe cv-ketel of buitenschilderwerk. De verhuurder mag ook niet zomaar je woning binnenkomen.",
+          "Je hebt huurbescherming: de verhuurder kan de huur niet zomaar stoppen. Je bent ook beschermd tegen discriminatie en intimidatie door de verhuurder.",
+          "Klopt een huurverhoging niet? Dan kun je bezwaar maken bij je verhuurder. Kom je er samen niet uit, bijvoorbeeld over de huur of het onderhoud? Dan kun je in de meeste gevallen naar de Huurcommissie. Voor advies kun je ook naar je gemeente of het Juridisch Loket."
+        ],
+        "en": [
+          "As a tenant you have duties. You pay the rent on time and you take good care of the home. You do small repairs yourself, such as a new toilet seat or a washer in the tap.",
+          "You also have rights. The landlord must maintain the home. Major maintenance is for the landlord, such as a new central heating boiler or outside painting. The landlord may not simply enter your home either.",
+          "You have rent protection: the landlord cannot simply end the tenancy. You are also protected against discrimination and intimidation by the landlord.",
+          "Is a rent increase wrong? Then you can object to your landlord. Can you not agree, for example about the rent or maintenance? Then in most cases you can go to the Rent Tribunal (Huurcommissie). For advice you can also go to your municipality or the Juridisch Loket."
+        ]
+      },
+      "remember": {
+        "nl": "Groot onderhoud is voor de verhuurder. Kom je er samen niet uit? Vraag hulp bij de Huurcommissie, de gemeente of het Juridisch Loket.",
+        "en": "Major maintenance is for the landlord. Can't agree? Ask for help from the Huurcommissie, the municipality or the Juridisch Loket."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: welke rechten en plichten heb ik als huurder?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-rechten-en-plichten-heb-ik-als-huurder"
+        },
+        {
+          "title": "Rijksoverheid: welke kosten zijn voor de huurder en welke voor de verhuurder?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-kosten-zijn-voor-de-huurder-en-welke-voor-de-verhuurder"
+        },
+        {
+          "title": "Rijksoverheid: wanneer kan ik terecht bij de Huurcommissie, de gemeente en de kantonrechter?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/wanneer-kan-ik-terecht-bij-de-huurcommissie-en-wanneer-bij-de-kantonrechter"
+        },
+        {
+          "title": "Rijksoverheid: kan ik bezwaar maken tegen mijn huurverhoging?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/kan-ik-bezwaar-maken-tegen-mijn-huurverhoging"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-2-1",
+          "eindterm": "3.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "De cv-ketel in je huurhuis is helemaal kapot. Wie betaalt een nieuwe?",
+            "en": "The boiler in your rented home is completely broken. Who pays for a new one?"
+          },
+          "options": {
+            "nl": [
+              "Jij als huurder.",
+              "De gemeente.",
+              "De verhuurder."
+            ],
+            "en": [
+              "You as the tenant.",
+              "The municipality.",
+              "The landlord."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Groot onderhoud, zoals een nieuwe cv-ketel, is voor rekening van de verhuurder.",
+            "en": "Major maintenance, such as a new boiler, is paid for by the landlord."
+          }
+        },
+        {
+          "id": "wonen-2-2",
+          "eindterm": "3.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Er moet een nieuw leertje in je kraan. Wie regelt dat?",
+            "en": "Your tap needs a new washer. Who takes care of that?"
+          },
+          "options": {
+            "nl": [
+              "Jij als huurder.",
+              "De verhuurder.",
+              "Het waterbedrijf."
+            ],
+            "en": [
+              "You as the tenant.",
+              "The landlord.",
+              "The water company."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Dagelijks onderhoud, zoals een leertje in de kraan, doet de huurder zelf.",
+            "en": "Day-to-day maintenance, such as a washer in the tap, is done by the tenant."
+          }
+        },
+        {
+          "id": "wonen-2-3",
+          "eindterm": "3.1.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Je krijgt een huurverhoging die volgens jou niet klopt. Wat kun je doen?",
+            "en": "You get a rent increase that you think is wrong. What can you do?"
+          },
+          "options": {
+            "nl": [
+              "Stoppen met huur betalen.",
+              "Bezwaar maken bij je verhuurder.",
+              "De politie bellen."
+            ],
+            "en": [
+              "Stop paying rent.",
+              "Object to your landlord.",
+              "Call the police."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Tegen een huurverhoging kun je bezwaar maken bij je verhuurder. Stop niet met betalen: de huur op tijd betalen is je plicht.",
+            "en": "You can object to a rent increase to your landlord. Do not stop paying: paying rent on time is your duty."
+          }
+        },
+        {
+          "id": "wonen-2-4",
+          "eindterm": "3.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Jij en je verhuurder worden het niet eens over het onderhoud. Waar kun je meestal terecht?",
+            "en": "You and your landlord cannot agree about maintenance. Where can you usually go?"
+          },
+          "options": {
+            "nl": [
+              "Bij de Belastingdienst.",
+              "Bij het UWV.",
+              "Bij de Huurcommissie."
+            ],
+            "en": [
+              "The Tax Administration.",
+              "The UWV.",
+              "The Rent Tribunal (Huurcommissie)."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Bij een meningsverschil over huur, huurverhoging of onderhoud kun je in de meeste gevallen eerst naar de Huurcommissie.",
+            "en": "In a dispute about rent, a rent increase or maintenance you can in most cases go to the Huurcommissie first."
+          }
+        },
+        {
+          "id": "wonen-2-5",
+          "eindterm": "3.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Mag je verhuurder zomaar je woning binnenkomen?",
+            "en": "May your landlord simply enter your home?"
+          },
+          "options": {
+            "nl": [
+              "Ja, het is zijn huis.",
+              "Nee, je hebt recht om ongestoord te wonen.",
+              "Ja, als hij een sleutel heeft."
+            ],
+            "en": [
+              "Yes, it is his house.",
+              "No, you have the right to live undisturbed.",
+              "Yes, if he has a key."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Als huurder heb je recht op woonplezier: je mag ongestoord wonen. De verhuurder mag niet zomaar binnenkomen.",
+            "en": "As a tenant you have the right to live undisturbed. The landlord may not simply come in."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "3.1"
+      ],
+      "title": {
+        "nl": "Een andere woning zoeken",
+        "en": "Looking for another home"
+      },
+      "situation": {
+        "nl": "Nadia en haar man huren een kleine flat. Ze krijgen een tweede kind en willen een grotere woning.",
+        "en": "Nadia and her husband rent a small flat. They are having a second child and want a bigger home."
+      },
+      "body": {
+        "nl": [
+          "Er zijn drie soorten woningen: sociale huurwoningen, huurwoningen in de vrije sector en koopwoningen.",
+          "Sociale huurwoningen zijn voor mensen met een lager inkomen en hebben een maximale huur. Je huurt ze van een woningcorporatie. Daarvoor moet je je eerst inschrijven als woningzoekende. Doe dat zo snel mogelijk: vaak moet je lang wachten.",
+          "Woningcorporaties stellen eisen, bijvoorbeeld aan je inkomen en aan de grootte van je gezin. Een huurwoning in de vrije sector vind je bijvoorbeeld via een makelaar of in advertenties. Een huis kopen gaat vaak via een makelaar.",
+          "Zoek een woning die past bij je situatie en je inkomen. Je gemeente geeft informatie over verhuurders in je buurt."
+        ],
+        "en": [
+          "There are three kinds of homes: social rental homes, rental homes in the private sector (vrije sector) and owner-occupied homes.",
+          "Social rental homes are for people with a lower income and have a maximum rent. You rent them from a housing association (woningcorporatie). For that you must first register as a home seeker. Do it as soon as possible: you often have to wait a long time.",
+          "Housing associations set requirements, for example about your income and the size of your family. You can find a private-sector rental home through an estate agent (makelaar) or in advertisements, for example. Buying a house often goes through an estate agent.",
+          "Look for a home that fits your situation and your income. Your municipality gives information about landlords in your area."
+        ]
+      },
+      "remember": {
+        "nl": "Schrijf je zo snel mogelijk in als woningzoekende: de wachttijd voor een sociale huurwoning is vaak lang.",
+        "en": "Register as a home seeker as soon as possible: the waiting time for a social rental home is often long."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: kom ik in aanmerking voor een sociale huurwoning?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/huurwoning-zoeken/vraag-en-antwoord/huurwoning-zoeken/wanneer-kom-ik-in-aanmerking-voor-een-sociale-huurwoning"
+        },
+        {
+          "title": "Rijksoverheid: ik zoek een huurwoning",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/huurwoning-zoeken/ik-zoek-een-huurwoning"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-3-1",
+          "eindterm": "3.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke drie soorten woningen zijn er in Nederland?",
+            "en": "Which three kinds of homes are there in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Stadswoningen, dorpswoningen en boerderijen.",
+              "Alleen huurwoningen van de gemeente.",
+              "Sociale huur, vrije sector en koopwoningen."
+            ],
+            "en": [
+              "Town houses, village houses and farms.",
+              "Only rental homes from the municipality.",
+              "Social rent, private sector and owner-occupied homes."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Je kunt een woning krijgen via sociale huur, de vrije huursector of door een huis te kopen.",
+            "en": "You can get a home through social rent, the private rental sector or by buying a house."
+          }
+        },
+        {
+          "id": "wonen-3-2",
+          "eindterm": "3.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat doe je eerst als je een sociale huurwoning wilt?",
+            "en": "What do you do first if you want a social rental home?"
+          },
+          "options": {
+            "nl": [
+              "Je schrijft je in bij een woningcorporatie.",
+              "Je betaalt een makelaar.",
+              "Je stuurt een brief naar de koning."
+            ],
+            "en": [
+              "You register with a housing association.",
+              "You pay an estate agent.",
+              "You send a letter to the king."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Voor een sociale huurwoning moet je je inschrijven bij een woningcorporatie of een andere organisatie die zulke woningen aanbiedt.",
+            "en": "For a social rental home you must register with a housing association or another organisation that offers such homes."
+          }
+        },
+        {
+          "id": "wonen-3-3",
+          "eindterm": "3.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom schrijf je je zo snel mogelijk in als woningzoekende?",
+            "en": "Why do you register as a home seeker as soon as possible?"
+          },
+          "options": {
+            "nl": [
+              "Omdat je later niet meer mag inschrijven.",
+              "Omdat je vaak lang moet wachten op een woning.",
+              "Omdat je dan geen huur hoeft te betalen."
+            ],
+            "en": [
+              "Because you may not register later.",
+              "Because you often have to wait a long time for a home.",
+              "Because then you don't have to pay rent."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De wachttijd voor een sociale huurwoning is vaak lang. Hoe eerder je je inschrijft, hoe beter.",
+            "en": "The waiting time for a social rental home is often long. The sooner you register, the better."
+          }
+        },
+        {
+          "id": "wonen-3-4",
+          "eindterm": "3.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Wie mag bij een sociale huurwoning eisen stellen aan je inkomen?",
+            "en": "Who may set requirements about your income for a social rental home?"
+          },
+          "options": {
+            "nl": [
+              "De supermarkt.",
+              "De school van je kinderen.",
+              "De woningcorporatie."
+            ],
+            "en": [
+              "The supermarket.",
+              "Your children's school.",
+              "The housing association."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Woningcorporaties mogen eisen stellen aan je inkomen en aan de grootte van je gezin.",
+            "en": "Housing associations may set requirements about your income and the size of your family."
+          }
+        },
+        {
+          "id": "wonen-3-5",
+          "eindterm": "3.1.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Waar vind je informatie over verhuurders in je buurt?",
+            "en": "Where do you find information about landlords in your area?"
+          },
+          "options": {
+            "nl": [
+              "Bij de gemeente.",
+              "Bij de huisarts.",
+              "Bij de vakbond."
+            ],
+            "en": [
+              "At the municipality.",
+              "At the GP.",
+              "At the trade union."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De gemeente geeft informatie over huurwoningen en verhuurders in je omgeving.",
+            "en": "The municipality gives information about rental homes and landlords in your area."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "3.2"
+      ],
+      "title": {
+        "nl": "Energie, water en internet regelen",
+        "en": "Arranging energy, water and internet"
+      },
+      "situation": {
+        "nl": "Tesfay krijgt de sleutel van zijn nieuwe woning. Er is nog geen internet en hij weet niet wie zijn stroom levert.",
+        "en": "Tesfay gets the key to his new home. There is no internet yet and he doesn't know who supplies his electricity."
+      },
+      "body": {
+        "nl": [
+          "Als je een woning krijgt, regel je zelf de aansluiting van energie, water en internet. Je kiest zelf een energieleverancier en een internetprovider. Vergelijk eerst verschillende leveranciers voordat je een contract afsluit.",
+          "Als je contract begint, geef je vaak de meterstanden door aan de leverancier. Je leest ze af op de meters voor stroom, gas en water.",
+          "Is er een storing in de stroom of het gas, of ruik je gas? Bel dan het gratis storingsnummer 0800 - 9009. Werkt je internet niet? Bel dan je internetprovider.",
+          "Gaat er iets kapot in huis? Regel de reparatie op tijd. In een huurhuis meld je groot onderhoud bij de verhuurder; kleine reparaties doe je zelf."
+        ],
+        "en": [
+          "When you get a home, you arrange the connection of energy, water and internet yourself. You choose an energy supplier and an internet provider yourself. Compare several suppliers before you sign a contract.",
+          "When your contract starts, you often pass on the meter readings to the supplier. You read them from the meters for electricity, gas and water.",
+          "Is there a power or gas outage, or do you smell gas? Then call the free outage number 0800 - 9009. Is your internet not working? Then call your internet provider.",
+          "Does something break in the house? Arrange the repair in time. In a rented home you report major maintenance to the landlord; you do small repairs yourself."
+        ]
+      },
+      "remember": {
+        "nl": "Regel zelf je energie, water en internet. Bij een storing van stroom of gas, of als je gas ruikt, bel je gratis 0800 - 9009.",
+        "en": "Arrange your own energy, water and internet. For a power or gas outage, or if you smell gas, call 0800 - 9009 for free."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Netbeheer Nederland: storingen",
+          "url": "https://www.netbeheernederland.nl/storingen"
+        },
+        {
+          "title": "Wijzer in geldzaken (ministerie van Financiën): 10 tips om controle te houden over je energierekening",
+          "url": "https://www.wijzeringeldzaken.nl/besparen/10-tips-om-controle-te-houden-over-je-energierekening/10-tips-om-controle-te-houden-over-je-energierekening.pdf"
+        },
+        {
+          "title": "Rijksoverheid: welke kosten zijn voor de huurder en welke voor de verhuurder?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-kosten-zijn-voor-de-huurder-en-welke-voor-de-verhuurder"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-4-1",
+          "eindterm": "3.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Je krijgt een nieuwe woning. Wie regelt de aansluiting van energie en internet?",
+            "en": "You get a new home. Who arranges the connection of energy and internet?"
+          },
+          "options": {
+            "nl": [
+              "De gemeente regelt dat altijd.",
+              "Je regelt dat zelf.",
+              "Je buren regelen dat."
+            ],
+            "en": [
+              "The municipality always arranges it.",
+              "You arrange it yourself.",
+              "Your neighbours arrange it."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Je bent zelf verantwoordelijk voor de aansluiting van energie, water en internet.",
+            "en": "You are responsible for connecting energy, water and internet yourself."
+          }
+        },
+        {
+          "id": "wonen-4-2",
+          "eindterm": "3.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Er is een stroomstoring in je straat. Welk nummer bel je?",
+            "en": "There is a power cut in your street. Which number do you call?"
+          },
+          "options": {
+            "nl": [
+              "112.",
+              "Het nummer van de gemeente.",
+              "Het storingsnummer 0800 - 9009."
+            ],
+            "en": [
+              "112.",
+              "The municipality's number.",
+              "The outage number 0800 - 9009."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Voor een storing in stroom of gas bel je het gratis Nationaal Storingsnummer 0800 - 9009.",
+            "en": "For a power or gas outage you call the free national outage number 0800 - 9009."
+          }
+        },
+        {
+          "id": "wonen-4-3",
+          "eindterm": "3.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Je nieuwe energiecontract begint. Wat geef je vaak door aan de leverancier?",
+            "en": "Your new energy contract starts. What do you often pass on to the supplier?"
+          },
+          "options": {
+            "nl": [
+              "Je meterstanden.",
+              "Je salarisstrook.",
+              "Je diploma."
+            ],
+            "en": [
+              "Your meter readings.",
+              "Your payslip.",
+              "Your diploma."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je neemt de meterstanden op en geeft ze door aan de leverancier.",
+            "en": "You take the meter readings and pass them on to the supplier."
+          }
+        },
+        {
+          "id": "wonen-4-4",
+          "eindterm": "3.2.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Hoe kies je een energieleverancier?",
+            "en": "How do you choose an energy supplier?"
+          },
+          "options": {
+            "nl": [
+              "De gemeente kiest hem voor je.",
+              "Je neemt altijd de verkoper die aanbelt.",
+              "Je vergelijkt eerst verschillende leveranciers en contracten."
+            ],
+            "en": [
+              "The municipality chooses one for you.",
+              "You always take the salesperson who rings the bell.",
+              "You compare different suppliers and contracts first."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Het is slim om energieleveranciers en contracten te vergelijken voordat je een contract afsluit.",
+            "en": "It is wise to compare energy suppliers and contracts before you sign a contract."
+          }
+        },
+        {
+          "id": "wonen-4-5",
+          "eindterm": "3.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Je ruikt gas in huis. Wat doe je?",
+            "en": "You smell gas in your home. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je belt het storingsnummer 0800 - 9009.",
+              "Je gaat slapen en kijkt morgen.",
+              "Je wacht tot de verhuurder een keer langskomt."
+            ],
+            "en": [
+              "You call the outage number 0800 - 9009.",
+              "You go to sleep and check tomorrow.",
+              "You wait until the landlord drops by."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Ruik je gas? Bel dan meteen het gratis storingsnummer 0800 - 9009.",
+            "en": "Do you smell gas? Call the free outage number 0800 - 9009 straight away."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "3.2"
+      ],
+      "title": {
+        "nl": "Je energierekening en zuinig zijn",
+        "en": "Your energy bill and saving energy"
+      },
+      "situation": {
+        "nl": "Ana krijgt aan het eind van het jaar de rekening van haar energieleverancier. Ze moet veel geld bijbetalen.",
+        "en": "At the end of the year Ana gets the bill from her energy supplier. She has to pay a lot extra."
+      },
+      "body": {
+        "nl": [
+          "Energie en water kosten geld, en de prijzen kunnen veranderen, soms flink. Op je energierekening zie je hoeveel je hebt verbruikt en wat dat kost: vaste kosten, kosten voor je verbruik en belastingen.",
+          "Je betaalt elke maand een vast bedrag: het termijnbedrag. Gebruik je meer dan gedacht, of stijgt de prijs? Verhoog dan op tijd je termijnbedrag. Zo hoef je aan het eind van het jaar niet ineens veel bij te betalen.",
+          "Er zijn contracten met een vast tarief en met een variabel tarief. Bij een vast tarief blijft de prijs gelijk zolang het contract loopt. Bij een variabel tarief kan de leverancier de prijs verhogen of verlagen. Contracten hebben ook verschillende looptijden. Stop je eerder met een vast contract? Dan betaal je vaak een opzegvergoeding.",
+          "Zuinig zijn is goed voor het milieu en voor je portemonnee. Zet de verwarming bijvoorbeeld overdag op 19 graden en 's nachts op 15 graden. Douche niet langer dan 5 minuten en was je kleren op een lagere temperatuur."
+        ],
+        "en": [
+          "Energy and water cost money, and prices can change, sometimes a lot. Your energy bill shows how much you used and what it costs: fixed costs, costs for your usage and taxes.",
+          "You pay a fixed amount every month: the instalment (termijnbedrag). Do you use more than expected, or does the price go up? Then raise your instalment in time. That way you don't suddenly have to pay a lot extra at the end of the year.",
+          "There are contracts with a fixed rate and with a variable rate. With a fixed rate the price stays the same as long as the contract runs. With a variable rate the supplier can raise or lower the price. Contracts also run for different periods. Do you end a fixed contract early? Then you often pay a cancellation fee.",
+          "Saving energy is good for the environment and for your wallet. For example, set the heating to 19 degrees in the daytime and 15 degrees at night. Shower for no longer than 5 minutes and wash your clothes at a lower temperature."
+        ]
+      },
+      "remember": {
+        "nl": "Pas je termijnbedrag op tijd aan en bespaar energie: dat voorkomt een hoge rekening.",
+        "en": "Adjust your instalment in time and save energy: that prevents a high bill."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Wijzer in geldzaken (ministerie van Financiën): 10 tips om controle te houden over je energierekening",
+          "url": "https://www.wijzeringeldzaken.nl/besparen/10-tips-om-controle-te-houden-over-je-energierekening/10-tips-om-controle-te-houden-over-je-energierekening.pdf"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-5-1",
+          "eindterm": "3.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Ana moet aan het eind van het jaar veel bijbetalen. Hoe had ze dat kunnen voorkomen?",
+            "en": "Ana has to pay a lot extra at the end of the year. How could she have prevented that?"
+          },
+          "options": {
+            "nl": [
+              "Door haar meterstanden niet door te geven.",
+              "Door op tijd haar termijnbedrag te verhogen.",
+              "Door de rekening niet te openen."
+            ],
+            "en": [
+              "By not passing on her meter readings.",
+              "By raising her monthly instalment in time.",
+              "By not opening the bill."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Gebruik je meer of stijgt de prijs, verhoog dan op tijd je termijnbedrag. Dan hoef je later niet ineens veel bij te betalen.",
+            "en": "If you use more or the price rises, raise your instalment in time. Then you don't suddenly have to pay a lot later."
+          }
+        },
+        {
+          "id": "wonen-5-2",
+          "eindterm": "3.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is het verschil tussen een vast en een variabel tarief?",
+            "en": "What is the difference between a fixed and a variable rate?"
+          },
+          "options": {
+            "nl": [
+              "Bij een vast tarief blijft de prijs gelijk; bij een variabel tarief kan hij veranderen.",
+              "Een vast tarief is altijd gratis.",
+              "Er is geen verschil."
+            ],
+            "en": [
+              "With a fixed rate the price stays the same; with a variable rate it can change.",
+              "A fixed rate is always free.",
+              "There is no difference."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bij een vast tarief verandert de prijs niet zolang het contract loopt. Bij een variabel tarief kan de leverancier de prijs aanpassen.",
+            "en": "With a fixed rate the price does not change while the contract runs. With a variable rate the supplier can change the price."
+          }
+        },
+        {
+          "id": "wonen-5-3",
+          "eindterm": "3.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Welke tip helpt om energie te besparen?",
+            "en": "Which tip helps to save energy?"
+          },
+          "options": {
+            "nl": [
+              "De ramen in de winter de hele dag open laten.",
+              "Langer douchen.",
+              "De verwarming 's nachts lager zetten."
+            ],
+            "en": [
+              "Leaving the windows open all day in winter.",
+              "Taking longer showers.",
+              "Turning the heating down at night."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Zet de verwarming 's nachts lager, bijvoorbeeld op 15 graden. Dat bespaart energie en geld.",
+            "en": "Turn the heating down at night, for example to 15 degrees. That saves energy and money."
+          }
+        },
+        {
+          "id": "wonen-5-4",
+          "eindterm": "3.2.2",
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom is zuinig zijn met energie en water goed?",
+            "en": "Why is saving energy and water good?"
+          },
+          "options": {
+            "nl": [
+              "Omdat de verhuurder dat verplicht.",
+              "Omdat energie dan gratis wordt.",
+              "Het is beter voor het milieu en je rekening wordt lager."
+            ],
+            "en": [
+              "Because the landlord requires it.",
+              "Because energy then becomes free.",
+              "It is better for the environment and your bill goes down."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Zuinig gebruik van energie en water is beter voor het milieu en houdt je rekening zo laag mogelijk.",
+            "en": "Using energy and water sparingly is better for the environment and keeps your bill as low as possible."
+          }
+        },
+        {
+          "id": "wonen-5-5",
+          "eindterm": "3.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat zie je op je energierekening?",
+            "en": "What do you see on your energy bill?"
+          },
+          "options": {
+            "nl": [
+              "Je verbruik en wat dat kost.",
+              "Je huurprijs.",
+              "Je zorgverzekering."
+            ],
+            "en": [
+              "Your usage and what it costs.",
+              "Your rent.",
+              "Your health insurance."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op de energierekening staan je verbruik en de kosten: vaste kosten, verbruikskosten en belastingen.",
+            "en": "The energy bill shows your usage and the costs: fixed costs, usage costs and taxes."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "3.3"
+      ],
+      "title": {
+        "nl": "Afval scheiden",
+        "en": "Separating waste"
+      },
+      "situation": {
+        "nl": "Yusuf heeft een lege jampot, oude kranten en schillen van groente. Hij weet niet in welke bak alles moet.",
+        "en": "Yusuf has an empty jam jar, old newspapers and vegetable peelings. He doesn't know which bin everything goes in."
+      },
+      "body": {
+        "nl": [
+          "In Nederland scheiden we ons afval. Papier, glas, plastic en batterijen kunnen voor een groot deel opnieuw gebruikt worden. Dat bespaart grondstoffen, energie en geld. Zo is het beter voor het milieu.",
+          "Er zijn aparte bakken of zakken: voor groente-, fruit- en tuinafval (gft), zoals schillen en koffieprut; voor papier en karton; voor glas; en in veel gemeenten voor plastic en metalen verpakkingen en drinkpakken (pmd). Wat overblijft, is restafval.",
+          "De regels verschillen per gemeente. Je gemeente vertelt welke bak waarvoor is en wanneer het afval wordt opgehaald. Soms breng je het zelf naar een container in de buurt.",
+          "Kapotte apparaten gooi je niet bij het restafval. Kleine apparaten kun je inleveren in een bak bij winkels of bouwmarkten. Kleding die je niet meer draagt, lever je in bij een textielbak of een kringloopwinkel."
+        ],
+        "en": [
+          "In the Netherlands we separate our waste. Paper, glass, plastic and batteries can largely be reused. That saves raw materials, energy and money. That is better for the environment.",
+          "There are separate bins or bags: for vegetable, fruit and garden waste (gft), such as peelings and coffee grounds; for paper and cardboard; for glass; and in many municipalities for plastic and metal packaging and drink cartons (pmd). What is left is residual waste.",
+          "The rules differ per municipality. Your municipality tells you which bin is for what and when the waste is collected. Sometimes you take it to a container nearby yourself.",
+          "Do not throw broken appliances in with residual waste. You can hand in small appliances in a collection bin at shops or DIY stores. Clothes you no longer wear go into a textile bin or to a second-hand shop."
+        ]
+      },
+      "remember": {
+        "nl": "Scheid je afval volgens de regels van je eigen gemeente: zo kan veel opnieuw gebruikt worden.",
+        "en": "Separate your waste according to your own municipality's rules: that way a lot can be reused."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Milieu Centraal: afval scheiden",
+          "url": "https://www.milieucentraal.nl/minder-afval/afval-scheiden/"
+        },
+        {
+          "title": "Rijksoverheid: afval",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/afval"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "wonen-6-1",
+          "eindterm": "3.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarom scheiden we afval?",
+            "en": "Why do we separate waste?"
+          },
+          "options": {
+            "nl": [
+              "Zodat materialen opnieuw gebruikt kunnen worden.",
+              "Zodat je minder huur betaalt.",
+              "Omdat het vuilnis dan minder ruikt."
+            ],
+            "en": [
+              "So that materials can be reused.",
+              "So that you pay less rent.",
+              "Because the rubbish smells less then."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Gescheiden afval kan voor een groot deel opnieuw gebruikt worden. Dat bespaart grondstoffen, energie en geld.",
+            "en": "Separated waste can largely be reused. That saves raw materials, energy and money."
+          }
+        },
+        {
+          "id": "wonen-6-2",
+          "eindterm": "3.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Waar gooi je appelschillen en koffieprut?",
+            "en": "Where do you throw apple peel and coffee grounds?"
+          },
+          "options": {
+            "nl": [
+              "Bij het glas.",
+              "Bij het gft-afval.",
+              "Bij het papier."
+            ],
+            "en": [
+              "With the glass.",
+              "With the gft (organic) waste.",
+              "With the paper."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Schillen, koffieprut en ander groente-, fruit- en tuinafval horen bij het gft.",
+            "en": "Peel, coffee grounds and other vegetable, fruit and garden waste belong with the gft."
+          }
+        },
+        {
+          "id": "wonen-6-3",
+          "eindterm": "3.3.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Wie bepaalt de regels voor afval in jouw woonplaats?",
+            "en": "Who sets the rules for waste in your town?"
+          },
+          "options": {
+            "nl": [
+              "De supermarkt.",
+              "Je werkgever.",
+              "De gemeente."
+            ],
+            "en": [
+              "The supermarket.",
+              "Your employer.",
+              "The municipality."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De regels voor afvalinzameling en afvalscheiding zijn lokaal: je gemeente bepaalt ze.",
+            "en": "The rules for waste collection and separation are local: your municipality sets them."
+          }
+        },
+        {
+          "id": "wonen-6-4",
+          "eindterm": "3.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Je oude broodrooster is kapot. Wat doe je ermee?",
+            "en": "Your old toaster is broken. What do you do with it?"
+          },
+          "options": {
+            "nl": [
+              "Je gooit hem in de gft-bak.",
+              "Je levert hem in, bijvoorbeeld in een bak bij een winkel.",
+              "Je zet hem naast de container op straat."
+            ],
+            "en": [
+              "You throw it in the gft bin.",
+              "You hand it in, for example in a collection bin at a shop.",
+              "You put it next to the container in the street."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Kapotte apparaten horen niet bij het gewone afval. Kleine apparaten lever je in, bijvoorbeeld in bakken bij winkels.",
+            "en": "Broken appliances do not belong with ordinary waste. You hand in small appliances, for example in bins at shops."
+          }
+        },
+        {
+          "id": "wonen-6-5",
+          "eindterm": "3.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is pmd?",
+            "en": "What is pmd?"
+          },
+          "options": {
+            "nl": [
+              "Plastic en metalen verpakkingen en drinkpakken.",
+              "Papier, melk en dozen.",
+              "Afval van de tuin."
+            ],
+            "en": [
+              "Plastic and metal packaging and drink cartons.",
+              "Paper, milk and boxes.",
+              "Garden waste."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Pmd staat voor plastic en metalen verpakkingen en drinkpakken. In veel gemeenten lever je die samen in.",
+            "en": "Pmd stands for plastic and metal packaging and drink cartons. In many municipalities you hand them in together."
+          }
+        }
+      ]
+    }
+  ]
+}

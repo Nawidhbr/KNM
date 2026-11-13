@@ -248,6 +248,122 @@
         "Keti Koti"
       ],
       "plain": "de dag (1 juli) waarop de afschaffing van de slavernij wordt herdacht en gevierd"
+    },
+    {
+      "id": "statushouder",
+      "forms": [
+        "statushouder",
+        "statushouders"
+      ],
+      "plain": "iemand die als vluchteling een verblijfsvergunning heeft gekregen"
+    },
+    {
+      "id": "huurcontract",
+      "forms": [
+        "huurcontract"
+      ],
+      "plain": "het contract met de afspraken tussen huurder en verhuurder"
+    },
+    {
+      "id": "verhuurder",
+      "forms": [
+        "verhuurder"
+      ],
+      "plain": "de eigenaar die de woning aan jou verhuurt"
+    },
+    {
+      "id": "borg",
+      "forms": [
+        "borg"
+      ],
+      "plain": "geld dat je vooraf betaalt en terugkrijgt als je de woning netjes achterlaat"
+    },
+    {
+      "id": "huurcommissie",
+      "forms": [
+        "Huurcommissie"
+      ],
+      "plain": "een organisatie die helpt bij ruzie tussen huurder en verhuurder over huur of onderhoud"
+    },
+    {
+      "id": "juridisch-loket",
+      "forms": [
+        "Juridisch Loket"
+      ],
+      "plain": "een organisatie die gratis juridisch advies geeft"
+    },
+    {
+      "id": "woningcorporatie",
+      "forms": [
+        "woningcorporatie",
+        "woningcorporaties"
+      ],
+      "plain": "een organisatie die sociale huurwoningen verhuurt"
+    },
+    {
+      "id": "sociale-huurwoning",
+      "forms": [
+        "sociale huurwoningen",
+        "sociale huurwoning"
+      ],
+      "plain": "een huurwoning met een maximale huur, voor mensen met een lager inkomen"
+    },
+    {
+      "id": "vrije-sector",
+      "forms": [
+        "vrije sector"
+      ],
+      "plain": "huurwoningen zonder maximale huur, van gewone verhuurders"
+    },
+    {
+      "id": "makelaar",
+      "forms": [
+        "makelaar"
+      ],
+      "plain": "iemand die helpt bij het kopen, verkopen of huren van een woning"
+    },
+    {
+      "id": "meterstand",
+      "forms": [
+        "meterstanden",
+        "meterstand"
+      ],
+      "plain": "het getal op de meter dat laat zien hoeveel stroom, gas of water je hebt gebruikt"
+    },
+    {
+      "id": "termijnbedrag",
+      "forms": [
+        "termijnbedrag"
+      ],
+      "plain": "het bedrag dat je elke maand vooraf betaalt voor energie"
+    },
+    {
+      "id": "opzegvergoeding",
+      "forms": [
+        "opzegvergoeding"
+      ],
+      "plain": "geld dat je betaalt als je eerder stopt met een vast contract"
+    },
+    {
+      "id": "gft",
+      "forms": [
+        "gft"
+      ],
+      "plain": "groente-, fruit- en tuinafval"
+    },
+    {
+      "id": "pmd",
+      "forms": [
+        "pmd"
+      ],
+      "plain": "plastic en metalen verpakkingen en drinkpakken"
+    },
+    {
+      "id": "restafval",
+      "forms": [
+        "restafval"
+      ],
+      "plain": "afval dat overblijft als je alles hebt gescheiden"
     }
   ]
 }
