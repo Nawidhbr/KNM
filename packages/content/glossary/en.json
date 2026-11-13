@@ -197,6 +197,34 @@
         "child health clinic"
       ],
       "plain": "a free clinic that follows the growth and development of babies and young children (consultatiebureau)"
+    },
+    {
+      "id": "voc-en",
+      "forms": [
+        "Dutch East India Company"
+      ],
+      "plain": "the VOC, a large Dutch trading company of the seventeenth century"
+    },
+    {
+      "id": "polder-en",
+      "forms": [
+        "polder"
+      ],
+      "plain": "low-lying land that used to be water and is kept dry by dikes"
+    },
+    {
+      "id": "guest-worker",
+      "forms": [
+        "guest workers"
+      ],
+      "plain": "workers recruited abroad in the sixties and seventies (gastarbeiders)"
+    },
+    {
+      "id": "self-determination",
+      "forms": [
+        "self-determination"
+      ],
+      "plain": "being allowed to decide about your own life and body"
     }
   ]
 }

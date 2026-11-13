@@ -1,0 +1,1490 @@
+{
+  "id": "geschiedenis-en-geografie",
+  "n": 5,
+  "title": {
+    "nl": "Geschiedenis en geografie",
+    "en": "History and geography"
+  },
+  "lead": {
+    "nl": "De Gouden Eeuw, het koloniale verleden, de Tweede Wereldoorlog, de provincies en het openbaar vervoer.",
+    "en": "The Golden Age, the colonial past, the Second World War, the provinces and public transport."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "De Gouden Eeuw",
+        "en": "The Golden Age"
+      },
+      "situation": {
+        "nl": "Amir bezoekt met zijn dochter het Rijksmuseum in Amsterdam. Ze staan voor een groot schilderij vol soldaten.",
+        "en": "Amir visits the Rijksmuseum in Amsterdam with his daughter. They stand in front of a large painting full of soldiers."
+      },
+      "body": {
+        "nl": [
+          "In de zeventiende eeuw werd de Republiek, zoals Nederland toen heette, rijk door scheepvaart en handel. Schepen haalden specerijen, suiker, koffie, thee en porselein van ver weg. In 1602 werd de Verenigde Oostindische Compagnie (VOC) opgericht voor de handel met Azië. Later kwam de West-Indische Compagnie (WIC) voor de handel rond de Atlantische Oceaan.",
+          "De VOC was niet alleen een handelsbedrijf. Ze voerde ook oorlog en gebruikte veel geweld tegen de bevolking in Azië. Ook dat hoort bij deze tijd.",
+          "Door de rijkdom bloeiden kunst en cultuur. Er werkten veel schilders, zoals Rembrandt, Johannes Vermeer en Frans Hals. Het bekendste schilderij van Rembrandt is De Nachtwacht uit 1642. Niet alleen rijke mensen, ook gewone burgers hadden schilderijen thuis.",
+          "In die tijd werden ook meren drooggemaakt om land te winnen. De Beemster in Noord-Holland werd met 43 windmolens leeggepompt en werd een polder. De Beemster staat nu op de Werelderfgoedlijst van UNESCO."
+        ],
+        "en": [
+          "In the seventeenth century the Republic, as the Netherlands was then called, grew rich through shipping and trade. Ships brought spices, sugar, coffee, tea and porcelain from far away. In 1602 the Dutch East India Company (VOC) was founded for trade with Asia. Later came the West India Company (WIC) for trade around the Atlantic Ocean.",
+          "The VOC was not only a trading company. It also waged war and used great violence against the people of Asia. That is part of this period too.",
+          "Thanks to this wealth, art and culture flourished. Many painters worked then, such as Rembrandt, Johannes Vermeer and Frans Hals. Rembrandt's best-known painting is The Night Watch from 1642. Not only rich people but also ordinary citizens had paintings at home.",
+          "In that period lakes were also drained to win land. The Beemster in North Holland was pumped dry with 43 windmills and became a polder. The Beemster is now on UNESCO's World Heritage List."
+        ]
+      },
+      "remember": {
+        "nl": "In de zeventiende eeuw werd Nederland rijk door handel. Je ziet die tijd terug in schilderijen, zoals De Nachtwacht van Rembrandt, en in polders zoals de Beemster.",
+        "en": "In the seventeenth century the Netherlands grew rich through trade. You can still see that period in paintings, such as Rembrandt's Night Watch, and in polders such as the Beemster."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Canon van Nederland: VOC en WIC",
+          "url": "https://www.canonvannederland.nl/nl/vocenwic"
+        },
+        {
+          "title": "Canon van Nederland: Rembrandt",
+          "url": "https://www.canonvannederland.nl/nl/rembrandt"
+        },
+        {
+          "title": "Canon van Nederland: De Beemster",
+          "url": "https://www.canonvannederland.nl/nl/beemster"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-1-1",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Waardoor werd Nederland in de zeventiende eeuw rijk?",
+            "en": "What made the Netherlands rich in the seventeenth century?"
+          },
+          "options": {
+            "nl": [
+              "Door olie en gas.",
+              "Door scheepvaart en handel.",
+              "Door toerisme."
+            ],
+            "en": [
+              "Oil and gas.",
+              "Shipping and trade.",
+              "Tourism."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In de zeventiende eeuw groeide de handel met landen overzee. Compagnieën als de VOC organiseerden die handel.",
+            "en": "In the seventeenth century trade with countries overseas grew. Companies such as the VOC organised that trade."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-1-2",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat was de VOC?",
+            "en": "What was the VOC?"
+          },
+          "options": {
+            "nl": [
+              "Een handelscompagnie voor de handel met Azië.",
+              "Een voetbalclub.",
+              "Een politieke partij."
+            ],
+            "en": [
+              "A trading company for trade with Asia.",
+              "A football club.",
+              "A political party."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "In 1602 werd de Verenigde Oostindische Compagnie opgericht voor de handel met Azië. De VOC werd veruit de grootste compagnie van die tijd.",
+            "en": "In 1602 the Dutch East India Company was founded for trade with Asia. The VOC became by far the largest company of its time."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-1-3",
+          "eindterm": "5.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wie schilderde De Nachtwacht?",
+            "en": "Who painted The Night Watch?"
+          },
+          "options": {
+            "nl": [
+              "Vincent van Gogh.",
+              "Piet Mondriaan.",
+              "Rembrandt."
+            ],
+            "en": [
+              "Vincent van Gogh.",
+              "Piet Mondrian.",
+              "Rembrandt."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De Nachtwacht is het beroemdste schilderij van Rembrandt. Hij schilderde het in 1642.",
+            "en": "The Night Watch is Rembrandt's most famous painting. He painted it in 1642."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-1-4",
+          "eindterm": "5.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wie had in de zeventiende eeuw schilderijen thuis?",
+            "en": "Who had paintings at home in the seventeenth century?"
+          },
+          "options": {
+            "nl": [
+              "Alleen de koning.",
+              "Ook gewone burgers.",
+              "Niemand, schilderijen hingen alleen in kerken."
+            ],
+            "en": [
+              "Only the king.",
+              "Ordinary citizens too.",
+              "Nobody, paintings only hung in churches."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In de Republiek werden miljoenen schilderijen gemaakt. Niet alleen rijke mensen, ook gewone burgers hadden thuis schilderijen.",
+            "en": "Millions of paintings were made in the Republic. Not only the rich but also ordinary citizens had paintings at home."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-1-5",
+          "eindterm": "5.1.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Hoe werd de Beemster een polder?",
+            "en": "How did the Beemster become a polder?"
+          },
+          "options": {
+            "nl": [
+              "Het meer werd met windmolens leeggepompt.",
+              "Er viel een meteoriet.",
+              "Het water verdampte vanzelf."
+            ],
+            "en": [
+              "The lake was pumped dry with windmills.",
+              "A meteorite fell.",
+              "The water evaporated by itself."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Om de Beemster droog te leggen werd een dijk om het meer gelegd. Daarna pompten 43 windmolens het meer leeg.",
+            "en": "To drain the Beemster a dike was built around the lake. Then 43 windmills pumped the lake dry."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "Koloniën en slavernij",
+        "en": "Colonies and slavery"
+      },
+      "situation": {
+        "nl": "Op 1 juli ziet Fatima in de stad een feest met muziek. Haar buurvrouw van Surinaamse afkomst vertelt dat het Keti Koti is.",
+        "en": "On 1 July Fatima sees a festival with music in town. Her neighbour of Surinamese descent tells her it is Keti Koti."
+      },
+      "body": {
+        "nl": [
+          "Nederland had vanaf de zeventiende eeuw koloniën in Azië en rond de Atlantische Oceaan. Bijvoorbeeld Nederlands-Indië (nu Indonesië), Suriname en de eilanden in het Caribisch gebied.",
+          "Nederlandse handelaren maakten mensen tot slaaf en verhandelden hen. Deze tot slaaf gemaakte mensen moesten zonder loon werken op plantages, in mijnen en in huishoudens. Er was vaak verzet. Pas in 1863 verbood Nederland de slavernij in Suriname en op de Caribische eilanden. Elk jaar op 1 juli wordt dat herdacht en gevierd met Keti Koti, Surinaams voor 'ketenen gebroken'.",
+          "Na de Tweede Wereldoorlog werd Indonesië onafhankelijk; Nederland erkende dat in 1949. Suriname werd in 1975 onafhankelijk. De Caribische eilanden Aruba, Curaçao, Sint Maarten, Bonaire, Sint Eustatius en Saba horen nog steeds bij het Koninkrijk der Nederlanden."
+        ],
+        "en": [
+          "From the seventeenth century the Netherlands had colonies in Asia and around the Atlantic Ocean. For example the Dutch East Indies (now Indonesia), Suriname and the islands in the Caribbean.",
+          "Dutch traders enslaved people and traded them. These enslaved people had to work without pay on plantations, in mines and in households. There was often resistance. Only in 1863 did the Netherlands abolish slavery in Suriname and on the Caribbean islands. Every year on 1 July this is commemorated and celebrated with Keti Koti, Surinamese for 'chains broken'.",
+          "After the Second World War Indonesia became independent; the Netherlands recognised this in 1949. Suriname became independent in 1975. The Caribbean islands Aruba, Curaçao, Sint Maarten, Bonaire, Sint Eustatius and Saba are still part of the Kingdom of the Netherlands."
+        ]
+      },
+      "remember": {
+        "nl": "Nederland had koloniën en maakte mensen tot slaaf. In 1863 werd de slavernij afgeschaft; op 1 juli is Keti Koti.",
+        "en": "The Netherlands had colonies and enslaved people. Slavery was abolished in 1863; 1 July is Keti Koti."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Canon van Nederland: Slavernij",
+          "url": "https://www.canonvannederland.nl/nl/slavernij"
+        },
+        {
+          "title": "Canon van Nederland: Suriname en de Nederlandse Antillen",
+          "url": "https://www.canonvannederland.nl/nl/caribischgebied"
+        },
+        {
+          "title": "Canon van Nederland: Indonesië",
+          "url": "https://www.canonvannederland.nl/nl/indonesie"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-2-1",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat moesten tot slaaf gemaakte mensen in de koloniën doen?",
+            "en": "What did enslaved people in the colonies have to do?"
+          },
+          "options": {
+            "nl": [
+              "Zonder loon werken, bijvoorbeeld op plantages.",
+              "Naar school gaan.",
+              "Belasting innen."
+            ],
+            "en": [
+              "Work without pay, for example on plantations.",
+              "Go to school.",
+              "Collect taxes."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Tot slaaf gemaakten kregen geen loon en moesten gedwongen werken op plantages, in mijnen en in huishoudens.",
+            "en": "Enslaved people got no pay and were forced to work on plantations, in mines and in households."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-2-2",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "In welk jaar verbood Nederland de slavernij in Suriname en op de Caribische eilanden?",
+            "en": "In which year did the Netherlands abolish slavery in Suriname and on the Caribbean islands?"
+          },
+          "options": {
+            "nl": [
+              "In 1945.",
+              "In 1602.",
+              "In 1863."
+            ],
+            "en": [
+              "In 1945.",
+              "In 1602.",
+              "In 1863."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Op 1 juli 1863 werd de slavernij in de Atlantische koloniën afgeschaft.",
+            "en": "On 1 July 1863 slavery was abolished in the Atlantic colonies."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-2-3",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat wordt er met Keti Koti op 1 juli herdacht en gevierd?",
+            "en": "What is commemorated and celebrated with Keti Koti on 1 July?"
+          },
+          "options": {
+            "nl": [
+              "De verjaardag van de koning.",
+              "De afschaffing van de slavernij.",
+              "Het einde van de Tweede Wereldoorlog."
+            ],
+            "en": [
+              "The king's birthday.",
+              "The abolition of slavery.",
+              "The end of the Second World War."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Op 1 juli wordt met Keti Koti, 'ketenen gebroken', de afschaffing van de slavernij herdacht en gevierd.",
+            "en": "On 1 July, Keti Koti ('chains broken') commemorates and celebrates the abolition of slavery."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-2-4",
+          "eindterm": "5.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer werd Suriname onafhankelijk?",
+            "en": "When did Suriname become independent?"
+          },
+          "options": {
+            "nl": [
+              "In 1975.",
+              "In 1863.",
+              "Suriname is nog steeds een kolonie."
+            ],
+            "en": [
+              "In 1975.",
+              "In 1863.",
+              "Suriname is still a colony."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Suriname werd in 1975 onafhankelijk.",
+            "en": "Suriname became independent in 1975."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-2-5",
+          "eindterm": "5.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat is waar over de Caribische eilanden, zoals Curaçao en Bonaire?",
+            "en": "What is true about the Caribbean islands, such as Curaçao and Bonaire?"
+          },
+          "options": {
+            "nl": [
+              "Ze horen bij Suriname.",
+              "Ze horen nog steeds bij het Koninkrijk der Nederlanden.",
+              "Ze zijn nooit een kolonie geweest."
+            ],
+            "en": [
+              "They belong to Suriname.",
+              "They are still part of the Kingdom of the Netherlands.",
+              "They were never a colony."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De eilanden werden in de zeventiende eeuw door Nederland veroverd en maken nog altijd deel uit van het Koninkrijk der Nederlanden.",
+            "en": "The islands were conquered by the Netherlands in the seventeenth century and are still part of the Kingdom of the Netherlands."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "Leven met water, het volkslied en de vlag",
+        "en": "Living with water, the anthem and the flag"
+      },
+      "situation": {
+        "nl": "Kofi rijdt met de auto door Zeeland. Hij ziet lange dijken en een enorme dam in de zee.",
+        "en": "Kofi drives through Zeeland. He sees long dikes and a huge dam in the sea."
+      },
+      "body": {
+        "nl": [
+          "Een groot deel van Nederland ligt laag, soms onder de zeespiegel. Nederlanders leven al eeuwen met de dreiging van water. Daarom zijn er dijken, polders en molens.",
+          "In de nacht van 31 januari op 1 februari 1953 braken tijdens een zware storm veel dijken door in Zeeland, West-Brabant en op de Zuid-Hollandse eilanden. Bij deze watersnoodramp kwamen 1836 mensen om.",
+          "Na de ramp werden de Deltawerken gebouwd: dammen en stormvloedkeringen die Zuidwest-Nederland beschermen tegen hoogwater. Het meesterstuk is de stormvloedkering in de Oosterschelde.",
+          "Het Wilhelmus is het volkslied van Nederland. Meestal zingen we alleen het eerste couplet. De Nederlandse vlag is rood, wit en blauw. Bij sportwedstrijden dragen veel Nederlanders oranje, de kleur van het koningshuis."
+        ],
+        "en": [
+          "A large part of the Netherlands is low-lying, sometimes below sea level. The Dutch have lived with the threat of water for centuries. That is why there are dikes, polders and windmills.",
+          "On the night of 31 January to 1 February 1953 many dikes broke during a heavy storm in Zeeland, West Brabant and on the South Holland islands. In this flood disaster 1,836 people died.",
+          "After the disaster the Delta Works were built: dams and storm surge barriers that protect the south-west of the Netherlands against high water. The masterpiece is the storm surge barrier in the Oosterschelde.",
+          "The Wilhelmus is the national anthem of the Netherlands. Usually only the first verse is sung. The Dutch flag is red, white and blue. At sports matches many Dutch people wear orange, the colour of the royal house."
+        ]
+      },
+      "remember": {
+        "nl": "Dijken, polders, molens en de Deltawerken laten zien hoe Nederland met water leeft. Het volkslied is het Wilhelmus; de vlag is rood-wit-blauw.",
+        "en": "Dikes, polders, windmills and the Delta Works show how the Netherlands lives with water. The anthem is the Wilhelmus; the flag is red, white and blue."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Canon van Nederland: De watersnood",
+          "url": "https://www.canonvannederland.nl/nl/watersnood"
+        },
+        {
+          "title": "Canon van Nederland: De Beemster",
+          "url": "https://www.canonvannederland.nl/nl/beemster"
+        },
+        {
+          "title": "Koninklijk Huis: het volkslied",
+          "url": "https://www.koninklijkhuis.nl/onderwerpen/volkslied"
+        },
+        {
+          "title": "Canon van Nederland: Oranjegevoel",
+          "url": "https://www.canonvannederland.nl/nl/oranjegevoel"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-3-1",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat gebeurde er in 1953 in het zuidwesten van Nederland?",
+            "en": "What happened in the south-west of the Netherlands in 1953?"
+          },
+          "options": {
+            "nl": [
+              "Een grote aardbeving.",
+              "Een watersnoodramp: veel dijken braken door.",
+              "Een lange droogte."
+            ],
+            "en": [
+              "A big earthquake.",
+              "A flood disaster: many dikes broke.",
+              "A long drought."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In de nacht van 31 januari op 1 februari 1953 braken tijdens een stormvloed veel dijken door. 1836 mensen kwamen om.",
+            "en": "On the night of 31 January to 1 February 1953 many dikes broke in a storm surge. 1,836 people died."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-3-2",
+          "eindterm": "5.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarom zijn de Deltawerken gebouwd?",
+            "en": "Why were the Delta Works built?"
+          },
+          "options": {
+            "nl": [
+              "Om een watersnood als in 1953 te voorkomen.",
+              "Om stroom te maken voor de steden.",
+              "Om schepen sneller te laten varen."
+            ],
+            "en": [
+              "To prevent a flood like the one in 1953.",
+              "To make electricity for the cities.",
+              "To let ships sail faster."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De Deltawerken zijn gebouwd om een watersnood als in 1953 voortaan te voorkomen.",
+            "en": "The Delta Works were built to prevent a flood like that of 1953 in future."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-3-3",
+          "eindterm": "5.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Wat laten dijken, polders en molens zien?",
+            "en": "What do dikes, polders and windmills show?"
+          },
+          "options": {
+            "nl": [
+              "Dat Nederland veel bergen heeft.",
+              "Dat Nederlanders van wandelen houden.",
+              "Dat Nederland al lang leeft met de dreiging van water."
+            ],
+            "en": [
+              "That the Netherlands has many mountains.",
+              "That the Dutch love walking.",
+              "That the Netherlands has long lived with the threat of water."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Polders, molens, dijken en de Deltawerken zijn getuigen van de lange traditie van leven met de dreiging van water.",
+            "en": "Polders, windmills, dikes and the Delta Works bear witness to a long tradition of living with the threat of water."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-3-4",
+          "eindterm": "5.1.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat is het volkslied van Nederland?",
+            "en": "What is the national anthem of the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Het Wilhelmus.",
+              "Lang zal ze leven.",
+              "De Marseillaise."
+            ],
+            "en": [
+              "The Wilhelmus.",
+              "Lang zal ze leven (the birthday song).",
+              "La Marseillaise."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het Wilhelmus is het officiële volkslied van Nederland. Meestal wordt alleen het eerste couplet gezongen.",
+            "en": "The Wilhelmus is the official national anthem of the Netherlands. Usually only the first verse is sung."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-3-5",
+          "eindterm": "5.1.1",
+          "source": 4,
+          "prompt": {
+            "nl": "Welke kleuren heeft de Nederlandse vlag?",
+            "en": "What colours does the Dutch flag have?"
+          },
+          "options": {
+            "nl": [
+              "Groen, wit en rood.",
+              "Oranje, wit en groen.",
+              "Rood, wit en blauw."
+            ],
+            "en": [
+              "Green, white and red.",
+              "Orange, white and green.",
+              "Red, white and blue."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De Nederlandse vlag is rood, wit en blauw. Oranje is de kleur van het koningshuis.",
+            "en": "The Dutch flag is red, white and blue. Orange is the colour of the royal house."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "De Tweede Wereldoorlog",
+        "en": "The Second World War"
+      },
+      "situation": {
+        "nl": "Op 4 mei om acht uur 's avonds is het op straat ineens heel stil. Dawit vraagt zich af waarom.",
+        "en": "On 4 May at eight in the evening the street suddenly goes very quiet. Dawit wonders why."
+      },
+      "body": {
+        "nl": [
+          "Op 10 mei 1940 viel het Duitse leger Nederland binnen. Na het bombardement op Rotterdam gaf het Nederlandse leger zich over. Nederland was vijf jaar bezet.",
+          "De bezetter vervolgde de Joden. Meer dan honderdduizend Joodse Nederlanders werden vermoord in concentratie- en vernietigingskampen. In heel Europa vermoordden de nazi's ongeveer zes miljoen Joden. Dat heet de Holocaust. Het bekendste slachtoffer uit Nederland is Anne Frank; haar dagboek uit het Achterhuis wordt over de hele wereld gelezen.",
+          "Op 5 mei 1945 gaf het Duitse leger zich over en was Nederland bevrijd. Elk jaar herdenken we op 4 mei alle oorlogsslachtoffers, met twee minuten stilte om acht uur 's avonds. Op 5 mei vieren we Bevrijdingsdag: dat we in vrijheid leven.",
+          "Antisemitisme en andere discriminatie zijn in Nederland verboden volgens de wet."
+        ],
+        "en": [
+          "On 10 May 1940 the German army invaded the Netherlands. After the bombing of Rotterdam the Dutch army surrendered. The Netherlands was occupied for five years.",
+          "The occupiers persecuted the Jews. More than one hundred thousand Jewish Dutch people were murdered in concentration and extermination camps. Across Europe the Nazis murdered about six million Jews. This is called the Holocaust. The best-known victim from the Netherlands is Anne Frank; her diary from the Secret Annex is read all over the world.",
+          "On 5 May 1945 the German army surrendered and the Netherlands was liberated. Every year on 4 May we remember all war victims, with two minutes' silence at eight in the evening. On 5 May we celebrate Liberation Day: that we live in freedom.",
+          "Antisemitism and other discrimination are prohibited by law in the Netherlands."
+        ]
+      },
+      "remember": {
+        "nl": "Nederland was van 1940 tot 1945 bezet. Op 4 mei herdenken we de slachtoffers, op 5 mei vieren we de bevrijding.",
+        "en": "The Netherlands was occupied from 1940 to 1945. On 4 May we remember the victims, on 5 May we celebrate liberation."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Canon van Nederland: De Tweede Wereldoorlog",
+          "url": "https://www.canonvannederland.nl/nl/tweedewereldoorlog"
+        },
+        {
+          "title": "Canon van Nederland: Anne Frank",
+          "url": "https://www.canonvannederland.nl/nl/annefrank"
+        },
+        {
+          "title": "Nationaal Comité 4 en 5 mei",
+          "url": "https://www.4en5mei.nl/"
+        },
+        {
+          "title": "Rijksoverheid: aanpak discriminatie en racisme",
+          "url": "https://www.rijksoverheid.nl/themas/migratie-en-reizen/discriminatie-en-racisme/aanpak-discriminatie-en-racisme"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-4-1",
+          "eindterm": "5.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wanneer viel Duitsland Nederland binnen?",
+            "en": "When did Germany invade the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Op 10 mei 1940.",
+              "Op 5 mei 1945.",
+              "Op 1 februari 1953."
+            ],
+            "en": [
+              "On 10 May 1940.",
+              "On 5 May 1945.",
+              "On 1 February 1953."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op 10 mei 1940 viel het Duitse leger Nederland binnen.",
+            "en": "On 10 May 1940 the German army invaded the Netherlands."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-4-2",
+          "eindterm": "5.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat was de Holocaust?",
+            "en": "What was the Holocaust?"
+          },
+          "options": {
+            "nl": [
+              "Een grote overstroming.",
+              "De moord door de nazi's op miljoenen Joden.",
+              "Een vredesverdrag."
+            ],
+            "en": [
+              "A great flood.",
+              "The murder of millions of Jews by the Nazis.",
+              "A peace treaty."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Tijdens de Holocaust werden ongeveer zes miljoen Joden vermoord, onder wie meer dan honderdduizend Joodse Nederlanders.",
+            "en": "In the Holocaust about six million Jews were murdered, among them more than one hundred thousand Jewish Dutch people."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-4-3",
+          "eindterm": "5.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat gebeurt er in Nederland op 4 mei?",
+            "en": "What happens in the Netherlands on 4 May?"
+          },
+          "options": {
+            "nl": [
+              "We vieren de verjaardag van de koning.",
+              "We vieren carnaval.",
+              "We herdenken de oorlogsslachtoffers."
+            ],
+            "en": [
+              "We celebrate the king's birthday.",
+              "We celebrate carnival.",
+              "We remember the war victims."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Tijdens de Nationale Herdenking op 4 mei herdenken we alle oorlogsslachtoffers samen.",
+            "en": "During the National Remembrance on 4 May we remember all war victims together."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-4-4",
+          "eindterm": "5.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat vieren we op 5 mei?",
+            "en": "What do we celebrate on 5 May?"
+          },
+          "options": {
+            "nl": [
+              "De bevrijding van Nederland in 1945.",
+              "Het einde van de slavernij.",
+              "Het nieuwe jaar."
+            ],
+            "en": [
+              "The liberation of the Netherlands in 1945.",
+              "The end of slavery.",
+              "The new year."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op 5 mei vieren we de bevrijding van Nederland in 1945 en dat we sindsdien in vrijheid leven.",
+            "en": "On 5 May we celebrate the liberation of the Netherlands in 1945 and that we have lived in freedom since."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-4-5",
+          "eindterm": "5.1.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Is antisemitisme in Nederland toegestaan?",
+            "en": "Is antisemitism allowed in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Ja, dat valt onder de vrijheid van meningsuiting.",
+              "Alleen thuis.",
+              "Nee, discriminatie is volgens de wet verboden."
+            ],
+            "en": [
+              "Yes, it falls under freedom of speech.",
+              "Only at home.",
+              "No, discrimination is prohibited by law."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Discriminatie, ook van Joden, is verboden volgens de wet.",
+            "en": "Discrimination, including against Jews, is prohibited by law."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "Nederland na 1945: migratie en samenwerking",
+        "en": "The Netherlands after 1945: migration and cooperation"
+      },
+      "situation": {
+        "nl": "Mehmet vertelt zijn kinderen dat hun opa in de jaren zestig uit Turkije naar Nederland kwam om in een fabriek te werken.",
+        "en": "Mehmet tells his children that their grandfather came from Turkey to the Netherlands in the sixties to work in a factory."
+      },
+      "body": {
+        "nl": [
+          "Na de Tweede Wereldoorlog kwamen veel mensen naar Nederland. Uit Indonesië kwamen ruim 300.000 Nederlanders, Indische Nederlanders en Molukkers. In de jaren zeventig kwamen ongeveer 300.000 Surinamers. Ook uit de Caribische eilanden kwamen veel mensen.",
+          "In de jaren zestig was er veel werk. Nederland haalde arbeiders uit landen als Italië, Spanje, Turkije en Marokko. Ze heetten 'gastarbeiders', omdat men dacht dat ze tijdelijk bleven. Veel van hen bleven en haalden hun gezin. Later kwamen ook vluchtelingen en mensen uit andere landen van de Europese Unie.",
+          "Na de oorlog ging Nederland nauw samenwerken met andere landen, om vrede en veiligheid te bewaren. Nederland hielp in 1945 de Verenigde Naties (VN) op te richten en in 1949 de NAVO. In 1951 begon de Europese samenwerking die later de Europese Unie (EU) werd; Nederland was er vanaf het begin bij."
+        ],
+        "en": [
+          "After the Second World War many people came to the Netherlands. From Indonesia came more than 300,000 Dutch people, Indo-Dutch people and Moluccans. In the seventies about 300,000 Surinamese came. Many people also came from the Caribbean islands.",
+          "In the sixties there was a lot of work. The Netherlands recruited workers from countries such as Italy, Spain, Turkey and Morocco. They were called 'guest workers', because people thought they would stay only for a while. Many stayed and brought their families. Later refugees and people from other EU countries came too.",
+          "After the war the Netherlands began to work closely with other countries to keep peace and security. The Netherlands helped found the United Nations (UN) in 1945 and NATO in 1949. In 1951 the European cooperation began that later became the European Union (EU); the Netherlands was part of it from the start."
+        ]
+      },
+      "remember": {
+        "nl": "Sinds 1945 kwamen mensen uit voormalige koloniën, gastarbeiders en vluchtelingen naar Nederland. Nederland werkt samen in de EU, de NAVO en de VN.",
+        "en": "Since 1945 people from former colonies, guest workers and refugees have come to the Netherlands. The Netherlands cooperates in the EU, NATO and the UN."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Canon van Nederland: Gastarbeiders",
+          "url": "https://www.canonvannederland.nl/nl/gastarbeiders"
+        },
+        {
+          "title": "Canon van Nederland: Suriname en de Nederlandse Antillen",
+          "url": "https://www.canonvannederland.nl/nl/caribischgebied"
+        },
+        {
+          "title": "Canon van Nederland: Indonesië",
+          "url": "https://www.canonvannederland.nl/nl/indonesie"
+        },
+        {
+          "title": "Rijksoverheid: wat is de NAVO?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/navo/wat-is-de-navo"
+        },
+        {
+          "title": "Rijksoverheid: wat zijn de Verenigde Naties?",
+          "url": "https://www.rijksoverheid.nl/actueel/weblogs/bzers-wereldwijd/2022/wat-zijn-de-vn-verenigde-naties"
+        },
+        {
+          "title": "Canon van Nederland: Europa",
+          "url": "https://www.canonvannederland.nl/nl/europa"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-5-1",
+          "eindterm": "5.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarom werden arbeiders uit landen als Turkije en Marokko 'gastarbeiders' genoemd?",
+            "en": "Why were workers from countries such as Turkey and Morocco called 'guest workers'?"
+          },
+          "options": {
+            "nl": [
+              "Omdat ze in hotels werkten.",
+              "Omdat men dacht dat ze maar tijdelijk zouden blijven.",
+              "Omdat ze geen loon kregen."
+            ],
+            "en": [
+              "Because they worked in hotels.",
+              "Because people thought they would stay only temporarily.",
+              "Because they got no pay."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Nederland zocht tijdelijke arbeiders, vandaar de naam 'gastarbeiders'. In de praktijk bleven velen in Nederland.",
+            "en": "The Netherlands was looking for temporary workers, hence the name 'guest workers'. In practice many stayed."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-5-2",
+          "eindterm": "5.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Waar kwamen na de Tweede Wereldoorlog veel mensen vandaan die naar Nederland gingen?",
+            "en": "Where did many of the people who came to the Netherlands after the Second World War come from?"
+          },
+          "options": {
+            "nl": [
+              "Uit voormalige koloniën, zoals Indonesië en Suriname.",
+              "Alleen uit Duitsland.",
+              "Alleen uit Amerika."
+            ],
+            "en": [
+              "From former colonies, such as Indonesia and Suriname.",
+              "Only from Germany.",
+              "Only from America."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Na de oorlog kwamen onder meer ruim 300.000 mensen uit Indonesië en in de jaren zeventig zo'n 300.000 Surinamers naar Nederland.",
+            "en": "After the war more than 300,000 people from Indonesia, and in the seventies some 300,000 Surinamese, came to the Netherlands, among others."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-5-3",
+          "eindterm": "5.1.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Wat is de NAVO?",
+            "en": "What is NATO?"
+          },
+          "options": {
+            "nl": [
+              "Een samenwerking van landen voor vrede en veiligheid.",
+              "Een Nederlandse bank.",
+              "Een school voor militairen."
+            ],
+            "en": [
+              "Cooperation between countries for peace and security.",
+              "A Dutch bank.",
+              "A school for soldiers."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De NAVO is een politieke en militaire samenwerking van landen uit Europa en Noord-Amerika. Nederland was in 1949 een van de oprichters.",
+            "en": "NATO is political and military cooperation between countries in Europe and North America. The Netherlands was one of its founders in 1949."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-5-4",
+          "eindterm": "5.1.2",
+          "source": 5,
+          "prompt": {
+            "nl": "Wanneer werden de Verenigde Naties opgericht?",
+            "en": "When was the United Nations founded?"
+          },
+          "options": {
+            "nl": [
+              "In 1602.",
+              "In 1863.",
+              "In 1945, na de Tweede Wereldoorlog."
+            ],
+            "en": [
+              "In 1602.",
+              "In 1863.",
+              "In 1945, after the Second World War."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De VN werden in 1945, na de Tweede Wereldoorlog, opgericht door 51 landen, waaronder Nederland.",
+            "en": "The UN was founded in 1945, after the Second World War, by 51 countries including the Netherlands."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-5-5",
+          "eindterm": "5.1.2",
+          "source": 6,
+          "prompt": {
+            "nl": "Waarom begonnen Europese landen na de oorlog met samenwerken?",
+            "en": "Why did European countries start working together after the war?"
+          },
+          "options": {
+            "nl": [
+              "Om samen één koning te kiezen.",
+              "Om een nieuwe oorlog te voorkomen.",
+              "Om de grenzen te sluiten."
+            ],
+            "en": [
+              "To choose one king together.",
+              "To prevent a new war.",
+              "To close the borders."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Geen nieuwe oorlog meer in Europa: dat was de belangrijkste reden voor de samenwerking die leidde tot de Europese Unie.",
+            "en": "No more war in Europe: that was the main reason for the cooperation that led to the European Union."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "5.1"
+      ],
+      "title": {
+        "nl": "Vrijheid en zelfbeschikking",
+        "en": "Freedom and self-determination"
+      },
+      "situation": {
+        "nl": "Marco hoort op het werk dat zijn collega met haar vrouw getrouwd is. In zijn land van herkomst kan dat niet.",
+        "en": "At work Marco hears that his colleague is married to her wife. In his country of origin that is not possible."
+      },
+      "body": {
+        "nl": [
+          "Zeker sinds de jaren zestig vinden veel Nederlanders individuele vrijheid, emancipatie, tolerantie en zelfbeschikking heel belangrijk. Zelfbeschikking betekent dat je zelf beslissingen mag nemen over je eigen leven en je eigen lichaam.",
+          "Dat zie je terug in de wet. Twee mannen of twee vrouwen mogen met elkaar trouwen. Een vrouw die onbedoeld zwanger is, kan kiezen voor een abortus; daarvoor kan ze bijvoorbeeld naar de huisarts of een abortuskliniek.",
+          "Euthanasie is ook geregeld in de wet. Een arts mag in bijzondere gevallen een patiënt helpen sterven, maar alleen als de patiënt daar zelf om vraagt en als er niets meer aan het lijden te doen is. Familie kan er niet om vragen. De arts moet zich aan strenge regels houden.",
+          "Niet iedereen in Nederland denkt hetzelfde over deze onderwerpen. Maar iedereen moet zich aan de wet houden en de keuzes van anderen respecteren."
+        ],
+        "en": [
+          "Certainly since the sixties many Dutch people have valued individual freedom, emancipation, tolerance and self-determination highly. Self-determination means that you may make decisions about your own life and your own body.",
+          "You can see this in the law. Two men or two women may marry each other. A woman with an unintended pregnancy can choose an abortion; for this she can go to the GP or an abortion clinic, for example.",
+          "Euthanasia is also regulated by law. In special cases a doctor may help a patient to die, but only if the patient asks for it and if nothing more can be done about the suffering. Family members cannot ask for it. The doctor must follow strict rules.",
+          "Not everyone in the Netherlands thinks the same about these subjects. But everyone must keep to the law and respect other people's choices."
+        ]
+      },
+      "remember": {
+        "nl": "Het homohuwelijk, abortus en euthanasie zijn in Nederland in de wet geregeld. Ze passen bij het belang dat veel Nederlanders hechten aan zelfbeschikking.",
+        "en": "Same-sex marriage, abortion and euthanasia are regulated by law in the Netherlands. They reflect the importance many Dutch people attach to self-determination."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: abortus regelen",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/abortus/abortus-regelen"
+        },
+        {
+          "title": "Rijksoverheid: euthanasie en de wet",
+          "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/levenseinde-en-euthanasie/euthanasie"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-6-1",
+          "eindterm": "5.1.2",
+          "source": 0,
+          "prompt": {
+            "nl": "Wat vinden veel Nederlanders sinds de jaren zestig belangrijk?",
+            "en": "What have many Dutch people valued since the sixties?"
+          },
+          "options": {
+            "nl": [
+              "Individuele vrijheid en zelfbeschikking.",
+              "Dat de kerk alles bepaalt.",
+              "Dat vrouwen thuisblijven."
+            ],
+            "en": [
+              "Individual freedom and self-determination.",
+              "That the church decides everything.",
+              "That women stay at home."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Zeker sinds de jaren zestig hechten veel Nederlanders grote waarde aan individuele vrijheid, emancipatie, tolerantie en zelfbeschikking.",
+            "en": "Certainly since the sixties many Dutch people have attached great value to individual freedom, emancipation, tolerance and self-determination."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-6-2",
+          "eindterm": "5.1.2",
+          "source": 0,
+          "prompt": {
+            "nl": "Mogen twee vrouwen in Nederland met elkaar trouwen?",
+            "en": "May two women marry each other in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Nee, dat is verboden.",
+              "Alleen in Amsterdam.",
+              "Ja, het homohuwelijk is wettelijk geregeld."
+            ],
+            "en": [
+              "No, it is forbidden.",
+              "Only in Amsterdam.",
+              "Yes, same-sex marriage is laid down in law."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Het homohuwelijk is in Nederland in de wet vastgelegd.",
+            "en": "Same-sex marriage is laid down in Dutch law."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-6-3",
+          "eindterm": "5.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Een vrouw is onbedoeld zwanger en denkt na over abortus. Waar kan ze terecht?",
+            "en": "A woman has an unintended pregnancy and is thinking about abortion. Where can she go?"
+          },
+          "options": {
+            "nl": [
+              "Nergens, abortus is verboden.",
+              "Bij de huisarts of een abortuskliniek.",
+              "Alleen bij de politie."
+            ],
+            "en": [
+              "Nowhere, abortion is forbidden.",
+              "The GP or an abortion clinic.",
+              "Only the police."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Wie over abortus nadenkt, kan terecht bij de huisarts, een abortuskliniek of een keuzehulporganisatie.",
+            "en": "Anyone thinking about abortion can go to the GP, an abortion clinic or a counselling organisation."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-6-4",
+          "eindterm": "5.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wie mag om euthanasie vragen?",
+            "en": "Who may ask for euthanasia?"
+          },
+          "options": {
+            "nl": [
+              "De patiënt zelf.",
+              "De familie van de patiënt.",
+              "De buren."
+            ],
+            "en": [
+              "The patient himself or herself.",
+              "The patient's family.",
+              "The neighbours."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Euthanasie is alleen mogelijk als een patiënt er zelf om vraagt. Familie of vrienden kunnen er niet om vragen.",
+            "en": "Euthanasia is only possible if the patient asks for it. Family or friends cannot ask for it."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-6-5",
+          "eindterm": "5.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer mag een arts euthanasie geven?",
+            "en": "When may a doctor carry out euthanasia?"
+          },
+          "options": {
+            "nl": [
+              "Altijd, als de patiënt oud is.",
+              "Als de familie het wil.",
+              "Alleen in bijzondere gevallen en als de arts zich aan alle regels houdt."
+            ],
+            "en": [
+              "Always, if the patient is old.",
+              "If the family wants it.",
+              "Only in special cases and if the doctor follows all the rules."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Euthanasie is strafbaar, tenzij de arts zich houdt aan alle voorwaarden uit de Euthanasiewet.",
+            "en": "Euthanasia is a criminal offence unless the doctor meets all the conditions of the Euthanasia Act."
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "handeling": [
+        "5.2"
+      ],
+      "title": {
+        "nl": "Provincies en steden",
+        "en": "Provinces and cities"
+      },
+      "situation": {
+        "nl": "Joanna woont in Utrecht. Haar zus komt op bezoek en wil weten waar het parlement zit en wat de hoofdstad is.",
+        "en": "Joanna lives in Utrecht. Her sister is visiting and wants to know where parliament is and what the capital is."
+      },
+      "body": {
+        "nl": [
+          "Amsterdam is de hoofdstad van Nederland. De regering en het parlement zitten in Den Haag. Andere grote steden zijn Rotterdam en Utrecht.",
+          "Nederland heeft twaalf provincies: Groningen, Fryslân, Drenthe, Overijssel, Flevoland, Gelderland, Utrecht, Noord-Holland, Zuid-Holland, Zeeland, Noord-Brabant en Limburg. Groningen, Fryslân en Drenthe liggen in het noorden. Zeeland ligt in het zuidwesten, Limburg en Noord-Brabant in het zuiden.",
+          "Elke provincie heeft een eigen bestuur. De provincie zorgt bijvoorbeeld voor provinciale wegen, natuur en het streekvervoer.",
+          "Leer de belangrijkste steden en gebieden in je eigen regio kennen. Dan weet je beter waar je kunt wonen, werken of een opleiding kunt volgen."
+        ],
+        "en": [
+          "Amsterdam is the capital of the Netherlands. The government and parliament are in The Hague. Other large cities are Rotterdam and Utrecht.",
+          "The Netherlands has twelve provinces: Groningen, Fryslân, Drenthe, Overijssel, Flevoland, Gelderland, Utrecht, North Holland, South Holland, Zeeland, North Brabant and Limburg. Groningen, Fryslân and Drenthe are in the north. Zeeland is in the south-west, Limburg and North Brabant in the south.",
+          "Each province has its own government. The province looks after provincial roads, nature and regional transport, for example.",
+          "Get to know the main cities and areas in your own region. Then you know better where you can live, work or study."
+        ]
+      },
+      "remember": {
+        "nl": "Amsterdam is de hoofdstad; de regering zit in Den Haag. Nederland heeft twaalf provincies.",
+        "en": "Amsterdam is the capital; the government is in The Hague. The Netherlands has twelve provinces."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Interprovinciaal Overleg: de twaalf provincies",
+          "url": "https://www.ipo.nl/"
+        },
+        {
+          "title": "Rijksoverheid: wat doet de provincie? (brochure)",
+          "url": "https://rijksoverheid.nl/binaries/rijksoverheid/documenten/brochures/2024/05/23/wat-doet-de-provincie/Wat+doet+de+provincie.pdf"
+        },
+        {
+          "title": "Canon van Nederland: De watersnood",
+          "url": "https://www.canonvannederland.nl/nl/watersnood"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-7-1",
+          "eindterm": "5.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Wat is de hoofdstad van Nederland?",
+            "en": "What is the capital of the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Den Haag.",
+              "Rotterdam.",
+              "Amsterdam."
+            ],
+            "en": [
+              "The Hague.",
+              "Rotterdam.",
+              "Amsterdam."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Amsterdam is de hoofdstad van Nederland.",
+            "en": "Amsterdam is the capital of the Netherlands."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-7-2",
+          "eindterm": "5.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "In welke stad zit de regering?",
+            "en": "In which city is the government based?"
+          },
+          "options": {
+            "nl": [
+              "In Den Haag.",
+              "In Amsterdam.",
+              "In Utrecht."
+            ],
+            "en": [
+              "In The Hague.",
+              "In Amsterdam.",
+              "In Utrecht."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De hoofdstad is Amsterdam, maar de regering is gevestigd in Den Haag.",
+            "en": "The capital is Amsterdam, but the government is based in The Hague."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-7-3",
+          "eindterm": "5.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Hoeveel provincies heeft Nederland?",
+            "en": "How many provinces does the Netherlands have?"
+          },
+          "options": {
+            "nl": [
+              "Acht.",
+              "Twaalf.",
+              "Twintig."
+            ],
+            "en": [
+              "Eight.",
+              "Twelve.",
+              "Twenty."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Nederland heeft twaalf provincies, van Groningen in het noorden tot Limburg in het zuiden.",
+            "en": "The Netherlands has twelve provinces, from Groningen in the north to Limburg in the south."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-7-4",
+          "eindterm": "5.2.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Welke provincie ligt in het zuidwesten van Nederland, aan de zee?",
+            "en": "Which province lies in the south-west of the Netherlands, by the sea?"
+          },
+          "options": {
+            "nl": [
+              "Groningen.",
+              "Zeeland.",
+              "Drenthe."
+            ],
+            "en": [
+              "Groningen.",
+              "Zeeland.",
+              "Drenthe."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Zeeland ligt in het zuidwesten. Daar staan ook de Deltawerken.",
+            "en": "Zeeland is in the south-west. That is where the Delta Works are."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-7-5",
+          "eindterm": "5.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom is het handig om de steden en gebieden in je eigen regio te kennen?",
+            "en": "Why is it useful to know the cities and areas in your own region?"
+          },
+          "options": {
+            "nl": [
+              "Dan weet je beter waar je kunt wonen, werken of studeren.",
+              "Dat is verplicht voor een rijbewijs.",
+              "Dan hoef je geen belasting te betalen."
+            ],
+            "en": [
+              "Then you know better where you can live, work or study.",
+              "It is required for a driving licence.",
+              "Then you don't have to pay tax."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Als je je regio kent, zie je beter welke mogelijkheden er zijn voor wonen, werk en opleiding.",
+            "en": "If you know your region, you can better see what options there are for housing, work and education."
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "handeling": [
+        "5.2"
+      ],
+      "title": {
+        "nl": "Reizen met het openbaar vervoer",
+        "en": "Travelling by public transport"
+      },
+      "situation": {
+        "nl": "Li heeft een sollicitatiegesprek in een andere stad. Ze heeft geen auto en wil met de trein en de bus.",
+        "en": "Li has a job interview in another town. She has no car and wants to go by train and bus."
+      },
+      "body": {
+        "nl": [
+          "In Nederland kun je reizen met de trein, de bus, de tram en de metro. Je kunt je reis vooraf plannen met een reisplanner, bijvoorbeeld 9292 of de app van de vervoerder. Daarin zie je hoe laat je vertrekt, waar je overstapt en wat de reis kost.",
+          "Er zijn verschillende vervoersbewijzen. Je kunt in- en uitchecken met je betaalpas, je creditcard, je telefoon of een OV-pas. Je kunt ook een los kaartje of e-ticket kopen. Reis je vaak? Dan kan een abonnement voordeliger zijn.",
+          "Check altijd in als je begint met reizen en check uit als je reis klaar is. Met een betaalpas wordt het geld van je rit van je rekening afgeschreven.",
+          "De provincie zorgt voor het streekvervoer, zoals de bussen in de regio."
+        ],
+        "en": [
+          "In the Netherlands you can travel by train, bus, tram and metro. You can plan your journey in advance with a journey planner, for example 9292 or the transport company's app. It shows when you leave, where you change and what the journey costs.",
+          "There are different kinds of tickets. You can check in and out with your bank card, your credit card, your phone or a public transport card (OV-pas). You can also buy a single ticket or e-ticket. Do you travel often? Then a subscription can be cheaper.",
+          "Always check in when you start travelling and check out when your journey is over. With a bank card the money for your trip is taken from your account.",
+          "The province looks after regional transport, such as the buses in the region."
+        ]
+      },
+      "remember": {
+        "nl": "Plan je reis met een reisplanner. Check in aan het begin en check uit aan het eind van je reis.",
+        "en": "Plan your journey with a journey planner. Check in at the start and check out at the end of your journey."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Connexxion: OVpay, in- en uitchecken met je betaalpas",
+          "url": "https://www.connexxion.nl/nl/reisinformatie/in-en-uitchecken/ovpay-het-nieuwe-in-en-uitchecken-met-je-betaalpas"
+        },
+        {
+          "title": "9292: reisinformatie openbaar vervoer",
+          "url": "https://9292.nl/"
+        },
+        {
+          "title": "Rijksoverheid: wat doet de provincie? (brochure)",
+          "url": "https://rijksoverheid.nl/binaries/rijksoverheid/documenten/brochures/2024/05/23/wat-doet-de-provincie/Wat+doet+de+provincie.pdf"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "geschiedenis-en-geografie-8-1",
+          "eindterm": "5.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Li wil weten hoe laat haar trein vertrekt en waar ze moet overstappen. Wat gebruikt ze?",
+            "en": "Li wants to know when her train leaves and where she must change. What does she use?"
+          },
+          "options": {
+            "nl": [
+              "Een reisplanner, zoals 9292.",
+              "Het telefoonboek.",
+              "De website van de gemeente."
+            ],
+            "en": [
+              "A journey planner, such as 9292.",
+              "The phone book.",
+              "The municipality's website."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Met een reisplanner zoals 9292 plan je je reis met het openbaar vervoer en kun je ook een e-ticket kopen.",
+            "en": "With a journey planner such as 9292 you plan your public transport journey and can also buy an e-ticket."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-8-2",
+          "eindterm": "5.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarmee kun je in- en uitchecken in de bus en de trein?",
+            "en": "What can you use to check in and out on the bus and train?"
+          },
+          "options": {
+            "nl": [
+              "Alleen met je paspoort.",
+              "Met je betaalpas, creditcard of een OV-pas.",
+              "Met je zorgpas."
+            ],
+            "en": [
+              "Only with your passport.",
+              "With your bank card, credit card or an OV-pas.",
+              "With your health insurance card."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Je kunt in- en uitchecken met je betaalpas, creditcard, je telefoon of de OV-pas.",
+            "en": "You can check in and out with your bank card, credit card, phone or the OV-pas."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-8-3",
+          "eindterm": "5.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat doe je als je reis met de bus klaar is?",
+            "en": "What do you do when your bus journey is over?"
+          },
+          "options": {
+            "nl": [
+              "Je checkt uit.",
+              "Je gooit je pas weg.",
+              "Niets."
+            ],
+            "en": [
+              "You check out.",
+              "You throw your card away.",
+              "Nothing."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je checkt in aan het begin en uit aan het eind van je reis.",
+            "en": "You check in at the start and out at the end of your journey."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-8-4",
+          "eindterm": "5.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Li checkt in met haar betaalpas. Hoe betaalt ze de rit?",
+            "en": "Li checks in with her bank card. How does she pay for the trip?"
+          },
+          "options": {
+            "nl": [
+              "Ze krijgt later een brief van de gemeente.",
+              "Ze betaalt contant aan de chauffeur.",
+              "Het geld wordt van haar rekening afgeschreven."
+            ],
+            "en": [
+              "She later gets a letter from the municipality.",
+              "She pays the driver in cash.",
+              "The money is taken from her account."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Met een betaalpas wordt het geld van je rit direct van je rekening afgeschreven.",
+            "en": "With a bank card the money for your trip is taken straight from your account."
+          }
+        },
+        {
+          "id": "geschiedenis-en-geografie-8-5",
+          "eindterm": "5.2.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Wie zorgt voor het streekvervoer, zoals de bussen in de regio?",
+            "en": "Who looks after regional transport, such as the buses in the region?"
+          },
+          "options": {
+            "nl": [
+              "De koning.",
+              "De provincie.",
+              "De school."
+            ],
+            "en": [
+              "The king.",
+              "The province.",
+              "The school."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Het streekvervoer in de provincie is een taak van de provincie.",
+            "en": "Regional transport in the province is a task of the province."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -218,13 +218,6 @@
       "plain": "een club van mensen met dezelfde hobby of hetzelfde doel"
     },
     {
-      "id": "keti-koti",
-      "forms": [
-        "Keti Koti"
-      ],
-      "plain": "de dag (1 juli) waarop de afschaffing van de slavernij wordt herdacht en gevierd"
-    },
-    {
       "id": "statushouder",
       "forms": [
         "statushouder",
@@ -463,6 +456,126 @@
         "wijkteam"
       ],
       "plain": "een team van de gemeente dat helpt bij zorg, geld en andere problemen"
+    },
+    {
+      "id": "voc",
+      "forms": [
+        "VOC"
+      ],
+      "plain": "de Verenigde Oostindische Compagnie, een groot handelsbedrijf uit de zeventiende eeuw"
+    },
+    {
+      "id": "kolonie",
+      "forms": [
+        "koloniën",
+        "kolonie"
+      ],
+      "plain": "een gebied in een ander werelddeel dat door een land werd bestuurd"
+    },
+    {
+      "id": "plantage",
+      "forms": [
+        "plantages",
+        "plantage"
+      ],
+      "plain": "een groot landbouwbedrijf, bijvoorbeeld voor suiker of koffie"
+    },
+    {
+      "id": "keti-koti",
+      "forms": [
+        "Keti Koti"
+      ],
+      "plain": "het feest op 1 juli waarop de afschaffing van de slavernij wordt herdacht en gevierd"
+    },
+    {
+      "id": "polder",
+      "forms": [
+        "polders",
+        "polder"
+      ],
+      "plain": "laag land dat vroeger water was en door dijken droog wordt gehouden"
+    },
+    {
+      "id": "deltawerken",
+      "forms": [
+        "Deltawerken"
+      ],
+      "plain": "dammen en keringen in het zuidwesten die het land beschermen tegen de zee"
+    },
+    {
+      "id": "wilhelmus",
+      "forms": [
+        "Wilhelmus"
+      ],
+      "plain": "het volkslied van Nederland"
+    },
+    {
+      "id": "holocaust",
+      "forms": [
+        "Holocaust"
+      ],
+      "plain": "de moord door de nazi's op ongeveer zes miljoen Joden"
+    },
+    {
+      "id": "bezetting",
+      "forms": [
+        "bezet",
+        "bezetter"
+      ],
+      "plain": "een ander land had de macht in Nederland"
+    },
+    {
+      "id": "gastarbeider",
+      "forms": [
+        "gastarbeiders",
+        "gastarbeider"
+      ],
+      "plain": "een arbeider uit het buitenland die naar Nederland werd gehaald om te werken"
+    },
+    {
+      "id": "navo",
+      "forms": [
+        "NAVO"
+      ],
+      "plain": "een samenwerking van landen uit Europa en Noord-Amerika voor veiligheid"
+    },
+    {
+      "id": "zelfbeschikking",
+      "forms": [
+        "zelfbeschikking"
+      ],
+      "plain": "zelf mogen beslissen over je eigen leven en je eigen lichaam"
+    },
+    {
+      "id": "euthanasie",
+      "forms": [
+        "euthanasie"
+      ],
+      "plain": "een arts helpt een ernstig zieke patiënt op zijn eigen verzoek te sterven"
+    },
+    {
+      "id": "provincie",
+      "forms": [
+        "provincies",
+        "provincie"
+      ],
+      "plain": "een van de twaalf grote delen van Nederland, met een eigen bestuur"
+    },
+    {
+      "id": "inchecken",
+      "forms": [
+        "in- en uitchecken",
+        "inchecken",
+        "uitchecken"
+      ],
+      "plain": "je pas langs de paal of lezer houden aan het begin en eind van je reis"
+    },
+    {
+      "id": "streekvervoer",
+      "forms": [
+        "streekvervoer"
+      ],
+      "plain": "bussen en ander openbaar vervoer in een regio"
     }
   ]
 }
