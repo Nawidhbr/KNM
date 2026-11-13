@@ -5,7 +5,7 @@
  */
 export const OFFER = {
   /** The price in euros, VAT included, as Mollie wants it: a string with two decimals. */
-  price: "4.99",
+  price: "7.99",
   currency: "EUR",
   /** Dutch VAT on an electronic service. */
   vatRate: 21,
