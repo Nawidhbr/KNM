@@ -5,7 +5,7 @@
  */
 export const COMPANY = {
   /** The trade name as registered at the KvK. */
-  name: "",
+  name: "AQLI",
   /** Street, number, postcode and town of the business address. */
   address: "",
   /** The KvK number (8 digits). */

@@ -1,0 +1,75 @@
+# Every hour, and after each production deploy: is the live site up, quick and set up as built?
+# - the main pages answer 200 within 8 seconds, with the right content;
+# - the security headers of vercel.json are sent (a Vercel project that builds from apps/web instead of the
+#   repository root silently drops vercel.json and the functions in api/);
+# - the functions exist: /api/contact and /api/redeem answer (405 or 4xx), not 404.
+# If not, an issue labelled "uptime" is opened (or, if one is open, a comment added); when all is well again it is
+# closed. GitHub sends a mail for a new issue, so this is the alarm. The address comes from SITE_URL's default in
+# apps/web/src/config/site.ts.
+name: Uptime
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  deployment_status:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    if: github.event_name != 'deployment_status' || (github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: apps/web/src/config/site.ts
+          sparse-checkout-cone-mode: false
+      - name: Check the live site
+        id: check
+        run: |
+          set +e
+          fail=""
+          site=$(grep -o 'https://[a-z0-9.-]*' apps/web/src/config/site.ts | head -1)
+          echo "site $site"
+          for path in /nl/ /nl/study/ /nl/study/werk-en-inkomen/1/ /nl/topics/ /nl/practice/questions.json /sw.js /sitemap-index.xml; do
+            out=$(curl -sS -o /tmp/body -w "%{http_code} %{time_total}" --max-time 20 "$site$path" -L)
+            code=${out% *}; time=${out#* }
+            echo "$path $code ${time}s"
+            if [ "$code" != "200" ]; then fail="$fail\n- \`$path\`: HTTP $code"; continue; fi
+            case "$path" in
+              /nl/) grep -q "KNM" /tmp/body || fail="$fail\n- \`$path\`: answered, but not with the home page" ;;
+            esac
+            awk -v t="$time" 'BEGIN { exit !(t > 8) }' && fail="$fail\n- \`$path\`: slow (${time}s)"
+          done
+          # The headers of vercel.json.
+          headers=$(curl -sSI --max-time 20 "$site/nl/" | tr -d '\r')
+          for h in content-security-policy x-content-type-options referrer-policy; do
+            echo "$headers" | grep -qi "^$h:" || fail="$fail\n- header \`$h\` is missing: Vercel is not using vercel.json. In the Vercel project, set Root Directory to the repository root (empty), Build Command \`npm run build\`, Output Directory \`dist\`, and redeploy."
+          done
+          # The functions in api/.
+          for fn in /api/contact /api/redeem; do
+            code=$(curl -sS -o /dev/null -w "%{http_code}" --max-time 20 "$site$fn")
+            echo "$fn $code"
+            [ "$code" = "404" ] && fail="$fail\n- \`$fn\` gives 404: the functions in api/ are not deployed (same cause as the headers)."
+          done
+          printf "fail<<EOF\n%b\nEOF\n" "$fail" >> "$GITHUB_OUTPUT"
+      - name: Open, update or close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FAIL: ${{ steps.check.outputs.fail }}
+        run: |
+          gh label create uptime --color B60205 --description "The site is down, slow or not set up as built" -R "$GITHUB_REPOSITORY" 2>/dev/null || true
+          open=$(gh issue list -R "$GITHUB_REPOSITORY" --label uptime --state open --json number --jq '.[0].number')
+          now=$(date -u +"%Y-%m-%d %H:%M UTC")
+          if [ -n "$(echo "$FAIL" | tr -d '[:space:]')" ]; then
+            body=$(printf "Checked at %s:\n%s\n\nSee the Vercel dashboard (Settings, Deployments, Logs) for the cause." "$now" "$FAIL")
+            if [ -n "$open" ]; then gh issue comment "$open" -R "$GITHUB_REPOSITORY" --body "$body"
+            else gh issue create -R "$GITHUB_REPOSITORY" --label uptime --title "nederlands.app is down, slow or not set up as built" --body "$body"; fi
+            exit 1
+          elif [ -n "$open" ]; then
+            gh issue close "$open" -R "$GITHUB_REPOSITORY" --comment "All well again at $now."
+          fi

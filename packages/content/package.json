@@ -8,7 +8,8 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "validate": "node --experimental-strip-types scripts/validate.ts"
+    "validate": "node --experimental-strip-types scripts/validate.ts",
+    "coverage": "node --experimental-strip-types scripts/coverage.ts"
   },
   "dependencies": {
     "zod": "^4.1.0"

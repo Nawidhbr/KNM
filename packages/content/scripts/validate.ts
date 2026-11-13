@@ -6,7 +6,7 @@
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { Glossary, LOCALES, News, Reviews, Theme, ThemeIndex, Topic } from "../src/schema.ts";
+import { Eindtermen, Glossary, LOCALES, News, Reviews, Theme, ThemeIndex, Topic } from "../src/schema.ts";
 
 const root = new URL("..", import.meta.url).pathname;
 const read = (p: string) => JSON.parse(readFileSync(join(root, p), "utf8"));
@@ -19,6 +19,12 @@ const parse = <T,>(schema: { safeParse: (x: unknown) => { success: true; data: T
   for (const i of r.error.issues) fail(where, `${i.path.join(".") || "(root)"}: ${i.message}`);
   return null;
 };
+
+// The eindtermen: every code in the content must be one of them.
+const eindtermen = parse(Eindtermen, read("eindtermen.json"), "eindtermen.json");
+const actionCodes = new Set(eindtermen?.themes.flatMap((t) => t.actions.map((a) => a.code)) ?? []);
+const knowledgeCodes = new Set(eindtermen?.themes.flatMap((t) => t.actions.flatMap((a) => a.knowledge.map((k) => k.code))) ?? []);
+const knownCode = (c: string) => actionCodes.has(c) || knowledgeCodes.has(c);
 
 // The eight themes, in order.
 const index = parse(ThemeIndex, read("themes/index.json"), "themes/index.json");
@@ -40,7 +46,10 @@ for (const { f, t } of themes) {
   t.lessons.forEach((l, i) => {
     const lw = `${where} lesson ${l.n}`;
     if (l.n !== i + 1) fail(lw, `lessons must be numbered 1, 2, … in order (found ${l.n} at place ${i + 1})`);
-    for (const h of l.handeling) if (!h.startsWith(`${t.n}.`)) fail(lw, `crucial action ${h} is not in theme ${t.n}`);
+    for (const h of l.handeling) {
+      if (!h.startsWith(`${t.n}.`)) fail(lw, `crucial action ${h} is not in theme ${t.n}`);
+      if (!actionCodes.has(h)) fail(lw, `${h} is not a crucial action of the eindtermen`);
+    }
     for (const loc of LOCALES) {
       if (loc !== "nl" && !l.title[loc]) continue;
       if (loc !== "nl" && (!l.situation[loc] || !l.body[loc] || !l.remember[loc])) fail(lw, `${loc}: translation incomplete (title given, but not situation, body and remember)`);
@@ -51,6 +60,8 @@ for (const { f, t } of themes) {
       questionIds.add(q.id);
       if (!q.id.startsWith(`${t.id}-${l.n}-`)) fail(qw, `id must start with ${t.id}-${l.n}-`);
       if (!q.eindterm.startsWith(`${t.n}.`)) fail(qw, `eindterm ${q.eindterm} is not in theme ${t.n}`);
+      if (!knownCode(q.eindterm)) fail(qw, `${q.eindterm} is not in the eindtermen`);
+      if (q.source !== undefined && q.source >= l.sources.length) fail(qw, `source ${q.source} does not exist (the lesson has ${l.sources.length})`);
       if (q.options.nl.length !== 3) fail(qw, "a question has three options (nl)");
       if (q.answer >= q.options.nl.length) fail(qw, "answer is out of range");
       if (q.options.en && q.options.en.length !== q.options.nl.length) fail(qw, "en has a different number of options");
@@ -69,6 +80,7 @@ const topicSlugs = new Set(topics.map((x) => x.t.slug));
 for (const { f, t } of topics) {
   if (`${t.slug}.json` !== f) fail(`topics/${f}`, `slug ${t.slug} does not match the file name`);
   if (t.theme && !themeIds.has(t.theme)) fail(`topics/${f}`, `theme ${t.theme} is not in themes/index.json`);
+  for (const c of t.eindtermen) if (!knownCode(c)) fail(`topics/${f}`, `${c} is not in the eindtermen`);
 }
 
 // Word explanations, per language.
@@ -108,5 +120,20 @@ write("topics.json", topics.map((x) => x.t).sort((a, b) => a.title.nl.localeComp
 write("glossary.json", glossary);
 write("news.json", [...news!.items].sort((a, b) => b.date.localeCompare(a.date)));
 write("reviews.json", reviews);
+
+// Coverage: per knowledge item of the eindtermen, the lessons and questions that test it and the topics that explain
+// it (a question on a crucial action counts for that action's items). `npm run coverage` prints it.
+const coverage = eindtermen!.themes.flatMap((th) =>
+  th.actions.flatMap((a) =>
+    a.knowledge.map((k) => {
+      const qs = themes.flatMap(({ t }) => t.lessons.flatMap((l) => l.quiz.filter((q) => q.eindterm === k.code).map((q) => ({ lesson: `${t.id}-${l.n}`, id: q.id, checked: Boolean(l.checked && q.source !== undefined) }))));
+      const lessons = [...new Set([...qs.map((q) => q.lesson), ...themes.flatMap(({ t }) => t.lessons.filter((l) => l.handeling.includes(a.code) && l.quiz.some((q) => q.eindterm === a.code)).map((l) => `${t.id}-${l.n}`))])];
+      return { theme: th.n, action: a.code, code: k.code, text: k.text, lessons, questions: qs.length, checked: qs.filter((q) => q.checked).length, topics: topics.filter((x) => x.t.eindtermen.includes(k.code) || x.t.eindtermen.includes(a.code)).map((x) => x.t.slug) };
+    }),
+  ),
+);
+write("eindtermen.json", eindtermen);
+write("coverage.json", coverage);
 const lessonCount = themes.reduce((n, x) => n + x.t.lessons.length, 0);
-console.log(`Content OK: ${themes.length} course(s), ${lessonCount} lessons, ${questionIds.size} questions, ${topics.length} topics.`);
+const covered = coverage.filter((c) => c.questions > 0).length;
+console.log(`Content OK: ${themes.length} course(s), ${lessonCount} lessons, ${questionIds.size} questions, ${topics.length} topics; ${covered} of ${coverage.length} eindtermen tested.`);

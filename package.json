@@ -12,12 +12,14 @@
     "dev": "npm run dev -w @knm/web",
     "test": "npm test -w @knm/web && npm run validate -w @knm/content",
     "check": "npm test && npm run build && node scripts/check-site.mjs apps/web/dist && playwright test",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "coverage": "npm run validate -w @knm/content && npm run coverage -w @knm/content --"
   },
   "engines": {
     "node": ">=22"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@playwright/test": "^1.63.0"
   }
 }

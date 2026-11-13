@@ -26,10 +26,37 @@ export const Code = z.string().regex(/^[1-8]\.\d+(\.\d+)?$/);
 export const Source = z.object({ title: z.string().min(1), url: z.string().url() });
 export type Source = z.infer<typeof Source>;
 
+/** A date, YYYY-MM-DD. */
+export const Day = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
+
+/**
+ * The eindtermen themselves (eindtermen.json, from the Staatscourant): per theme its crucial actions (1.1), each with
+ * the knowledge it needs (1.1.1) and the concrete indicators of that knowledge. Every code used in the content must
+ * be one of these.
+ */
+export const Eindtermen = z.object({
+  source: z.string().min(1),
+  url: z.string().url(),
+  themes: z.array(z.object({
+    n: z.number().int().min(1).max(8),
+    title: z.string().min(1),
+    goal: z.string().min(1),
+    actions: z.array(z.object({
+      code: Code,
+      text: z.string().min(1),
+      knowledge: z.array(z.object({ code: Code, text: z.string().min(1), indicators: z.array(z.string().min(1)) })).min(1),
+    })).min(1),
+  })).length(8),
+});
+export type Eindtermen = z.infer<typeof Eindtermen>;
+
 /** One question of a lesson's test: three options, one right, tied to the eindterm it tests. */
 export const Question = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
+  /** The knowledge item it tests (1.1.2), or a crucial action (1.1) when it tests the action as a whole. */
   eindterm: Code,
+  /** Which of the lesson's sources (its index in `sources`) the right answer was checked against. */
+  source: z.number().int().min(0).optional(),
   prompt: Text,
   options: TextList,
   answer: z.number().int().min(0),
@@ -49,6 +76,8 @@ export const Lesson = z.object({
   /** The one rule to remember, with the why. */
   remember: Text,
   sources: z.array(Source).min(1),
+  /** The day the lesson and its questions were last checked against the sources. A lesson without it is unchecked. */
+  checked: Day.optional(),
   quiz: z.array(Question).min(3).max(8),
 });
 export type Lesson = z.infer<typeof Lesson>;

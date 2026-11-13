@@ -1,0 +1,857 @@
+{
+  "source": "Staatscourant 2024, 15802: Regeling inburgering 2021, bijlage 2, eindtermen KNM (in force since 1 July 2025)",
+  "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html",
+  "themes": [
+    {
+      "n": 1,
+      "title": "Werk en inkomen",
+      "goal": "De inburgeraar is in staat stappen te zetten om werk te zoeken, te behouden en in eigen onderhoud te voorzien.",
+      "actions": [
+        {
+          "code": "1.1",
+          "text": "Snel en efficiënt (nieuw) werk zoeken",
+          "knowledge": [
+            {
+              "code": "1.1.1",
+              "text": "Is op de hoogte van de Nederlandse regelingen voor werk en inkomen.",
+              "indicators": [
+                "Weet dat inburgeraars zich door middel van de Module Arbeidsmarkt en Participatie (MAP) of scholing kunnen voorbereiden op aangeboden werk",
+                "Weet dat hij zich moet inspannen om zelf een inkomen te verwerven"
+              ]
+            },
+            {
+              "code": "1.1.2",
+              "text": "Is op de hoogte van de manieren waarop mensen in Nederland vacatures/ werk vinden.",
+              "indicators": [
+                "Weet dat hij zijn eigen netwerk kan inschakelen",
+                "Weet dat hij vacatures kan vinden in online vacaturebanken",
+                "Weet hoe hij zich kan inschrijven bij uitzendbureaus",
+                "Weet dat het gebruikelijk is bij een sollicitatie een (online) sollicitatieformulier, een sollicitatiebrief of curriculum vitae (cv) te gebruiken",
+                "Weet dat het voeren van sollicitatiegesprekken om voorbereiding vraagt",
+                "Weet dat werkgevers het stellen van enkele vragen over de inhoud van het werk en de arbeidsvoorwaarden tijdens een sollicitatiegesprek doorgaans waarderen"
+              ]
+            },
+            {
+              "code": "1.1.3",
+              "text": "Is op de hoogte van relevante beroepen in relatie tot de eigen kwalificaties en loopbaanmogelijkheden.",
+              "indicators": [
+                "Weet dat verschillende factoren de kansen op de arbeidsmarkt beïnvloeden, zoals vooropleiding, werkervaring, beschikbaarheid, motivatie en beheersing van de Nederlandse taal"
+              ]
+            },
+            {
+              "code": "1.1.4",
+              "text": "Is ervan op de hoogte hoe de waarde van een eerder behaald diploma en ervaring voor de Nederlandse arbeidsmarkt kan worden achterhaald of kan worden gewaardeerd.",
+              "indicators": []
+            },
+            {
+              "code": "1.1.5",
+              "text": "Is op de hoogte van het belang van (bij)scholing voor de kansen op de arbeidsmarkt.",
+              "indicators": []
+            },
+            {
+              "code": "1.1.6",
+              "text": "Is op de hoogte dat een werkgever eisen met betrekking tot competenties aan een sollicitant kan stellen.",
+              "indicators": [
+                "Weet dat werkgevers eisen aan de taal- en communicatievaardigheden kunnen stellen"
+              ]
+            },
+            {
+              "code": "1.1.7",
+              "text": "Is op de hoogte van de voorzieningen van de gemeente en UWV voor werkzoekenden en arbeidsongeschikten.",
+              "indicators": [
+                "Weet dat hij bij werkloosheid en arbeidsongeschiktheid na een arbeidsverleden direct contact moet leggen met het UWV ten behoeve van registratie/inschrijving en aanvraag uitkering",
+                "Weet dat hij zonder arbeidsverleden direct contact moet leggen met de gemeente ten behoeve van registratie/inschrijving en aanvraag uitkering",
+                "Weet dat met de gemeente of UWV kan worden overlegd over scholingswensen die passen bij zijn startpositie",
+                "Weet dat hij zich moet inspannen om zelf een inkomen te verwerven",
+                "Weet dat Nederland een (tijdelijk) vangnet (bijstand, werkloosheidsuitkering (WW), arbeidsongeschiktheidsuitkering en toeslagen) heeft voor mensen die ondanks hun inspanningen geen werk kunnen vinden of die niet (voltijds) aan het werk kunnen om fysieke of psychische redenen"
+              ]
+            },
+            {
+              "code": "1.1.8",
+              "text": "Is op de hoogte van de belangrijkste rechten en plichten van uitkeringsgerechtigden.",
+              "indicators": [
+                "Weet dat men als uitkeringsgerechtigde rechten en plichten heeft",
+                "Weet dat men als uitkeringsgerechtigde in principe aangeboden werk moet accepteren",
+                "Weet dat wijzigingen in de inkomenssituatie van invloed kunnen zijn op uitkeringen"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1.2",
+          "text": "Actief deel uitmaken van een arbeidsorganisatie",
+          "knowledge": [
+            {
+              "code": "1.2.1",
+              "text": "Is ervan op de hoogte dat een arbeidsovereenkomst de rechten en plichten beschrijft van werknemer en werkgever.",
+              "indicators": [
+                "Weet dat bedrijven afspraken maken over zaken zoals werktijden, salaris, zelfstandig werken, communicatie, arbeidsomstandigheden, veiligheid, milieu, verlof en ziekte",
+                "Weet dat voor veel sectoren in Nederland collectieve arbeidsovereenkomsten (cao’s) bestaan",
+                "Weet dat een werknemer, los van wat in de cao is vastgelegd, het recht heeft om met de werkgever over de arbeidsvoorwaarden te onderhandelen",
+                "Weet dat zijn functioneren kan worden beoordeeld en dat hij zich kan voorbereiden op een beoordelingsgesprek",
+                "Weet dat werkgevers afspraken en systemen kunnen gebruiken voor registratie, afleggen van verantwoording en tijdschrijven",
+                "Kent het verschil tussen een vast contract, een tijdelijk contract en een contract via een uitzendbureau",
+                "Weet dat werken in deeltijd in Nederland veel voorkomt"
+              ]
+            },
+            {
+              "code": "1.2.2",
+              "text": "Is op de hoogte van mogelijkheden tot werknemersparticipatie.",
+              "indicators": [
+                "Kent ondernemingsraad/medezeggenschapsraad en personeelsvereniging als voorbeelden van werknemersparticipatie",
+                "Weet dat vakbonden opkomen voor de rechten en belangen van werknemers en het afsluiten van cao’s"
+              ]
+            },
+            {
+              "code": "1.2.3",
+              "text": "Is ervan op de hoogte dat werkgevers premies en belastingen voor hun werknemers afdragen.",
+              "indicators": [
+                "Weet dat werknemerspremies en belastingen op het salaris worden ingehouden"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1.3",
+          "text": "Omgaan met (verborgen) discriminatie op de arbeidsmarkt en de werkvloer",
+          "knowledge": [
+            {
+              "code": "1.3.1",
+              "text": "Is ervan op de hoogte dat discriminatie op de arbeidsmarkt en de werkvloer wettelijk verboden is.",
+              "indicators": [
+                "Weet dat discriminatie op het werk verboden is, zowel door werkgevers als collega’s",
+                "Weet dat bij een vermoeden van discriminatie gebruik kan worden gemaakt van voorzieningen zoals een vertrouwenspersoon, vakbond en organisaties die zich inzetten voor gelijke rechten"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "1.4",
+          "text": "Voorbereidingen treffen om een eigen bedrijf te starten",
+          "knowledge": [
+            {
+              "code": "1.4.1",
+              "text": "Is op de hoogte van een aantal belangrijke voorwaarden om een bedrijf te kunnen starten.",
+              "indicators": [
+                "Weet dat inschrijving bij de Kamer van Koophandel verplicht is om een bedrijf te kunnen starten",
+                "Weet dat het recht op uitkering in principe vervalt bij inschrijving bij de Kamer van Koophandel en daarom overleg met de uitkeringsinstantie of gemeente verstandig is",
+                "Weet dat er bij de Kamer van Koophandel ondersteuning te krijgen is bij het starten van een bedrijf",
+                "Weet dat hij een aanvullend pensioen en een arbeidsongeschiktheidsverzekering zelfstandig kan regelen"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Omgangsvormen, waarden en normen",
+      "goal": "De inburgeraar is in staat om te gaan met relevante omgangsvormen, waarden en normen.",
+      "actions": [
+        {
+          "code": "2.1",
+          "text": "Duiden van verschillende omgangsvormen in Nederland",
+          "knowledge": [
+            {
+              "code": "2.1.1",
+              "text": "Is ervan op de hoogte dat omgangsvormen, waarden en normen kunnen verschillen per sociale groep, regio, generatie en sociaaleconomische klasse.",
+              "indicators": [
+                "Weet hoe hij zich op de hoogte kan stellen van de alledaagse omgangsvormen, normen en waarden binnen de (sociale) contexten waarin hij zich begeeft"
+              ]
+            },
+            {
+              "code": "2.1.2",
+              "text": "Weet dat veel mensen in Nederland zich direct kunnen uiten.",
+              "indicators": []
+            },
+            {
+              "code": "2.1.3",
+              "text": "Is ervan op de hoogte dat het doorgaans belangrijk is om van tevoren afspraken te maken o.a. op het werk en met instanties.",
+              "indicators": [
+                "Weet hoe hij een afspraak met collega’s, instanties of dienst- of zorgverlener kan maken",
+                "Weet dat veel mensen in Nederland waarde hechten aan op tijd komen en aan het tijdig afmelden van afspraken"
+              ]
+            },
+            {
+              "code": "2.1.4",
+              "text": "Is ervan op de hoogte dat in Nederland verschillende samenlevingsvormen bestaan, ook voor partners van gelijk geslacht.",
+              "indicators": [
+                "Weet dat geregistreerd partnerschap en huwelijk in de wet geregeld zijn",
+                "Weet dat ongehuwd samenwonen in Nederland vaak voorkomt"
+              ]
+            },
+            {
+              "code": "2.1.5",
+              "text": "Kent de officiële feest- en gedenkdagen, zoals Pasen, Koningsdag, 4 en 5 mei, Kerst, Oud en Nieuw, en de in sommige kringen relevante feestdagen, zoals bijvoorbeeld Sinterklaas, Carnaval, Suikerfeest en Keti Koti.",
+              "indicators": []
+            }
+          ]
+        },
+        {
+          "code": "2.2",
+          "text": "Deelnemen aan sociale netwerken",
+          "knowledge": [
+            {
+              "code": "2.2.1",
+              "text": "Is ervan op de hoogte dat in Nederland veel maatschappelijke, culturele- en/of sportieve organisaties en verenigingen actief zijn.",
+              "indicators": [
+                "Weet dat vrijwilligerswerk en actieve betrokkenheid bij verenigingen en organisaties kunnen helpen om sociale netwerken op te bouwen"
+              ]
+            },
+            {
+              "code": "2.2.2",
+              "text": "Is op de hoogte van de belangrijkste gebruiken bij familiegebeurtenissen, zoals verjaardag, geboorte, slagen voor examen, bruiloft en overlijden.",
+              "indicators": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "title": "Wonen",
+      "goal": "De inburgeraar weet hoe hij passende huisvesting kan vinden en nutsvoorzieningen kan regelen. Hij kent het belang van veiligheid in de woning en een schone leefomgeving.",
+      "actions": [
+        {
+          "code": "3.1",
+          "text": "Passende huisvesting regelen",
+          "knowledge": [
+            {
+              "code": "3.1.1",
+              "text": "Is ervan op de hoogte dat hij voor zijn eerste huisvesting vaak afhankelijk is van het aanbod van de gemeente (tenzij hij zich als gezinsmigrant bij familie voegt die al de beschikking over woonruimte heeft).",
+              "indicators": [
+                "Weet wat een huurcontract inhoudt",
+                "Weet dat er aanzienlijke verschillen zijn tussen gemeenten wat betreft woningmarkt"
+              ]
+            },
+            {
+              "code": "3.1.2",
+              "text": "Is ervan op de hoogte dat huurders in Nederland wettelijke rechten hebben.",
+              "indicators": [
+                "Weet hoe hij hulp kan inschakelen in geval van onterechte bejegening, onterechte huurverhoging, achterstallig onderhoud of contractbreuk door de verhuurder"
+              ]
+            },
+            {
+              "code": "3.1.3",
+              "text": "Is op de hoogte van waar en hoe hij informatie kan vinden ten behoeve van het verkrijgen van een andere woning.",
+              "indicators": [
+                "Weet dat hij in Nederland woonruimte kan verkrijgen via sociale huur, vrije huursector en koopsector",
+                "Kent het belang van spoedige inschrijving als woningzoekende",
+                "Formuleert een woonwens die past bij de woningmarkt, zijn situatie en zijn inkomen",
+                "Kent de procedures en regels die gelden voor het verkrijgen van een huurwoning of koopwoning",
+                "Weet dat contact moet worden opgenomen met de passende instantie of een makelaar bij het zoeken van een huurhuis of koopwoning",
+                "Is op de hoogte van de mate van beschikbaarheid van woningen in zijn regio"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3.2",
+          "text": "Regelen van en omgaan met nutsvoorzieningen en communicatiemiddelen in de eigen woning",
+          "knowledge": [
+            {
+              "code": "3.2.1",
+              "text": "Is ervan op de hoogte dat hij zelf verantwoordelijk is voor aansluiting van energie, water en internet",
+              "indicators": [
+                "Weet hoe hij een geschikte energieleverancier, een telefoon- en/of internetprovider kan regelen",
+                "Kan indien noodzakelijk de meterstanden opnemen en melden aan de leverancier",
+                "Weet hoe hij een storing meldt bij de leverancier van de nutsvoorziening",
+                "Kan noodzakelijk onderhoud regelen"
+              ]
+            },
+            {
+              "code": "3.2.2",
+              "text": "Is ervan op de hoogte dat aan het verbruik van energie en water kosten verbonden zijn die (sterk) kunnen fluctueren.",
+              "indicators": [
+                "Weet wat de hoofdpunten uit de energie- en waterrekening inhouden, zoals verbruik en kosten",
+                "Weet dat spaarzaam gebruik van energie en water beter is voor het milieu en de energierekening zo laag mogelijk houdt",
+                "Kent een aantal manieren waarop energie kan worden bespaard in huis",
+                "Kent het verschil tussen een energiecontract met tijdelijke en vaste tarieven en weet dat zo’n contract verschillende looptijden kan hebben"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "3.3",
+          "text": "Bijdragen aan een schone leefomgeving",
+          "knowledge": [
+            {
+              "code": "3.3.1",
+              "text": "Is op de hoogte van regels met betrekking tot afvalinzameling en afvalscheiding.",
+              "indicators": [
+                "Kent de lokale regels voor afvalinzameling en afvalscheiding",
+                "Weet waarom afvalscheiding belangrijk is"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "title": "Gezondheid en gezondheidszorg",
+      "goal": "De inburgeraar is in staat om volgens de regels van het Nederlandse zorgstelsel gebruik te maken van de gezondheidszorg.",
+      "actions": [
+        {
+          "code": "4.1",
+          "text": "Gebruikmaken van zorg waarvoor geen doorverwijzing nodig is",
+          "knowledge": [
+            {
+              "code": "4.1.1",
+              "text": "Is op de hoogte van de rol van de huisarts en de praktijkondersteuner als eerste aanspreekpunt bij gezondheidsvraagstukken.",
+              "indicators": [
+                "Weet hoe hij een huisarts kan kiezen",
+                "Weet hoe hij een afspraak maakt met een huisarts",
+                "Weet dat hij het recht heeft om gebruik te maken van een tolk",
+                "Weet dat hij ook met psychische klachten bij een huisarts of praktijkondersteuner terecht kan",
+                "Weet dat alles wat met een huisarts of praktijkondersteuner besproken wordt, valt onder het medisch beroepsgeheim en dat informatie alleen na toestemming van de cliënt met anderen gedeeld mag worden"
+              ]
+            },
+            {
+              "code": "4.1.2",
+              "text": "Kan gebruik maken van de apotheek.",
+              "indicators": [
+                "Weet dat hij een recept nodig heeft voordat hij bij de apotheek medicijnen kan ophalen",
+                "Weet dat hij voor sommige medicijnen zonder recept bij een drogist terecht kan"
+              ]
+            },
+            {
+              "code": "4.1.3",
+              "text": "Is op de hoogte van hoe hij een tandarts kan vinden.",
+              "indicators": [
+                "Weet dat een regelmatig bezoek aan een tandarts en/of mondhygiënist gebruikelijk is",
+                "Weet hoe hij een eigen tandarts kan kiezen"
+              ]
+            },
+            {
+              "code": "4.1.4",
+              "text": "Is ervan op de hoogte hoe kraam- en geboortezorg in Nederland geregeld is.",
+              "indicators": [
+                "Weet welke diensten de kraam-, geboortezorg en een consultatiebureau bieden"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "4.2",
+          "text": "Gebruikmaken van zorg waarvoor een doorverwijzing of indicatie nodig is",
+          "knowledge": [
+            {
+              "code": "4.2.1",
+              "text": "Is ervan op de hoogte dat de huisarts doorverwijst naar specialistische zorg, psychische zorg- of hulpverlening.",
+              "indicators": [
+                "Weet dat bij bepaalde medische of psychische problemen de huisarts doorverwijst"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "4.3",
+          "text": "Handelen in geval van medische spoed",
+          "knowledge": [
+            {
+              "code": "4.3.1",
+              "text": "Is op de hoogte van de werking van de huisartsenpost",
+              "indicators": [
+                "Weet dat voor spoedgevallen avond- en weekenddiensten zijn geregeld",
+                "Kent de procedures rondom huisartsenzorg ’s avonds en in het weekend"
+              ]
+            },
+            {
+              "code": "4.3.2",
+              "text": "Weet dat bij levensbedreigende situaties het nummer 112 moet worden gebeld.",
+              "indicators": []
+            }
+          ]
+        },
+        {
+          "code": "4.4",
+          "text": "De financiële en administratieve kant van zorg correct afhandelen",
+          "knowledge": [
+            {
+              "code": "4.4.1",
+              "text": "Is ervan op de hoogte dat de zorgverzekering verplicht is, waarbij vrijwillig aanvullend bijverzekerd kan worden.",
+              "indicators": [
+                "Weet hoe hij een zorgverzekeraar kiest en dat hij jaarlijks van verzekeraar mag wisselen",
+                "Weet dat onder andere huisartsenzorg, wijkverpleging, zwangerschaps- en geboortezorg, ouderenzorg en geestelijke gezondheidszorg deel uitmaken van het basispakket",
+                "Weet dat tandartszorg en fysiotherapie voor kinderen tot 18 jaar deel uitmaken van het basispakket en dat volwassenen zich hiervoor aanvullend kunnen verzekeren",
+                "Weet wat het ‘eigen risico’ en de ‘eigen bijdrage’ bij een zorgverzekering inhouden",
+                "Weet dat het eigen risico gespreid kan worden betaald",
+                "Weet dat een bezoek aan de huisarts niet ten koste gaat van het eigen risico",
+                "Weet waarvoor aanvullende verzekeringen nuttig kunnen zijn"
+              ]
+            },
+            {
+              "code": "4.4.2",
+              "text": "Is op de hoogte van hoe zorgkosten kunnen worden gedeclareerd.",
+              "indicators": [
+                "Weet hoe hij op voorgeschreven wijze declareert"
+              ]
+            },
+            {
+              "code": "4.4.3",
+              "text": "Weet dat veel administratieve aspecten van de zorg digitaal geregeld worden.",
+              "indicators": []
+            },
+            {
+              "code": "4.4.4",
+              "text": "Weet dat voor het aanvragen en declareren van veel zorgvoorzieningen een DigiD nodig is.",
+              "indicators": [
+                "Weet waar hij hulp bij het aanvragen van zorgregelingen kan krijgen"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "4.5",
+          "text": "Gebruikmaken van faciliteiten voor welzijn en/of preventie",
+          "knowledge": [
+            {
+              "code": "4.5.1",
+              "text": "Is op de hoogte van welzijnsfaciliteiten waarvoor hij terecht kan bij een gemeenteloket of wijkteam.",
+              "indicators": [
+                "Weet dat iedere gemeente welzijnsfaciliteiten aanbiedt waar iedereen gebruik van kan maken, zoals hulp bij schulden en armoede, bij sociaal isolement, bij maatschappelijke participatie en voor hulp thuis, bijvoorbeeld voor ouderen, langdurig zieken of mensen met een beperking"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "title": "Geschiedenis en geografie",
+      "goal": "De inburgeraar is in staat om, door een aantal aspecten van de geschiedenis en geografie van Nederland te kennen, betrokken te zijn bij Nederland en de Nederlandse samenleving.",
+      "actions": [
+        {
+          "code": "5.1",
+          "text": "Zich verdiepen in de geschiedenis van Nederland",
+          "knowledge": [
+            {
+              "code": "5.1.1",
+              "text": "Kent enkele aspecten van de geschiedenis van Nederland en kan enkele overblijfselen uit dit verleden aanwijzen.",
+              "indicators": [
+                "Weet dat Nederland in de zeventiende eeuw door scheepvaart en handel tot economische en culturele ontwikkeling kwam en herkent uitingen hiervan in schilderkunst en architectuur",
+                "Weet dat Nederland koloniën heeft gesticht, mensen tot slaaf heeft gemaakt, heeft verhandeld en in koloniën te werk heeft gesteld op landbouwplantages",
+                "Weet dat Nederland een lange traditie van leven met de dreiging van water kent en dat polders, molens, dijken en Deltawerken daarvan getuigen zijn",
+                "Weet dat het Wilhelmus het Nederlandse volkslied is en hoe de Nederlandse vlag eruitziet"
+              ]
+            },
+            {
+              "code": "5.1.2",
+              "text": "Kent enkele ontwikkelingen en thema’s uit de recente Nederlandse geschiedenis en weet dat dit nog herkenbaar is in de samenleving.",
+              "indicators": [
+                "Weet dat Nederland in de Tweede Wereldoorlog bezet werd door Duitsland, weet wat de holocaust inhoudt en dat daarbij ook veel Nederlandse Joden om het leven zijn gebracht en weet dat antisemitisme bij wet verboden is",
+                "Weet dat Nederland in 1945 is bevrijd, dat jaarlijks op 4 mei Nationale Dodenherdenking plaatsvindt en op 5 mei Bevrijdingsdag gevierd wordt",
+                "Weet dat sinds de Tweede Wereldoorlog mensen afkomstig uit voormalige koloniën, arbeidsmigranten en vluchtelingen naar Nederland zijn geïmmigreerd",
+                "Weet dat Nederland na de Tweede Wereldoorlog intensief met andere landen is gaan samenwerken, onder meer in de Europese Unie (EU), de Noord-Atlantische Verdragsorganisatie (NAVO) en de Verenigde Naties (VN)",
+                "Weet dat zeker sinds de jaren 60 veel Nederlanders grote waarde hechten aan individuele vrijheid, emancipatie, tolerantie en zelfbeschikking",
+                "Weet dat het recht op abortus, homohuwelijk en euthanasie wettelijk zijn vastgelegd"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "5.2",
+          "text": "Geografische kennis van Nederland gebruiken",
+          "knowledge": [
+            {
+              "code": "5.2.1",
+              "text": "Kent de belangrijkste plaatsen en gebieden.",
+              "indicators": [
+                "Weet dat Amsterdam de hoofdstad van Nederland is en dat in Den Haag de regering gevestigd is",
+                "Kent de namen en ligging van de provincies",
+                "Kent de belangrijkste steden en gebieden in de eigen regio",
+                "Kent de mogelijkheden in de eigen regio wat betreft wonen, werk en opleiding"
+              ]
+            },
+            {
+              "code": "5.2.2",
+              "text": "Is op de hoogte van de werking van het Nederlandse openbaar vervoer.",
+              "indicators": [
+                "Weet dat er verschillende vervoersbewijzen bestaan waarmee hij kan reizen",
+                "Weet hoe hij zelfstandig een reis kan maken"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "title": "Instanties",
+      "goal": "De inburgeraar is op de hoogte van de dienstverlening van de lokale overheid, de belastingdienst, de politie en instanties voor sociale en juridische dienstverlening. Hij is in staat in voorkomende gevallen informatie of hulp te vragen bij het Juridisch Loket en/of maatschappelijk werk en kent het belang van verzekeringen.",
+      "actions": [
+        {
+          "code": "6.1",
+          "text": "Omgaan met informatie van de overheid",
+          "knowledge": [
+            {
+              "code": "6.1.1",
+              "text": "Is ervan op de hoogte dat informatie vanuit en contact met overheidsinstanties meestal digitaal plaatsvindt.",
+              "indicators": [
+                "Weet hoe hij veilig gebruik kan maken van burgerservicenummer en DigiD",
+                "Kan belangrijke informatie van overheidsinstanties online vinden en afspraken online maken",
+                "Weet waar je hulp kunt krijgen bij vragen rondom digitaal contact"
+              ]
+            },
+            {
+              "code": "6.1.2",
+              "text": "Is ervan op de hoogte dat er naast de overheid ook andere instanties en initiatieven zijn die kunnen helpen bij het omgaan met wet- en regelgeving, financiële zelfstandigheid en gezondheid.",
+              "indicators": [
+                "Weet dat je voor informatie en ondersteuning bij instanties terecht kunt zoals Nibud, schuldhulpverlening, voedselbank, GGD, Juridisch Loket, maatschappelijk werk en jeugdzorg"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6.2",
+          "text": "Gebruikmaken van dienstverlening van de gemeente aan de burger",
+          "knowledge": [
+            {
+              "code": "6.2.1",
+              "text": "Is ervan op de hoogte dat hij wijzigingen in de gezinssamenstelling moet doorgeven aan de gemeente (BRP).",
+              "indicators": [
+                "Geeft wijzigingen door zoals geboorte, huwelijk, samenwonen, echtscheiding, overlijden, verhuizing en migratie",
+                "Geeft indien van toepassing erkenning van het kind door",
+                "Weet dat wijzigingen in de samenstelling van het huishouden van invloed kunnen zijn op uitkeringen"
+              ]
+            },
+            {
+              "code": "6.2.2",
+              "text": "Is op de hoogte van de regels en procedures voor het verkrijgen van officiële documenten als verblijfsvergunning, paspoort en rijbewijs.",
+              "indicators": [
+                "Weet waar hij informatie rondom regels en procedures kan vinden",
+                "Weet bij welke instanties hij moet zijn voor deze documenten"
+              ]
+            },
+            {
+              "code": "6.2.3",
+              "text": "Is op de hoogte van waar hij informatie kan krijgen over de regels voor verblijfsvergunningen en naturalisatie.",
+              "indicators": [
+                "Weet dat er verschillende soorten verblijfsvergunningen bestaan",
+                "Weet waar hij een verblijfsvergunning en/ of naturalisatie kan aanvragen",
+                "Weet dat men in Nederland na naturalisatie in principe geen dubbele nationaliteit mag hebben"
+              ]
+            },
+            {
+              "code": "6.2.4",
+              "text": "Is op de hoogte van een aantal taken van de gemeente.",
+              "indicators": [
+                "Weet dat de gemeente onder andere verantwoordelijk is voor de inning van gemeentelijke belastingen en heffingen zoals ozb-, riool- en afvalstoffenheffing en parkeerbelasting"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6.3",
+          "text": "Omgaan met belastingaangifte en aanvragen van toeslagen",
+          "knowledge": [
+            {
+              "code": "6.3.1",
+              "text": "Is ervan op de hoogte dat hij van zijn inkomen een (digitale) salarisstrook en jaaropgave krijgt.",
+              "indicators": [
+                "Weet wat het verschil is tussen bruto- en netto-inkomen",
+                "Weet dat hij de jaaropgave tenminste vijf jaren moet bewaren"
+              ]
+            },
+            {
+              "code": "6.3.2",
+              "text": "Is ervan op de hoogte dat hij in sommige gevallen belasting moet betalen, maar in andere gevallen belasting terug kan krijgen.",
+              "indicators": [
+                "Weet dat het aangifte doen voor de inkomstenbelasting in veel gevallen verplicht is",
+                "Weet welke hulp beschikbaar is bij het invullen van een aangifte- of teruggaveformulier voor de belasting",
+                "Weet dat belastinggelden worden gebruikt voor bijvoorbeeld onderwijs, zorg, aanleg en onderhoud van wegen, overheid, politie en rechtspraak"
+              ]
+            },
+            {
+              "code": "6.3.3",
+              "text": "Is ervan op de hoogte dat de Belastingdienst toeslagen verstrekt zoals voor zorg, huur en kinderopvang.",
+              "indicators": [
+                "Weet hoe toeslagen, als hij daar recht op heeft, moeten worden aangevraagd",
+                "Weet dat inkomensverandering invloed kan hebben op toeslagen en dat hij dit tijdig moet doorgeven aan de Belastingdienst",
+                "Weet dat hij kinderbijslag kan aanvragen bij de Sociale Verzekeringsbank"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6.4",
+          "text": "Omgaan met dienstverlening en aanwijzingen van de politie",
+          "knowledge": [
+            {
+              "code": "6.4.1",
+              "text": "Is op de hoogte van de taken die de politie heeft.",
+              "indicators": [
+                "Weet dat de politie een beschermende, toezichthoudende en handhavende taak heeft en dat je de aanwijzingen van de politie moet opvolgen",
+                "Weet dat hij verplicht is aangifte te doen van een ernstig misdrijf zoals moord, doodslag, verkrachting of ontvoering",
+                "Weet dat hulp van politie ook kan worden ingeroepen bij overlast, (verkeers-) ongevallen, diefstal, (seksueel) geweld, oplichting en discriminatie",
+                "Weet dat iedereen van 14 jaar en ouder in de openbare ruimte (in het openbaar vervoer vanaf 12 jaar) verplicht is een identiteitsbewijs te tonen als de politie of het bevoegd gezag hierom vraagt"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6.5",
+          "text": "Gebruikmaken van juridische hulp bij slechte behandeling door overheid",
+          "knowledge": [
+            {
+              "code": "6.5.1",
+              "text": "Is ervan op de hoogte hoe hij bezwaar kan maken tegen een slechte behandeling door de overheid inclusief de politie.",
+              "indicators": [
+                "Weet dat hij bezwaar kan maken tegen slechte behandeling en discriminatie door de overheid",
+                "Weet dat hij bij klachten over het optreden van de overheid terecht kan bij gemeentelijke ombudsmannen en de Nationale ombudsman",
+                "Weet dat corruptie bij de overheid en politie verboden en strafbaar is"
+              ]
+            },
+            {
+              "code": "6.5.2",
+              "text": "Is ervan op de hoogte dat hij voor juridische hulp bij advocaten of een Juridisch Loket terecht kan.",
+              "indicators": [
+                "Weet dat hij voor juridische hulp bij advocaten of een Juridisch Loket terecht kan",
+                "Weet dat van iemand met een laag inkomen een eigen bijdrage gevraagd wordt die past bij de inkomenssituatie"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "6.6",
+          "text": "Omgaan met verzekeringen",
+          "knowledge": [
+            {
+              "code": "6.6.1",
+              "text": "Is ervan op de hoogte dat het gebruikelijk is om verzekerd te zijn tegen bepaalde risico’s en dat sommige verzekeringen verplicht zijn.",
+              "indicators": [
+                "Weet dat een zorgverzekering verplicht is",
+                "Weet dat een wettelijke aansprakelijkheidsverzekering (WA) niet verplicht is maar wel zeer wenselijk",
+                "Weet dat motorvoertuigbezitters verplicht zijn om een WA-verzekering te hebben en belasting te betalen",
+                "Weet dat huiseigenaren verplicht zijn een opstalverzekering te hebben",
+                "Weet hoe hij verzekeringen aanvraagt en schade declareert"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "title": "Staatsinrichting en rechtsstaat",
+      "goal": "De inburgeraar weet hoe in hoofdlijnen de democratische rechtsstaat is ingericht en weet hoe hij hiermee kan omgaan en hierbij betrokken kan zijn.",
+      "actions": [
+        {
+          "code": "7.1",
+          "text": "Zich verdiepen in hoe de Nederlandse democratische rechtsstaat is ingericht",
+          "knowledge": [
+            {
+              "code": "7.1.1",
+              "text": "Kent de belangrijkste zaken van de staatsinrichting van Nederland.",
+              "indicators": [
+                "Weet dat Nederland een koninkrijk is met een koningshuis, kent de naam van de Koning en weet dat deze vooral een ceremoniële functie vervult",
+                "Weet dat Nederland een democratische rechtsstaat is met parlement, dat uit twee Kamers bestaat",
+                "Weet dat de Tweede en Eerste Kamer samen met de regering wetten maken",
+                "Weet dat er meerdere politieke partijen zijn",
+                "Weet dat partijen een regering vormen en dat ministers deel uitmaken van de regering",
+                "Weet dat de minister-president leidinggeeft aan de ministers en kent de naam van de minister-president",
+                "Weet dat Nederland drie bestuursniveaus kent: rijk, provincies en gemeenten, met elk eigen taken en verantwoordelijkheden"
+              ]
+            },
+            {
+              "code": "7.1.2",
+              "text": "Is ervan op de hoogte dat Nederland deel uitmaakt van de Europese Unie (EU).",
+              "indicators": [
+                "Weet dat Nederland lid is van de EU en als lidstaat afspraken en regels die in de EU zijn gemaakt moet nakomen",
+                "Weet dat lidmaatschap van de EU voor burgers betekent dat er in principe vrij verkeer van personen en goederen tussen lidstaten bestaat, vrije vestiging in lidstaten en deelname aan Europese verkiezingen"
+              ]
+            },
+            {
+              "code": "7.1.3",
+              "text": "Is ervan op de hoogte dat de macht in Nederland gespreid is in wetgevende, uitvoerende en rechterlijke macht.",
+              "indicators": [
+                "Kent het belang van scheiding van de drie machten in Nederland",
+                "Kent de belangrijkste taak van elk van de drie machten",
+                "Weet dat hij een uitspraak van een rechter moet accepteren, maar dat hij in hoger beroep kan gaan"
+              ]
+            },
+            {
+              "code": "7.1.4",
+              "text": "Is op de hoogte van wat ‘kiesrecht’ inhoudt en wat het belang van stemmen is.",
+              "indicators": [
+                "Kent het verschil tussen actief en passief kiesrecht",
+                "Weet dat er verschillende verkiezingen worden gehouden, namelijk voor gemeenten, provincies, Tweede Kamer, Europees Parlement, waterschappen en referenda",
+                "Weet dat niet-Nederlanders die langer dan vijf jaar in Nederland wonen, mogen deelnemen aan de gemeenteraadsverkiezingen"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "7.2",
+          "text": "Kennen van enkele belangrijke wettelijke bepalingen",
+          "knowledge": [
+            {
+              "code": "7.2.1",
+              "text": "Is ervan op de hoogte dat vrouwen en mannen voor de wet gelijkwaardig zijn en gelijkwaardig behandeld dienen te worden.",
+              "indicators": [
+                "Weet dat vrouwen en mannen dezelfde kansen en mogelijkheden hebben om zich als zelfstandige individuen te ontplooien, onder meer via scholing en arbeid"
+              ]
+            },
+            {
+              "code": "7.2.2",
+              "text": "Is op de hoogte van wat ‘vrijheid van meningsuiting’ inhoudt.",
+              "indicators": [
+                "Weet dat de wet vrijheid van meningsuiting beschermt, maar dat men niet iets mag zeggen of schrijven dat volgens de wet verboden is",
+                "Weet dat sommige uitingen in het publieke debat als kwetsend ervaren kunnen worden"
+              ]
+            },
+            {
+              "code": "7.2.3",
+              "text": "Is ervan op de hoogte dat in Nederland godsdienstvrijheid geldt.",
+              "indicators": [
+                "Weet dat iedereen vrij is om in Nederland zelf een godsdienst, levensbeschouwing of idealen te kiezen",
+                "Weet dat de wetten van de staat boven die van religie en traditie staan",
+                "Weet dat de overheid zich niet mengt in de interne aangelegenheden van godsdienstige of levensbeschouwelijke genootschappen, zolang die zich aan de wet houden"
+              ]
+            },
+            {
+              "code": "7.2.4",
+              "text": "Is op de hoogte van wat ‘gelijke behandeling’ en ‘discriminatieverbod’ inhoudt.",
+              "indicators": [
+                "Weet dat Artikel 1 van de Grondwet gelijke behandeling in gelijke gevallen voorschrijft en onderscheid maken op grond van godsdienst, levensovertuiging, politieke gezindheid, ras, geslacht, handicap, seksuele gerichtheid of op welke grond dan ook verbiedt",
+                "Weet dat discriminatie of uitsluiting gemeld kan worden bij een meldpunt en bij de politie"
+              ]
+            },
+            {
+              "code": "7.2.5",
+              "text": "Is ervan op de hoogte dat de privacy van de burger door de wet wordt beschermd.",
+              "indicators": [
+                "Weet dat hij alleen die persoonsgegevens deelt met overheids- en andere instanties die zij nodig hebben voor hun taak",
+                "Weet dat hij de persoonsgegevens die hij heeft gedeeld met overheids- en andere instanties altijd mag inzien en zo nodig wijzigen"
+              ]
+            },
+            {
+              "code": "7.2.6",
+              "text": "Is ervan op de hoogte dat de wet de integriteit van het lichaam beschermt en dat alle ongewenste intimiteit en geweld strafbaar zijn (huiselijk geweld, eerwraak, slaan van kinderen, besnijdenis van meisjes, geweld op straat enzovoort).",
+              "indicators": []
+            },
+            {
+              "code": "7.2.7",
+              "text": "Is ervan op de hoogte dat het bij wet geregeld is dat iedereen in Nederland na overlijden zijn organen afstaat voor orgaandonatie, tenzij hij vastlegt hier niet of slechts ten dele aan te willen meewerken.",
+              "indicators": [
+                "Weet dat hij kan laten registreren dat hij niet of ten dele aan orgaandonatie mee wil werken"
+              ]
+            },
+            {
+              "code": "7.2.8",
+              "text": "Weet dat vrouwen in Nederland zelfbeschikkingsrecht hebben en wat dit betekent.",
+              "indicators": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "title": "Onderwijs en opvoeding",
+      "goal": "De inburgeraar kent het Nederlandse onderwijssysteem en onderkent het belang van onderwijs in de Nederlandse kenniseconomie. Inburgeraars laten hun kinderen aan onderwijs deelnemen en kennen de rol die van ouders wordt verwacht.",
+      "actions": [
+        {
+          "code": "8.1",
+          "text": "Gebruikmaken van het Nederlandse onderwijssysteem voor zichzelf en/of de eigen kinderen",
+          "knowledge": [
+            {
+              "code": "8.1.1",
+              "text": "Is op de hoogte van de opbouw van het Nederlands onderwijssysteem (van 0 tot 18+ jaar).",
+              "indicators": [
+                "Weet dat er ontwikkelingsgericht aanbod is voor kinderen tot 4 jaar en waar informatie is te vinden over dat aanbod",
+                "Weet dat leerlingen vanaf 4 jaar verschillende schoolsoorten doorlopen tot tenminste 18 jaar en waar informatie is te vinden over het Nederlands onderwijssysteem",
+                "Weet dat er onderwijsaanbod is voor leerlingen met een speciale zorgvraag",
+                "Weet dat bij doorstroming naar vervolgonderwijs toelatingseisen kunnen gelden"
+              ]
+            },
+            {
+              "code": "8.1.2",
+              "text": "Is ervan op de hoogte dat er in Nederland vrijheid van onderwijs bestaat.",
+              "indicators": [
+                "Weet dat er in Nederland openbare en bijzondere scholen op basis van levensbeschouwing of onderwijsvisie bestaan"
+              ]
+            },
+            {
+              "code": "8.1.3",
+              "text": "Is ervan op de hoogte dat er een wettelijke verplichting is om kinderen van 5 tot 18 jaar onderwijs te laten volgen.",
+              "indicators": [
+                "Weet wat het betekent dat kinderen tussen 5 en 16 jaar leerplichtig zijn en tussen 16 en 18 jaar kwalificatieplichtig",
+                "Weet dat de door de school vastgestelde vakantietijden bindend zijn"
+              ]
+            },
+            {
+              "code": "8.1.4",
+              "text": "Is op de hoogte van het bestaan van voorschoolse educatie en/of buitenschoolse opvang (kinderopvangorganisatie).",
+              "indicators": [
+                "Weet waar informatie te vinden is over voorschoolse educatie (vve) en/of buitenschoolse opvang en de bekostiging hiervan"
+              ]
+            },
+            {
+              "code": "8.1.5",
+              "text": "Weet dat een school in het basis- en voortgezet onderwijs verplicht is lessen te verzorgen over seksualiteit en seksuele diversiteit.",
+              "indicators": []
+            }
+          ]
+        },
+        {
+          "code": "8.2",
+          "text": "Verantwoordelijkheid dragen voor het gedrag van de eigen minderjarige kinderen",
+          "knowledge": [
+            {
+              "code": "8.2.1",
+              "text": "Is ervan op de hoogte dat de ouders wettelijk verantwoordelijk zijn voor het gedrag van hun kind(eren).",
+              "indicators": [
+                "Weet dat ouders tot het zestiende levensjaar van hun kind juridisch aansprakelijk zijn voor de gedragingen van hun kind"
+              ]
+            },
+            {
+              "code": "8.2.2",
+              "text": "Is ervan op de hoogte dat scholen betrokkenheid van de ouders verwachten t.a.v. de ontwikkeling van hun kind(eren) op school.",
+              "indicators": [
+                "Weet dat er overlegmomenten zijn tussen leraren en ouders over de ontwikkeling van het kind",
+                "Weet dat ouders vrijwillig kunnen worden ingeschakeld bij schoolse activiteiten"
+              ]
+            },
+            {
+              "code": "8.2.3",
+              "text": "Is ervan op de hoogte dat er mogelijkheden zijn voor opvoedingsondersteuning.",
+              "indicators": [
+                "Weet dat er instanties zijn die ouders kunnen helpen bij problemen t.a.v. opvoeding, problemen in thuissituatie of schoolsituatie zoals gemeente, jeugdzorg, huisarts, school",
+                "Weet dat de kinderbescherming bevoegd is in te grijpen, maar alleen bij ernstige signalen de rechter zal inschakelen"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "8.3",
+          "text": "Omgaan met schoolkosten en tegemoetkomingen in schoolkosten en studiefinanciering",
+          "knowledge": [
+            {
+              "code": "8.3.1",
+              "text": "Is ervan op de hoogte dat er aan het volgen van onderwijs/opleiding/studie kosten zijn verbonden.",
+              "indicators": [
+                "Weet dat er kosten verbonden zijn aan het volgen van onderwijs/opleiding/studie in de vorm van schoolgeld, (vrijwillige) ouderbijdrage, kosten voor leermiddelen of reiskosten"
+              ]
+            },
+            {
+              "code": "8.3.2",
+              "text": "Is op de hoogte van de regelingen voor volledige dan wel gedeeltelijke vergoeding van onkosten voor school, studie, zorg of opvang.",
+              "indicators": [
+                "Weet dat er vergoedingsregelingen zijn voor onkosten voor school, studie of zorg",
+                "Weet waar hij informatie kan inwinnen om in aanmerking te komen voor de vergoedingsregeling(en)",
+                "Weet dat hij bij de school een aanvraag kan indienen voor vermindering of kwijtschelding van bepaalde kosten, zoals ouderbijdrage of de kosten voor leermiddelen"
+              ]
+            },
+            {
+              "code": "8.3.3",
+              "text": "Is ervan op de hoogte dat hij voor een tegemoetkoming in studiekosten een aanvraag bij Dienst Uitvoering Onderwijs (DUO) kan indienen.",
+              "indicators": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
