@@ -77,14 +77,6 @@
       "plain": "working fewer hours than a full working week"
     },
     {
-      "id": "deductible",
-      "forms": [
-        "deductible"
-      ],
-      "plain": "an amount per year you first pay yourself for care (eigen risico)",
-      "topic": "zorgverzekering-eigen-risico"
-    },
-    {
       "id": "allowance",
       "forms": [
         "allowances",
@@ -111,24 +103,6 @@
       ],
       "plain": "your personal number with the government",
       "topic": "digid"
-    },
-    {
-      "id": "out-of-hours",
-      "forms": [
-        "out-of-hours GP service",
-        "huisartsenpost"
-      ],
-      "plain": "the GP for emergencies in the evening, at night and at weekends",
-      "topic": "spoed-112-huisartsenpost"
-    },
-    {
-      "id": "practice-nurse",
-      "forms": [
-        "practice nurse",
-        "POH"
-      ],
-      "plain": "a care worker in the GP practice, also for mental health complaints",
-      "topic": "huisarts"
     },
     {
       "id": "basic-qualification",
@@ -195,6 +169,34 @@
         "instalment"
       ],
       "plain": "the amount you pay each month in advance for energy (termijnbedrag)"
+    },
+    {
+      "id": "practice-nurse",
+      "forms": [
+        "practice nurse"
+      ],
+      "plain": "a nurse in the GP practice who also helps with long-term and mental health complaints (POH)"
+    },
+    {
+      "id": "deductible",
+      "forms": [
+        "deductible"
+      ],
+      "plain": "the amount you pay yourself each year before the insurer pays for basic-package care (eigen risico)"
+    },
+    {
+      "id": "out-of-hours",
+      "forms": [
+        "out-of-hours GP service"
+      ],
+      "plain": "the GP service for urgent care in the evening, at night and at weekends (huisartsenpost)"
+    },
+    {
+      "id": "child-health-clinic",
+      "forms": [
+        "child health clinic"
+      ],
+      "plain": "a free clinic that follows the growth and development of babies and young children (consultatiebureau)"
     }
   ]
 }

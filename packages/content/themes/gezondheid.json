@@ -1,0 +1,1118 @@
+{
+  "id": "gezondheid",
+  "n": 4,
+  "title": {
+    "nl": "Gezondheid en gezondheidszorg",
+    "en": "Health and healthcare"
+  },
+  "lead": {
+    "nl": "De huisarts, de apotheek, spoed, de zorgverzekering en het eigen risico.",
+    "en": "The GP, the pharmacy, emergencies, health insurance and the deductible."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "4.1"
+      ],
+      "title": {
+        "nl": "De huisarts",
+        "en": "The GP"
+      },
+      "situation": {
+        "nl": "Samira is net verhuisd. Ze heeft al een paar weken hoofdpijn en slaapt slecht, maar ze heeft nog geen huisarts.",
+        "en": "Samira has just moved. She has had headaches for a few weeks and sleeps badly, but she doesn't have a GP yet."
+      },
+      "body": {
+        "nl": [
+          "De huisarts is je eerste aanspreekpunt als je ziek bent of een vraag hebt over je gezondheid. Je kiest zelf een huisarts, meestal in je buurt, en schrijft je daar in. Een huisarts mag je weigeren, bijvoorbeeld als je te ver weg woont. Lukt het niet om een huisarts te vinden? Je zorgverzekeraar helpt je zoeken.",
+          "Inschrijven is niet verplicht, maar wel slim: dan heb je altijd een arts als je zorg nodig hebt, en je gezondheid staat in een medisch dossier. Voor een afspraak bel je de praktijk of je maakt online een afspraak.",
+          "Bij veel huisartsen werkt een praktijkondersteuner (POH). Bij de huisarts of de POH kun je ook terecht met psychische klachten, zoals somberheid, stress of slecht slapen.",
+          "Wat je met de huisarts of de POH bespreekt, is geheim: dat heet het medisch beroepsgeheim. Ze mogen het alleen met anderen delen als jij toestemming geeft. Spreek je nog niet goed Nederlands? Je hebt het recht om een tolk te gebruiken."
+        ],
+        "en": [
+          "The GP is your first point of contact when you are ill or have a question about your health. You choose a GP yourself, usually in your neighbourhood, and register there. A GP may refuse you, for example if you live too far away. Can't find a GP? Your health insurer helps you look.",
+          "Registering is not compulsory, but it is wise: then you always have a doctor when you need care, and your health is recorded in a medical file. For an appointment you call the practice or book online.",
+          "Many GPs have a practice nurse (POH). You can also go to the GP or the POH with mental health complaints, such as low mood, stress or sleeping badly.",
+          "What you discuss with the GP or the POH is confidential: that is called medical confidentiality. They may only share it with others if you give permission. Don't speak Dutch well yet? You have the right to use an interpreter."
+        ]
+      },
+      "remember": {
+        "nl": "Schrijf je in bij een huisarts. Daar kun je terecht met lichamelijke en psychische klachten, en wat je bespreekt blijft geheim.",
+        "en": "Register with a GP. You can go there with physical and mental complaints, and what you discuss stays confidential."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: hoe verander ik van huisarts?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/eerstelijnszorg/ben-ik-vrij-om-zelf-een-huisarts-te-kiezen-en-hoe-verander-ik-van-huisarts"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-1-1",
+          "eindterm": "4.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wie kiest je huisarts?",
+            "en": "Who chooses your GP?"
+          },
+          "options": {
+            "nl": [
+              "De gemeente.",
+              "Je werkgever.",
+              "Je kiest zelf een huisarts."
+            ],
+            "en": [
+              "The municipality.",
+              "Your employer.",
+              "You choose a GP yourself."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Je bent meestal vrij om zelf een huisarts te kiezen en ook om van huisarts te veranderen.",
+            "en": "You are usually free to choose a GP yourself and to change GPs."
+          }
+        },
+        {
+          "id": "gezondheid-1-2",
+          "eindterm": "4.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Een huisarts wil Samira niet als nieuwe patiënt aannemen. Wat kan de reden zijn?",
+            "en": "A GP will not take Samira on as a new patient. What can the reason be?"
+          },
+          "options": {
+            "nl": [
+              "Ze woont te ver weg van de praktijk.",
+              "Ze heeft een buitenlandse naam.",
+              "Ze is nog nooit ziek geweest."
+            ],
+            "en": [
+              "She lives too far from the practice.",
+              "She has a foreign name.",
+              "She has never been ill."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een huisarts mag een nieuwe patiënt in bepaalde situaties weigeren, bijvoorbeeld als iemand te ver weg woont.",
+            "en": "A GP may refuse a new patient in certain situations, for example if someone lives too far away."
+          }
+        },
+        {
+          "id": "gezondheid-1-3",
+          "eindterm": "4.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Samira voelt zich al weken somber en gestrest. Waar kan ze terecht?",
+            "en": "Samira has felt low and stressed for weeks. Where can she go?"
+          },
+          "options": {
+            "nl": [
+              "Alleen bij de politie.",
+              "Bij de huisarts of de praktijkondersteuner.",
+              "Nergens: daar is geen zorg voor."
+            ],
+            "en": [
+              "Only the police.",
+              "The GP or the practice nurse.",
+              "Nowhere: there is no care for that."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ook met psychische klachten kun je bij de huisarts of de praktijkondersteuner (POH) terecht.",
+            "en": "You can also go to the GP or the practice nurse (POH) with mental health complaints."
+          }
+        },
+        {
+          "id": "gezondheid-1-4",
+          "eindterm": "4.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Mag de huisarts zonder jouw toestemming aan je werkgever vertellen wat je hebt?",
+            "en": "May the GP tell your employer what is wrong with you without your permission?"
+          },
+          "options": {
+            "nl": [
+              "Ja, als de werkgever erom vraagt.",
+              "Ja, dat is normaal.",
+              "Nee, de huisarts heeft een medisch beroepsgeheim."
+            ],
+            "en": [
+              "Yes, if the employer asks.",
+              "Yes, that is normal.",
+              "No, the GP has medical confidentiality."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Wat je met de huisarts bespreekt, valt onder het medisch beroepsgeheim. Het mag alleen met jouw toestemming met anderen gedeeld worden.",
+            "en": "What you discuss with the GP falls under medical confidentiality. It may only be shared with others with your permission."
+          }
+        },
+        {
+          "id": "gezondheid-1-5",
+          "eindterm": "4.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Je spreekt nog niet goed Nederlands en hebt een afspraak bij de huisarts. Wat mag je doen?",
+            "en": "You don't speak Dutch well yet and have a GP appointment. What may you do?"
+          },
+          "options": {
+            "nl": [
+              "Gebruikmaken van een tolk.",
+              "Niets: je moet Nederlands spreken.",
+              "Alleen een briefje meenemen."
+            ],
+            "en": [
+              "Use an interpreter.",
+              "Nothing: you must speak Dutch.",
+              "Only bring a note."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je hebt het recht om bij de huisarts gebruik te maken van een tolk.",
+            "en": "You have the right to use an interpreter at the GP."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "4.1",
+        "4.2"
+      ],
+      "title": {
+        "nl": "Doorverwijzing en de apotheek",
+        "en": "Referral and the pharmacy"
+      },
+      "situation": {
+        "nl": "Pedro heeft al maanden last van zijn knie. Hij wil naar een specialist in het ziekenhuis.",
+        "en": "Pedro has had trouble with his knee for months. He wants to see a specialist in the hospital."
+      },
+      "body": {
+        "nl": [
+          "Voor specialistische zorg, bijvoorbeeld in het ziekenhuis, heb je meestal een verwijsbrief van de huisarts nodig. Dat geldt ook voor veel psychische zorg. De huisarts verwijst je alleen als dat medisch nodig is. Wil de huisarts je niet verwijzen? Dan moet hij uitleggen waarom.",
+          "Ga je zonder geldige verwijsbrief naar een specialist? Dan moet je de behandeling misschien zelf betalen.",
+          "Medicijnen op recept krijg je alleen met een recept van een arts. Die haal je bij de apotheek. De apotheker legt uit hoe je ze gebruikt en let op andere medicijnen die je neemt.",
+          "Voor sommige medicijnen heb je geen recept nodig, bijvoorbeeld paracetamol of de meeste medicijnen tegen hooikoorts. Die koop je ook bij de drogist of in andere winkels."
+        ],
+        "en": [
+          "For specialist care, for example in hospital, you usually need a referral letter from the GP. This also applies to much mental healthcare. The GP only refers you when it is medically necessary. If the GP will not refer you, he must explain why.",
+          "Do you go to a specialist without a valid referral letter? Then you may have to pay for the treatment yourself.",
+          "Prescription medicines are only available with a prescription from a doctor. You collect them at the pharmacy. The pharmacist explains how to use them and checks other medicines you take.",
+          "For some medicines you don't need a prescription, for example paracetamol or most hay fever medicines. You can also buy these at the chemist (drogist) or in other shops."
+        ]
+      },
+      "remember": {
+        "nl": "Voor een specialist heb je meestal een verwijsbrief van de huisarts nodig. Medicijnen op recept haal je bij de apotheek.",
+        "en": "For a specialist you usually need a referral from the GP. You collect prescription medicines at the pharmacy."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wanneer heb ik een verwijsbrief van de huisarts nodig?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/eerstelijnszorg/wanneer-heb-ik-een-verwijsbrief-van-mijn-huisarts-nodig-en-wanneer-mag-hij-deze-weigeren"
+        },
+        {
+          "title": "Rijksoverheid: waar kan ik medicijnen kopen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/geneesmiddelen/waar-kan-ik-medicijnen-kopen"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-2-1",
+          "eindterm": "4.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Pedro wil naar een specialist in het ziekenhuis. Wat heeft hij meestal nodig?",
+            "en": "Pedro wants to see a specialist in the hospital. What does he usually need?"
+          },
+          "options": {
+            "nl": [
+              "Een brief van de gemeente.",
+              "Een verwijsbrief van de huisarts.",
+              "Niets, hij kan zo langsgaan."
+            ],
+            "en": [
+              "A letter from the municipality.",
+              "A referral letter from the GP.",
+              "Nothing, he can just go."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Voor specialistische zorg, bijvoorbeeld in ziekenhuizen, heb je een verwijsbrief van de huisarts nodig.",
+            "en": "For specialist care, for example in hospitals, you need a referral letter from the GP."
+          }
+        },
+        {
+          "id": "gezondheid-2-2",
+          "eindterm": "4.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat kan er gebeuren als je zonder verwijsbrief naar een specialist gaat?",
+            "en": "What can happen if you go to a specialist without a referral?"
+          },
+          "options": {
+            "nl": [
+              "Je moet de behandeling misschien zelf betalen.",
+              "Je krijgt een boete van de politie.",
+              "Je zorgverzekering stopt."
+            ],
+            "en": [
+              "You may have to pay for the treatment yourself.",
+              "You get a fine from the police.",
+              "Your health insurance stops."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Zonder geldige verwijsbrief kan het zijn dat je de behandeling zelf moet betalen, of dat je pas behandeld wordt met de juiste verwijzing.",
+            "en": "Without a valid referral you may have to pay for the treatment yourself, or only be treated once you have the right referral."
+          }
+        },
+        {
+          "id": "gezondheid-2-3",
+          "eindterm": "4.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "De huisarts schrijft Pedro een medicijn op recept voor. Waar haalt hij het?",
+            "en": "The GP prescribes Pedro a prescription medicine. Where does he collect it?"
+          },
+          "options": {
+            "nl": [
+              "Bij de supermarkt.",
+              "Bij de drogist.",
+              "Bij de apotheek."
+            ],
+            "en": [
+              "At the supermarket.",
+              "At the chemist (drogist).",
+              "At the pharmacy."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Receptmedicijnen koop je alleen bij een apotheek, met een recept van je (huis)arts.",
+            "en": "You can only get prescription medicines at a pharmacy, with a prescription from your doctor."
+          }
+        },
+        {
+          "id": "gezondheid-2-4",
+          "eindterm": "4.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Je hebt hoofdpijn en wilt paracetamol. Heb je een recept nodig?",
+            "en": "You have a headache and want paracetamol. Do you need a prescription?"
+          },
+          "options": {
+            "nl": [
+              "Ja, altijd van de huisarts.",
+              "Nee, dat koop je ook bij de drogist of in andere winkels.",
+              "Ja, van de specialist."
+            ],
+            "en": [
+              "Yes, always from the GP.",
+              "No, you can also buy it at the chemist or in other shops.",
+              "Yes, from the specialist."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Voor zelfzorgmedicijnen zoals paracetamol heb je geen recept nodig. Ze zijn ook bij de drogist en in andere winkels te koop.",
+            "en": "For over-the-counter medicines such as paracetamol you don't need a prescription. They are also sold at the chemist and in other shops."
+          }
+        },
+        {
+          "id": "gezondheid-2-5",
+          "eindterm": "4.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat doet de apotheker als je een medicijn ophaalt?",
+            "en": "What does the pharmacist do when you collect a medicine?"
+          },
+          "options": {
+            "nl": [
+              "Hij legt uit hoe je het gebruikt.",
+              "Hij stelt een nieuwe diagnose.",
+              "Hij stuurt je naar het ziekenhuis."
+            ],
+            "en": [
+              "He explains how to use it.",
+              "He makes a new diagnosis.",
+              "He sends you to the hospital."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De apotheker legt uit hoe je de medicijnen moet gebruiken en houdt rekening met andere medicijnen die je gebruikt.",
+            "en": "The pharmacist explains how to use the medicines and takes account of other medicines you use."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "4.1"
+      ],
+      "title": {
+        "nl": "De tandarts, zwangerschap en je baby",
+        "en": "The dentist, pregnancy and your baby"
+      },
+      "situation": {
+        "nl": "Lina is zwanger van haar eerste kind. Haar zoontje van 6 is nog nooit bij de tandarts geweest.",
+        "en": "Lina is pregnant with her first child. Her son of 6 has never been to the dentist."
+      },
+      "body": {
+        "nl": [
+          "In Nederland ga je regelmatig naar de tandarts of mondhygiënist voor controle, ook als je geen pijn hebt. Je kiest zelf een tandarts en schrijft je daar in. Voor kinderen tot 18 jaar betaalt de basisverzekering de controle en de behandeling bij de tandarts.",
+          "Ben je zwanger? Dan krijg je zorg van een verloskundige. Die controleert je tijdens de zwangerschap en helpt bij de bevalling. Verloskundige zorg zit in het basispakket.",
+          "Na de bevalling krijg je kraamzorg thuis. Regel die op tijd, al tijdens je zwangerschap. Kraamzorg zit ook in het basispakket, maar je betaalt een eigen bijdrage per uur.",
+          "Is je baby geboren? Dan geef je de geboorte aan bij de gemeente. Daarna krijg je een uitnodiging van het consultatiebureau. Daar volgen een jeugdarts en een verpleegkundige de groei en ontwikkeling van je kind. Je kind krijgt er ook inentingen. Het consultatiebureau is gratis."
+        ],
+        "en": [
+          "In the Netherlands you go to the dentist or dental hygienist for regular check-ups, even when you have no pain. You choose a dentist yourself and register there. For children under 18 the basic insurance pays for check-ups and treatment at the dentist.",
+          "Are you pregnant? Then you get care from a midwife (verloskundige). She checks you during pregnancy and helps with the birth. Midwife care is in the basic package.",
+          "After the birth you get maternity care (kraamzorg) at home. Arrange it in time, during your pregnancy. Maternity care is also in the basic package, but you pay a personal contribution per hour.",
+          "Has your baby been born? Then you register the birth with the municipality. After that you get an invitation from the child health clinic (consultatiebureau). There a youth doctor and a nurse follow your child's growth and development. Your child also gets vaccinations there. The clinic is free."
+        ]
+      },
+      "remember": {
+        "nl": "Ga regelmatig naar de tandarts. Bij een zwangerschap helpt de verloskundige, na de geboorte de kraamzorg en het consultatiebureau.",
+        "en": "Go to the dentist regularly. During pregnancy the midwife helps; after the birth, maternity care and the child health clinic."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: krijg ik tandartskosten vergoed?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/krijg-ik-tandartskosten-vergoed"
+        },
+        {
+          "title": "Rijksoverheid: welke zorg zit in het basispakket?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/wat-zit-er-in-het-basispakket-van-de-zorgverzekering"
+        },
+        {
+          "title": "Rijksoverheid: ik krijg een kind, wat moet ik regelen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zwangerschap-en-geboorte/checklist-kind-krijgen"
+        },
+        {
+          "title": "Rijksoverheid: waar kan ik vragen stellen over de gezondheid en opvoeding van mijn kind van 0–4 jaar?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zwangerschap-en-geboorte/bij-wie-kan-ik-terecht-met-vragen-over-de-gezondheid-en-opvoeding-van-mijn-kind"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-3-1",
+          "eindterm": "4.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Wanneer ga je in Nederland naar de tandarts?",
+            "en": "When do you go to the dentist in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Alleen als je kiespijn hebt.",
+              "Regelmatig, voor controle.",
+              "Nooit, dat doet de huisarts."
+            ],
+            "en": [
+              "Only when you have toothache.",
+              "Regularly, for check-ups.",
+              "Never, the GP does that."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Een regelmatig bezoek aan de tandarts of mondhygiënist is in Nederland gebruikelijk.",
+            "en": "Regular visits to the dentist or dental hygienist are usual in the Netherlands."
+          }
+        },
+        {
+          "id": "gezondheid-3-2",
+          "eindterm": "4.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Lina's zoon van 6 gaat voor controle naar de tandarts. Wie betaalt dat?",
+            "en": "Lina's son of 6 goes to the dentist for a check-up. Who pays for that?"
+          },
+          "options": {
+            "nl": [
+              "De basisverzekering.",
+              "De school.",
+              "Lina betaalt altijd alles zelf."
+            ],
+            "en": [
+              "The basic insurance.",
+              "The school.",
+              "Lina always pays everything herself."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Voor kinderen tot 18 jaar vergoedt de basisverzekering de controle en behandeling bij de tandarts.",
+            "en": "For children under 18 the basic insurance pays for check-ups and treatment at the dentist."
+          }
+        },
+        {
+          "id": "gezondheid-3-3",
+          "eindterm": "4.1.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Lina is zwanger. Wie controleert haar meestal tijdens de zwangerschap?",
+            "en": "Lina is pregnant. Who usually checks her during the pregnancy?"
+          },
+          "options": {
+            "nl": [
+              "De tandarts.",
+              "De apotheker.",
+              "De verloskundige."
+            ],
+            "en": [
+              "The dentist.",
+              "The pharmacist.",
+              "The midwife."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Tijdens de zwangerschap krijg je verloskundige zorg. Die zit in het basispakket.",
+            "en": "During pregnancy you get midwife care. It is in the basic package."
+          }
+        },
+        {
+          "id": "gezondheid-3-4",
+          "eindterm": "4.1.4",
+          "source": 4,
+          "prompt": {
+            "nl": "Wat doet het consultatiebureau?",
+            "en": "What does the child health clinic (consultatiebureau) do?"
+          },
+          "options": {
+            "nl": [
+              "Het geeft rijlessen.",
+              "Het volgt de ontwikkeling van je kind en geeft inentingen.",
+              "Het verkoopt babykleding."
+            ],
+            "en": [
+              "It gives driving lessons.",
+              "It follows your child's development and gives vaccinations.",
+              "It sells baby clothes."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Bij het consultatiebureau volgen een jeugdarts en verpleegkundige de ontwikkeling van je kind. Je baby krijgt er ook inentingen.",
+            "en": "At the consultatiebureau a youth doctor and nurse follow your child's development. Your baby also gets vaccinations there."
+          }
+        },
+        {
+          "id": "gezondheid-3-5",
+          "eindterm": "4.1.4",
+          "source": 3,
+          "prompt": {
+            "nl": "Lina's baby is geboren en aangegeven bij de gemeente. Wat krijgt ze daarna?",
+            "en": "Lina's baby has been born and registered with the municipality. What does she get afterwards?"
+          },
+          "options": {
+            "nl": [
+              "Een uitnodiging van het consultatiebureau.",
+              "Een rekening van de gemeente.",
+              "Een oproep van de politie."
+            ],
+            "en": [
+              "An invitation from the child health clinic.",
+              "A bill from the municipality.",
+              "A summons from the police."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Nadat je de geboorte hebt aangegeven, krijg je een uitnodiging van het consultatiebureau, bijvoorbeeld om je kind te laten vaccineren.",
+            "en": "After you register the birth, you get an invitation from the consultatiebureau, for example to have your child vaccinated."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "4.3"
+      ],
+      "title": {
+        "nl": "Spoed: de huisartsenpost en 112",
+        "en": "Emergencies: the out-of-hours GP and 112"
+      },
+      "situation": {
+        "nl": "Het is zaterdagavond. Het zoontje van Karim heeft hoge koorts en huilt veel. De huisartspraktijk is dicht.",
+        "en": "It is Saturday evening. Karim's little son has a high fever and is crying a lot. The GP practice is closed."
+      },
+      "body": {
+        "nl": [
+          "Is je huisarts dicht en kan het niet wachten tot de volgende werkdag? Dan bel je 's avonds, 's nachts en in het weekend de huisartsenpost. Daar zeggen ze of je moet langskomen of beter later een afspraak bij je eigen huisarts kunt maken.",
+          "Bel altijd eerst de huisartsenpost voordat je naar de spoedeisende hulp van een ziekenhuis gaat. Zorg van de huisarts en de huisartsenpost valt niet onder het eigen risico. Voor de spoedeisende hulp betaal je wel eigen risico.",
+          "Is iemands leven in gevaar? Bel dan direct 112. Bijvoorbeeld bij een ernstig ongeluk, als iemand niet meer ademt of bij brand.",
+          "Stuurt 112 geen ambulance? Dan hoor je waar je wel heen kunt, bijvoorbeeld naar een huisartsenpraktijk in de buurt."
+        ],
+        "en": [
+          "Is your GP closed and can it not wait until the next working day? Then in the evening, at night and at weekends you call the out-of-hours GP service (huisartsenpost). They tell you whether to come in or whether you had better make an appointment with your own GP later.",
+          "Always call the out-of-hours GP service first before you go to a hospital's emergency department. Care from the GP and the out-of-hours service does not count towards the deductible (eigen risico). For the emergency department you do pay the deductible.",
+          "Is someone's life in danger? Then call 112 immediately. For example after a serious accident, if someone stops breathing or in a fire.",
+          "Does 112 not send an ambulance? Then you are told where you can go instead, for example a GP practice nearby."
+        ]
+      },
+      "remember": {
+        "nl": "Buiten kantoortijd bel je de huisartsenpost. Bij levensgevaar bel je 112.",
+        "en": "Out of hours you call the huisartsenpost. In a life-threatening situation you call 112."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wanneer moet ik naar de huisartsenpost of de spoedeisende hulp?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/eerstelijnszorg/huisartsenpost-spoedeisende-hulp"
+        },
+        {
+          "title": "Rijksoverheid: wat moet ik doen als iemand dringend medische hulp nodig heeft?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/eerstelijnszorg/wat-moet-ik-doen-als-iemand-dringend-medische-hulp-nodig-heeft"
+        },
+        {
+          "title": "Rijksoverheid: misverstanden rond de zorgverzekering",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/misverstanden-zorgverzekering"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-4-1",
+          "eindterm": "4.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Karims zoontje heeft op zaterdagavond hoge koorts. De huisarts is dicht. Wat doet Karim?",
+            "en": "Karim's son has a high fever on Saturday evening. The GP is closed. What does Karim do?"
+          },
+          "options": {
+            "nl": [
+              "Hij belt de huisartsenpost.",
+              "Hij wacht tot maandag zonder te bellen.",
+              "Hij gaat naar de apotheek voor een diagnose."
+            ],
+            "en": [
+              "He calls the out-of-hours GP service.",
+              "He waits until Monday without calling.",
+              "He goes to the pharmacy for a diagnosis."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Is je huisartspraktijk dicht en kan het niet wachten? Dan bel je de huisartsenpost.",
+            "en": "Is your GP practice closed and can it not wait? Then you call the huisartsenpost."
+          }
+        },
+        {
+          "id": "gezondheid-4-2",
+          "eindterm": "4.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Je wilt 's avonds naar de spoedeisende hulp, maar het is niet levensbedreigend. Wat doe je eerst?",
+            "en": "You want to go to the emergency department in the evening, but it is not life-threatening. What do you do first?"
+          },
+          "options": {
+            "nl": [
+              "Je gaat er gewoon heen.",
+              "Je belt eerst de huisartsenpost.",
+              "Je belt de gemeente."
+            ],
+            "en": [
+              "You just go there.",
+              "You call the out-of-hours GP service first.",
+              "You call the municipality."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Neem altijd eerst contact op met de huisartsenpost voordat je naar de spoedeisende hulp gaat, behalve bij levensgevaar.",
+            "en": "Always contact the huisartsenpost first before going to the emergency department, except when life is in danger."
+          }
+        },
+        {
+          "id": "gezondheid-4-3",
+          "eindterm": "4.3.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Betaal je eigen risico voor de huisartsenpost?",
+            "en": "Do you pay the deductible for the out-of-hours GP service?"
+          },
+          "options": {
+            "nl": [
+              "Ja, altijd.",
+              "Alleen in het weekend.",
+              "Nee, dat valt niet onder het eigen risico."
+            ],
+            "en": [
+              "Yes, always.",
+              "Only at weekends.",
+              "No, it does not count towards the deductible."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Voor een bezoek aan de huisartsenpost hoef je geen eigen risico te betalen.",
+            "en": "You don't have to pay the deductible for a visit to the huisartsenpost."
+          }
+        },
+        {
+          "id": "gezondheid-4-4",
+          "eindterm": "4.3.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Je ziet op straat iemand vallen die niet meer ademt. Wat doe je?",
+            "en": "You see someone fall in the street who stops breathing. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je belt direct 112.",
+              "Je belt morgen de huisarts.",
+              "Je belt de huisartsenpost en wacht."
+            ],
+            "en": [
+              "You call 112 immediately.",
+              "You call the GP tomorrow.",
+              "You call the out-of-hours GP and wait."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "In een levensbedreigende situatie bel je direct 112.",
+            "en": "In a life-threatening situation you call 112 immediately."
+          }
+        },
+        {
+          "id": "gezondheid-4-5",
+          "eindterm": "4.3.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Wanneer bel je 112?",
+            "en": "When do you call 112?"
+          },
+          "options": {
+            "nl": [
+              "Bij een verkoudheid.",
+              "Als je een afspraak wilt bij de huisarts.",
+              "Als iemands leven in gevaar is."
+            ],
+            "en": [
+              "For a cold.",
+              "When you want a GP appointment.",
+              "When someone's life is in danger."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "112 is voor levensbedreigende situaties. Voor minder dringende problemen neem je contact op met de huisarts of de huisartsenpost.",
+            "en": "112 is for life-threatening situations. For less urgent problems you contact the GP or the huisartsenpost."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "4.4"
+      ],
+      "title": {
+        "nl": "De zorgverzekering",
+        "en": "Health insurance"
+      },
+      "situation": {
+        "nl": "Oksana komt in Nederland wonen. Een buurvrouw zegt dat ze een zorgverzekering moet afsluiten.",
+        "en": "Oksana is coming to live in the Netherlands. A neighbour says she must take out health insurance."
+      },
+      "body": {
+        "nl": [
+          "Iedereen die in Nederland woont of werkt, moet een basisverzekering hebben. Daarmee ben je verzekerd voor de zorg uit het basispakket, zoals de huisarts, het ziekenhuis, de apotheek, zwangerschaps- en geboortezorg en geestelijke gezondheidszorg. De overheid bepaalt wat in het basispakket zit. Voor kinderen tot 18 jaar sluit je ook een basisverzekering af; zij betalen geen premie.",
+          "Je kiest zelf een zorgverzekeraar. Een verzekeraar mag je niet weigeren voor de basisverzekering. Je kunt één keer per jaar overstappen: zeg je oude verzekering op vóór 1 januari.",
+          "Een aanvullende verzekering is vrijwillig. Die is bijvoorbeeld handig voor de tandarts als je 18 of ouder bent, of voor fysiotherapie.",
+          "Vanaf 18 jaar betaal je een eigen risico: de eerste kosten van veel zorg uit het basispakket betaal je zelf. Voor de huisarts betaal je geen eigen risico. Bij veel verzekeraars kun je het eigen risico in termijnen betalen. Een eigen bijdrage is iets anders: een deel van de kosten van sommige zorg dat je altijd zelf betaalt."
+        ],
+        "en": [
+          "Everyone who lives or works in the Netherlands must have basic insurance. It covers care from the basic package, such as the GP, the hospital, the pharmacy, pregnancy and maternity care and mental healthcare. The government decides what is in the basic package. You also take out basic insurance for children under 18; they pay no premium.",
+          "You choose a health insurer yourself. An insurer may not refuse you for basic insurance. You can switch once a year: cancel your old insurance before 1 January.",
+          "Supplementary insurance is voluntary. It is useful, for example, for the dentist if you are 18 or older, or for physiotherapy.",
+          "From the age of 18 you pay a deductible (eigen risico): you pay the first costs of much basic-package care yourself. You pay no deductible for the GP. With many insurers you can pay the deductible in instalments. A personal contribution (eigen bijdrage) is something else: a part of the cost of some care that you always pay yourself."
+        ]
+      },
+      "remember": {
+        "nl": "Een basisverzekering is verplicht, een aanvullende verzekering niet. Voor de huisarts betaal je geen eigen risico.",
+        "en": "Basic insurance is compulsory, supplementary insurance is not. You pay no deductible for the GP."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: is een zorgverzekering verplicht?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/ben-ik-verplicht-een-zorgverzekering-af-te-sluiten"
+        },
+        {
+          "title": "Rijksoverheid: wanneer betaal ik een eigen risico?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/eigen-risico-zorgverzekering"
+        },
+        {
+          "title": "Rijksoverheid: verschil tussen eigen bijdrage en eigen risico",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/verschil-eigen-bijdrage-eigen-risico"
+        },
+        {
+          "title": "Rijksoverheid: misverstanden rond de zorgverzekering",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/misverstanden-zorgverzekering"
+        },
+        {
+          "title": "Rijksoverheid: krijg ik tandartskosten vergoed?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/krijg-ik-tandartskosten-vergoed"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-5-1",
+          "eindterm": "4.4.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Moet Oksana een zorgverzekering afsluiten als ze in Nederland woont?",
+            "en": "Must Oksana take out health insurance if she lives in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Nee, dat is vrijwillig.",
+              "Alleen als ze ziek is.",
+              "Ja, een basisverzekering is verplicht."
+            ],
+            "en": [
+              "No, it is voluntary.",
+              "Only if she is ill.",
+              "Yes, basic insurance is compulsory."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Wie in Nederland woont of werkt, moet een basisverzekering afsluiten.",
+            "en": "Anyone who lives or works in the Netherlands must take out basic insurance."
+          }
+        },
+        {
+          "id": "gezondheid-5-2",
+          "eindterm": "4.4.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is waar over de aanvullende verzekering?",
+            "en": "What is true about supplementary insurance?"
+          },
+          "options": {
+            "nl": [
+              "Die is vrijwillig.",
+              "Die is verplicht voor iedereen.",
+              "Die is alleen voor kinderen."
+            ],
+            "en": [
+              "It is voluntary.",
+              "It is compulsory for everyone.",
+              "It is only for children."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een basisverzekering is verplicht, een aanvullende verzekering niet. Daarmee verzeker je je extra voor zorg die de basisverzekering niet vergoedt.",
+            "en": "Basic insurance is compulsory, supplementary insurance is not. With it you insure yourself for care the basic insurance does not cover."
+          }
+        },
+        {
+          "id": "gezondheid-5-3",
+          "eindterm": "4.4.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat is het eigen risico?",
+            "en": "What is the deductible (eigen risico)?"
+          },
+          "options": {
+            "nl": [
+              "Een boete als je te laat bent bij de dokter.",
+              "Het bedrag dat je eerst zelf betaalt voor zorg uit het basispakket.",
+              "De premie die je werkgever betaalt."
+            ],
+            "en": [
+              "A fine for being late at the doctor.",
+              "The amount you first pay yourself for basic-package care.",
+              "The premium your employer pays."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Het eigen risico is een verplicht bedrag: je betaalt eerst zelf een deel van de kosten van zorg uit het basispakket. Daarna betaalt de verzekeraar.",
+            "en": "The deductible is a compulsory amount: you first pay part of the cost of basic-package care yourself. After that the insurer pays."
+          }
+        },
+        {
+          "id": "gezondheid-5-4",
+          "eindterm": "4.4.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Oksana gaat naar de huisarts. Betaalt ze daarvoor eigen risico?",
+            "en": "Oksana goes to the GP. Does she pay the deductible for that?"
+          },
+          "options": {
+            "nl": [
+              "Ja, altijd.",
+              "Alleen bij de eerste afspraak.",
+              "Nee, voor huisartsenzorg geldt geen eigen risico."
+            ],
+            "en": [
+              "Yes, always.",
+              "Only for the first appointment.",
+              "No, there is no deductible for GP care."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Voor huisartsenzorg, ook op de huisartsenpost, betaal je geen eigen risico.",
+            "en": "You pay no deductible for GP care, including at the out-of-hours service."
+          }
+        },
+        {
+          "id": "gezondheid-5-5",
+          "eindterm": "4.4.1",
+          "source": 4,
+          "prompt": {
+            "nl": "Hoe vaak kun je overstappen naar een andere zorgverzekeraar?",
+            "en": "How often can you switch to another health insurer?"
+          },
+          "options": {
+            "nl": [
+              "Eén keer per jaar.",
+              "Nooit.",
+              "Alleen als je verhuist."
+            ],
+            "en": [
+              "Once a year.",
+              "Never.",
+              "Only when you move house."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je kunt één keer per jaar overstappen. Je zegt je oude basisverzekering op vóór 1 januari.",
+            "en": "You can switch once a year. You cancel your old basic insurance before 1 January."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "4.4",
+        "4.5"
+      ],
+      "title": {
+        "nl": "Zorg regelen: rekeningen, DigiD en hulp van de gemeente",
+        "en": "Arranging care: bills, DigiD and help from the municipality"
+      },
+      "situation": {
+        "nl": "Meneer Haddad is oud en woont alleen. Hij kan niet meer goed zelf schoonmaken. Hij wil ook zijn zorgrekeningen online bekijken.",
+        "en": "Mr Haddad is old and lives alone. He can no longer clean well by himself. He also wants to look at his healthcare bills online."
+      },
+      "body": {
+        "nl": [
+          "Een zorgverlener stuurt de rekening meestal rechtstreeks naar je zorgverzekeraar. Je kunt de rekeningen bekijken in de online 'mijn omgeving' van je verzekeraar. Klopt er iets niet? Meld het bij je zorgverzekeraar. Krijg je zelf een rekening? Dan dien je die in bij je verzekeraar, vaak via de website of de app.",
+          "Veel zaken in de zorg regel je digitaal. Om in te loggen bij je zorgverzekeraar of om gegevens over je gezondheid te bekijken, heb je vaak een DigiD nodig. Lukt het niet alleen? Met DigiD Machtigen kan iemand anders je helpen. Die logt dan in met zijn eigen DigiD; je geeft je eigen inloggegevens nooit af.",
+          "Heb je hulp nodig om thuis te kunnen blijven wonen, bijvoorbeeld bij het huishouden? Ga dan naar het Wmo-loket of het sociale wijkteam van je gemeente. De gemeente onderzoekt samen met jou wat je nodig hebt.",
+          "De gemeente helpt ook bij andere problemen, bijvoorbeeld bij schulden of als je eenzaam bent. Hulp bij schulden van de gemeente is gratis."
+        ],
+        "en": [
+          "A care provider usually sends the bill directly to your health insurer. You can view the bills in your insurer's online 'my account' area. Is something wrong? Report it to your insurer. Do you get a bill yourself? Then you submit it to your insurer, often through the website or the app.",
+          "Much in healthcare is arranged digitally. To log in to your health insurer or to view data about your health, you often need a DigiD. Can't manage alone? With DigiD Machtigen someone else can help you. They log in with their own DigiD; you never hand over your own login details.",
+          "Do you need help to keep living at home, for example with housework? Then go to the Wmo desk or the social neighbourhood team (wijkteam) of your municipality. The municipality works out with you what you need.",
+          "The municipality also helps with other problems, for example debts or loneliness. Help with debts from the municipality is free."
+        ]
+      },
+      "remember": {
+        "nl": "Je zorgrekeningen zie je online bij je verzekeraar, vaak met DigiD. Voor hulp thuis of bij schulden ga je naar de gemeente of het wijkteam.",
+        "en": "You see your healthcare bills online at your insurer, often with DigiD. For help at home or with debts you go to the municipality or the wijkteam."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik een zorgnota controleren?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorgverzekering/zorgnota-controleren"
+        },
+        {
+          "title": "DigiD (Logius): wat is DigiD?",
+          "url": "https://www.digid.nl/wat-is-digid"
+        },
+        {
+          "title": "Rijksoverheid: hoe krijg ik ondersteuning van de gemeente vanuit de Wmo?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zorg-en-ondersteuning-thuis/ondersteuning-gemeente-wmo-2015-aanvragen"
+        },
+        {
+          "title": "Rijksoverheid: wat doet de gemeente om mij te helpen bij schulden?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/wat-doet-de-gemeente-om-mij-te-helpen-bij-schulden"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "gezondheid-6-1",
+          "eindterm": "4.4.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Je ziet in de 'mijn omgeving' van je zorgverzekeraar een behandeling die je nooit hebt gehad. Wat doe je?",
+            "en": "In your insurer's online account you see a treatment you never had. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Niets, het is vast goed.",
+              "Je meldt het bij je zorgverzekeraar.",
+              "Je belt 112."
+            ],
+            "en": [
+              "Nothing, it is probably fine.",
+              "You report it to your health insurer.",
+              "You call 112."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Staan er fouten op je rekening in de 'mijn omgeving'? Meld dit bij je zorgverzekeraar. Die onderzoekt het.",
+            "en": "Are there mistakes on your bill in your online account? Report it to your health insurer, who will investigate."
+          }
+        },
+        {
+          "id": "gezondheid-6-2",
+          "eindterm": "4.4.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Waar kun je meestal je zorgrekeningen bekijken?",
+            "en": "Where can you usually see your healthcare bills?"
+          },
+          "options": {
+            "nl": [
+              "Online, in de 'mijn omgeving' van je zorgverzekeraar.",
+              "Alleen bij het gemeentehuis.",
+              "In de krant."
+            ],
+            "en": [
+              "Online, in your health insurer's 'my account' area.",
+              "Only at the town hall.",
+              "In the newspaper."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een zorgverlener stuurt de rekening meestal naar je verzekeraar. Je kunt hem daarna bekijken via 'mijn omgeving' op de website van je zorgverzekeraar.",
+            "en": "A care provider usually sends the bill to your insurer. You can then view it in the 'my account' area on your insurer's website."
+          }
+        },
+        {
+          "id": "gezondheid-6-3",
+          "eindterm": "4.4.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Meneer Haddad wil hulp van zijn dochter bij het online regelen van zijn zorgzaken. Hoe doet hij dat veilig?",
+            "en": "Mr Haddad wants his daughter's help with arranging his healthcare matters online. How does he do that safely?"
+          },
+          "options": {
+            "nl": [
+              "Hij geeft haar zijn DigiD-wachtwoord.",
+              "Hij schrijft zijn wachtwoord op een briefje bij de computer.",
+              "Hij machtigt haar via DigiD Machtigen."
+            ],
+            "en": [
+              "He gives her his DigiD password.",
+              "He writes his password on a note by the computer.",
+              "He authorises her through DigiD Machtigen."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Met DigiD Machtigen kun je iemand toestemming geven om je te helpen. Die persoon logt in met zijn eigen DigiD; je geeft je eigen inloggegevens niet af.",
+            "en": "With DigiD Machtigen you can give someone permission to help you. That person logs in with their own DigiD; you don't hand over your own login details."
+          }
+        },
+        {
+          "id": "gezondheid-6-4",
+          "eindterm": "4.5.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Meneer Haddad kan zijn huis niet meer zelf schoonmaken. Waar kan hij hulp vragen?",
+            "en": "Mr Haddad can no longer clean his house himself. Where can he ask for help?"
+          },
+          "options": {
+            "nl": [
+              "Bij het Wmo-loket of het wijkteam van de gemeente.",
+              "Bij de Belastingdienst.",
+              "Bij de apotheek."
+            ],
+            "en": [
+              "At the municipality's Wmo desk or neighbourhood team.",
+              "At the Tax Administration.",
+              "At the pharmacy."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het Wmo-loket of het sociale wijkteam van je gemeente geeft informatie over hulp thuis en helpt bij de aanvraag.",
+            "en": "Your municipality's Wmo desk or social neighbourhood team gives information about help at home and helps with the application."
+          }
+        },
+        {
+          "id": "gezondheid-6-5",
+          "eindterm": "4.5.1",
+          "source": 4,
+          "prompt": {
+            "nl": "Je hebt schulden en weet niet hoe je ze moet oplossen. Wie kan je gratis helpen?",
+            "en": "You have debts and don't know how to solve them. Who can help you for free?"
+          },
+          "options": {
+            "nl": [
+              "De huisarts.",
+              "De gemeente.",
+              "De supermarkt."
+            ],
+            "en": [
+              "The GP.",
+              "The municipality.",
+              "The supermarket."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Gemeenten helpen inwoners gratis bij het oplossen van hun schulden, bijvoorbeeld met budgetadvies of schuldsanering.",
+            "en": "Municipalities help residents with their debts for free, for example with budget advice or debt restructuring."
+          }
+        }
+      ]
+    }
+  ]
+}

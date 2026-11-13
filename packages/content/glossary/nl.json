@@ -106,14 +106,6 @@
       "plain": "minder uren werken dan een volle werkweek"
     },
     {
-      "id": "eigen-risico",
-      "forms": [
-        "eigen risico"
-      ],
-      "plain": "een bedrag per jaar dat je eerst zelf betaalt voor zorg",
-      "topic": "zorgverzekering-eigen-risico"
-    },
-    {
       "id": "toeslag",
       "forms": [
         "toeslag",
@@ -141,23 +133,6 @@
       ],
       "plain": "je persoonlijke nummer bij de overheid",
       "topic": "digid"
-    },
-    {
-      "id": "huisartsenpost",
-      "forms": [
-        "huisartsenpost"
-      ],
-      "plain": "de huisarts voor spoed in de avond, de nacht en het weekend",
-      "topic": "spoed-112-huisartsenpost"
-    },
-    {
-      "id": "praktijkondersteuner",
-      "forms": [
-        "praktijkondersteuner",
-        "POH"
-      ],
-      "plain": "een zorgverlener in de huisartsenpraktijk, ook voor psychische klachten",
-      "topic": "huisarts"
     },
     {
       "id": "leerplicht",
@@ -364,6 +339,130 @@
         "restafval"
       ],
       "plain": "afval dat overblijft als je alles hebt gescheiden"
+    },
+    {
+      "id": "praktijkondersteuner",
+      "forms": [
+        "praktijkondersteuner",
+        "POH"
+      ],
+      "plain": "een zorgverlener in de huisartspraktijk die ook helpt bij langdurige en psychische klachten"
+    },
+    {
+      "id": "beroepsgeheim",
+      "forms": [
+        "medisch beroepsgeheim",
+        "beroepsgeheim"
+      ],
+      "plain": "de plicht van een arts om geheim te houden wat je vertelt"
+    },
+    {
+      "id": "verwijsbrief",
+      "forms": [
+        "verwijsbrief"
+      ],
+      "plain": "een brief van de huisarts waarmee je naar een specialist kunt"
+    },
+    {
+      "id": "specialist",
+      "forms": [
+        "specialist",
+        "specialistische zorg"
+      ],
+      "plain": "een arts in het ziekenhuis voor één soort ziekte of één deel van het lichaam"
+    },
+    {
+      "id": "recept",
+      "forms": [
+        "recept"
+      ],
+      "plain": "een briefje of bericht van de arts waarmee je een medicijn bij de apotheek krijgt"
+    },
+    {
+      "id": "drogist",
+      "forms": [
+        "drogist"
+      ],
+      "plain": "een winkel voor verzorging en medicijnen zonder recept"
+    },
+    {
+      "id": "verloskundige",
+      "forms": [
+        "verloskundige"
+      ],
+      "plain": "een zorgverlener die zwangere vrouwen controleert en helpt bij de bevalling"
+    },
+    {
+      "id": "kraamzorg",
+      "forms": [
+        "kraamzorg"
+      ],
+      "plain": "hulp thuis na de bevalling, voor moeder en baby"
+    },
+    {
+      "id": "consultatiebureau",
+      "forms": [
+        "consultatiebureau"
+      ],
+      "plain": "een gratis plek waar de groei en ontwikkeling van baby's en jonge kinderen gevolgd worden"
+    },
+    {
+      "id": "huisartsenpost",
+      "forms": [
+        "huisartsenpost"
+      ],
+      "plain": "de huisarts voor spoed 's avonds, 's nachts en in het weekend"
+    },
+    {
+      "id": "spoedeisende-hulp",
+      "forms": [
+        "spoedeisende hulp"
+      ],
+      "plain": "de afdeling van het ziekenhuis voor ernstige spoed"
+    },
+    {
+      "id": "basisverzekering",
+      "forms": [
+        "basisverzekering"
+      ],
+      "plain": "de verplichte zorgverzekering voor de zorg uit het basispakket"
+    },
+    {
+      "id": "aanvullende-verzekering",
+      "forms": [
+        "aanvullende verzekering"
+      ],
+      "plain": "een vrijwillige extra zorgverzekering"
+    },
+    {
+      "id": "eigen-risico",
+      "forms": [
+        "eigen risico"
+      ],
+      "plain": "het bedrag dat je per jaar eerst zelf betaalt voor zorg uit het basispakket"
+    },
+    {
+      "id": "eigen-bijdrage",
+      "forms": [
+        "eigen bijdrage"
+      ],
+      "plain": "een deel van de kosten van sommige zorg dat je altijd zelf betaalt"
+    },
+    {
+      "id": "wmo",
+      "forms": [
+        "Wmo-loket",
+        "Wmo"
+      ],
+      "plain": "de wet en het loket voor hulp van de gemeente om thuis te kunnen blijven wonen"
+    },
+    {
+      "id": "wijkteam",
+      "forms": [
+        "sociale wijkteam",
+        "wijkteam"
+      ],
+      "plain": "een team van de gemeente dat helpt bij zorg, geld en andere problemen"
     }
   ]
 }
