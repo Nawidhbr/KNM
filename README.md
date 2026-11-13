@@ -13,3 +13,5 @@ npm run check      # tests, inhoudsvalidatie, build, site-check en browsertests
 - Werkafspraken: zie `CLAUDE.md`.
 
 Alle lessen zijn concepten tot een bevoegde docent ze heeft nagekeken. De site is niet verbonden aan DUO of de overheid.
+
+Alle rechten voorbehouden (© 2026 AQLI); zie `LICENSE`.

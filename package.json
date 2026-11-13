@@ -1,6 +1,7 @@
 {
   "name": "knm",
   "private": true,
+  "license": "UNLICENSED",
   "type": "module",
   "workspaces": [
     "apps/*",
