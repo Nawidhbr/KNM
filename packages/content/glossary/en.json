@@ -225,6 +225,41 @@
         "self-determination"
       ],
       "plain": "being allowed to decide about your own life and body"
+    },
+    {
+      "id": "bsn-en",
+      "forms": [
+        "citizen service number"
+      ],
+      "plain": "your personal number with the Dutch government (BSN)"
+    },
+    {
+      "id": "gross-pay",
+      "forms": [
+        "gross pay"
+      ],
+      "plain": "your pay before tax and contributions are deducted"
+    },
+    {
+      "id": "net-pay",
+      "forms": [
+        "net pay"
+      ],
+      "plain": "the pay that actually reaches your bank account"
+    },
+    {
+      "id": "liability-insurance",
+      "forms": [
+        "liability insurance"
+      ],
+      "plain": "insurance that pays for damage you accidentally cause to others"
+    },
+    {
+      "id": "ombudsman-en",
+      "forms": [
+        "National Ombudsman"
+      ],
+      "plain": "an independent body for complaints about the government"
     }
   ]
 }

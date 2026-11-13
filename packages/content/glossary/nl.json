@@ -576,6 +576,161 @@
         "streekvervoer"
       ],
       "plain": "bussen en ander openbaar vervoer in een regio"
+    },
+    {
+      "id": "machtigen",
+      "forms": [
+        "machtigen"
+      ],
+      "plain": "iemand anders toestemming geven om iets voor jou te regelen"
+    },
+    {
+      "id": "nibud",
+      "forms": [
+        "Nibud"
+      ],
+      "plain": "een onafhankelijk instituut dat uitleg en tips geeft over geld"
+    },
+    {
+      "id": "voedselbank",
+      "forms": [
+        "voedselbank"
+      ],
+      "plain": "een organisatie die gratis eten geeft aan mensen met weinig geld"
+    },
+    {
+      "id": "ggd",
+      "forms": [
+        "GGD"
+      ],
+      "plain": "de gezondheidsdienst van de regio, bijvoorbeeld voor inentingen"
+    },
+    {
+      "id": "cjg",
+      "forms": [
+        "Centrum voor Jeugd en Gezin"
+      ],
+      "plain": "een plek voor vragen over opvoeden en de ontwikkeling van kinderen"
+    },
+    {
+      "id": "brp",
+      "forms": [
+        "Basisregistratie Personen",
+        "BRP"
+      ],
+      "plain": "de lijst van de gemeente met de gegevens van alle inwoners"
+    },
+    {
+      "id": "ozb",
+      "forms": [
+        "onroerendezaakbelasting",
+        "ozb"
+      ],
+      "plain": "een belasting van de gemeente over huizen en gebouwen"
+    },
+    {
+      "id": "afvalstoffenheffing",
+      "forms": [
+        "afvalstoffenheffing"
+      ],
+      "plain": "geld dat je aan de gemeente betaalt voor het ophalen van afval"
+    },
+    {
+      "id": "ind",
+      "forms": [
+        "IND"
+      ],
+      "plain": "de Immigratie- en Naturalisatiedienst, voor verblijfsvergunningen en naturalisatie"
+    },
+    {
+      "id": "naturalisatie",
+      "forms": [
+        "naturalisatie"
+      ],
+      "plain": "Nederlander worden"
+    },
+    {
+      "id": "brutoloon",
+      "forms": [
+        "brutoloon",
+        "bruto"
+      ],
+      "plain": "je loon voordat er belasting en premies af gaan"
+    },
+    {
+      "id": "nettoloon",
+      "forms": [
+        "nettoloon",
+        "netto"
+      ],
+      "plain": "het loon dat je echt op je rekening krijgt"
+    },
+    {
+      "id": "jaaropgave",
+      "forms": [
+        "jaaropgaven",
+        "jaaropgave"
+      ],
+      "plain": "een overzicht van je loon en ingehouden belasting over een heel jaar"
+    },
+    {
+      "id": "kinderbijslag",
+      "forms": [
+        "kinderbijslag"
+      ],
+      "plain": "geld van de SVB voor ouders, voor de kosten van kinderen"
+    },
+    {
+      "id": "aangifte-politie",
+      "forms": [
+        "aangifte"
+      ],
+      "plain": "officieel aan de politie of de Belastingdienst laten weten wat er is gebeurd"
+    },
+    {
+      "id": "bezwaar",
+      "forms": [
+        "bezwaar maken",
+        "bezwaar"
+      ],
+      "plain": "laten weten dat je het niet eens bent met een besluit van de overheid"
+    },
+    {
+      "id": "ombudsman",
+      "forms": [
+        "Nationale ombudsman",
+        "ombudsman"
+      ],
+      "plain": "een onafhankelijke instantie voor klachten over de overheid"
+    },
+    {
+      "id": "rechtsbijstand",
+      "forms": [
+        "gesubsidieerde rechtsbijstand",
+        "rechtsbijstand"
+      ],
+      "plain": "hulp van een advocaat, deels betaald door de overheid"
+    },
+    {
+      "id": "aansprakelijkheidsverzekering",
+      "forms": [
+        "aansprakelijkheidsverzekering"
+      ],
+      "plain": "een verzekering die schade betaalt die jij per ongeluk bij een ander maakt"
+    },
+    {
+      "id": "wa-verzekering",
+      "forms": [
+        "WA-verzekering"
+      ],
+      "plain": "de verplichte verzekering voor je auto of brommer voor schade aan anderen"
+    },
+    {
+      "id": "opstalverzekering",
+      "forms": [
+        "opstalverzekering"
+      ],
+      "plain": "een verzekering voor schade aan het huis zelf"
     }
   ]
 }

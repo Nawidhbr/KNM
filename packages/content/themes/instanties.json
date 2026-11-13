@@ -1,0 +1,1677 @@
+{
+  "id": "instanties",
+  "n": 6,
+  "title": {
+    "nl": "Instanties",
+    "en": "Public bodies"
+  },
+  "lead": {
+    "nl": "DigiD, de gemeente, belasting en toeslagen, de politie, juridische hulp en verzekeringen.",
+    "en": "DigiD, the municipality, tax and allowances, the police, legal help and insurance."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "6.1"
+      ],
+      "title": {
+        "nl": "Digitaal zaken doen met de overheid",
+        "en": "Dealing with the government online"
+      },
+      "situation": {
+        "nl": "Ahmed krijgt een brief: hij moet iets regelen bij de gemeente. In de brief staat dat het online kan, met DigiD.",
+        "en": "Ahmed gets a letter: he has to arrange something with the municipality. The letter says it can be done online, with DigiD."
+      },
+      "body": {
+        "nl": [
+          "Contact met de overheid gaat in Nederland meestal digitaal. Je regelt zaken online bij bijvoorbeeld de gemeente, de Belastingdienst en het UWV. Vaak maak je ook online een afspraak. Post van de overheid kan in de Berichtenbox van MijnOverheid komen.",
+          "Om in te loggen gebruik je je DigiD. Daarmee laat je zien wie je bent. Geef je DigiD-inloggegevens nooit aan iemand anders. Wil iemand je helpen? Dan kun je diegene machtigen; die logt in met zijn eigen DigiD.",
+          "Je burgerservicenummer (BSN) is je persoonlijke nummer bij de overheid. Ga er voorzichtig mee om. Geef niet zomaar een kopie van je identiteitsbewijs. Moet het toch? Maak dan je BSN op de kopie onleesbaar.",
+          "Lukt het digitaal niet goed? Bij het Informatiepunt Digitale Overheid, vaak in de bibliotheek, krijg je gratis hulp. Je kunt ook gratis bellen met de DigiHulplijn."
+        ],
+        "en": [
+          "In the Netherlands contact with the government is mostly digital. You arrange things online with, for example, the municipality, the Tax Administration and the UWV. You often book appointments online too. Post from the government can arrive in the MijnOverheid Message Box.",
+          "To log in you use your DigiD. It shows who you are. Never give your DigiD login details to anyone else. Does someone want to help you? Then you can authorise them; they log in with their own DigiD.",
+          "Your citizen service number (BSN) is your personal number with the government. Be careful with it. Don't simply hand over a copy of your ID. If you must, make your BSN unreadable on the copy.",
+          "Can't manage online? At the Digital Government Information Point (Informatiepunt Digitale Overheid), often in the library, you get free help. You can also call the DigiHulplijn for free."
+        ]
+      },
+      "remember": {
+        "nl": "Contact met de overheid is meestal digitaal, met DigiD. Deel je inloggegevens nooit en vraag hulp bij het Informatiepunt Digitale Overheid.",
+        "en": "Contact with the government is mostly digital, with DigiD. Never share your login details and ask for help at the Informatiepunt Digitale Overheid."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "DigiD (Logius): wat is DigiD?",
+          "url": "https://www.digid.nl/wat-is-digid"
+        },
+        {
+          "title": "Rijksoverheid: hoe voorkom ik fraude met een kopie van mijn identiteitsbewijs?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/identiteitsfraude/fraude-voorkomen-met-kopie-id-bewijs"
+        },
+        {
+          "title": "Rijksoverheid: waar kan ik hulp vinden om beter te worden met de computer en internet?",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/basisvaardigheden/vraag-en-antwoord/digitale-overheid/waar-kan-ik-hulp-vinden-om-vaardiger-te-worden-met-de-computer-en-internet"
+        },
+        {
+          "title": "Belastingdienst: hulp bij digitale post in de Berichtenbox",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/digitale-post/content/hulp-bij-digitalisering"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-1-1",
+          "eindterm": "6.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Hoe gaat contact met de overheid in Nederland meestal?",
+            "en": "How does contact with the government in the Netherlands usually happen?"
+          },
+          "options": {
+            "nl": [
+              "Digitaal, bijvoorbeeld via een website.",
+              "Alleen via de krant.",
+              "Alleen door langs te gaan."
+            ],
+            "en": [
+              "Digitally, for example through a website.",
+              "Only through the newspaper.",
+              "Only by going there in person."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Informatie van en contact met overheidsinstanties gaan meestal digitaal.",
+            "en": "Information from and contact with government bodies is mostly digital."
+          }
+        },
+        {
+          "id": "instanties-1-2",
+          "eindterm": "6.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarvoor gebruik je DigiD?",
+            "en": "What do you use DigiD for?"
+          },
+          "options": {
+            "nl": [
+              "Om te betalen in de winkel.",
+              "Om online te laten zien wie je bent, bijvoorbeeld bij de overheid.",
+              "Om te bellen."
+            ],
+            "en": [
+              "To pay in a shop.",
+              "To prove who you are online, for example with the government.",
+              "To make phone calls."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Met je DigiD laat je zien wie je bent als je op internet iets regelt, bijvoorbeeld bij de overheid of in de zorg.",
+            "en": "With your DigiD you show who you are when you arrange something online, for example with the government or in healthcare."
+          }
+        },
+        {
+          "id": "instanties-1-3",
+          "eindterm": "6.1.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Een buurman wil je helpen met een online formulier. Hij vraagt je DigiD-wachtwoord. Wat doe je?",
+            "en": "A neighbour wants to help you with an online form. He asks for your DigiD password. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je geeft je wachtwoord niet; je kunt hem wel machtigen.",
+              "Je geeft hem je wachtwoord.",
+              "Je schrijft het wachtwoord op de deur."
+            ],
+            "en": [
+              "You don't give your password; you can authorise him instead.",
+              "You give him your password.",
+              "You write the password on the door."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je hoeft je DigiD-inloggegevens niet af te geven. Wie je helpt, logt met DigiD Machtigen in met zijn eigen DigiD.",
+            "en": "You don't need to hand over your DigiD login details. Whoever helps you logs in with their own DigiD through DigiD Machtigen."
+          }
+        },
+        {
+          "id": "instanties-1-4",
+          "eindterm": "6.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Een bedrijf wil een kopie van je identiteitskaart. Wat doe je als je die toch moet geven?",
+            "en": "A company wants a copy of your ID card. What do you do if you really have to give it?"
+          },
+          "options": {
+            "nl": [
+              "Je maakt je BSN op de kopie onleesbaar.",
+              "Je geeft je originele identiteitskaart af.",
+              "Je schrijft je pincode erop."
+            ],
+            "en": [
+              "You make your BSN unreadable on the copy.",
+              "You hand over your original ID card.",
+              "You write your PIN on it."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Maak een veilige kopie: maak je burgerservicenummer onleesbaar en schrijf erop voor wie de kopie is en de datum.",
+            "en": "Make a safe copy: make your citizen service number unreadable and write on it who it is for and the date."
+          }
+        },
+        {
+          "id": "instanties-1-5",
+          "eindterm": "6.1.1",
+          "source": 3,
+          "prompt": {
+            "nl": "Ahmed vindt het moeilijk om online iets te regelen bij de gemeente. Waar kan hij gratis hulp krijgen?",
+            "en": "Ahmed finds it hard to arrange something online with the municipality. Where can he get free help?"
+          },
+          "options": {
+            "nl": [
+              "Bij een bank, tegen betaling.",
+              "Nergens.",
+              "Bij het Informatiepunt Digitale Overheid, bijvoorbeeld in de bibliotheek."
+            ],
+            "en": [
+              "At a bank, for a fee.",
+              "Nowhere.",
+              "At the Informatiepunt Digitale Overheid, for example in the library."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Het Informatiepunt Digitale Overheid helpt je om digitale diensten te gebruiken, van bijvoorbeeld gemeenten, UWV en de Belastingdienst.",
+            "en": "The Informatiepunt Digitale Overheid helps you use digital services, for example of municipalities, the UWV and the Tax Administration."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "6.1"
+      ],
+      "title": {
+        "nl": "Hulp bij geld, gezondheid en opvoeding",
+        "en": "Help with money, health and parenting"
+      },
+      "situation": {
+        "nl": "Sara is gescheiden en woont alleen met twee kinderen. Aan het eind van de maand is er geen geld meer voor boodschappen. Haar zoon is vaak boos op school.",
+        "en": "Sara is divorced and lives alone with two children. At the end of the month there is no money left for groceries. Her son is often angry at school."
+      },
+      "body": {
+        "nl": [
+          "Naast de overheid zijn er veel organisaties die je kunnen helpen. Het Nibud geeft onafhankelijke informatie en praktische tips over geld en je huishoudbudget.",
+          "Heb je geen geld voor eten? De voedselbank geeft gratis voedsel aan mensen die dat nodig hebben. Heb je schulden? Dan kun je bij de gemeente terecht voor schuldhulpverlening.",
+          "De GGD zorgt voor de gezondheid van iedereen in een regio, bijvoorbeeld met inentingen en de jeugdarts. Heb je vragen over de opvoeding of het gedrag van je kind? Ga dan naar het Centrum voor Jeugd en Gezin (CJG) of het sociaal wijkteam. Zij kunnen ook jeugdhulp regelen.",
+          "Ook maatschappelijk werkers, welzijnsorganisaties en sociaal raadslieden helpen bij vragen over geld, regels en formulieren. Voor juridische vragen is er het Juridisch Loket."
+        ],
+        "en": [
+          "Besides the government there are many organisations that can help you. The Nibud gives independent information and practical tips about money and your household budget.",
+          "No money for food? The food bank gives free food to people who need it. Do you have debts? Then you can go to the municipality for debt assistance.",
+          "The GGD (public health service) looks after the health of everyone in a region, for example with vaccinations and the youth doctor. Questions about your child's upbringing or behaviour? Then go to the Centre for Youth and Family (CJG) or the social neighbourhood team. They can also arrange youth care.",
+          "Social workers, welfare organisations and social advisers also help with questions about money, rules and forms. For legal questions there is the Juridisch Loket."
+        ]
+      },
+      "remember": {
+        "nl": "Je staat er niet alleen voor: het Nibud, de voedselbank, de GGD, het wijkteam, maatschappelijk werk en het Juridisch Loket kunnen helpen.",
+        "en": "You are not on your own: the Nibud, the food bank, the GGD, the neighbourhood team, social work and the Juridisch Loket can help."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid contactgids: Nibud",
+          "url": "https://www.rijksoverheid.nl/contact/contactgids/nationaal-instituut-voor-budgetvoorlichting-nibud"
+        },
+        {
+          "title": "Voedselbanken Nederland",
+          "url": "https://voedselbankennederland.nl/"
+        },
+        {
+          "title": "GGD GHOR Nederland",
+          "url": "https://www.ggdghor.nl/"
+        },
+        {
+          "title": "Rijksoverheid: waar vind ik hulp voor mijn kind van 4-18 jaar?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/jeugdhulp/hulp-vinden-voor-kind-4-18-jaar"
+        },
+        {
+          "title": "Dienst Toeslagen: kan ik hulp krijgen bij het regelen van mijn toeslag?",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/kan-ik-hulp-krijgen-bij-het-regelen-van-mijn-toeslag"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-2-1",
+          "eindterm": "6.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Sara wil beter leren omgaan met haar geld. Welke organisatie geeft daar onafhankelijke tips over?",
+            "en": "Sara wants to learn to manage her money better. Which organisation gives independent tips about that?"
+          },
+          "options": {
+            "nl": [
+              "Het Nibud.",
+              "De IND.",
+              "De RDW."
+            ],
+            "en": [
+              "The Nibud.",
+              "The IND.",
+              "The RDW."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het Nibud doet onderzoek naar huishoudfinanciën en geeft voorlichting en praktische adviezen.",
+            "en": "The Nibud researches household finances and gives information and practical advice."
+          }
+        },
+        {
+          "id": "instanties-2-2",
+          "eindterm": "6.1.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Sara heeft geen geld meer voor eten. Wie kan haar helpen met gratis voedsel?",
+            "en": "Sara has no money left for food. Who can help her with free food?"
+          },
+          "options": {
+            "nl": [
+              "De Belastingdienst.",
+              "De voedselbank.",
+              "De huisarts."
+            ],
+            "en": [
+              "The Tax Administration.",
+              "The food bank.",
+              "The GP."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De voedselbank geeft gezond en gratis voedsel aan mensen die extra hulp nodig hebben.",
+            "en": "The food bank gives healthy, free food to people who need extra help."
+          }
+        },
+        {
+          "id": "instanties-2-3",
+          "eindterm": "6.1.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Sara maakt zich zorgen over het gedrag van haar zoon. Waar kan ze terecht?",
+            "en": "Sara is worried about her son's behaviour. Where can she go?"
+          },
+          "options": {
+            "nl": [
+              "Bij de supermarkt.",
+              "Bij de notaris.",
+              "Bij het Centrum voor Jeugd en Gezin of het sociaal wijkteam."
+            ],
+            "en": [
+              "At the supermarket.",
+              "At the notary.",
+              "At the Centre for Youth and Family or the social neighbourhood team."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Bij het CJG en het sociaal wijkteam kun je altijd terecht met vragen over opvoeding, gedrag en ontwikkeling.",
+            "en": "You can always go to the CJG and the social neighbourhood team with questions about upbringing, behaviour and development."
+          }
+        },
+        {
+          "id": "instanties-2-4",
+          "eindterm": "6.1.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Waarvoor is de GGD?",
+            "en": "What is the GGD for?"
+          },
+          "options": {
+            "nl": [
+              "Voor de gezondheid van iedereen in een regio.",
+              "Voor het innen van belasting.",
+              "Voor het geven van rijlessen."
+            ],
+            "en": [
+              "For the health of everyone in a region.",
+              "For collecting tax.",
+              "For giving driving lessons."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De GGD'en werken aan de publieke gezondheid: de gezondheid van alle mensen in een regio.",
+            "en": "The GGDs work on public health: the health of all people in a region."
+          }
+        },
+        {
+          "id": "instanties-2-5",
+          "eindterm": "6.1.2",
+          "source": 5,
+          "prompt": {
+            "nl": "Sara heeft hulp nodig bij het invullen van formulieren voor een toeslag. Waar kan ze terecht?",
+            "en": "Sara needs help filling in forms for an allowance. Where can she go?"
+          },
+          "options": {
+            "nl": [
+              "Alleen bij een advocaat.",
+              "Bij maatschappelijke dienstverleners, zoals welzijnsorganisaties en sociaal raadslieden.",
+              "Bij de politie."
+            ],
+            "en": [
+              "Only at a lawyer.",
+              "At social service providers, such as welfare organisations and social advisers.",
+              "At the police."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Voor hulp bij toeslagen kun je terecht bij een hulppunt in de buurt, zoals welzijnsorganisaties, sociaal raadslieden en buurtteams.",
+            "en": "For help with allowances you can go to a help point nearby, such as welfare organisations, social advisers and neighbourhood teams."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "6.2"
+      ],
+      "title": {
+        "nl": "De gemeente: je gegevens en gemeentelijke belastingen",
+        "en": "The municipality: your records and local taxes"
+      },
+      "situation": {
+        "nl": "Yasmin en Daan gaan samenwonen. Ze verhuizen naar een andere stad. Een maand later krijgen ze een aanslag van de gemeente.",
+        "en": "Yasmin and Daan are moving in together. They are moving to another town. A month later they get a tax assessment from the municipality."
+      },
+      "body": {
+        "nl": [
+          "De gemeente houdt je gegevens bij in de Basisregistratie Personen (BRP). Verandert er iets in je gezin of huishouden? Dan geef je dat door. Bijvoorbeeld een geboorte, een huwelijk, samenwonen, een scheiding, een overlijden, een verhuizing of vertrek naar het buitenland.",
+          "Een verhuizing geef je door aan de gemeente waar je gaat wonen, uiterlijk 5 dagen nadat je bent verhuisd. Een geboorte geef je aan bij de gemeente waar het kind geboren is, binnen 3 werkdagen. Ben je niet getrouwd en geen geregistreerd partner? Dan erkent de vader of partner het kind bij de gemeente.",
+          "Let op: een verandering in je huishouden kan gevolgen hebben voor een uitkering of toeslag. Geef het dus ook daar op tijd door.",
+          "De gemeente heft ook belastingen, zoals de onroerendezaakbelasting (ozb), de parkeerbelasting en de hondenbelasting. Daarnaast betaal je heffingen, zoals de afvalstoffenheffing en de rioolheffing. De hoogte verschilt per gemeente."
+        ],
+        "en": [
+          "The municipality keeps your details in the Personal Records Database (BRP). Does something change in your family or household? Then you report it. For example a birth, a marriage, moving in together, a divorce, a death, a move, or leaving the country.",
+          "You report a move to the municipality where you are going to live, no later than 5 days after moving. You register a birth with the municipality where the child was born, within 3 working days. Not married and not registered partners? Then the father or partner recognises the child at the municipality.",
+          "Note: a change in your household can affect a benefit or allowance. So report it there in time too.",
+          "The municipality also levies taxes, such as property tax (ozb), parking charges and dog tax. You also pay charges, such as the waste collection charge and the sewerage charge. The amounts differ per municipality."
+        ]
+      },
+      "remember": {
+        "nl": "Geef veranderingen in je huishouden door aan de gemeente (BRP). De gemeente heft eigen belastingen, zoals afvalstoffenheffing.",
+        "en": "Report changes in your household to the municipality (BRP). The municipality levies its own taxes, such as the waste charge."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik mijn verhuizing doorgeven aan de gemeente?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/gemeenten/hoe-kan-ik-mijn-verhuizing-doorgeven-aan-de-gemeente"
+        },
+        {
+          "title": "Rijksoverheid: ik krijg een kind, wat moet ik regelen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zwangerschap-en-geboorte/checklist-kind-krijgen"
+        },
+        {
+          "title": "Rijksoverheid: welke belastingen heft de gemeente?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/gemeenten/welke-belastingen-heft-de-gemeente"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-3-1",
+          "eindterm": "6.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Yasmin verhuist naar een andere stad. Wanneer geeft ze dat door aan de nieuwe gemeente?",
+            "en": "Yasmin moves to another town. When does she report it to the new municipality?"
+          },
+          "options": {
+            "nl": [
+              "Uiterlijk 5 dagen nadat ze is verhuisd.",
+              "Binnen een jaar.",
+              "Dat hoeft niet."
+            ],
+            "en": [
+              "No later than 5 days after moving.",
+              "Within a year.",
+              "There is no need."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Geef je verhuizing door aan de gemeente waar je gaat wonen, uiterlijk 5 dagen na de verhuizing.",
+            "en": "Report your move to the municipality where you will live, no later than 5 days after moving."
+          }
+        },
+        {
+          "id": "instanties-3-2",
+          "eindterm": "6.2.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Een baby is geboren. Waar geef je de geboorte aan?",
+            "en": "A baby has been born. Where do you register the birth?"
+          },
+          "options": {
+            "nl": [
+              "Bij het ziekenhuis.",
+              "Bij de gemeente waar het kind geboren is.",
+              "Bij de Belastingdienst."
+            ],
+            "en": [
+              "At the hospital.",
+              "At the municipality where the child was born.",
+              "At the Tax Administration."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Je geeft de geboorte aan bij de gemeente waar het kind geboren is, binnen 3 werkdagen.",
+            "en": "You register the birth with the municipality where the child was born, within 3 working days."
+          }
+        },
+        {
+          "id": "instanties-3-3",
+          "eindterm": "6.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Yasmin krijgt een uitkering en gaat samenwonen met Daan. Waarom moet ze dat ook doorgeven aan de uitkeringsinstantie?",
+            "en": "Yasmin receives benefits and moves in with Daan. Why must she also report this to the benefits agency?"
+          },
+          "options": {
+            "nl": [
+              "Omdat ze dan een feest krijgt.",
+              "Dat hoeft niet.",
+              "Omdat het gevolgen kan hebben voor haar uitkering."
+            ],
+            "en": [
+              "Because she will then get a party.",
+              "There is no need.",
+              "Because it can affect her benefits."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Wijzigingen in de samenstelling van het huishouden kunnen invloed hebben op uitkeringen.",
+            "en": "Changes in the make-up of the household can affect benefits."
+          }
+        },
+        {
+          "id": "instanties-3-4",
+          "eindterm": "6.2.4",
+          "source": 3,
+          "prompt": {
+            "nl": "Welke belasting heft de gemeente?",
+            "en": "Which tax does the municipality levy?"
+          },
+          "options": {
+            "nl": [
+              "De inkomstenbelasting.",
+              "De onroerendezaakbelasting (ozb).",
+              "De btw."
+            ],
+            "en": [
+              "Income tax.",
+              "Property tax (ozb).",
+              "VAT."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De ozb, de parkeerbelasting en de hondenbelasting zijn voorbeelden van gemeentelijke belastingen.",
+            "en": "Ozb, parking charges and dog tax are examples of municipal taxes."
+          }
+        },
+        {
+          "id": "instanties-3-5",
+          "eindterm": "6.2.4",
+          "source": 3,
+          "prompt": {
+            "nl": "Waarvoor betaal je afvalstoffenheffing?",
+            "en": "What do you pay the waste collection charge for?"
+          },
+          "options": {
+            "nl": [
+              "Voor het ophalen en verwerken van afval door de gemeente.",
+              "Voor je zorgverzekering.",
+              "Voor het openbaar vervoer."
+            ],
+            "en": [
+              "For the municipality collecting and processing waste.",
+              "For your health insurance.",
+              "For public transport."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De afvalstoffenheffing is een gemeentelijke heffing. De gemeente gebruikt dat geld voor de kosten van het afval.",
+            "en": "The waste collection charge is a municipal charge. The municipality uses the money for the costs of waste."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "6.2"
+      ],
+      "title": {
+        "nl": "Documenten, verblijf en naturalisatie",
+        "en": "Documents, residence and naturalisation"
+      },
+      "situation": {
+        "nl": "Abebe woont al ruim vijf jaar in Nederland. Hij wil Nederlander worden. Hij is ook net geslaagd voor zijn rijexamen.",
+        "en": "Abebe has lived in the Netherlands for over five years. He wants to become Dutch. He has also just passed his driving test."
+      },
+      "body": {
+        "nl": [
+          "Een paspoort of identiteitskaart vraag je aan bij de gemeente waar je staat ingeschreven. Je moet dit persoonlijk doen. Heb je niet de Nederlandse nationaliteit maar wel een verblijfsvergunning? Dan kun je onder voorwaarden een vreemdelingenpaspoort krijgen, ook bij de gemeente.",
+          "Ben je geslaagd voor je rijexamen? Dan vraag je je rijbewijs aan bij de gemeente. Je mag pas rijden als je het rijbewijs hebt opgehaald.",
+          "Voor een verblijfsvergunning ga je naar de IND (Immigratie- en Naturalisatiedienst). Er zijn verschillende soorten verblijfsvergunningen, bijvoorbeeld om bij je partner te wonen, om te werken of om te studeren. Welke je nodig hebt, hangt af van je situatie.",
+          "Woon je 5 jaar of langer legaal in Nederland? Dan kun je naturalisatie aanvragen bij je gemeente. Word je Nederlander? Dan moet je vanaf 18 jaar meestal afstand doen van je andere nationaliteit. Er zijn uitzonderingen."
+        ],
+        "en": [
+          "You apply for a passport or ID card at the municipality where you are registered. You must do this in person. Don't have Dutch nationality but do have a residence permit? Then under certain conditions you can get an alien's passport, also at the municipality.",
+          "Passed your driving test? Then you apply for your driving licence at the municipality. You may only drive once you have collected the licence.",
+          "For a residence permit you go to the IND (Immigration and Naturalisation Service). There are different kinds of residence permits, for example to live with your partner, to work or to study. Which one you need depends on your situation.",
+          "Have you lived legally in the Netherlands for 5 years or more? Then you can apply for naturalisation at your municipality. If you become Dutch, from the age of 18 you usually have to give up your other nationality. There are exceptions."
+        ]
+      },
+      "remember": {
+        "nl": "Paspoort, ID-kaart en rijbewijs vraag je aan bij de gemeente. Een verblijfsvergunning regel je bij de IND; naturalisatie vraag je aan bij de gemeente.",
+        "en": "You apply for a passport, ID card and driving licence at the municipality. You arrange a residence permit with the IND; you apply for naturalisation at the municipality."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik een paspoort of identiteitskaart aanvragen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/paspoort-en-identiteitskaart/waar-en-hoe-kan-ik-een-paspoort-of-identiteitskaart-aanvragen"
+        },
+        {
+          "title": "Rijksoverheid: hoe vraag ik mijn eerste rijbewijs aan?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/rijbewijs/waar-en-hoe-kan-ik-mijn-eerste-rijbewijs-aanvragen"
+        },
+        {
+          "title": "IND: verblijfsvergunningen",
+          "url": "https://ind.nl/nl/verblijfsvergunningen"
+        },
+        {
+          "title": "Rijksoverheid: naturalisatie tot Nederlander aanvragen",
+          "url": "https://www.rijksoverheid.nl/wetten-en-regelingen/productbeschrijvingen/naturalisatie-tot-nederlander-aanvragen"
+        },
+        {
+          "title": "IND: afstand doen van nationaliteit",
+          "url": "https://ind.nl/nl/afstand-nationaliteit"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-4-1",
+          "eindterm": "6.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Waar vraag je een paspoort of identiteitskaart aan?",
+            "en": "Where do you apply for a passport or ID card?"
+          },
+          "options": {
+            "nl": [
+              "Bij de politie.",
+              "Bij het postkantoor.",
+              "Bij de gemeente waar je staat ingeschreven."
+            ],
+            "en": [
+              "At the police.",
+              "At the post office.",
+              "At the municipality where you are registered."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Je vraagt een paspoort of ID-kaart persoonlijk aan bij de gemeente waar je staat ingeschreven.",
+            "en": "You apply for a passport or ID card in person at the municipality where you are registered."
+          }
+        },
+        {
+          "id": "instanties-4-2",
+          "eindterm": "6.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Abebe is geslaagd voor zijn rijexamen. Waar vraagt hij zijn rijbewijs aan?",
+            "en": "Abebe has passed his driving test. Where does he apply for his driving licence?"
+          },
+          "options": {
+            "nl": [
+              "Bij de gemeente.",
+              "Bij de rijschool.",
+              "Bij de IND."
+            ],
+            "en": [
+              "At the municipality.",
+              "At the driving school.",
+              "At the IND."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Na het rijexamen vraag je het rijbewijspasje aan bij de gemeente. Je mag pas rijden als je het hebt opgehaald.",
+            "en": "After the driving test you apply for the licence card at the municipality. You may only drive once you have collected it."
+          }
+        },
+        {
+          "id": "instanties-4-3",
+          "eindterm": "6.2.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Welke organisatie gaat over verblijfsvergunningen?",
+            "en": "Which organisation deals with residence permits?"
+          },
+          "options": {
+            "nl": [
+              "Het UWV.",
+              "De IND.",
+              "De GGD."
+            ],
+            "en": [
+              "The UWV.",
+              "The IND.",
+              "The GGD."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Verblijfsvergunningen vraag je aan bij de IND. Welke vergunning je nodig hebt, hangt af van je situatie.",
+            "en": "You apply for residence permits at the IND. Which permit you need depends on your situation."
+          }
+        },
+        {
+          "id": "instanties-4-4",
+          "eindterm": "6.2.3",
+          "source": 4,
+          "prompt": {
+            "nl": "Abebe woont al ruim vijf jaar legaal in Nederland en wil Nederlander worden. Waar vraagt hij dat aan?",
+            "en": "Abebe has lived legally in the Netherlands for more than five years and wants to become Dutch. Where does he apply?"
+          },
+          "options": {
+            "nl": [
+              "Bij zijn werkgever.",
+              "Bij de Tweede Kamer.",
+              "Bij zijn gemeente."
+            ],
+            "en": [
+              "At his employer.",
+              "At the House of Representatives.",
+              "At his municipality."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Woon je 5 jaar of langer legaal in Nederland? Dan kun je naturalisatie aanvragen bij je gemeente.",
+            "en": "Have you lived legally in the Netherlands for 5 years or more? Then you can apply for naturalisation at your municipality."
+          }
+        },
+        {
+          "id": "instanties-4-5",
+          "eindterm": "6.2.3",
+          "source": 5,
+          "prompt": {
+            "nl": "Abebe is 35 en wordt Nederlander door naturalisatie. Wat moet hij meestal doen met zijn andere nationaliteit?",
+            "en": "Abebe is 35 and becomes Dutch by naturalisation. What must he usually do with his other nationality?"
+          },
+          "options": {
+            "nl": [
+              "Niets, hij houdt altijd beide.",
+              "Er afstand van doen.",
+              "Die aan zijn kinderen geven."
+            ],
+            "en": [
+              "Nothing, he always keeps both.",
+              "Give it up.",
+              "Give it to his children."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ben je 18 jaar of ouder? Dan moet je na naturalisatie in principe afstand doen van je andere nationaliteit. Er zijn uitzonderingen.",
+            "en": "Are you 18 or older? Then after naturalisation you must in principle give up your other nationality. There are exceptions."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "6.3"
+      ],
+      "title": {
+        "nl": "Loon en belasting",
+        "en": "Pay and tax"
+      },
+      "situation": {
+        "nl": "Katarzyna krijgt haar eerste loonstrook. Het bedrag op haar bankrekening is lager dan het loon in haar contract.",
+        "en": "Katarzyna gets her first payslip. The amount in her bank account is lower than the pay in her contract."
+      },
+      "body": {
+        "nl": [
+          "Van je werkgever krijg je een loonstrook, vaak digitaal. Daarop staat hoe je loon is opgebouwd. Het brutoloon is het loon vóór de inhoudingen. Je werkgever houdt daar loonbelasting en premies van af. Wat overblijft, is het nettoloon: dat komt op je rekening.",
+          "Aan het begin van het jaar krijg je een jaaropgave met je loon en de ingehouden belasting over het jaar ervoor. Bewaar je jaaropgaven en loonstroken minstens 5 jaar: zo lang mag de Belastingdienst terug belasting navorderen.",
+          "Vaak moet je aangifte doen voor de inkomstenbelasting; je krijgt daarvoor meestal een uitnodiging van de Belastingdienst. Na de aangifte moet je soms belasting bijbetalen, maar soms krijg je geld terug.",
+          "Hulp bij je aangifte krijg je bijvoorbeeld bij de BelastingTelefoon, bij een afspraak met de Belastingdienst of in sommige bibliotheken. Met het belastinggeld betaalt de overheid onder andere onderwijs, zorg, wegen en dijken, de politie en de rechtspraak."
+        ],
+        "en": [
+          "Your employer gives you a payslip, often digitally. It shows how your pay is made up. Gross pay is your pay before deductions. Your employer deducts wage tax and contributions from it. What is left is net pay: that goes into your account.",
+          "At the start of the year you get an annual statement (jaaropgave) with your pay and the tax deducted over the previous year. Keep your annual statements and payslips for at least 5 years: the Tax Administration can claim back tax that far.",
+          "You often have to file an income tax return; you usually get an invitation from the Tax Administration. After filing you sometimes have to pay extra tax, but sometimes you get money back.",
+          "You can get help with your return, for example, from the BelastingTelefoon, at an appointment with the Tax Administration or in some libraries. With tax money the government pays for education, healthcare, roads and dikes, the police and the courts, among other things."
+        ]
+      },
+      "remember": {
+        "nl": "Netto is bruto min belasting en premies. Bewaar je jaaropgaven minstens 5 jaar en doe aangifte als de Belastingdienst erom vraagt.",
+        "en": "Net is gross minus tax and contributions. Keep your annual statements for at least 5 years and file a return when the Tax Administration asks."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wat staat er op mijn loonstrook?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/wat-staat-er-op-mijn-loonstrook"
+        },
+        {
+          "title": "Rijksoverheid: hoelang moet ik mijn financiële administratie bewaren?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/inkomstenbelasting/hoe-lang-moet-ik-mijn-financiele-administratie-bewaren"
+        },
+        {
+          "title": "Belastingdienst: uw rechten en plichten",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/standaard_functies/prive/contact/rechten_en_plichten_bij_de_belastingdienst"
+        },
+        {
+          "title": "Rijksoverheid: waar kan ik hulp vinden om beter te worden met de computer en internet?",
+          "url": "https://www.rijksoverheid.nl/themas/onderwijs/basisvaardigheden/vraag-en-antwoord/digitale-overheid/waar-kan-ik-hulp-vinden-om-vaardiger-te-worden-met-de-computer-en-internet"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-5-1",
+          "eindterm": "6.3.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is het verschil tussen bruto- en nettoloon?",
+            "en": "What is the difference between gross and net pay?"
+          },
+          "options": {
+            "nl": [
+              "Netto is het loon na aftrek van belasting en premies.",
+              "Netto is altijd hoger dan bruto.",
+              "Er is geen verschil."
+            ],
+            "en": [
+              "Net is the pay after deduction of tax and contributions.",
+              "Net is always higher than gross.",
+              "There is no difference."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Over je brutoloon worden loonheffingen ingehouden. Wat overblijft, is je nettoloon.",
+            "en": "Wage taxes are deducted from your gross pay. What remains is your net pay."
+          }
+        },
+        {
+          "id": "instanties-5-2",
+          "eindterm": "6.3.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Hoe lang kun je je jaaropgave het beste bewaren?",
+            "en": "How long should you keep your annual statement?"
+          },
+          "options": {
+            "nl": [
+              "Een week.",
+              "Minstens 5 jaar.",
+              "Je mag hem meteen weggooien."
+            ],
+            "en": [
+              "A week.",
+              "At least 5 years.",
+              "You can throw it away straight away."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "De Belastingdienst mag tot 5 jaar terug belasting navorderen. Bewaar je administratie daarom minstens 5 jaar.",
+            "en": "The Tax Administration may claim tax up to 5 years back. So keep your records for at least 5 years."
+          }
+        },
+        {
+          "id": "instanties-5-3",
+          "eindterm": "6.3.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Wat gebeurt er soms nadat je aangifte inkomstenbelasting hebt gedaan?",
+            "en": "What sometimes happens after you have filed your income tax return?"
+          },
+          "options": {
+            "nl": [
+              "Je krijgt altijd een boete.",
+              "Je raakt je baan kwijt.",
+              "Je krijgt geld terug of je moet bijbetalen."
+            ],
+            "en": [
+              "You always get a fine.",
+              "You lose your job.",
+              "You get money back or you have to pay extra."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Na je aangifte krijg je een aanslag. Soms moet je belasting betalen, soms krijg je geld terug.",
+            "en": "After filing you get an assessment. Sometimes you have to pay tax, sometimes you get money back."
+          }
+        },
+        {
+          "id": "instanties-5-4",
+          "eindterm": "6.3.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Katarzyna wil hulp bij haar belastingaangifte. Waar kan ze bijvoorbeeld terecht?",
+            "en": "Katarzyna wants help with her tax return. Where can she go, for example?"
+          },
+          "options": {
+            "nl": [
+              "Bij de huisarts.",
+              "In sommige bibliotheken.",
+              "Bij de voedselbank."
+            ],
+            "en": [
+              "At the GP.",
+              "In some libraries.",
+              "At the food bank."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Sommige bibliotheken helpen met digitale overheidszaken, bijvoorbeeld met je belastingaangifte.",
+            "en": "Some libraries help with digital government matters, for example your tax return."
+          }
+        },
+        {
+          "id": "instanties-5-5",
+          "eindterm": "6.3.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Waaraan besteedt de overheid belastinggeld?",
+            "en": "What does the government spend tax money on?"
+          },
+          "options": {
+            "nl": [
+              "Aan onderwijs, zorg, wegen en de politie.",
+              "Alleen aan het koningshuis.",
+              "Aan de salarissen van bedrijven."
+            ],
+            "en": [
+              "On education, healthcare, roads and the police.",
+              "Only on the royal house.",
+              "On companies' salaries."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Met belastinggeld betaalt Nederland onder meer bestuur, wegen en dijken, gezondheidszorg, politie, sociale voorzieningen en onderwijs.",
+            "en": "With tax money the Netherlands pays for government, roads and dikes, healthcare, police, social services and education, among other things."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "6.3"
+      ],
+      "title": {
+        "nl": "Toeslagen en kinderbijslag",
+        "en": "Allowances and child benefit"
+      },
+      "situation": {
+        "nl": "Rania werkt parttime en huurt een sociale huurwoning. Ze heeft een dochter van twee die naar de kinderopvang gaat.",
+        "en": "Rania works part-time and rents a social rental home. She has a two-year-old daughter who goes to childcare."
+      },
+      "body": {
+        "nl": [
+          "Heb je een laag of gemiddeld inkomen? Dan kun je misschien een toeslag krijgen: een bijdrage in de kosten van je zorgverzekering (zorgtoeslag), je huur (huurtoeslag), de kinderopvang (kinderopvangtoeslag) of je kinderen (kindgebonden budget). De toeslagen komen van Dienst Toeslagen, onderdeel van de Belastingdienst.",
+          "Je vraagt een toeslag zelf aan, online met Mijn toeslagen en je DigiD. Je hoeft een toeslag maar één keer aan te vragen; als je aan de voorwaarden blijft voldoen, loopt hij vanzelf door.",
+          "Een toeslag is een voorschot op basis van je verwachte inkomen. Verandert je inkomen? Geef dat dan zelf op tijd door. Anders moet je later misschien geld terugbetalen.",
+          "Kinderbijslag is iets anders: dat krijg je van de Sociale Verzekeringsbank (SVB). Na de geboorteaangifte stuurt de SVB je een brief over hoe je kinderbijslag aanvraagt."
+        ],
+        "en": [
+          "Do you have a low or middle income? Then you may be able to get an allowance: a contribution to the cost of your health insurance (healthcare allowance), your rent (rent allowance), childcare (childcare allowance) or your children (child-related budget). The allowances come from Dienst Toeslagen, part of the Tax Administration.",
+          "You apply for an allowance yourself, online with Mijn toeslagen and your DigiD. You only need to apply once; as long as you keep meeting the conditions, it continues automatically.",
+          "An allowance is an advance based on your expected income. Does your income change? Then report it yourself in time. Otherwise you may have to pay money back later.",
+          "Child benefit is something else: you get it from the Social Insurance Bank (SVB). After you register the birth, the SVB sends you a letter about how to apply for child benefit."
+        ]
+      },
+      "remember": {
+        "nl": "Toeslagen vraag je aan bij Dienst Toeslagen. Geef een ander inkomen op tijd door. Kinderbijslag krijg je van de SVB.",
+        "en": "You apply for allowances at Dienst Toeslagen. Report a change in income in time. You get child benefit from the SVB."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Dienst Toeslagen: ik wil een toeslag aanvragen",
+          "url": "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/aanvragen/ik-wil-een-toeslag-aanvragen"
+        },
+        {
+          "title": "Dienst Toeslagen",
+          "url": "https://www.toeslagen.nl/"
+        },
+        {
+          "title": "Rijksoverheid: ik krijg een kind, wat moet ik regelen?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/zwangerschap-en-geboorte/checklist-kind-krijgen"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-6-1",
+          "eindterm": "6.3.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Welke toeslag is een bijdrage in de kosten van de huur?",
+            "en": "Which allowance is a contribution to the cost of rent?"
+          },
+          "options": {
+            "nl": [
+              "Huurtoeslag.",
+              "Zorgtoeslag.",
+              "Kinderbijslag."
+            ],
+            "en": [
+              "Rent allowance.",
+              "Healthcare allowance.",
+              "Child benefit."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Toeslagen zijn een bijdrage in de kosten van de zorgverzekering, kinderen, huur en kinderopvang. Voor de huur is er huurtoeslag.",
+            "en": "Allowances are a contribution to the cost of health insurance, children, rent and childcare. For rent there is rent allowance."
+          }
+        },
+        {
+          "id": "instanties-6-2",
+          "eindterm": "6.3.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Hoe vraag je een toeslag aan?",
+            "en": "How do you apply for an allowance?"
+          },
+          "options": {
+            "nl": [
+              "De gemeente doet dat automatisch.",
+              "Je vraagt hem zelf aan, online met Mijn toeslagen.",
+              "Je werkgever vraagt hem aan."
+            ],
+            "en": [
+              "The municipality does it automatically.",
+              "You apply yourself, online with Mijn toeslagen.",
+              "Your employer applies."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Een toeslag vraag je aan met Mijn toeslagen. Je hoeft dat maar één keer te doen; daarna loopt hij door als je aan de voorwaarden blijft voldoen.",
+            "en": "You apply for an allowance with Mijn toeslagen. You only need to do this once; after that it continues as long as you meet the conditions."
+          }
+        },
+        {
+          "id": "instanties-6-3",
+          "eindterm": "6.3.3",
+          "source": 2,
+          "prompt": {
+            "nl": "Rania krijgt meer uren en gaat meer verdienen. Wat moet ze doen?",
+            "en": "Rania gets more hours and will earn more. What should she do?"
+          },
+          "options": {
+            "nl": [
+              "Niets, dat merkt niemand.",
+              "Haar toeslag stoppen en nooit meer aanvragen.",
+              "Haar nieuwe inkomen op tijd doorgeven."
+            ],
+            "en": [
+              "Nothing, no one will notice.",
+              "Stop her allowance and never apply again.",
+              "Report her new income in time."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Een toeslag is een voorschot op je verwachte inkomen. Verandert je inkomen? Geef dit dan zelf door.",
+            "en": "An allowance is an advance on your expected income. Does your income change? Then report it yourself."
+          }
+        },
+        {
+          "id": "instanties-6-4",
+          "eindterm": "6.3.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Rania krijgt een toeslag. Moet ze die elk jaar opnieuw aanvragen?",
+            "en": "Rania gets an allowance. Must she apply again every year?"
+          },
+          "options": {
+            "nl": [
+              "Ja, elk jaar opnieuw.",
+              "Nee, als ze aan de voorwaarden blijft voldoen, loopt hij door.",
+              "Ja, elke maand."
+            ],
+            "en": [
+              "Yes, every year.",
+              "No, if she keeps meeting the conditions, it continues.",
+              "Yes, every month."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Je hoeft een toeslag maar één keer aan te vragen. De toeslag loopt vanzelf door in het nieuwe jaar.",
+            "en": "You only need to apply for an allowance once. It continues automatically in the new year."
+          }
+        },
+        {
+          "id": "instanties-6-5",
+          "eindterm": "6.3.3",
+          "source": 3,
+          "prompt": {
+            "nl": "Bij welke organisatie vraag je kinderbijslag aan?",
+            "en": "Which organisation do you apply to for child benefit?"
+          },
+          "options": {
+            "nl": [
+              "Bij de Sociale Verzekeringsbank (SVB).",
+              "Bij de school.",
+              "Bij de IND."
+            ],
+            "en": [
+              "The Social Insurance Bank (SVB).",
+              "The school.",
+              "The IND."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Nadat je kind is aangegeven bij de gemeente, stuurt de SVB je een brief over hoe je kinderbijslag aanvraagt.",
+            "en": "After your child is registered with the municipality, the SVB sends you a letter about how to apply for child benefit."
+          }
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "handeling": [
+        "6.4"
+      ],
+      "title": {
+        "nl": "De politie",
+        "en": "The police"
+      },
+      "situation": {
+        "nl": "Pieter komt thuis en ziet dat er is ingebroken. Zijn laptop is weg.",
+        "en": "Pieter comes home and sees there has been a burglary. His laptop is gone."
+      },
+      "body": {
+        "nl": [
+          "De politie beschermt mensen, houdt toezicht en zorgt dat iedereen zich aan de wet houdt. Je moet de aanwijzingen van de politie opvolgen.",
+          "Je kunt de politie om hulp vragen bij bijvoorbeeld overlast, een ongeluk, diefstal, inbraak, geweld, oplichting of discriminatie. Bij spoed bel je 112.",
+          "Ben je slachtoffer of getuige van een strafbaar feit? Dan kun je aangifte of een melding doen. Met een aangifte vraag je om vervolging van de dader. Bij sommige ernstige misdrijven, zoals moord of doodslag, ben je verplicht om aangifte te doen.",
+          "Iedereen vanaf 14 jaar moet een geldig identiteitsbewijs kunnen laten zien als de politie daarom vraagt. Je hoeft het niet altijd bij je te dragen, maar in de praktijk is dat wel nodig. Kun je het niet laten zien, dan kun je een boete krijgen."
+        ],
+        "en": [
+          "The police protect people, keep watch and make sure everyone obeys the law. You must follow police instructions.",
+          "You can ask the police for help with, for example, nuisance, an accident, theft, burglary, violence, fraud or discrimination. In an emergency you call 112.",
+          "Are you a victim of or witness to a crime? Then you can report it (aangifte) or make a notification (melding). With an aangifte you ask for the offender to be prosecuted. For some serious crimes, such as murder or manslaughter, you are obliged to report them.",
+          "Everyone aged 14 or over must be able to show a valid ID when the police ask for it. You don't strictly have to carry it at all times, but in practice you need to. If you can't show it, you can be fined."
+        ]
+      },
+      "remember": {
+        "nl": "Volg de aanwijzingen van de politie op en heb je identiteitsbewijs bij je. Bij een misdrijf doe je aangifte.",
+        "en": "Follow police instructions and carry your ID. For a crime you file a report."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: kan ik aangifte of melding doen bij de politie?",
+          "url": "https://www.rijksoverheid.nl/themas/economie/financiele-sector/vraag-en-antwoord/politie/aangifte-melding-doen-bij-politie"
+        },
+        {
+          "title": "Rijksoverheid: wat is de identificatieplicht?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/paspoort-en-identiteitskaart/wat-is-de-identificatieplicht"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-7-1",
+          "eindterm": "6.4.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Een agent zegt dat je moet stoppen met fietsen op de stoep. Wat doe je?",
+            "en": "A police officer tells you to stop cycling on the pavement. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je doet wat de agent zegt.",
+              "Je fietst gewoon door.",
+              "Je gaat in discussie en luistert niet."
+            ],
+            "en": [
+              "You do what the officer says.",
+              "You just keep cycling.",
+              "You argue and don't listen."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Je moet de aanwijzingen van de politie opvolgen.",
+            "en": "You must follow police instructions."
+          }
+        },
+        {
+          "id": "instanties-7-2",
+          "eindterm": "6.4.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Bij Pieter is ingebroken en zijn laptop is gestolen. Wat kan hij doen?",
+            "en": "Pieter's home was burgled and his laptop stolen. What can he do?"
+          },
+          "options": {
+            "nl": [
+              "Niets, de politie helpt daar niet bij.",
+              "Aangifte doen bij de politie.",
+              "Een brief sturen naar de gemeente."
+            ],
+            "en": [
+              "Nothing, the police don't help with that.",
+              "Report it to the police.",
+              "Send a letter to the municipality."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ben je slachtoffer van een strafbaar feit, zoals een inbraak? Dan kun je aangifte of melding doen bij de politie.",
+            "en": "Are you the victim of a crime, such as a burglary? Then you can report it to the police."
+          }
+        },
+        {
+          "id": "instanties-7-3",
+          "eindterm": "6.4.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wanneer ben je verplicht om aangifte te doen?",
+            "en": "When are you obliged to report a crime?"
+          },
+          "options": {
+            "nl": [
+              "Bij een gestolen fiets.",
+              "Bij een ruzie met de buren.",
+              "Bij een ernstig misdrijf, zoals moord."
+            ],
+            "en": [
+              "For a stolen bicycle.",
+              "For a quarrel with the neighbours.",
+              "For a serious crime, such as murder."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "In sommige gevallen ben je verplicht om aangifte te doen, bijvoorbeeld bij moord of doodslag.",
+            "en": "In some cases you are obliged to report, for example murder or manslaughter."
+          }
+        },
+        {
+          "id": "instanties-7-4",
+          "eindterm": "6.4.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Vanaf welke leeftijd moet je een identiteitsbewijs kunnen laten zien aan de politie?",
+            "en": "From what age must you be able to show ID to the police?"
+          },
+          "options": {
+            "nl": [
+              "Vanaf 14 jaar.",
+              "Vanaf 21 jaar.",
+              "Vanaf 65 jaar."
+            ],
+            "en": [
+              "From 14.",
+              "From 21.",
+              "From 65."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Iedereen vanaf 14 jaar moet een geldig identiteitsbewijs kunnen tonen als de politie daarom vraagt.",
+            "en": "Everyone aged 14 or over must be able to show a valid ID when the police ask for it."
+          }
+        },
+        {
+          "id": "instanties-7-5",
+          "eindterm": "6.4.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Je wordt op straat gediscrimineerd en uitgescholden. Kun je de politie om hulp vragen?",
+            "en": "You are discriminated against and abused in the street. Can you ask the police for help?"
+          },
+          "options": {
+            "nl": [
+              "Nee, daar is de politie niet voor.",
+              "Alleen als je gewond bent.",
+              "Ja, de politie helpt ook bij discriminatie."
+            ],
+            "en": [
+              "No, that's not what the police are for.",
+              "Only if you are injured.",
+              "Yes, the police also help with discrimination."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Je kunt de hulp van de politie inroepen bij onder andere overlast, ongevallen, diefstal, geweld, oplichting en discriminatie.",
+            "en": "You can call on the police for help with nuisance, accidents, theft, violence, fraud and discrimination, among other things."
+          }
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "handeling": [
+        "6.5"
+      ],
+      "title": {
+        "nl": "Klagen, bezwaar maken en juridische hulp",
+        "en": "Complaints, objections and legal help"
+      },
+      "situation": {
+        "nl": "De gemeente wijst de aanvraag van Omar voor bijzondere bijstand af. Hij vindt dat onterecht. Ook werd hij aan het loket onbeleefd behandeld.",
+        "en": "The municipality rejects Omar's application for special assistance. He thinks this is unfair. He was also treated rudely at the counter."
+      },
+      "body": {
+        "nl": [
+          "Ben je het niet eens met een besluit van de overheid? Dan kun je bezwaar maken bij de organisatie die het besluit nam. Dat moet binnen 6 weken. In je bezwaar leg je uit waarom je het er niet mee eens bent.",
+          "Ben je slecht behandeld of gediscrimineerd door de overheid, bijvoorbeeld door de gemeente, het UWV of de politie? Dien dan eerst een klacht in bij die organisatie. Ben je niet tevreden over hoe je klacht is afgehandeld? Dan kun je gratis naar de Nationale ombudsman of de ombudsman van je gemeente.",
+          "Corruptie bij de overheid en de politie is verboden en strafbaar. Een ambtenaar of agent mag geen geld of cadeaus aannemen om iets voor je te regelen.",
+          "Voor juridisch advies kun je naar het Juridisch Loket of een advocaat. Heb je een laag inkomen? Dan kun je gesubsidieerde rechtsbijstand krijgen. Je betaalt dan een eigen bijdrage die afhangt van je inkomen en vermogen."
+        ],
+        "en": [
+          "Do you disagree with a government decision? Then you can object to the organisation that made it. You must do so within 6 weeks. In your objection you explain why you disagree.",
+          "Were you treated badly or discriminated against by the government, for example by the municipality, the UWV or the police? Then first file a complaint with that organisation. Not satisfied with how your complaint was handled? Then you can go to the National Ombudsman or your municipality's ombudsman, free of charge.",
+          "Corruption in the government and the police is prohibited and a criminal offence. A civil servant or police officer may not accept money or gifts to arrange something for you.",
+          "For legal advice you can go to the Juridisch Loket or a lawyer. Do you have a low income? Then you can get subsidised legal aid. You then pay a personal contribution that depends on your income and assets."
+        ]
+      },
+      "remember": {
+        "nl": "Bezwaar maak je binnen 6 weken. Een klacht dien je eerst in bij de organisatie zelf, daarna bij de ombudsman. Juridische hulp krijg je bij het Juridisch Loket of een advocaat.",
+        "en": "You object within 6 weeks. A complaint goes first to the organisation itself, then to the ombudsman. Legal help is available from the Juridisch Loket or a lawyer."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik bezwaar maken tegen een beslissing van de overheid?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/bezwaar-en-beroep/bezwaar-tegen-beslissing-overheid"
+        },
+        {
+          "title": "Rijksoverheid: waar kan ik een klacht indienen over een overheidsinstantie?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/kwaliteit-en-integriteit-overheidsinstanties/waar-kan-ik-terecht-met-een-klacht-over-de-overheid"
+        },
+        {
+          "title": "Rijksoverheid: hoe verloopt het aanvragen van gesubsidieerde rechtsbijstand?",
+          "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/rechtspraak-en-geschiloplossing/hoe-verloopt-het-aanvragen-van-gesubsidieerde-rechtsbijstand"
+        },
+        {
+          "title": "Rijksoverheid: welke rechten en plichten heb ik als huurder?",
+          "url": "https://www.rijksoverheid.nl/themas/bouwen-en-wonen/woning-huren/vraag-en-antwoord/woning-huren/welke-rechten-en-plichten-heb-ik-als-huurder"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-8-1",
+          "eindterm": "6.5.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Omar is het niet eens met het besluit van de gemeente. Wat kan hij doen?",
+            "en": "Omar disagrees with the municipality's decision. What can he do?"
+          },
+          "options": {
+            "nl": [
+              "Bezwaar maken, binnen 6 weken.",
+              "Niets, een besluit is altijd definitief.",
+              "De ambtenaar geld geven."
+            ],
+            "en": [
+              "Object, within 6 weeks.",
+              "Nothing, a decision is always final.",
+              "Give the civil servant money."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Tegen een beslissing van de overheid kun je bezwaar maken bij de organisatie die de beslissing nam, binnen 6 weken.",
+            "en": "You can object to a government decision with the organisation that made it, within 6 weeks."
+          }
+        },
+        {
+          "id": "instanties-8-2",
+          "eindterm": "6.5.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Omar heeft een klacht ingediend bij de gemeente, maar is niet tevreden over de afhandeling. Waar kan hij dan terecht?",
+            "en": "Omar filed a complaint with the municipality but is not satisfied with how it was handled. Where can he go then?"
+          },
+          "options": {
+            "nl": [
+              "Bij de supermarkt.",
+              "Bij de Nationale ombudsman of de gemeentelijke ombudsman.",
+              "Nergens."
+            ],
+            "en": [
+              "At the supermarket.",
+              "At the National Ombudsman or the municipal ombudsman.",
+              "Nowhere."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Ben je niet tevreden over de afhandeling van je klacht? Dan kun je naar de Nationale ombudsman of de ombudsvoorziening van je gemeente.",
+            "en": "Not satisfied with how your complaint was handled? Then you can go to the National Ombudsman or your municipality's ombudsman."
+          }
+        },
+        {
+          "id": "instanties-8-3",
+          "eindterm": "6.5.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Een ambtenaar zegt dat je vergunning sneller klaar is als je hem 100 euro geeft. Wat is waar?",
+            "en": "A civil servant says your permit will be ready sooner if you give him 100 euros. What is true?"
+          },
+          "options": {
+            "nl": [
+              "Dat is normaal in Nederland.",
+              "Dat mag als je het netjes vraagt.",
+              "Dat is corruptie en strafbaar."
+            ],
+            "en": [
+              "That is normal in the Netherlands.",
+              "That is allowed if you ask politely.",
+              "That is corruption and a criminal offence."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Corruptie bij de overheid en de politie is verboden en strafbaar.",
+            "en": "Corruption in the government and the police is prohibited and punishable."
+          }
+        },
+        {
+          "id": "instanties-8-4",
+          "eindterm": "6.5.2",
+          "source": 4,
+          "prompt": {
+            "nl": "Je hebt een juridisch probleem en wilt advies. Waar kun je terecht?",
+            "en": "You have a legal problem and want advice. Where can you go?"
+          },
+          "options": {
+            "nl": [
+              "Bij de apotheek.",
+              "Bij het Juridisch Loket of een advocaat.",
+              "Bij de belastingdienst."
+            ],
+            "en": [
+              "At the pharmacy.",
+              "At the Juridisch Loket or a lawyer.",
+              "At the Tax Administration."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Voor juridische hulp kun je terecht bij het Juridisch Loket of een advocaat.",
+            "en": "For legal help you can go to the Juridisch Loket or a lawyer."
+          }
+        },
+        {
+          "id": "instanties-8-5",
+          "eindterm": "6.5.2",
+          "source": 3,
+          "prompt": {
+            "nl": "Omar heeft een laag inkomen en heeft een advocaat nodig. Wat is waar?",
+            "en": "Omar has a low income and needs a lawyer. What is true?"
+          },
+          "options": {
+            "nl": [
+              "Hij kan gesubsidieerde rechtsbijstand krijgen en betaalt een eigen bijdrage die past bij zijn inkomen.",
+              "Hij moet de advocaat altijd helemaal zelf betalen.",
+              "Mensen met een laag inkomen mogen geen advocaat."
+            ],
+            "en": [
+              "He can get subsidised legal aid and pays a contribution that fits his income.",
+              "He must always pay the lawyer in full himself.",
+              "People on a low income may not have a lawyer."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Kun je rechtsbijstand niet betalen? Dan kun je gesubsidieerde rechtsbijstand krijgen. Je betaalt bijna altijd een eigen bijdrage die afhangt van je inkomen en vermogen.",
+            "en": "Can't afford legal aid? Then you can get subsidised legal aid. You almost always pay a contribution that depends on your income and assets."
+          }
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "handeling": [
+        "6.6"
+      ],
+      "title": {
+        "nl": "Verzekeringen",
+        "en": "Insurance"
+      },
+      "situation": {
+        "nl": "Het zoontje van Lucas gooit bij vrienden per ongeluk een dure televisie om. De vrienden vragen wie de schade betaalt.",
+        "en": "Lucas's little son accidentally knocks over an expensive television at friends' house. The friends ask who will pay for the damage."
+      },
+      "body": {
+        "nl": [
+          "In Nederland is het gewoon om je te verzekeren tegen bepaalde risico's. Sommige verzekeringen zijn verplicht. Een zorgverzekering is verplicht. Heb je een auto, motor of brommer? Dan moet je een WA-verzekering hebben; die betaalt de schade die je met je voertuig bij een ander veroorzaakt. Voor een auto betaal je ook motorrijtuigenbelasting.",
+          "Een aansprakelijkheidsverzekering voor particulieren is niet verplicht, maar wel heel verstandig. Die betaalt de schade die jij of je kinderen per ongeluk bij een ander veroorzaken. Die schade kan heel hoog worden.",
+          "Heb je een eigen huis met een hypotheek? Dan eist de hypotheekverstrekker meestal een opstalverzekering (woonhuisverzekering). Die betaalt schade aan het huis zelf, bijvoorbeeld door brand of storm. Een inboedelverzekering betaalt schade aan je spullen.",
+          "Een verzekering sluit je af bij een verzekeraar, vaak online. Heb je schade? Meld die dan zo snel mogelijk bij je verzekeraar, met foto's en bonnetjes. Verandert je situatie, bijvoorbeeld door samenwonen of een kind? Pas dan je verzekeringen aan."
+        ],
+        "en": [
+          "In the Netherlands it is normal to insure yourself against certain risks. Some insurance is compulsory. Health insurance is compulsory. Do you have a car, motorbike or moped? Then you must have third-party (WA) insurance; it pays for damage you cause to others with your vehicle. For a car you also pay road tax.",
+          "Personal liability insurance is not compulsory, but very wise. It pays for damage that you or your children accidentally cause to someone else. That damage can be very high.",
+          "Do you own a home with a mortgage? Then the mortgage lender usually requires buildings insurance (opstalverzekering). It pays for damage to the house itself, for example from fire or storm. Contents insurance pays for damage to your belongings.",
+          "You take out insurance with an insurer, often online. Do you have damage? Report it to your insurer as soon as possible, with photos and receipts. Does your situation change, for example by moving in together or having a child? Then adjust your insurance."
+        ]
+      },
+      "remember": {
+        "nl": "Een zorgverzekering en een WA-verzekering voor je auto zijn verplicht. Een aansprakelijkheidsverzekering is niet verplicht, maar wel verstandig.",
+        "en": "Health insurance and third-party insurance for your car are compulsory. Liability insurance is not compulsory, but wise."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Wijzer in geldzaken (ministerie van Financiën): alles over verzekeringen",
+          "url": "https://www.wijzeringeldzaken.nl/verzekering/alles-over-verzekeringen/alles-over-verzekeringen.pdf"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "instanties-9-1",
+          "eindterm": "6.6.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Welke verzekering is verplicht voor iedereen die in Nederland woont of werkt?",
+            "en": "Which insurance is compulsory for everyone who lives or works in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "De reisverzekering.",
+              "De zorgverzekering.",
+              "De inboedelverzekering."
+            ],
+            "en": [
+              "Travel insurance.",
+              "Health insurance.",
+              "Contents insurance."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Een zorgverzekering is verplicht.",
+            "en": "Health insurance is compulsory."
+          }
+        },
+        {
+          "id": "instanties-9-2",
+          "eindterm": "6.6.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Het zoontje van Lucas maakt per ongeluk de tv van vrienden kapot. Welke verzekering betaalt dat?",
+            "en": "Lucas's son accidentally breaks friends' TV. Which insurance pays for that?"
+          },
+          "options": {
+            "nl": [
+              "De aansprakelijkheidsverzekering.",
+              "De zorgverzekering.",
+              "De opstalverzekering van Lucas."
+            ],
+            "en": [
+              "Liability insurance.",
+              "Health insurance.",
+              "Lucas's buildings insurance."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "De aansprakelijkheidsverzekering voor particulieren vergoedt schade die je per ongeluk bij een ander veroorzaakt.",
+            "en": "Personal liability insurance pays for damage you accidentally cause to someone else."
+          }
+        },
+        {
+          "id": "instanties-9-3",
+          "eindterm": "6.6.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Is een aansprakelijkheidsverzekering voor particulieren verplicht?",
+            "en": "Is personal liability insurance compulsory?"
+          },
+          "options": {
+            "nl": [
+              "Ja, de politie controleert dat.",
+              "Ja, vanaf 65 jaar.",
+              "Nee, maar het is wel verstandig."
+            ],
+            "en": [
+              "Yes, the police check it.",
+              "Yes, from age 65.",
+              "No, but it is wise."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "De aansprakelijkheidsverzekering is niet verplicht, maar het is wel slim om er een te hebben.",
+            "en": "Liability insurance is not compulsory, but it is wise to have it."
+          }
+        },
+        {
+          "id": "instanties-9-4",
+          "eindterm": "6.6.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Nadia koopt een auto. Welke verzekering moet ze hebben?",
+            "en": "Nadia buys a car. Which insurance must she have?"
+          },
+          "options": {
+            "nl": [
+              "Geen; verzekeren is vrijwillig.",
+              "Een WA-verzekering.",
+              "Alleen een reisverzekering."
+            ],
+            "en": [
+              "None; insurance is voluntary.",
+              "Third-party (WA) insurance.",
+              "Only travel insurance."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Voor je auto, motor of brommer moet je een WA-verzekering hebben.",
+            "en": "For your car, motorbike or moped you must have third-party (WA) insurance."
+          }
+        },
+        {
+          "id": "instanties-9-5",
+          "eindterm": "6.6.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Je koopt een huis met een hypotheek. Welke verzekering eist de bank meestal?",
+            "en": "You buy a house with a mortgage. Which insurance does the bank usually require?"
+          },
+          "options": {
+            "nl": [
+              "Een opstalverzekering (woonhuisverzekering).",
+              "Een reisverzekering.",
+              "Een uitvaartverzekering."
+            ],
+            "en": [
+              "Buildings insurance.",
+              "Travel insurance.",
+              "Funeral insurance."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een woonhuisverzekering is niet wettelijk verplicht, maar je hypotheekaanbieder kan eisen dat je hem afsluit.",
+            "en": "Buildings insurance is not required by law, but your mortgage lender can require you to take it out."
+          }
+        }
+      ]
+    }
+  ]
+}
