@@ -1,0 +1,1098 @@
+{
+  "id": "omgangsvormen",
+  "n": 2,
+  "title": {
+    "nl": "Omgangsvormen, waarden en normen",
+    "en": "Manners, values and norms"
+  },
+  "lead": {
+    "nl": "Afspraken maken, samenlevingsvormen, feestdagen en familiegebeurtenissen.",
+    "en": "Making appointments, ways of living together, holidays and family occasions."
+  },
+  "lessons": [
+    {
+      "n": 1,
+      "handeling": [
+        "2.1"
+      ],
+      "title": {
+        "nl": "Hoe gaan mensen met elkaar om?",
+        "en": "How do people deal with each other?"
+      },
+      "situation": {
+        "nl": "Fatima werkt sinds kort op een kantoor. Een collega zegt tegen haar: 'Ik vind jouw plan niet goed.' Fatima schrikt daarvan.",
+        "en": "Fatima has just started working in an office. A colleague says to her: 'I don't think your plan is good.' Fatima is shocked."
+      },
+      "body": {
+        "nl": [
+          "In Nederland zeggen veel mensen direct wat ze denken. Ook als ze iets niet goed vinden. Dat is meestal niet onbeleefd bedoeld. Vaak leggen ze ook uit waarom.",
+          "Omgangsvormen zijn de manieren waarop mensen met elkaar omgaan. Die zijn niet overal hetzelfde. Ze verschillen per groep, per regio en per generatie. Op het werk gaat het soms anders dan bij een sportclub of in de familie.",
+          "Weet je niet wat gebruikelijk is? Kijk dan hoe anderen het doen, of vraag het. De meeste mensen vinden het fijn als je dat vraagt."
+        ],
+        "en": [
+          "In the Netherlands, many people say directly what they think. Also when they do not like something. That is usually not meant to be rude. Often they also explain why.",
+          "Manners (omgangsvormen) are the ways people deal with each other. They are not the same everywhere. They differ by group, by region and by generation. At work it is sometimes different from a sports club or the family.",
+          "Don't you know what is usual? Then look at how others do it, or ask. Most people like it when you ask."
+        ]
+      },
+      "remember": {
+        "nl": "Directe woorden zijn in Nederland vaak eerlijk bedoeld. Weet je niet wat hoort? Kijk om je heen of vraag het.",
+        "en": "Direct words are often meant honestly in the Netherlands. Don't know what is expected? Look around or ask."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "The Hague International Centre (gemeente Den Haag): cultural do's and don'ts",
+          "url": "https://www.thehagueinternationalcentre.nl/why-the-hague-region/the-netherlands-in-a-nutshell/cultural-dos-and-donts"
+        },
+        {
+          "title": "The Hague International Centre (gemeente Den Haag): births, deaths and marriages",
+          "url": "https://www.thehagueinternationalcentre.nl/births-deaths-and-marriages"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-1-1",
+          "eindterm": "2.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Een collega zegt: 'Ik vind dit geen goed idee.' Wat is in Nederland meestal zo?",
+            "en": "A colleague says: 'I don't think this is a good idea.' What is usually the case in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Hij wil ruzie met je maken.",
+              "Hij zegt eerlijk wat hij denkt.",
+              "Hij wil dat je ontslagen wordt."
+            ],
+            "en": [
+              "He wants to pick a fight with you.",
+              "He is honestly saying what he thinks.",
+              "He wants you to be fired."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Veel mensen in Nederland zeggen direct wat ze denken. Dat is meestal eerlijk bedoeld, niet onbeleefd.",
+            "en": "Many people in the Netherlands say directly what they think. That is usually meant honestly, not rudely."
+          }
+        },
+        {
+          "id": "omgangsvormen-1-2",
+          "eindterm": "2.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Zijn de omgangsvormen overal in Nederland hetzelfde?",
+            "en": "Are manners the same everywhere in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Ja, iedereen doet het op dezelfde manier.",
+              "Nee, alleen mannen en vrouwen doen het anders.",
+              "Nee, ze verschillen per groep, regio en generatie."
+            ],
+            "en": [
+              "Yes, everyone does it the same way.",
+              "No, only men and women do it differently.",
+              "No, they differ by group, region and generation."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Omgangsvormen kunnen verschillen per sociale groep, regio, generatie en klasse.",
+            "en": "Manners can differ by social group, region, generation and class."
+          }
+        },
+        {
+          "id": "omgangsvormen-1-3",
+          "eindterm": "2.1.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Je bent op een feest en je weet niet wat gebruikelijk is. Wat kun je het beste doen?",
+            "en": "You are at a party and you don't know what is usual. What is the best thing to do?"
+          },
+          "options": {
+            "nl": [
+              "Kijken hoe anderen het doen of het vragen.",
+              "Meteen weggaan.",
+              "Doen wat je in je vorige land deed."
+            ],
+            "en": [
+              "Look at how others do it, or ask.",
+              "Leave straight away.",
+              "Do what you did in your previous country."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Kijken en vragen is de beste manier om te leren wat gebruikelijk is. Nederlanders vinden het fijn als je vraagt.",
+            "en": "Looking and asking is the best way to learn what is usual. Dutch people like it when you ask."
+          }
+        },
+        {
+          "id": "omgangsvormen-1-4",
+          "eindterm": "2.1.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Waarom zeggen veel Nederlanders direct dat ze iets niet goed vinden?",
+            "en": "Why do many Dutch people say directly that they don't like something?"
+          },
+          "options": {
+            "nl": [
+              "Omdat eerlijk zijn voor veel mensen belangrijk is.",
+              "Omdat het een regel van de overheid is.",
+              "Omdat ze geen tijd hebben om te praten."
+            ],
+            "en": [
+              "Because being honest matters to many people.",
+              "Because it is a government rule.",
+              "Because they have no time to talk."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Veel Nederlanders vinden eerlijkheid belangrijk. Daarom zeggen ze direct wat ze denken, vaak met de reden erbij.",
+            "en": "Many Dutch people value honesty. That is why they say directly what they think, often with the reason."
+          }
+        },
+        {
+          "id": "omgangsvormen-1-5",
+          "eindterm": "2.1.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Je gaat voor het eerst naar een sportclub. Hoe leer je de omgangsvormen daar het best?",
+            "en": "You go to a sports club for the first time. How do you best learn the manners there?"
+          },
+          "options": {
+            "nl": [
+              "Door een boek over je eigen land te lezen.",
+              "Door de mensen van de club te vragen en te kijken hoe zij het doen.",
+              "Door de gemeente te bellen."
+            ],
+            "en": [
+              "By reading a book about your own country.",
+              "By asking the people at the club and watching how they do it.",
+              "By calling the municipality."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Elke groep heeft eigen omgangsvormen. Die leer je het best van de mensen in die groep zelf.",
+            "en": "Every group has its own manners. You learn them best from the people in that group."
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "handeling": [
+        "2.1"
+      ],
+      "title": {
+        "nl": "Afspraken maken en op tijd komen",
+        "en": "Making appointments and being on time"
+      },
+      "situation": {
+        "nl": "Youssef heeft morgen om 10.00 uur een afspraak bij de gemeente. Vanavond wordt hij ziek.",
+        "en": "Youssef has an appointment at the municipality tomorrow at 10:00. Tonight he gets ill."
+      },
+      "body": {
+        "nl": [
+          "In Nederland maak je meestal van tevoren een afspraak. Dat doe je bij de huisarts, bij de gemeente en bij andere instanties. Ook op het werk plan je een overleg vaak van tevoren. Veel mensen gebruiken een agenda.",
+          "Een afspraak maak je vaak online, via een website of een app. Je kunt ook bellen. Met collega's spreek je samen een tijd af.",
+          "Veel mensen vinden het belangrijk dat je op tijd komt. Kun je niet komen? Meld je dan zo snel mogelijk af. Veel mensen vinden dat netjes en belangrijk."
+        ],
+        "en": [
+          "In the Netherlands you usually make an appointment in advance. You do that with the GP, the municipality and other organisations. At work you often plan a meeting in advance too. Many people use a diary (agenda).",
+          "You often make an appointment online, through a website or an app. You can also call. With colleagues you agree on a time together.",
+          "Many people find it important that you arrive on time. Can't you come? Then cancel as soon as possible. Many people find that polite and important."
+        ]
+      },
+      "remember": {
+        "nl": "Maak eerst een afspraak, kom op tijd en meld je op tijd af als je niet kunt komen.",
+        "en": "Make an appointment first, be on time and cancel in good time if you cannot come."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "The Hague International Centre (gemeente Den Haag): cultural do's and don'ts",
+          "url": "https://www.thehagueinternationalcentre.nl/why-the-hague-region/the-netherlands-in-a-nutshell/cultural-dos-and-donts"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-2-1",
+          "eindterm": "2.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Youssef heeft morgen een afspraak bij de gemeente, maar hij is ziek. Wat doet hij?",
+            "en": "Youssef has an appointment at the municipality tomorrow, but he is ill. What does he do?"
+          },
+          "options": {
+            "nl": [
+              "Hij gaat een dag later, zonder afspraak.",
+              "Hij blijft thuis en zegt niets.",
+              "Hij meldt zich zo snel mogelijk af."
+            ],
+            "en": [
+              "He goes a day later, without an appointment.",
+              "He stays at home and says nothing.",
+              "He cancels as soon as possible."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Kun je niet komen, meld je dan op tijd af. Veel mensen in Nederland vinden dat belangrijk.",
+            "en": "If you cannot come, cancel in good time. Many people in the Netherlands find that important."
+          }
+        },
+        {
+          "id": "omgangsvormen-2-2",
+          "eindterm": "2.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Je wilt met de huisarts praten over een klacht. Het is geen spoed. Wat doe je?",
+            "en": "You want to talk to the GP about a complaint. It is not urgent. What do you do?"
+          },
+          "options": {
+            "nl": [
+              "Je maakt eerst een afspraak.",
+              "Je gaat langs wanneer het jou uitkomt.",
+              "Je wacht tot de huisarts jou belt."
+            ],
+            "en": [
+              "You make an appointment first.",
+              "You drop by whenever it suits you.",
+              "You wait until the GP calls you."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bij de huisarts en bij instanties maak je van tevoren een afspraak, bijvoorbeeld online of door te bellen.",
+            "en": "With the GP and with organisations you make an appointment in advance, for example online or by phone."
+          }
+        },
+        {
+          "id": "omgangsvormen-2-3",
+          "eindterm": "2.1.3",
+          "source": 1,
+          "prompt": {
+            "nl": "Je hebt om 14.00 uur een sollicitatiegesprek. Wanneer ben je er?",
+            "en": "You have a job interview at 14:00. When do you arrive?"
+          },
+          "options": {
+            "nl": [
+              "Rond 14.30 uur, dat maakt niet uit.",
+              "Om 14.00 uur of een paar minuten eerder.",
+              "Wanneer je klaar bent met boodschappen doen."
+            ],
+            "en": [
+              "Around 14:30, it doesn't matter.",
+              "At 14:00 or a few minutes earlier.",
+              "When you have finished your shopping."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Veel Nederlanders vinden het belangrijk dat je op tijd komt, zeker bij een sollicitatiegesprek.",
+            "en": "Many Dutch people find it important that you are on time, certainly for a job interview."
+          }
+        },
+        {
+          "id": "omgangsvormen-2-4",
+          "eindterm": "2.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom meld je je op tijd af als je niet naar een afspraak kunt?",
+            "en": "Why do you cancel in good time if you cannot go to an appointment?"
+          },
+          "options": {
+            "nl": [
+              "Omdat veel mensen dat belangrijk en netjes vinden.",
+              "Omdat de politie dat controleert.",
+              "Dat hoeft niet, het maakt niemand iets uit."
+            ],
+            "en": [
+              "Because many people find that important and polite.",
+              "Because the police check it.",
+              "You don't have to, nobody cares."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Veel mensen in Nederland hechten waarde aan op tijd komen en aan het tijdig afmelden van afspraken.",
+            "en": "Many people in the Netherlands value being on time and cancelling appointments in good time."
+          }
+        },
+        {
+          "id": "omgangsvormen-2-5",
+          "eindterm": "2.1.3",
+          "source": 0,
+          "prompt": {
+            "nl": "Je wilt met een collega overleggen over je werk. Wat is gebruikelijk?",
+            "en": "You want to discuss your work with a colleague. What is usual?"
+          },
+          "options": {
+            "nl": [
+              "Je loopt binnen tijdens zijn vergadering.",
+              "Je wacht tot hij zelf naar jou toe komt.",
+              "Je spreekt van tevoren een tijd af."
+            ],
+            "en": [
+              "You walk into his meeting.",
+              "You wait until he comes to you.",
+              "You agree on a time in advance."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Ook op het werk is het gebruikelijk om van tevoren een afspraak te maken.",
+            "en": "At work too it is usual to make an appointment in advance."
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "handeling": [
+        "2.1"
+      ],
+      "title": {
+        "nl": "Samenwonen, trouwen en partnerschap",
+        "en": "Living together, marriage and partnership"
+      },
+      "situation": {
+        "nl": "Sanne en Mark wonen al vijf jaar samen. Ze zijn niet getrouwd en hebben twee kinderen. Hun buurmannen Peter en Ali zijn wel getrouwd.",
+        "en": "Sanne and Mark have lived together for five years. They are not married and have two children. Their neighbours Peter and Ali are married."
+      },
+      "body": {
+        "nl": [
+          "In Nederland leven mensen op verschillende manieren samen. Veel stellen wonen samen zonder te trouwen. Dat komt vaak voor.",
+          "Twee mensen kunnen trouwen of een geregistreerd partnerschap sluiten. Allebei zijn ze in de wet geregeld en ze lijken veel op elkaar. Je hebt dan automatisch rechten en plichten tegenover elkaar, zoals de plicht om voor elkaar te zorgen.",
+          "Er zijn een paar verschillen. Bij een huwelijk geven de partners elkaar het ja-woord. Wie getrouwd is en wil scheiden, moet altijd naar de rechter.",
+          "Ook twee mannen of twee vrouwen kunnen trouwen of een geregistreerd partnerschap sluiten. Ook dat is in de wet geregeld.",
+          "Wonen twee mensen samen zonder huwelijk of partnerschap? Dan hebben ze niet automatisch rechten en plichten tegenover elkaar. Ze kunnen afspraken vastleggen in een samenlevingscontract."
+        ],
+        "en": [
+          "In the Netherlands people live together in different ways. Many couples live together without marrying. That is common.",
+          "Two people can marry or enter into a registered partnership. Both are regulated by law and they are very similar. You then automatically have rights and duties towards each other, such as the duty to take care of each other.",
+          "There are a few differences. In a marriage the partners say 'I do' (the ja-woord). Married people who want to divorce always have to go to court.",
+          "Two men or two women can also marry or enter into a registered partnership. That too is regulated by law.",
+          "If two people live together without marriage or partnership, they do not automatically have rights and duties towards each other. They can put agreements in a cohabitation contract (samenlevingscontract)."
+        ]
+      },
+      "remember": {
+        "nl": "Samenwonen, trouwen en een geregistreerd partnerschap zijn allemaal gewoon in Nederland, ook voor twee mannen of twee vrouwen.",
+        "en": "Living together, marriage and a registered partnership are all common in the Netherlands, also for two men or two women."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wat is het verschil tussen trouwen en een geregistreerd partnerschap?",
+          "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/trouwen-samenlevingscontract-en-geregistreerd-partnerschap/vraag-en-antwoord/trouwen-samenlevingscontract-en-geregistreerd-partnerschap/wat-is-het-verschil-tussen-trouwen-en-een-geregistreerd-partnerschap"
+        },
+        {
+          "title": "Rijksoverheid: wat is het verschil tussen trouwen of geregistreerd partnerschap en een samenlevingscontract?",
+          "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/trouwen-samenlevingscontract-en-geregistreerd-partnerschap/vraag-en-antwoord/trouwen-samenlevingscontract-en-geregistreerd-partnerschap/wat-is-het-verschil-tussen-een-huwelijk-geregistreerd-partnerschap-en-samenlevingscontract"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-3-1",
+          "eindterm": "2.1.4",
+          "source": 0,
+          "prompt": {
+            "nl": "Sanne en Mark wonen samen, maar zijn niet getrouwd. Wat klopt?",
+            "en": "Sanne and Mark live together but are not married. What is true?"
+          },
+          "options": {
+            "nl": [
+              "Dat komt in Nederland vaak voor.",
+              "Dat is in Nederland verboden.",
+              "Dat mag alleen met toestemming van de gemeente."
+            ],
+            "en": [
+              "That is common in the Netherlands.",
+              "That is forbidden in the Netherlands.",
+              "That is only allowed with permission from the municipality."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Ongehuwd samenwonen komt in Nederland vaak voor.",
+            "en": "Living together unmarried is common in the Netherlands."
+          }
+        },
+        {
+          "id": "omgangsvormen-3-2",
+          "eindterm": "2.1.4",
+          "source": 0,
+          "prompt": {
+            "nl": "Mogen twee vrouwen in Nederland met elkaar trouwen?",
+            "en": "May two women marry each other in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Nee, alleen een man en een vrouw mogen trouwen.",
+              "Ja, dat is in de wet geregeld.",
+              "Alleen als ze in Amsterdam wonen."
+            ],
+            "en": [
+              "No, only a man and a woman may marry.",
+              "Yes, that is regulated by law.",
+              "Only if they live in Amsterdam."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In Nederland kunnen ook partners van gelijk geslacht trouwen of een geregistreerd partnerschap sluiten.",
+            "en": "In the Netherlands, partners of the same sex can also marry or enter into a registered partnership."
+          }
+        },
+        {
+          "id": "omgangsvormen-3-3",
+          "eindterm": "2.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat lijkt veel op een huwelijk?",
+            "en": "What is very similar to a marriage?"
+          },
+          "options": {
+            "nl": [
+              "Een huurcontract.",
+              "Een arbeidsovereenkomst.",
+              "Een geregistreerd partnerschap."
+            ],
+            "en": [
+              "A rental contract.",
+              "An employment contract.",
+              "A registered partnership."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Een huwelijk en een geregistreerd partnerschap lijken veel op elkaar. Er zijn maar een paar verschillen.",
+            "en": "A marriage and a registered partnership are very similar. There are only a few differences."
+          }
+        },
+        {
+          "id": "omgangsvormen-3-4",
+          "eindterm": "2.1.4",
+          "source": 1,
+          "prompt": {
+            "nl": "Welk verschil is er tussen een huwelijk en een geregistreerd partnerschap?",
+            "en": "What is a difference between a marriage and a registered partnership?"
+          },
+          "options": {
+            "nl": [
+              "Bij een huwelijk geef je elkaar het ja-woord.",
+              "Bij een partnerschap mag je geen kinderen krijgen.",
+              "Een partnerschap is niet in de wet geregeld."
+            ],
+            "en": [
+              "In a marriage you say 'I do' to each other.",
+              "In a partnership you may not have children.",
+              "A partnership is not regulated by law."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Bij een huwelijk geven partners elkaar het ja-woord; bij een geregistreerd partnerschap hoeft dat niet.",
+            "en": "In a marriage the partners say 'I do'; in a registered partnership that is not needed."
+          }
+        },
+        {
+          "id": "omgangsvormen-3-5",
+          "eindterm": "2.1.4",
+          "source": 2,
+          "prompt": {
+            "nl": "Ahmed en Lina wonen samen zonder te trouwen. Hoe kunnen ze afspraken over hun geld en spullen vastleggen?",
+            "en": "Ahmed and Lina live together without marrying. How can they put agreements about their money and belongings in writing?"
+          },
+          "options": {
+            "nl": [
+              "In een cao.",
+              "In een samenlevingscontract.",
+              "Bij de huisarts."
+            ],
+            "en": [
+              "In a collective labour agreement (cao).",
+              "In a cohabitation contract (samenlevingscontract).",
+              "At the GP."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Wie samenwoont zonder huwelijk of partnerschap, kan afspraken vastleggen in een samenlevingscontract.",
+            "en": "People who live together without marriage or partnership can put agreements in a cohabitation contract."
+          }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "handeling": [
+        "2.1"
+      ],
+      "title": {
+        "nl": "Feestdagen en gedenkdagen",
+        "en": "Holidays and days of remembrance"
+      },
+      "situation": {
+        "nl": "Het is 4 mei, acht uur 's avonds. Rania loopt op straat. Opeens blijven veel mensen staan en is het overal stil.",
+        "en": "It is 4 May, eight o'clock in the evening. Rania is walking in the street. Suddenly many people stop and everything goes quiet."
+      },
+      "body": {
+        "nl": [
+          "Nederland heeft officiële feestdagen. Dat zijn Nieuwjaarsdag (1 januari), Goede Vrijdag, Pasen, Koningsdag, Bevrijdingsdag (5 mei), Hemelvaartsdag, Pinksteren en Kerstmis (25 en 26 december). Op 31 december vieren veel mensen Oud en Nieuw.",
+          "Een feestdag is niet altijd een vrije dag. Of je vrij bent, staat in je cao of je arbeidscontract.",
+          "Op Koningsdag, 27 april, viert Nederland de verjaardag van de koning. Valt 27 april op een zondag? Dan is Koningsdag een dag eerder.",
+          "Op 4 mei herdenken we de slachtoffers van de Tweede Wereldoorlog en van latere oorlogen en vredesmissies. Om 20.00 uur is het overal twee minuten stil. Op 5 mei, Bevrijdingsdag, vieren we dat Nederland in 1945 bevrijd is.",
+          "Andere feesten zijn voor sommige groepen belangrijk. Met Sinterklaas, op 5 december, krijgen kinderen cadeautjes. Verder zijn er onder meer Carnaval, het Suikerfeest en Keti Koti. Op Keti Koti, 1 juli, herdenken en vieren mensen de afschaffing van de slavernij in Suriname en de Nederlandse Antillen in 1863."
+        ],
+        "en": [
+          "The Netherlands has official public holidays: New Year's Day (1 January), Good Friday, Easter, King's Day, Liberation Day (5 May), Ascension Day, Whitsun and Christmas (25 and 26 December). On 31 December many people celebrate New Year's Eve (Oud en Nieuw).",
+          "A public holiday is not always a day off. Whether you are free is in your collective labour agreement (cao) or your employment contract.",
+          "On King's Day, 27 April, the Netherlands celebrates the king's birthday. If 27 April falls on a Sunday, King's Day is a day earlier.",
+          "On 4 May we remember the victims of the Second World War and of later wars and peace missions. At 20:00 there are two minutes of silence everywhere. On 5 May, Liberation Day, we celebrate that the Netherlands was liberated in 1945.",
+          "Other celebrations matter to some groups. With Sinterklaas, on 5 December, children get presents. There are also Carnival, Eid al-Fitr (Suikerfeest) and Keti Koti, among others. On Keti Koti, 1 July, people remember and celebrate the abolition of slavery in Suriname and the Dutch Antilles in 1863."
+        ]
+      },
+      "remember": {
+        "nl": "Op 4 mei om 20.00 uur ben je twee minuten stil. Op 5 mei vieren we de vrijheid.",
+        "en": "On 4 May at 20:00 you keep two minutes of silence. On 5 May we celebrate freedom."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wanneer zijn de officiële feestdagen in Nederland?",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen"
+        },
+        {
+          "title": "Koninklijk Huis: Koningsdag",
+          "url": "https://www.koninklijkhuis.nl/onderwerpen/koningsdag"
+        },
+        {
+          "title": "Nationaal Comité 4 en 5 mei: veelgestelde vragen",
+          "url": "https://www.4en5mei.nl/faq"
+        },
+        {
+          "title": "Nederlands Jeugdinstituut: Ketikoti, wat is dat precies?",
+          "url": "https://www.nji.nl/kennis/diversiteit/ketikoti-wat-is-dat-precies"
+        },
+        {
+          "title": "The Hague International Centre: important dates and holidays",
+          "url": "https://www.thehagueinternationalcentre.nl/living-in-the-hague-region/social-life/important-dates-and-holidays-in-2026"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-4-1",
+          "eindterm": "2.1.5",
+          "source": 3,
+          "prompt": {
+            "nl": "Het is 4 mei, 20.00 uur. Wat gebeurt er in heel Nederland?",
+            "en": "It is 4 May, 20:00. What happens all over the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Er wordt vuurwerk afgestoken.",
+              "De winkels gaan open voor een feest.",
+              "Het is twee minuten stil."
+            ],
+            "en": [
+              "Fireworks are set off.",
+              "The shops open for a celebration.",
+              "There are two minutes of silence."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Op 4 mei om 20.00 uur is het overal twee minuten stil om de oorlogsslachtoffers te herdenken.",
+            "en": "On 4 May at 20:00 there are two minutes of silence everywhere to remember the war victims."
+          }
+        },
+        {
+          "id": "omgangsvormen-4-2",
+          "eindterm": "2.1.5",
+          "source": 0,
+          "prompt": {
+            "nl": "Wat viert Nederland op 5 mei?",
+            "en": "What does the Netherlands celebrate on 5 May?"
+          },
+          "options": {
+            "nl": [
+              "De bevrijding in 1945.",
+              "De verjaardag van de koning.",
+              "Het begin van de zomer."
+            ],
+            "en": [
+              "The liberation in 1945.",
+              "The king's birthday.",
+              "The start of summer."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op 5 mei, Bevrijdingsdag, vieren we dat Nederland in 1945 bevrijd is.",
+            "en": "On 5 May, Liberation Day, we celebrate that the Netherlands was liberated in 1945."
+          }
+        },
+        {
+          "id": "omgangsvormen-4-3",
+          "eindterm": "2.1.5",
+          "source": 2,
+          "prompt": {
+            "nl": "Wat vieren we op Koningsdag?",
+            "en": "What do we celebrate on King's Day?"
+          },
+          "options": {
+            "nl": [
+              "Het einde van de oorlog.",
+              "De verjaardag van de koning.",
+              "Het nieuwe jaar."
+            ],
+            "en": [
+              "The end of the war.",
+              "The king's birthday.",
+              "The new year."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Koningsdag is de nationale feestdag waarop de verjaardag van de koning wordt gevierd, op 27 april.",
+            "en": "King's Day is the national holiday on which the king's birthday is celebrated, on 27 April."
+          }
+        },
+        {
+          "id": "omgangsvormen-4-4",
+          "eindterm": "2.1.5",
+          "source": 4,
+          "prompt": {
+            "nl": "Wat herdenken en vieren mensen op Keti Koti, op 1 juli?",
+            "en": "What do people remember and celebrate on Keti Koti, 1 July?"
+          },
+          "options": {
+            "nl": [
+              "De afschaffing van de slavernij.",
+              "De bevrijding van 1945.",
+              "De verjaardag van de koning."
+            ],
+            "en": [
+              "The abolition of slavery.",
+              "The liberation of 1945.",
+              "The king's birthday."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Op Keti Koti staan mensen stil bij de afschaffing van de slavernij in Suriname en de Nederlandse Antillen in 1863.",
+            "en": "On Keti Koti people commemorate the abolition of slavery in Suriname and the Dutch Antilles in 1863."
+          }
+        },
+        {
+          "id": "omgangsvormen-4-5",
+          "eindterm": "2.1.5",
+          "source": 1,
+          "prompt": {
+            "nl": "Is een officiële feestdag altijd een vrije dag voor werknemers?",
+            "en": "Is an official public holiday always a day off for employees?"
+          },
+          "options": {
+            "nl": [
+              "Ja, dat staat in de wet.",
+              "Ja, maar alleen voor mensen die bij de overheid werken.",
+              "Nee, dat staat in je cao of je contract."
+            ],
+            "en": [
+              "Yes, that is in the law.",
+              "Yes, but only for people who work for the government.",
+              "No, that is in your cao or your contract."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Er is geen wet die zegt dat een feestdag een vrije dag is. Dat regelen de cao of het arbeidscontract.",
+            "en": "No law says a public holiday is a day off. The cao or the employment contract settles that."
+          }
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "handeling": [
+        "2.2"
+      ],
+      "title": {
+        "nl": "Verenigingen en vrijwilligerswerk",
+        "en": "Clubs and volunteering"
+      },
+      "situation": {
+        "nl": "Kofi woont net in een nieuwe stad. Hij kent nog bijna niemand en wil graag mensen leren kennen.",
+        "en": "Kofi has just moved to a new town. He hardly knows anyone yet and would like to meet people."
+      },
+      "body": {
+        "nl": [
+          "In Nederland zijn veel verenigingen en organisaties actief. Denk aan sportclubs, muziekverenigingen, buurthuizen en organisaties die mensen helpen.",
+          "Vrijwilligerswerk is werk dat je doet zonder betaling en zonder dat het verplicht is. Je doet het voor anderen of voor de samenleving. Bijvoorbeeld voor iemand die eenzaam is, voor een sportclub of voor een dierenasiel.",
+          "Lid worden van een vereniging of vrijwilligerswerk doen helpt je om mensen te leren kennen. Zo bouw je een sociaal netwerk op.",
+          "Vrijwilligerswerk vind je bij je gemeente, bij een vrijwilligerscentrale of bij de organisatie waar je wilt helpen."
+        ],
+        "en": [
+          "Many clubs and organisations are active in the Netherlands. Think of sports clubs, music societies, community centres and organisations that help people.",
+          "Volunteering is work you do without pay and without being obliged to. You do it for others or for society. For example for someone who is lonely, for a sports club or for an animal shelter.",
+          "Joining a club or volunteering helps you to meet people. That is how you build a social network.",
+          "You can find volunteer work through your municipality, a volunteer centre or the organisation where you want to help."
+        ]
+      },
+      "remember": {
+        "nl": "Word lid van een vereniging of doe vrijwilligerswerk: zo leer je mensen kennen.",
+        "en": "Join a club or do volunteer work: that is how you meet people."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: wat valt er onder vrijwilligerswerk?",
+          "url": "https://www.rijksoverheid.nl/themas/werk/vrijwilligerswerk/vraag-en-antwoord/vrijwilligerswerk/wat-is-vrijwilligerswerk"
+        },
+        {
+          "title": "Rijksoverheid: hoe vind ik vrijwilligerswerk?",
+          "url": "https://www.rijksoverheid.nl/themas/werk/vrijwilligerswerk/vraag-en-antwoord/vrijwilligerswerk/hoe-vind-ik-vrijwilligerswerk"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-5-1",
+          "eindterm": "2.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Kofi wil in zijn nieuwe stad mensen leren kennen. Wat kan helpen?",
+            "en": "Kofi wants to meet people in his new town. What can help?"
+          },
+          "options": {
+            "nl": [
+              "Lid worden van een vereniging of vrijwilligerswerk doen.",
+              "Wachten tot de gemeente hem uitnodigt.",
+              "Alleen online met zijn oude vrienden praten."
+            ],
+            "en": [
+              "Joining a club or doing volunteer work.",
+              "Waiting until the municipality invites him.",
+              "Only chatting online with his old friends."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Vrijwilligerswerk en actief zijn bij verenigingen helpen om een sociaal netwerk op te bouwen.",
+            "en": "Volunteering and being active in clubs help to build a social network."
+          }
+        },
+        {
+          "id": "omgangsvormen-5-2",
+          "eindterm": "2.2.1",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat is vrijwilligerswerk?",
+            "en": "What is volunteer work?"
+          },
+          "options": {
+            "nl": [
+              "Werk via een uitzendbureau.",
+              "Werk dat je onbetaald en onverplicht doet voor anderen.",
+              "Werk dat de rechter je oplegt."
+            ],
+            "en": [
+              "Work through an employment agency.",
+              "Work you do unpaid and of your own free will for others.",
+              "Work a judge orders you to do."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Vrijwilligerswerk doe je onbetaald en onverplicht, voor anderen of voor de samenleving.",
+            "en": "You do volunteer work unpaid and voluntarily, for others or for society."
+          }
+        },
+        {
+          "id": "omgangsvormen-5-3",
+          "eindterm": "2.2.1",
+          "source": 2,
+          "prompt": {
+            "nl": "Waar kun je vrijwilligerswerk vinden?",
+            "en": "Where can you find volunteer work?"
+          },
+          "options": {
+            "nl": [
+              "Bij de Belastingdienst.",
+              "Alleen bij de politie.",
+              "Bij de gemeente of een vrijwilligerscentrale."
+            ],
+            "en": [
+              "At the Tax Administration.",
+              "Only at the police.",
+              "At the municipality or a volunteer centre."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Informeer bij je gemeente, een vrijwilligerscentrale of de organisatie waar je wilt helpen.",
+            "en": "Ask your municipality, a volunteer centre or the organisation where you want to help."
+          }
+        },
+        {
+          "id": "omgangsvormen-5-4",
+          "eindterm": "2.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Welke van deze is een vereniging?",
+            "en": "Which of these is a club (vereniging)?"
+          },
+          "options": {
+            "nl": [
+              "Een voetbalclub.",
+              "Het UWV.",
+              "De gemeente."
+            ],
+            "en": [
+              "A football club.",
+              "The UWV.",
+              "The municipality."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een sportclub, zoals een voetbalclub, is een vereniging. Het UWV en de gemeente zijn instanties van de overheid.",
+            "en": "A sports club, such as a football club, is a club. The UWV and the municipality are government bodies."
+          }
+        },
+        {
+          "id": "omgangsvormen-5-5",
+          "eindterm": "2.2.1",
+          "source": 0,
+          "prompt": {
+            "nl": "Wat levert actief zijn bij een vereniging je vooral op?",
+            "en": "What does being active in a club mainly give you?"
+          },
+          "options": {
+            "nl": [
+              "Een hogere uitkering.",
+              "Een verblijfsvergunning.",
+              "Nieuwe contacten en een sociaal netwerk."
+            ],
+            "en": [
+              "A higher benefit.",
+              "A residence permit.",
+              "New contacts and a social network."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Via verenigingen en vrijwilligerswerk leer je mensen kennen en bouw je een netwerk op.",
+            "en": "Through clubs and volunteering you meet people and build a network."
+          }
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "handeling": [
+        "2.2"
+      ],
+      "title": {
+        "nl": "Verjaardag, geboorte, bruiloft en overlijden",
+        "en": "Birthdays, births, weddings and deaths"
+      },
+      "situation": {
+        "nl": "De dochter van Maria's buurvrouw wordt tien jaar. Maria is uitgenodigd op het verjaardagsfeest.",
+        "en": "The daughter of Maria's neighbour turns ten. Maria is invited to the birthday party."
+      },
+      "body": {
+        "nl": [
+          "Op een verjaardag feliciteer je de jarige. In Nederland feliciteer je vaak ook de familie en andere gasten: 'Gefeliciteerd met je dochter!'",
+          "Na de geboorte van een baby krijg je vaak een kaartje. Daarna kun je op kraambezoek gaan om de baby te zien. Bel liever eerst even. Op kraambezoek krijg je vaak beschuit met muisjes: blauw voor een jongen, roze voor een meisje.",
+          "Is iemand geslaagd voor een examen? Dan feliciteer je hem of haar.",
+          "Een huwelijk wordt officieel gesloten bij de gemeente. Sommige mensen hebben daarnaast een religieuze ceremonie.",
+          "Overlijdt iemand? Dan plaatst de familie vaak een bericht in de krant of stuurt een rouwkaart. Na de uitvaart is er vaak koffie en cake. Je kunt de familie dan condoleren."
+        ],
+        "en": [
+          "At a birthday you congratulate the person whose birthday it is. In the Netherlands you often also congratulate the family and other guests: 'Congratulations on your daughter!'",
+          "After a baby is born you often get a card. Then you can visit to see the baby (kraambezoek). It is better to call first. On such a visit you are often given rusk with aniseed sprinkles (beschuit met muisjes): blue for a boy, pink for a girl.",
+          "Has someone passed an exam? Then you congratulate them.",
+          "A marriage is officially concluded at the municipality. Some people also have a religious ceremony.",
+          "When someone dies, the family often places a notice in the newspaper or sends a mourning card. After the funeral there is often coffee and cake. You can then offer your condolences to the family (condoleren)."
+        ]
+      },
+      "remember": {
+        "nl": "Feliciteer op een verjaardag ook de familie, en bel eerst voordat je op kraambezoek gaat.",
+        "en": "At a birthday, congratulate the family too, and call first before you visit a new baby."
+      },
+      "sources": [
+        {
+          "title": "Eindtermen KNM (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "The Hague International Centre (gemeente Den Haag): births, deaths and marriages",
+          "url": "https://www.thehagueinternationalcentre.nl/births-deaths-and-marriages"
+        },
+        {
+          "title": "The Hague International Centre (gemeente Den Haag): cultural do's and don'ts",
+          "url": "https://www.thehagueinternationalcentre.nl/why-the-hague-region/the-netherlands-in-a-nutshell/cultural-dos-and-donts"
+        }
+      ],
+      "checked": "2026-11-14",
+      "quiz": [
+        {
+          "id": "omgangsvormen-6-1",
+          "eindterm": "2.2.2",
+          "source": 2,
+          "prompt": {
+            "nl": "Je bent op de verjaardag van je buurvrouw. Haar man staat naast haar. Wat zeg je vaak tegen hem?",
+            "en": "You are at your neighbour's birthday. Her husband is next to her. What do you often say to him?"
+          },
+          "options": {
+            "nl": [
+              "'Gecondoleerd.'",
+              "'Gefeliciteerd met je vrouw!'",
+              "'Fijne feestdagen.'"
+            ],
+            "en": [
+              "'My condolences.'",
+              "'Congratulations on your wife!'",
+              "'Happy holidays.'"
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "In Nederland feliciteer je op een verjaardag niet alleen de jarige, maar ook de familie.",
+            "en": "In the Netherlands you congratulate not only the person whose birthday it is, but also the family."
+          }
+        },
+        {
+          "id": "omgangsvormen-6-2",
+          "eindterm": "2.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Je collega heeft een baby gekregen. Je wilt de baby gaan zien. Wat is netjes?",
+            "en": "Your colleague has had a baby. You want to go and see the baby. What is polite?"
+          },
+          "options": {
+            "nl": [
+              "Eerst even bellen of het uitkomt.",
+              "Midden in de nacht langsgaan.",
+              "Zonder iets te zeggen een week lang elke dag langsgaan."
+            ],
+            "en": [
+              "Call first to ask if it suits them.",
+              "Drop by in the middle of the night.",
+              "Drop by every day for a week without saying anything."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Het is beleefd om eerst te bellen voordat je op kraambezoek gaat.",
+            "en": "It is polite to call before you visit a new baby."
+          }
+        },
+        {
+          "id": "omgangsvormen-6-3",
+          "eindterm": "2.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Wat krijg je vaak als je op kraambezoek gaat?",
+            "en": "What are you often given when you visit a new baby?"
+          },
+          "options": {
+            "nl": [
+              "Oliebollen.",
+              "Pepernoten.",
+              "Beschuit met muisjes."
+            ],
+            "en": [
+              "Oliebollen (doughnut balls).",
+              "Pepernoten (spiced biscuits).",
+              "Rusk with aniseed sprinkles (beschuit met muisjes)."
+            ]
+          },
+          "answer": 2,
+          "explanation": {
+            "nl": "Op kraambezoek krijg je vaak beschuit met muisjes: blauw voor een jongen, roze voor een meisje.",
+            "en": "On a visit to a new baby you are often given beschuit met muisjes: blue for a boy, pink for a girl."
+          }
+        },
+        {
+          "id": "omgangsvormen-6-4",
+          "eindterm": "2.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "Waar wordt een huwelijk in Nederland officieel gesloten?",
+            "en": "Where is a marriage officially concluded in the Netherlands?"
+          },
+          "options": {
+            "nl": [
+              "Bij de gemeente.",
+              "Bij de politie.",
+              "Bij de huisarts."
+            ],
+            "en": [
+              "At the municipality.",
+              "At the police.",
+              "At the GP."
+            ]
+          },
+          "answer": 0,
+          "explanation": {
+            "nl": "Een huwelijk wordt officieel gesloten bij de gemeente. Een religieuze ceremonie kan daarnaast.",
+            "en": "A marriage is officially concluded at the municipality. A religious ceremony can be held as well."
+          }
+        },
+        {
+          "id": "omgangsvormen-6-5",
+          "eindterm": "2.2.2",
+          "source": 1,
+          "prompt": {
+            "nl": "De vader van je collega is overleden. Wat is gebruikelijk?",
+            "en": "Your colleague's father has died. What is usual?"
+          },
+          "options": {
+            "nl": [
+              "Je feliciteert je collega.",
+              "Je condoleert je collega, bijvoorbeeld met een kaart.",
+              "Je zegt er niets over."
+            ],
+            "en": [
+              "You congratulate your colleague.",
+              "You offer your colleague condolences, for example with a card.",
+              "You say nothing about it."
+            ]
+          },
+          "answer": 1,
+          "explanation": {
+            "nl": "Bij een overlijden condoleer je de familie, bijvoorbeeld met een kaart of na de uitvaart.",
+            "en": "When someone dies you offer the family your condolences, for example with a card or after the funeral."
+          }
+        }
+      ]
+    }
+  ]
+}

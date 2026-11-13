@@ -1,7 +1,10 @@
 {
   "id": "werk-en-inkomen",
   "n": 1,
-  "title": { "nl": "Werk en inkomen", "en": "Work and income" },
+  "title": {
+    "nl": "Werk en inkomen",
+    "en": "Work and income"
+  },
   "lead": {
     "nl": "In Nederland verwacht men dat je zelf zoveel mogelijk je eigen inkomen verdient. In dit thema leer je hoe je werk zoekt, wat er in je contract staat, wat je doet als je geen werk hebt, wat je kunt doen tegen discriminatie en hoe je een eigen bedrijf begint.",
     "en": "In the Netherlands you are expected to earn your own income as far as you can. In this theme you learn how to look for work, what is in your contract, what to do when you have no work, what you can do about discrimination and how to start your own business."
@@ -9,8 +12,13 @@
   "lessons": [
     {
       "n": 1,
-      "handeling": ["1.1"],
-      "title": { "nl": "Werk zoeken en solliciteren", "en": "Looking for work and applying" },
+      "handeling": [
+        "1.1"
+      ],
+      "title": {
+        "nl": "Werk zoeken en solliciteren",
+        "en": "Looking for work and applying"
+      },
       "situation": {
         "nl": "Samira wil graag werken in een supermarkt. Ze weet nog niet hoe ze een vacature vindt.",
         "en": "Samira would like to work in a supermarket. She does not yet know how to find a vacancy."
@@ -34,17 +42,40 @@
         "en": "Search in three ways at once: online, through an employment agency and through your own network. Prepare every interview and ask questions yourself too."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "werk.nl (UWV)", "url": "https://www.werk.nl/" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "werk.nl (UWV)",
+          "url": "https://www.werk.nl/"
+        },
+        {
+          "title": "UWV: uitzendwerk als nieuwe loopbaanstap",
+          "url": "https://www.uwv.nl/nl/ervaringsverhalen/uitzendwerk-kan-nieuwe-stap-loopbaan-zijn"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-1-1",
           "eindterm": "1.1.2",
-          "prompt": { "nl": "Wat doet een uitzendbureau?", "en": "What does an employment agency (uitzendbureau) do?" },
+          "source": 2,
+          "prompt": {
+            "nl": "Wat doet een uitzendbureau?",
+            "en": "What does an employment agency (uitzendbureau) do?"
+          },
           "options": {
-            "nl": ["Het zoekt werk voor jou bij een bedrijf.", "Het betaalt je uitkering.", "Het controleert je diploma."],
-            "en": ["It finds work for you at a company.", "It pays your benefit.", "It checks your diploma."]
+            "nl": [
+              "Het zoekt werk voor jou bij een bedrijf.",
+              "Het betaalt je uitkering.",
+              "Het controleert je diploma."
+            ],
+            "en": [
+              "It finds work for you at a company.",
+              "It pays your benefit.",
+              "It checks your diploma."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -55,10 +86,22 @@
         {
           "id": "werk-en-inkomen-1-2",
           "eindterm": "1.1.2",
-          "prompt": { "nl": "Wat stuur je meestal mee als je solliciteert?", "en": "What do you usually send when you apply for a job?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat stuur je meestal mee als je solliciteert?",
+            "en": "What do you usually send when you apply for a job?"
+          },
           "options": {
-            "nl": ["Je paspoort en je bankpas.", "Een cv en een sollicitatiebrief.", "Je huurcontract."],
-            "en": ["Your passport and your bank card.", "A CV and a cover letter.", "Your rental contract."]
+            "nl": [
+              "Je paspoort en je bankpas.",
+              "Een cv en een sollicitatiebrief.",
+              "Je huurcontract."
+            ],
+            "en": [
+              "Your passport and your bank card.",
+              "A CV and a cover letter.",
+              "Your rental contract."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -69,10 +112,22 @@
         {
           "id": "werk-en-inkomen-1-3",
           "eindterm": "1.1.2",
-          "prompt": { "nl": "Wat is je eigen netwerk?", "en": "What is your own network?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat is je eigen netwerk?",
+            "en": "What is your own network?"
+          },
           "options": {
-            "nl": ["Je internetverbinding thuis.", "De mensen die je kent, zoals familie, vrienden en buren.", "Een website met vacatures."],
-            "en": ["Your internet connection at home.", "The people you know, such as family, friends and neighbours.", "A website with vacancies."]
+            "nl": [
+              "Je internetverbinding thuis.",
+              "De mensen die je kent, zoals familie, vrienden en buren.",
+              "Een website met vacatures."
+            ],
+            "en": [
+              "Your internet connection at home.",
+              "The people you know, such as family, friends and neighbours.",
+              "A website with vacancies."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -83,10 +138,22 @@
         {
           "id": "werk-en-inkomen-1-4",
           "eindterm": "1.1.2",
-          "prompt": { "nl": "Je hebt een sollicitatiegesprek. Wat vinden werkgevers meestal goed?", "en": "You have a job interview. What do employers usually appreciate?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Je hebt een sollicitatiegesprek. Wat vinden werkgevers meestal goed?",
+            "en": "You have a job interview. What do employers usually appreciate?"
+          },
           "options": {
-            "nl": ["Dat je niets vraagt.", "Dat je zonder voorbereiding komt.", "Dat je zelf een paar vragen stelt over het werk."],
-            "en": ["That you ask nothing.", "That you come without preparing.", "That you ask a few questions about the work yourself."]
+            "nl": [
+              "Dat je niets vraagt.",
+              "Dat je zonder voorbereiding komt.",
+              "Dat je zelf een paar vragen stelt over het werk."
+            ],
+            "en": [
+              "That you ask nothing.",
+              "That you come without preparing.",
+              "That you ask a few questions about the work yourself."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -97,10 +164,22 @@
         {
           "id": "werk-en-inkomen-1-5",
           "eindterm": "1.1.6",
-          "prompt": { "nl": "Mag een werkgever eisen stellen aan je Nederlands?", "en": "May an employer set requirements for your Dutch?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Mag een werkgever eisen stellen aan je Nederlands?",
+            "en": "May an employer set requirements for your Dutch?"
+          },
           "options": {
-            "nl": ["Ja, een werkgever mag eisen stellen aan je taal.", "Nee, dat is altijd discriminatie.", "Alleen als je bij de overheid werkt."],
-            "en": ["Yes, an employer may set language requirements.", "No, that is always discrimination.", "Only if you work for the government."]
+            "nl": [
+              "Ja, een werkgever mag eisen stellen aan je taal.",
+              "Nee, dat is altijd discriminatie.",
+              "Alleen als je bij de overheid werkt."
+            ],
+            "en": [
+              "Yes, an employer may set language requirements.",
+              "No, that is always discrimination.",
+              "Only if you work for the government."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -112,8 +191,13 @@
     },
     {
       "n": 2,
-      "handeling": ["1.1"],
-      "title": { "nl": "Je kansen, je diploma en scholing", "en": "Your chances, your diploma and training" },
+      "handeling": [
+        "1.1"
+      ],
+      "title": {
+        "nl": "Je kansen, je diploma en scholing",
+        "en": "Your chances, your diploma and training"
+      },
       "situation": {
         "nl": "Yonas was in zijn eigen land elektricien. Hij wil weten of zijn diploma in Nederland iets waard is.",
         "en": "Yonas was an electrician in his own country. He wants to know whether his diploma is worth something in the Netherlands."
@@ -137,17 +221,36 @@
         "en": "Have a foreign diploma evaluated by IDW, and keep learning: language, education and experience together increase your chance of work."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "Internationale Diplomawaardering (IDW)", "url": "https://www.idw.nl/" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Internationale Diplomawaardering (IDW)",
+          "url": "https://www.idw.nl/"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-2-1",
           "eindterm": "1.1.4",
-          "prompt": { "nl": "Waar laat je uitzoeken wat je buitenlandse diploma waard is in Nederland?", "en": "Where can you have the value of your foreign diploma in the Netherlands assessed?" },
+          "source": 1,
+          "prompt": {
+            "nl": "Waar laat je uitzoeken wat je buitenlandse diploma waard is in Nederland?",
+            "en": "Where can you have the value of your foreign diploma in the Netherlands assessed?"
+          },
           "options": {
-            "nl": ["Bij de Belastingdienst.", "Bij de Internationale Diplomawaardering (IDW).", "Bij de huisarts."],
-            "en": ["At the Tax Administration.", "At the International Diploma Evaluation service (IDW).", "At the GP."]
+            "nl": [
+              "Bij de Belastingdienst.",
+              "Bij de Internationale Diplomawaardering (IDW).",
+              "Bij de huisarts."
+            ],
+            "en": [
+              "At the Tax Administration.",
+              "At the International Diploma Evaluation service (IDW).",
+              "At the GP."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -158,10 +261,22 @@
         {
           "id": "werk-en-inkomen-2-2",
           "eindterm": "1.1.3",
-          "prompt": { "nl": "Wat beïnvloedt je kans op werk?", "en": "What affects your chance of finding work?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat beïnvloedt je kans op werk?",
+            "en": "What affects your chance of finding work?"
+          },
           "options": {
-            "nl": ["Alleen je leeftijd.", "Alleen waar je woont.", "Onder meer je opleiding, je werkervaring en je Nederlands."],
-            "en": ["Only your age.", "Only where you live.", "Among other things your education, work experience and Dutch."]
+            "nl": [
+              "Alleen je leeftijd.",
+              "Alleen waar je woont.",
+              "Onder meer je opleiding, je werkervaring en je Nederlands."
+            ],
+            "en": [
+              "Only your age.",
+              "Only where you live.",
+              "Among other things your education, work experience and Dutch."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -172,10 +287,22 @@
         {
           "id": "werk-en-inkomen-2-3",
           "eindterm": "1.1.5",
-          "prompt": { "nl": "Waarom is bijscholing belangrijk?", "en": "Why is further training important?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom is bijscholing belangrijk?",
+            "en": "Why is further training important?"
+          },
           "options": {
-            "nl": ["Het vergroot je kansen op de arbeidsmarkt.", "Het is verplicht voor iedereen boven de 40.", "Je krijgt er altijd meer salaris door."],
-            "en": ["It increases your chances on the labour market.", "It is compulsory for everyone over 40.", "It always gets you a higher salary."]
+            "nl": [
+              "Het vergroot je kansen op de arbeidsmarkt.",
+              "Het is verplicht voor iedereen boven de 40.",
+              "Je krijgt er altijd meer salaris door."
+            ],
+            "en": [
+              "It increases your chances on the labour market.",
+              "It is compulsory for everyone over 40.",
+              "It always gets you a higher salary."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -186,10 +313,22 @@
         {
           "id": "werk-en-inkomen-2-4",
           "eindterm": "1.1.1",
-          "prompt": { "nl": "Waarmee kunnen inburgeraars zich voorbereiden op werk?", "en": "What can people doing civic integration use to prepare for work?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Waarmee kunnen inburgeraars zich voorbereiden op werk?",
+            "en": "What can people doing civic integration use to prepare for work?"
+          },
           "options": {
-            "nl": ["Met een rijbewijs.", "Met de Module Arbeidsmarkt en Participatie (MAP) of scholing.", "Met een zorgverzekering."],
-            "en": ["With a driving licence.", "With the Labour Market and Participation Module (MAP) or training.", "With health insurance."]
+            "nl": [
+              "Met een rijbewijs.",
+              "Met de Module Arbeidsmarkt en Participatie (MAP) of scholing.",
+              "Met een zorgverzekering."
+            ],
+            "en": [
+              "With a driving licence.",
+              "With the Labour Market and Participation Module (MAP) or training.",
+              "With health insurance."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -200,10 +339,22 @@
         {
           "id": "werk-en-inkomen-2-5",
           "eindterm": "1.1.1",
-          "prompt": { "nl": "Wie moet zich inspannen om een inkomen te verdienen?", "en": "Who has to make an effort to earn an income?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wie moet zich inspannen om een inkomen te verdienen?",
+            "en": "Who has to make an effort to earn an income?"
+          },
           "options": {
-            "nl": ["Alleen de gemeente.", "Alleen je partner.", "Jij zelf."],
-            "en": ["Only the municipality.", "Only your partner.", "You yourself."]
+            "nl": [
+              "Alleen de gemeente.",
+              "Alleen je partner.",
+              "Jij zelf."
+            ],
+            "en": [
+              "Only the municipality.",
+              "Only your partner.",
+              "You yourself."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -215,8 +366,13 @@
     },
     {
       "n": 3,
-      "handeling": ["1.1"],
-      "title": { "nl": "Geen werk: UWV of gemeente", "en": "No work: UWV or the municipality" },
+      "handeling": [
+        "1.1"
+      ],
+      "title": {
+        "nl": "Geen werk: UWV of gemeente",
+        "en": "No work: UWV or the municipality"
+      },
       "situation": {
         "nl": "Karim heeft twee jaar in een fabriek gewerkt. Zijn contract stopt. Hij weet niet waar hij hulp moet vragen.",
         "en": "Karim has worked in a factory for two years. His contract is ending. He does not know where to ask for help."
@@ -240,18 +396,40 @@
         "en": "Worked before: go to UWV. Not yet worked: go to the municipality. Do it straight away, and always report changes in your income."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "UWV: WW-uitkering", "url": "https://www.uwv.nl/nl/ww" },
-        { "title": "Rijksoverheid: bijstand", "url": "https://www.rijksoverheid.nl/onderwerpen/bijstand" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "UWV: WW-uitkering",
+          "url": "https://www.uwv.nl/nl/ww"
+        },
+        {
+          "title": "Rijksoverheid: bijstand",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/bijstand"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-3-1",
           "eindterm": "1.1.7",
-          "prompt": { "nl": "Karim heeft twee jaar gewerkt en wordt werkloos. Waar gaat hij direct naartoe?", "en": "Karim has worked for two years and becomes unemployed. Where does he go straight away?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Karim heeft twee jaar gewerkt en wordt werkloos. Waar gaat hij direct naartoe?",
+            "en": "Karim has worked for two years and becomes unemployed. Where does he go straight away?"
+          },
           "options": {
-            "nl": ["Naar het UWV.", "Naar de Kamer van Koophandel.", "Naar de huisarts."],
-            "en": ["To UWV.", "To the Chamber of Commerce.", "To the GP."]
+            "nl": [
+              "Naar het UWV.",
+              "Naar de Kamer van Koophandel.",
+              "Naar de huisarts."
+            ],
+            "en": [
+              "To UWV.",
+              "To the Chamber of Commerce.",
+              "To the GP."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -262,10 +440,22 @@
         {
           "id": "werk-en-inkomen-3-2",
           "eindterm": "1.1.7",
-          "prompt": { "nl": "Lina heeft nog nooit in Nederland gewerkt en heeft geen inkomen. Waar vraagt ze hulp?", "en": "Lina has never worked in the Netherlands and has no income. Where does she ask for help?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Lina heeft nog nooit in Nederland gewerkt en heeft geen inkomen. Waar vraagt ze hulp?",
+            "en": "Lina has never worked in the Netherlands and has no income. Where does she ask for help?"
+          },
           "options": {
-            "nl": ["Bij het UWV.", "Bij de gemeente.", "Bij de werkgever van haar buurman."],
-            "en": ["At UWV.", "At the municipality.", "At her neighbour's employer."]
+            "nl": [
+              "Bij het UWV.",
+              "Bij de gemeente.",
+              "Bij de werkgever van haar buurman."
+            ],
+            "en": [
+              "At UWV.",
+              "At the municipality.",
+              "At her neighbour's employer."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -276,10 +466,22 @@
         {
           "id": "werk-en-inkomen-3-3",
           "eindterm": "1.1.8",
-          "prompt": { "nl": "Je hebt een uitkering en je krijgt werk aangeboden. Wat geldt in principe?", "en": "You receive a benefit and you are offered work. What applies in principle?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Je hebt een uitkering en je krijgt werk aangeboden. Wat geldt in principe?",
+            "en": "You receive a benefit and you are offered work. What applies in principle?"
+          },
           "options": {
-            "nl": ["Je mag het altijd weigeren.", "Je moet het werk aannemen.", "Je moet eerst je uitkering stoppen."],
-            "en": ["You can always refuse it.", "You must accept the work.", "You must first stop your benefit."]
+            "nl": [
+              "Je mag het altijd weigeren.",
+              "Je moet het werk aannemen.",
+              "Je moet eerst je uitkering stoppen."
+            ],
+            "en": [
+              "You can always refuse it.",
+              "You must accept the work.",
+              "You must first stop your benefit."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -290,10 +492,22 @@
         {
           "id": "werk-en-inkomen-3-4",
           "eindterm": "1.1.8",
-          "prompt": { "nl": "Je krijgt bijstand en je gaat een paar uur per week werken. Wat doe je?", "en": "You receive social assistance and start working a few hours a week. What do you do?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Je krijgt bijstand en je gaat een paar uur per week werken. Wat doe je?",
+            "en": "You receive social assistance and start working a few hours a week. What do you do?"
+          },
           "options": {
-            "nl": ["Niets, een paar uur maakt niet uit.", "Je geeft het door, want je inkomen verandert.", "Je wacht tot het einde van het jaar."],
-            "en": ["Nothing, a few hours do not matter.", "You report it, because your income changes.", "You wait until the end of the year."]
+            "nl": [
+              "Niets, een paar uur maakt niet uit.",
+              "Je geeft het door, want je inkomen verandert.",
+              "Je wacht tot het einde van het jaar."
+            ],
+            "en": [
+              "Nothing, a few hours do not matter.",
+              "You report it, because your income changes.",
+              "You wait until the end of the year."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -304,10 +518,22 @@
         {
           "id": "werk-en-inkomen-3-5",
           "eindterm": "1.1.7",
-          "prompt": { "nl": "Wat is de bijstand?", "en": "What is social assistance (bijstand)?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat is de bijstand?",
+            "en": "What is social assistance (bijstand)?"
+          },
           "options": {
-            "nl": ["Een vangnet voor mensen die ondanks hun inspanningen geen inkomen hebben.", "Een extra salaris voor iedereen.", "Een verzekering die je zelf afsluit."],
-            "en": ["A safety net for people who have no income despite their efforts.", "An extra salary for everyone.", "An insurance you take out yourself."]
+            "nl": [
+              "Een vangnet voor mensen die ondanks hun inspanningen geen inkomen hebben.",
+              "Een extra salaris voor iedereen.",
+              "Een verzekering die je zelf afsluit."
+            ],
+            "en": [
+              "A safety net for people who have no income despite their efforts.",
+              "An extra salary for everyone.",
+              "An insurance you take out yourself."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -319,8 +545,13 @@
     },
     {
       "n": 4,
-      "handeling": ["1.2"],
-      "title": { "nl": "Je arbeidscontract", "en": "Your employment contract" },
+      "handeling": [
+        "1.2"
+      ],
+      "title": {
+        "nl": "Je arbeidscontract",
+        "en": "Your employment contract"
+      },
       "situation": {
         "nl": "Ahmed heeft een baan gevonden in een magazijn. Hij krijgt een contract om te tekenen.",
         "en": "Ahmed has found a job in a warehouse. He gets a contract to sign."
@@ -344,17 +575,40 @@
         "en": "Read your contract before you sign: it contains your rights and duties. Also check whether there is a cao for your sector."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "Rijksoverheid: arbeidsovereenkomst en cao", "url": "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: arbeidsovereenkomst en cao",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao"
+        },
+        {
+          "title": "Rijksoverheid: wat is een cao?",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/wat-is-een-cao"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-4-1",
           "eindterm": "1.2.1",
-          "prompt": { "nl": "Wat staat er in een arbeidsovereenkomst?", "en": "What is in an employment contract?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat staat er in een arbeidsovereenkomst?",
+            "en": "What is in an employment contract?"
+          },
           "options": {
-            "nl": ["De rechten en plichten van werknemer en werkgever.", "Alleen het adres van het bedrijf.", "Je medische gegevens."],
-            "en": ["The rights and duties of employee and employer.", "Only the company's address.", "Your medical details."]
+            "nl": [
+              "De rechten en plichten van werknemer en werkgever.",
+              "Alleen het adres van het bedrijf.",
+              "Je medische gegevens."
+            ],
+            "en": [
+              "The rights and duties of employee and employer.",
+              "Only the company's address.",
+              "Your medical details."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -365,10 +619,22 @@
         {
           "id": "werk-en-inkomen-4-2",
           "eindterm": "1.2.1",
-          "prompt": { "nl": "Wat is een cao?", "en": "What is a cao?" },
+          "source": 2,
+          "prompt": {
+            "nl": "Wat is een cao?",
+            "en": "What is a cao?"
+          },
           "options": {
-            "nl": ["Een boete van de werkgever.", "Afspraken over arbeidsvoorwaarden voor alle werknemers in een sector.", "Een cursus voor nieuwe werknemers."],
-            "en": ["A fine from the employer.", "Agreements on working conditions for all employees in a sector.", "A course for new employees."]
+            "nl": [
+              "Een boete van de werkgever.",
+              "Afspraken over arbeidsvoorwaarden voor alle werknemers in een sector.",
+              "Een cursus voor nieuwe werknemers."
+            ],
+            "en": [
+              "A fine from the employer.",
+              "Agreements on working conditions for all employees in a sector.",
+              "A course for new employees."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -379,10 +645,22 @@
         {
           "id": "werk-en-inkomen-4-3",
           "eindterm": "1.2.1",
-          "prompt": { "nl": "Er is een cao in jouw sector. Mag je toch zelf met je werkgever onderhandelen?", "en": "There is a cao in your sector. May you still negotiate with your employer yourself?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Er is een cao in jouw sector. Mag je toch zelf met je werkgever onderhandelen?",
+            "en": "There is a cao in your sector. May you still negotiate with your employer yourself?"
+          },
           "options": {
-            "nl": ["Nee, dat is verboden.", "Alleen als je een vast contract hebt.", "Ja, dat mag."],
-            "en": ["No, that is forbidden.", "Only if you have a permanent contract.", "Yes, you may."]
+            "nl": [
+              "Nee, dat is verboden.",
+              "Alleen als je een vast contract hebt.",
+              "Ja, dat mag."
+            ],
+            "en": [
+              "No, that is forbidden.",
+              "Only if you have a permanent contract.",
+              "Yes, you may."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -393,10 +671,22 @@
         {
           "id": "werk-en-inkomen-4-4",
           "eindterm": "1.2.1",
-          "prompt": { "nl": "Welke soort contract bestaat in Nederland?", "en": "Which kind of contract exists in the Netherlands?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Welke soort contract bestaat in Nederland?",
+            "en": "Which kind of contract exists in the Netherlands?"
+          },
           "options": {
-            "nl": ["Alleen vaste contracten.", "Vast, tijdelijk en via een uitzendbureau.", "Alleen contracten voor een jaar."],
-            "en": ["Only permanent contracts.", "Permanent, temporary and through an employment agency.", "Only one-year contracts."]
+            "nl": [
+              "Alleen vaste contracten.",
+              "Vast, tijdelijk en via een uitzendbureau.",
+              "Alleen contracten voor een jaar."
+            ],
+            "en": [
+              "Only permanent contracts.",
+              "Permanent, temporary and through an employment agency.",
+              "Only one-year contracts."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -407,10 +697,22 @@
         {
           "id": "werk-en-inkomen-4-5",
           "eindterm": "1.2.1",
-          "prompt": { "nl": "Wat komt in Nederland veel voor?", "en": "What is very common in the Netherlands?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat komt in Nederland veel voor?",
+            "en": "What is very common in the Netherlands?"
+          },
           "options": {
-            "nl": ["Werken in deeltijd.", "Werken zonder contract.", "Zeven dagen per week werken."],
-            "en": ["Working part-time.", "Working without a contract.", "Working seven days a week."]
+            "nl": [
+              "Werken in deeltijd.",
+              "Werken zonder contract.",
+              "Zeven dagen per week werken."
+            ],
+            "en": [
+              "Working part-time.",
+              "Working without a contract.",
+              "Working seven days a week."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -422,8 +724,13 @@
     },
     {
       "n": 5,
-      "handeling": ["1.2"],
-      "title": { "nl": "Meepraten op het werk en je loonstrook", "en": "Having a say at work and your payslip" },
+      "handeling": [
+        "1.2"
+      ],
+      "title": {
+        "nl": "Meepraten op het werk en je loonstrook",
+        "en": "Having a say at work and your payslip"
+      },
       "situation": {
         "nl": "Fatma werkt bij een groot bedrijf. Een collega vraagt of ze lid wil worden van de vakbond.",
         "en": "Fatma works at a large company. A colleague asks whether she wants to join the trade union."
@@ -445,17 +752,40 @@
         "en": "Through the works council and the union, employees have influence. Tax and contributions are taken from your salary before you receive it."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "Rijksoverheid: ondernemingsraad", "url": "https://www.rijksoverheid.nl/onderwerpen/ondernemingsraad" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "Rijksoverheid: ondernemingsraad",
+          "url": "https://www.rijksoverheid.nl/onderwerpen/ondernemingsraad"
+        },
+        {
+          "title": "Rijksoverheid: hoe kan ik als ouder bij de school betrokken zijn?",
+          "url": "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/basisonderwijs/hoe-kan-ik-als-ouder-bij-de-school-betrokken-zijn"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-5-1",
           "eindterm": "1.2.2",
-          "prompt": { "nl": "Wat doet een ondernemingsraad (OR)?", "en": "What does a works council (OR) do?" },
+          "source": 1,
+          "prompt": {
+            "nl": "Wat doet een ondernemingsraad (OR)?",
+            "en": "What does a works council (OR) do?"
+          },
           "options": {
-            "nl": ["Hij betaalt de salarissen.", "Hij praat namens de werknemers met de directie.", "Hij zoekt nieuwe klanten."],
-            "en": ["It pays the salaries.", "It talks to the management on behalf of the employees.", "It looks for new customers."]
+            "nl": [
+              "Hij betaalt de salarissen.",
+              "Hij praat namens de werknemers met de directie.",
+              "Hij zoekt nieuwe klanten."
+            ],
+            "en": [
+              "It pays the salaries.",
+              "It talks to the management on behalf of the employees.",
+              "It looks for new customers."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -466,10 +796,22 @@
         {
           "id": "werk-en-inkomen-5-2",
           "eindterm": "1.2.2",
-          "prompt": { "nl": "Wat doet een vakbond?", "en": "What does a trade union do?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat doet een vakbond?",
+            "en": "What does a trade union do?"
+          },
           "options": {
-            "nl": ["Hij komt op voor de rechten en belangen van werknemers.", "Hij geeft rijbewijzen uit.", "Hij int de gemeentebelasting."],
-            "en": ["It stands up for the rights and interests of employees.", "It issues driving licences.", "It collects municipal tax."]
+            "nl": [
+              "Hij komt op voor de rechten en belangen van werknemers.",
+              "Hij geeft rijbewijzen uit.",
+              "Hij int de gemeentebelasting."
+            ],
+            "en": [
+              "It stands up for the rights and interests of employees.",
+              "It issues driving licences.",
+              "It collects municipal tax."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -480,10 +822,22 @@
         {
           "id": "werk-en-inkomen-5-3",
           "eindterm": "1.2.2",
-          "prompt": { "nl": "Wie sluiten samen een cao af?", "en": "Who make a cao agreement together?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wie sluiten samen een cao af?",
+            "en": "Who make a cao agreement together?"
+          },
           "options": {
-            "nl": ["De gemeente en de politie.", "Vakbonden en werkgevers.", "De huisarts en de apotheek."],
-            "en": ["The municipality and the police.", "Trade unions and employers.", "The GP and the pharmacy."]
+            "nl": [
+              "De gemeente en de politie.",
+              "Vakbonden en werkgevers.",
+              "De huisarts en de apotheek."
+            ],
+            "en": [
+              "The municipality and the police.",
+              "Trade unions and employers.",
+              "The GP and the pharmacy."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -494,10 +848,22 @@
         {
           "id": "werk-en-inkomen-5-4",
           "eindterm": "1.2.3",
-          "prompt": { "nl": "Waarom krijg je minder op je rekening dan het salaris in je contract?", "en": "Why do you receive less in your account than the salary in your contract?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Waarom krijg je minder op je rekening dan het salaris in je contract?",
+            "en": "Why do you receive less in your account than the salary in your contract?"
+          },
           "options": {
-            "nl": ["Omdat je werkgever belasting en premies inhoudt.", "Omdat de bank geld houdt.", "Omdat de vakbond een deel krijgt."],
-            "en": ["Because your employer deducts tax and contributions.", "Because the bank keeps some money.", "Because the union gets a part."]
+            "nl": [
+              "Omdat je werkgever belasting en premies inhoudt.",
+              "Omdat de bank geld houdt.",
+              "Omdat de vakbond een deel krijgt."
+            ],
+            "en": [
+              "Because your employer deducts tax and contributions.",
+              "Because the bank keeps some money.",
+              "Because the union gets a part."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -508,10 +874,22 @@
         {
           "id": "werk-en-inkomen-5-5",
           "eindterm": "1.2.2",
-          "prompt": { "nl": "Hoe heet de raad die op een school meepraat namens personeel en ouders?", "en": "What is the council called that has a say at a school on behalf of staff and parents?" },
+          "source": 2,
+          "prompt": {
+            "nl": "Hoe heet de raad die op een school meepraat namens personeel en ouders?",
+            "en": "What is the council called that has a say at a school on behalf of staff and parents?"
+          },
           "options": {
-            "nl": ["De gemeenteraad.", "De Tweede Kamer.", "De medezeggenschapsraad."],
-            "en": ["The municipal council.", "The House of Representatives.", "The participation council."]
+            "nl": [
+              "De gemeenteraad.",
+              "De Tweede Kamer.",
+              "De medezeggenschapsraad."
+            ],
+            "en": [
+              "The municipal council.",
+              "The House of Representatives.",
+              "The participation council."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -523,8 +901,13 @@
     },
     {
       "n": 6,
-      "handeling": ["1.3"],
-      "title": { "nl": "Discriminatie op het werk", "en": "Discrimination at work" },
+      "handeling": [
+        "1.3"
+      ],
+      "title": {
+        "nl": "Discriminatie op het werk",
+        "en": "Discrimination at work"
+      },
       "situation": {
         "nl": "Hamid solliciteert vaak, maar wordt nooit uitgenodigd. Een collega maakt grappen over zijn afkomst.",
         "en": "Hamid applies often but is never invited. A colleague makes jokes about his background."
@@ -544,18 +927,40 @@
         "en": "Discrimination at work is forbidden, by colleagues too. You are not on your own: a confidential adviser, the union and anti-discrimination services can help."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "College voor de Rechten van de Mens", "url": "https://www.mensenrechten.nl/" },
-        { "title": "Discriminatie.nl (antidiscriminatievoorzieningen)", "url": "https://www.discriminatie.nl/" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "College voor de Rechten van de Mens",
+          "url": "https://www.mensenrechten.nl/"
+        },
+        {
+          "title": "Discriminatie.nl (antidiscriminatievoorzieningen)",
+          "url": "https://www.discriminatie.nl/"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-6-1",
           "eindterm": "1.3.1",
-          "prompt": { "nl": "Is discriminatie op het werk verboden?", "en": "Is discrimination at work forbidden?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Is discriminatie op het werk verboden?",
+            "en": "Is discrimination at work forbidden?"
+          },
           "options": {
-            "nl": ["Nee, alleen bij de overheid.", "Ja, door werkgevers en door collega's.", "Alleen als het op papier staat."],
-            "en": ["No, only in the public sector.", "Yes, by employers and by colleagues.", "Only if it is written down."]
+            "nl": [
+              "Nee, alleen bij de overheid.",
+              "Ja, door werkgevers en door collega's.",
+              "Alleen als het op papier staat."
+            ],
+            "en": [
+              "No, only in the public sector.",
+              "Yes, by employers and by colleagues.",
+              "Only if it is written down."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -566,10 +971,22 @@
         {
           "id": "werk-en-inkomen-6-2",
           "eindterm": "1.3.1",
-          "prompt": { "nl": "Bij wie kun je op het werk terecht als je denkt dat je gediscrimineerd wordt?", "en": "Who can you go to at work if you think you are being discriminated against?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Bij wie kun je op het werk terecht als je denkt dat je gediscrimineerd wordt?",
+            "en": "Who can you go to at work if you think you are being discriminated against?"
+          },
           "options": {
-            "nl": ["Bij een vertrouwenspersoon.", "Bij de Belastingdienst.", "Bij de woningcorporatie."],
-            "en": ["A confidential adviser.", "The Tax Administration.", "The housing association."]
+            "nl": [
+              "Bij een vertrouwenspersoon.",
+              "Bij de Belastingdienst.",
+              "Bij de woningcorporatie."
+            ],
+            "en": [
+              "A confidential adviser.",
+              "The Tax Administration.",
+              "The housing association."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -580,10 +997,22 @@
         {
           "id": "werk-en-inkomen-6-3",
           "eindterm": "1.3.1",
-          "prompt": { "nl": "Welke organisatie zet zich in voor gelijke rechten?", "en": "Which organisation works for equal rights?" },
+          "source": 1,
+          "prompt": {
+            "nl": "Welke organisatie zet zich in voor gelijke rechten?",
+            "en": "Which organisation works for equal rights?"
+          },
           "options": {
-            "nl": ["De Kamer van Koophandel.", "Het UWV.", "Het College voor de Rechten van de Mens."],
-            "en": ["The Chamber of Commerce.", "UWV.", "The Netherlands Institute for Human Rights."]
+            "nl": [
+              "De Kamer van Koophandel.",
+              "Het UWV.",
+              "Het College voor de Rechten van de Mens."
+            ],
+            "en": [
+              "The Chamber of Commerce.",
+              "UWV.",
+              "The Netherlands Institute for Human Rights."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -594,10 +1023,22 @@
         {
           "id": "werk-en-inkomen-6-4",
           "eindterm": "1.3.1",
-          "prompt": { "nl": "Een collega maakt steeds kwetsende grappen over je afkomst. Wat klopt?", "en": "A colleague keeps making hurtful jokes about your background. What is true?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Een collega maakt steeds kwetsende grappen over je afkomst. Wat klopt?",
+            "en": "A colleague keeps making hurtful jokes about your background. What is true?"
+          },
           "options": {
-            "nl": ["Dat moet je accepteren, het is maar een grap.", "Je kunt hulp vragen, want discriminatie door collega's is ook verboden.", "Alleen je werkgever mag je discrimineren."],
-            "en": ["You must accept it, it is only a joke.", "You can ask for help, because discrimination by colleagues is forbidden too.", "Only your employer may discriminate against you."]
+            "nl": [
+              "Dat moet je accepteren, het is maar een grap.",
+              "Je kunt hulp vragen, want discriminatie door collega's is ook verboden.",
+              "Alleen je werkgever mag je discrimineren."
+            ],
+            "en": [
+              "You must accept it, it is only a joke.",
+              "You can ask for help, because discrimination by colleagues is forbidden too.",
+              "Only your employer may discriminate against you."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -608,10 +1049,22 @@
         {
           "id": "werk-en-inkomen-6-5",
           "eindterm": "1.3.1",
-          "prompt": { "nl": "Kan de vakbond je helpen bij discriminatie op het werk?", "en": "Can the trade union help you with discrimination at work?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Kan de vakbond je helpen bij discriminatie op het werk?",
+            "en": "Can the trade union help you with discrimination at work?"
+          },
           "options": {
-            "nl": ["Ja, de vakbond komt op voor de rechten van werknemers.", "Nee, de vakbond gaat alleen over salaris.", "Alleen als je al tien jaar lid bent."],
-            "en": ["Yes, the union stands up for employees' rights.", "No, the union only deals with salary.", "Only if you have been a member for ten years."]
+            "nl": [
+              "Ja, de vakbond komt op voor de rechten van werknemers.",
+              "Nee, de vakbond gaat alleen over salaris.",
+              "Alleen als je al tien jaar lid bent."
+            ],
+            "en": [
+              "Yes, the union stands up for employees' rights.",
+              "No, the union only deals with salary.",
+              "Only if you have been a member for ten years."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -623,8 +1076,13 @@
     },
     {
       "n": 7,
-      "handeling": ["1.4"],
-      "title": { "nl": "Een eigen bedrijf beginnen", "en": "Starting your own business" },
+      "handeling": [
+        "1.4"
+      ],
+      "title": {
+        "nl": "Een eigen bedrijf beginnen",
+        "en": "Starting your own business"
+      },
       "situation": {
         "nl": "Ali wil een eigen kapsalon beginnen. Hij heeft nu een bijstandsuitkering.",
         "en": "Ali wants to start his own barber shop. He now receives social assistance."
@@ -646,17 +1104,36 @@
         "en": "Your own business: registering with the KVK is compulsory. With a benefit you first talk to the municipality or UWV."
       },
       "sources": [
-        { "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)", "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html" },
-        { "title": "KVK: starten", "url": "https://www.kvk.nl/starten/" }
+        {
+          "title": "Eindtermen KNM, thema 1 (Staatscourant 2024, 15802)",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2024-15802.html"
+        },
+        {
+          "title": "KVK: starten",
+          "url": "https://www.kvk.nl/starten/"
+        }
       ],
+      "checked": "2026-11-14",
       "quiz": [
         {
           "id": "werk-en-inkomen-7-1",
           "eindterm": "1.4.1",
-          "prompt": { "nl": "Waar moet je je inschrijven als je een eigen bedrijf begint?", "en": "Where must you register when you start your own business?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Waar moet je je inschrijven als je een eigen bedrijf begint?",
+            "en": "Where must you register when you start your own business?"
+          },
           "options": {
-            "nl": ["Bij de Kamer van Koophandel (KVK).", "Bij de huisarts.", "Bij de woningcorporatie."],
-            "en": ["At the Chamber of Commerce (KVK).", "At the GP.", "At the housing association."]
+            "nl": [
+              "Bij de Kamer van Koophandel (KVK).",
+              "Bij de huisarts.",
+              "Bij de woningcorporatie."
+            ],
+            "en": [
+              "At the Chamber of Commerce (KVK).",
+              "At the GP.",
+              "At the housing association."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -667,10 +1144,22 @@
         {
           "id": "werk-en-inkomen-7-2",
           "eindterm": "1.4.1",
-          "prompt": { "nl": "Ali heeft een uitkering en wil een bedrijf beginnen. Wat doet hij eerst?", "en": "Ali receives a benefit and wants to start a business. What does he do first?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Ali heeft een uitkering en wil een bedrijf beginnen. Wat doet hij eerst?",
+            "en": "Ali receives a benefit and wants to start a business. What does he do first?"
+          },
           "options": {
-            "nl": ["Hij schrijft zich direct in en zegt niets.", "Hij praat met de gemeente of de instantie die zijn uitkering betaalt.", "Hij vraagt het aan zijn buren."],
-            "en": ["He registers straight away and says nothing.", "He talks to the municipality or whoever pays his benefit.", "He asks his neighbours."]
+            "nl": [
+              "Hij schrijft zich direct in en zegt niets.",
+              "Hij praat met de gemeente of de instantie die zijn uitkering betaalt.",
+              "Hij vraagt het aan zijn buren."
+            ],
+            "en": [
+              "He registers straight away and says nothing.",
+              "He talks to the municipality or whoever pays his benefit.",
+              "He asks his neighbours."
+            ]
           },
           "answer": 1,
           "explanation": {
@@ -681,10 +1170,22 @@
         {
           "id": "werk-en-inkomen-7-3",
           "eindterm": "1.4.1",
-          "prompt": { "nl": "Wie regelt het pensioen van een zelfstandige ondernemer?", "en": "Who arranges the pension of a self-employed entrepreneur?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wie regelt het pensioen van een zelfstandige ondernemer?",
+            "en": "Who arranges the pension of a self-employed entrepreneur?"
+          },
           "options": {
-            "nl": ["De werkgever.", "De vakbond.", "De ondernemer zelf."],
-            "en": ["The employer.", "The trade union.", "The entrepreneur themselves."]
+            "nl": [
+              "De werkgever.",
+              "De vakbond.",
+              "De ondernemer zelf."
+            ],
+            "en": [
+              "The employer.",
+              "The trade union.",
+              "The entrepreneur themselves."
+            ]
           },
           "answer": 2,
           "explanation": {
@@ -695,10 +1196,22 @@
         {
           "id": "werk-en-inkomen-7-4",
           "eindterm": "1.4.1",
-          "prompt": { "nl": "Waar kun je hulp krijgen bij het starten van een bedrijf?", "en": "Where can you get help with starting a business?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Waar kun je hulp krijgen bij het starten van een bedrijf?",
+            "en": "Where can you get help with starting a business?"
+          },
           "options": {
-            "nl": ["Bij de KVK.", "Bij de politie.", "Bij de apotheek."],
-            "en": ["At the KVK.", "At the police.", "At the pharmacy."]
+            "nl": [
+              "Bij de KVK.",
+              "Bij de politie.",
+              "Bij de apotheek."
+            ],
+            "en": [
+              "At the KVK.",
+              "At the police.",
+              "At the pharmacy."
+            ]
           },
           "answer": 0,
           "explanation": {
@@ -709,10 +1222,22 @@
         {
           "id": "werk-en-inkomen-7-5",
           "eindterm": "1.4.1",
-          "prompt": { "nl": "Wat gebeurt er in principe met je uitkering als je je inschrijft bij de KVK?", "en": "What in principle happens to your benefit when you register with the KVK?" },
+          "source": 0,
+          "prompt": {
+            "nl": "Wat gebeurt er in principe met je uitkering als je je inschrijft bij de KVK?",
+            "en": "What in principle happens to your benefit when you register with the KVK?"
+          },
           "options": {
-            "nl": ["Die wordt hoger.", "Het recht op je uitkering vervalt.", "Er verandert niets."],
-            "en": ["It goes up.", "Your right to the benefit ends.", "Nothing changes."]
+            "nl": [
+              "Die wordt hoger.",
+              "Het recht op je uitkering vervalt.",
+              "Er verandert niets."
+            ],
+            "en": [
+              "It goes up.",
+              "Your right to the benefit ends.",
+              "Nothing changes."
+            ]
           },
           "answer": 1,
           "explanation": {

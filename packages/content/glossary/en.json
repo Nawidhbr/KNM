@@ -144,6 +144,27 @@
         "diploma evaluation"
       ],
       "plain": "finding out what a foreign diploma is worth in the Netherlands"
+    },
+    {
+      "id": "registered-partnership",
+      "forms": [
+        "registered partnership"
+      ],
+      "plain": "an official union at the municipality, very similar to a marriage"
+    },
+    {
+      "id": "cohabitation-contract",
+      "forms": [
+        "cohabitation contract"
+      ],
+      "plain": "a contract with agreements between people who live together without marrying"
+    },
+    {
+      "id": "keti-koti-en",
+      "forms": [
+        "Keti Koti"
+      ],
+      "plain": "the day (1 July) on which the abolition of slavery is remembered and celebrated"
     }
   ]
 }

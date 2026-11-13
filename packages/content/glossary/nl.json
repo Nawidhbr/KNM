@@ -182,6 +182,72 @@
         "diplomawaardering"
       ],
       "plain": "uitzoeken wat een buitenlands diploma waard is in Nederland"
+    },
+    {
+      "id": "omgangsvormen",
+      "forms": [
+        "omgangsvormen"
+      ],
+      "plain": "de manieren waarop mensen met elkaar omgaan"
+    },
+    {
+      "id": "geregistreerd-partnerschap",
+      "forms": [
+        "geregistreerd partnerschap"
+      ],
+      "plain": "een officiële verbintenis bij de gemeente, die veel lijkt op een huwelijk"
+    },
+    {
+      "id": "samenlevingscontract",
+      "forms": [
+        "samenlevingscontract"
+      ],
+      "plain": "een contract met afspraken tussen mensen die samenwonen zonder te trouwen"
+    },
+    {
+      "id": "herdenken",
+      "forms": [
+        "herdenken",
+        "herdenking"
+      ],
+      "plain": "samen terugdenken aan mensen die gestorven zijn of aan een belangrijke gebeurtenis"
+    },
+    {
+      "id": "kraambezoek",
+      "forms": [
+        "kraambezoek"
+      ],
+      "plain": "een bezoek om een pasgeboren baby te zien"
+    },
+    {
+      "id": "condoleren",
+      "forms": [
+        "condoleren",
+        "condoleer"
+      ],
+      "plain": "laten weten dat je meeleeft als iemand is overleden"
+    },
+    {
+      "id": "vrijwilligerswerk",
+      "forms": [
+        "vrijwilligerswerk"
+      ],
+      "plain": "werk dat je doet zonder geld te krijgen, om anderen te helpen"
+    },
+    {
+      "id": "vereniging",
+      "forms": [
+        "vereniging",
+        "verenigingen"
+      ],
+      "plain": "een club van mensen met dezelfde hobby of hetzelfde doel"
+    },
+    {
+      "id": "keti-koti",
+      "forms": [
+        "Keti Koti"
+      ],
+      "plain": "de dag (1 juli) waarop de afschaffing van de slavernij wordt herdacht en gevierd"
     }
   ]
 }
