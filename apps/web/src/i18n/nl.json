@@ -212,7 +212,7 @@
       "Je voortgang (je scores, welke lessen open zijn en welke vragen je nog moet herhalen) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
       "Maak je een link om je voortgang mee te nemen naar een ander apparaat, dan staat je voortgang in die link zelf (na het #-teken). Dat deel van een adres stuurt je browser niet naar onze server.",
       "Voorlezen gebruikt de stem van je eigen browser of apparaat; wij sturen daarvoor niets door. Sommige browsers gebruiken voor hun stemmen wel een online dienst van de maker van de browser.",
-      "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics). Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
+      "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics), en een paar stappen: een toets of oefenexamen afgerond (gehaald of niet), een betaling gestart of gelukt. Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
       "Gaat er iets mis in een script op een pagina, dan sturen we een korte foutmelding naar onze server: de pagina, de melding, de versie van de site en de naam van je browser. Niets over jou.",
       "Als je het contactformulier gebruikt, gaat je bericht per e-mail naar ons. Het wordt niet op de site bewaard."
     ],

@@ -129,6 +129,7 @@
     const passed = right / qs.length >= v.pass;
     $("[data-verdict]").textContent = passed ? T.pass : T.fail;
     $("[data-result]").dataset.state = passed ? "pass" : "fail";
+    window.__track?.("Exam finished", { passed: passed ? "yes" : "no", score: Math.round(pct / 10) * 10, timeUp: timeUp ? "yes" : "no" });
 
     const themes = $("[data-themes]");
     themes.replaceChildren(...v.themes.filter((t) => per.get(t.id).m).map((t) => {

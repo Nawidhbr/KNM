@@ -29,6 +29,7 @@
     try { localStorage.setItem("scores", JSON.stringify(all)); } catch {}
     // A signed-in reader's progress is saved to the account (later, with accounts).
     window.dispatchEvent(new Event("knm:progress"));
+    window.__track?.("Test finished", { lesson: slug, passed: n >= 2 ? "yes" : "no" });
     result.querySelector(".quiz-stars").textContent = starText(n);
     result.querySelector(".quiz-score").textContent = ds.scoreText.replace("{score}", score.toLocaleString(document.documentElement.lang));
     const ok = stars(all[slug]) >= 2;

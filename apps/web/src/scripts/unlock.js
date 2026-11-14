@@ -51,6 +51,7 @@
         } catch {}
         document.documentElement.dataset.access = "";
         history.replaceState(null, "", location.pathname);
+        window.__track?.("Access bought");
         return showDone(texts.done.replace("{date}", date(b.until)));
       }
       if (b.status === "pending") {
@@ -90,6 +91,7 @@
     const button = buy.querySelector("button");
     button.disabled = true;
     say(texts.redirecting);
+    window.__track?.("Checkout started");
     try {
       const r = await fetch("/api/checkout", {
         method: "POST",

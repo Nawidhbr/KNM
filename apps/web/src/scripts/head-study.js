@@ -3,6 +3,10 @@
 // Scores live in this browser only, and so does bought access (`access`). Sets data-locked / data-passed on <html> before paint, so a locked lesson never
 // flashes its content.
 (() => {
+  // Counting steps without cookies (Vercel Web Analytics custom events, live site only): a test finished, the practice
+  // exam finished, a purchase started and completed. Nothing about the reader; the queue is read by /_vercel/insights.
+  window.va = window.va || ((...params) => { (window.vaq = window.vaq || []).push(params); });
+  window.__track = (name, data) => { try { window.va("event", { name, data }); } catch {} };
   const { path, gates, tracks, paid = [] } = window.__studyVars || { path: [], gates: {}, tracks: [] };
   try {
     const read = (k, d) => { try { return JSON.parse(localStorage.getItem(k) || "") ?? d; } catch { return d; } };
