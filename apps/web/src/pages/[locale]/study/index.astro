@@ -71,4 +71,13 @@ const courses = new Map(themes().map((x) => [x.id, x]));
       );
     })}
   </ul>
+
+  <section class="card practice-exam">
+    <h2>{ui.exam.title}</h2>
+    <p>{ui.practice.examLead}</p>
+    <p class="practice-more">
+      <a class="btn btn-red" href={`/${locale}/exam/`}>{ui.practice.examCta}</a>
+      <a class="btn btn-outline" href={`/${locale}/practice/`}>{ui.nav.practice}</a>
+    </p>
+  </section>
 </BaseLayout>
