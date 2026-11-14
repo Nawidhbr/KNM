@@ -8,6 +8,7 @@ import { priceText, selling } from "../../lib/offer";
 import { EXAM } from "../../config/exam";
 import { breadcrumbs } from "../../lib/structured-data";
 import examScript from "../../scripts/exam.js?url";
+import readAloudScript from "../../scripts/read-aloud.js?url";
 
 /**
  * The practice exam: EXAM.questions questions drawn from every theme (about the same number from each), shuffled, with
@@ -107,4 +108,5 @@ const texts = Object.fromEntries(
 
   <PictureLibrary />
   <script is:inline src={examScript}></script>
+  <script is:inline src={readAloudScript} data-vars={JSON.stringify(ui.say)}></script>
 </BaseLayout>

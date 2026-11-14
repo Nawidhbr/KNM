@@ -211,6 +211,7 @@
     "body": [
       "Your progress (your scores, which lessons are open and which questions you still need to review) is kept only in your own browser (localStorage). We never see it.",
       "If you make a link to take your progress to another device, your progress is in the link itself (after the # sign). Your browser does not send that part of an address to our server.",
+      "Reading aloud uses the voice of your own browser or device; we send nothing for it. Some browsers do use an online service of the browser's maker for their voices.",
       "On the live site we count visits without cookies (Vercel Web Analytics). Nothing is kept that could identify you.",
       "If a script on a page goes wrong, a short error report is sent to our server: the page, the message, the site version and your browser's name. Nothing about you.",
       "If you use the contact form, your message is emailed to us. It is not stored on the site."
@@ -452,5 +453,10 @@
     "done": "Done! Your progress is now on this device too.",
     "broken": "This link is not valid (any more). Make a new link on your other device.",
     "toStudy": "Continue learning"
+  },
+  "say": {
+    "lesson": "Read the lesson aloud",
+    "question": "Read aloud",
+    "stop": "Stop"
   }
 }

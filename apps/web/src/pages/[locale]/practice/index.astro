@@ -5,6 +5,7 @@ import { fmt, localePaths, t } from "../../../i18n";
 import { tx } from "@knm/content";
 import { lessonKey, themePath, themes } from "../../../lib/course";
 import practiceScript from "../../../scripts/practice.js?url";
+import readAloudScript from "../../../scripts/read-aloud.js?url";
 
 /**
  * Review (tikrār on The Mantiqi): tests over the lessons already passed. Each theme is a fold with its passed lessons;
@@ -116,4 +117,5 @@ const letters = "ABC";
 
   <PictureLibrary />
   <script is:inline src={practiceScript}></script>
+  <script is:inline src={readAloudScript} data-vars={JSON.stringify(ui.say)}></script>
 </BaseLayout>

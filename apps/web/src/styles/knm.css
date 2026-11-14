@@ -154,3 +154,11 @@ html[data-access] [data-buy] { display: none !important; }
   .situation-with-pic { display: grid; grid-template-columns: 1fr 200px; gap: 20px; align-items: center; }
   .situation-with-pic .situation-pic { margin: 0; order: 2; }
 }
+/* Reading aloud (scripts/read-aloud.js): shown only when the browser has a voice for the language. */
+.say-row { margin: 0 0 12px; }
+.say-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 12px; border: 1.5px solid var(--ink); border-radius: 0; background: var(--surface); color: var(--ink); font: inherit; font-size: 0.95rem; font-weight: 700; cursor: pointer; }
+.say-btn svg { width: 20px; height: 20px; fill: var(--ink); stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.say-btn[aria-pressed="true"] { background: var(--red-fill); color: var(--on-red); }
+.say-btn:hover { background: var(--primary-soft); }
+.question > .say-btn { float: inline-end; margin: 0 0 8px 12px; min-height: 36px; padding: 4px 10px; font-size: 0.88rem; }
+.say-btn[hidden] { display: none; }

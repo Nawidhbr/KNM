@@ -10,6 +10,7 @@ import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course
 import { gloss } from "../../../../lib/gloss";
 import { breadcrumbs } from "../../../../lib/structured-data";
 import lessonLockScript from "../../../../scripts/lesson-lock.js?url";
+import readAloudScript from "../../../../scripts/read-aloud.js?url";
 
 /**
  * One lesson: the situation, the lesson in a few short paragraphs, the rule to remember, its sources and a test.
@@ -73,26 +74,28 @@ const body = txl(lesson.body, locale);
       <ReviewBadge review={getReview(lessonKey(th.id, lesson.n))} locale={locale} />
     </section>
 
+    <p class="say-row"><button type="button" class="say-btn" data-say="lesson" aria-pressed="false" hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" fill="none"/></svg><span class="say-label">{ui.say.lesson}</span></button></p>
+
     <section class="card">
       <h2>{L.situation}</h2>
       {lesson.picture ? (
         <div class="situation-with-pic">
           <Picture id={lesson.picture} class="situation-pic" />
-          <p class="situation">{tx(lesson.situation, locale)}</p>
+          <p class="situation" data-say-part>{tx(lesson.situation, locale)}</p>
         </div>
       ) : (
-        <p class="situation">{tx(lesson.situation, locale)}</p>
+        <p class="situation" data-say-part>{tx(lesson.situation, locale)}</p>
       )}
     </section>
 
     <section class="card primer-body">
       <h2>{L.theLesson}</h2>
-      {body.map((para) => <p set:html={gloss(para, locale)} />)}
+      {body.map((para) => <p data-say-part set:html={gloss(para, locale)} />)}
     </section>
 
     <section class="card remember">
       <h2>{L.remember}</h2>
-      <p set:html={gloss(tx(lesson.remember, locale), locale)} />
+      <p data-say-part set:html={gloss(tx(lesson.remember, locale), locale)} />
     </section>
 
     <TermQuiz quiz={quiz} slug={lessonKey(th.id, lesson.n)} locale={locale} intro={L.quizIntro} passed={next ? L.quizPassed : L.themeDoneQuiz} failed={L.quizFailed} />
@@ -120,4 +123,5 @@ const body = txl(lesson.body, locale);
   </div>
 
   <script is:inline src={lessonLockScript}></script>
+  <script is:inline src={readAloudScript} data-vars={JSON.stringify(ui.say)}></script>
 </BaseLayout>
