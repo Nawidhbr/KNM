@@ -9,6 +9,8 @@ test("the practice exam asks 40 questions from all themes and scores them per th
   await expect(page.locator("[data-pos]")).toHaveText("Vraag 1 van 40");
   await expect(page.locator("[data-clock]")).toHaveText(/^4[45]:\d\d$/);
   await expect(page.locator("[data-grid] button")).toHaveCount(40);
+  // Each question shows the drawing of its lesson.
+  await expect(page.locator("[data-picwrap] svg.pic")).toHaveCount(1);
   // Handing in with open questions asks once more.
   await page.locator("[data-submit]").click();
   await expect(page.locator("[data-unanswered]")).toContainText("40 vragen");

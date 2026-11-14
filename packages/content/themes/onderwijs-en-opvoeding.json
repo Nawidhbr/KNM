@@ -68,6 +68,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "school",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-1-1",
@@ -251,6 +252,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "book",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-2-1",
@@ -434,6 +436,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "blocks",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-3-1",
@@ -613,6 +616,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "people",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-4-1",
@@ -790,6 +794,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "lifebuoy",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-5-1",
@@ -981,6 +986,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "coins",
       "quiz": [
         {
           "id": "onderwijs-en-opvoeding-6-1",

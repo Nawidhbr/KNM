@@ -78,6 +78,8 @@ export const Lesson = z.object({
   sources: z.array(Source).min(1),
   /** The day the lesson and its questions were last checked against the sources. A lesson without it is unchecked. */
   checked: Day.optional(),
+  /** A drawing in the house style that shows the situation (an id of apps/web/src/lib/pictures.ts). */
+  picture: z.string().regex(/^[a-z]+$/).optional(),
   quiz: z.array(Question).min(3).max(8),
 });
 export type Lesson = z.infer<typeof Lesson>;

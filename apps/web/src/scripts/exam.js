@@ -43,6 +43,10 @@
     const q = qs[n];
     $("[data-pos]").textContent = fill(T.position, { n: n + 1, m: qs.length });
     $("[data-prompt]").textContent = q.p;
+    const pic = q.g && document.querySelector(`[data-pictures] [data-pic="${q.g}"]`);
+    const svg = pic ? pic.cloneNode(true) : null;
+    svg?.classList.add("q-pic");
+    $("[data-picwrap]").replaceChildren(...(svg ? [svg] : []));
     const opts = $("[data-options]");
     opts.replaceChildren();
     q.order.forEach((orig, i) => {

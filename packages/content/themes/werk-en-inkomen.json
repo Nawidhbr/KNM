@@ -56,6 +56,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "briefcase",
       "quiz": [
         {
           "id": "werk-en-inkomen-1-1",
@@ -231,6 +232,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "book",
       "quiz": [
         {
           "id": "werk-en-inkomen-2-1",
@@ -410,6 +412,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "lifebuoy",
       "quiz": [
         {
           "id": "werk-en-inkomen-3-1",
@@ -589,6 +592,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "contract",
       "quiz": [
         {
           "id": "werk-en-inkomen-4-1",
@@ -766,6 +770,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "letter",
       "quiz": [
         {
           "id": "werk-en-inkomen-5-1",
@@ -941,6 +946,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "scales",
       "quiz": [
         {
           "id": "werk-en-inkomen-6-1",
@@ -1114,6 +1120,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "shop",
       "quiz": [
         {
           "id": "werk-en-inkomen-7-1",

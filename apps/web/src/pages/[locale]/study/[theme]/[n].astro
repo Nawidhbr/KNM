@@ -3,6 +3,7 @@ import { needsAccess, priceText } from "../../../../lib/offer";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import ReviewBadge from "../../../../components/ReviewBadge.astro";
 import TermQuiz from "../../../../components/TermQuiz.astro";
+import Picture from "../../../../components/Picture.astro";
 import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
 import { getReview, tx, txl, type Lesson, type Theme } from "@knm/content";
 import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course";
@@ -74,7 +75,14 @@ const body = txl(lesson.body, locale);
 
     <section class="card">
       <h2>{L.situation}</h2>
-      <p class="situation">{tx(lesson.situation, locale)}</p>
+      {lesson.picture ? (
+        <div class="situation-with-pic">
+          <Picture id={lesson.picture} class="situation-pic" />
+          <p class="situation">{tx(lesson.situation, locale)}</p>
+        </div>
+      ) : (
+        <p class="situation">{tx(lesson.situation, locale)}</p>
+      )}
     </section>
 
     <section class="card primer-body">

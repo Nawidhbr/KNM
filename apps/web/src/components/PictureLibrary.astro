@@ -1,0 +1,9 @@
+---
+import { PICTURES } from "../lib/pictures";
+
+/** Every drawing once, hidden, for scripts that build questions in the browser (practice, exam): they clone [data-pic="id"]. */
+---
+
+<div hidden data-pictures>
+  {Object.entries(PICTURES).map(([id, svg]) => <svg class="pic" viewBox="0 0 160 100" aria-hidden="true" focusable="false" data-pic={id} set:html={svg} />)}
+</div>

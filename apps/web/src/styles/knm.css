@@ -133,3 +133,24 @@ html[data-access] [data-buy] { display: none !important; }
 /* Taking progress to another device. */
 .transfer-link { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 12px 0; }
 .transfer-link input { flex: 1 1 240px; min-width: 0; padding: 10px 12px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: 0.9rem; }
+/* Drawings (lib/pictures.ts): lines in ink, surfaces white, blocks in the flag colours. */
+.pic { display: block; width: 100%; height: auto; overflow: visible; }
+.pic .k, .pic .w, .pic .r, .pic .b, .pic .o, .pic .n, .pic .l { stroke: var(--ink); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.pic .k { fill: var(--surface); }
+.pic .l { fill: none; }
+.pic .n { fill: var(--ink); }
+.pic .w { fill: var(--stijl-white); }
+.pic .r { fill: var(--stijl-red); }
+.pic .b { fill: var(--stijl-blue); }
+.pic .o { fill: var(--stijl-orange); }
+.pic .t { fill: var(--stijl-black); font-family: var(--font-head); font-weight: 800; font-size: 24px; }
+.pic .ring { fill: none; stroke: var(--stijl-red); stroke-width: 14; stroke-dasharray: 17.28 17.28; }
+.pic .band-o, .pic .band-b { fill: none; stroke-width: 7; }
+.pic .band-o { stroke: var(--stijl-orange); }
+.pic .band-b { stroke: var(--stijl-blue); }
+.situation-pic { max-width: 220px; margin: 0 0 12px; }
+.q-pic { max-width: 150px; margin: 0 0 10px; }
+@media (min-width: 640px) {
+  .situation-with-pic { display: grid; grid-template-columns: 1fr 200px; gap: 20px; align-items: center; }
+  .situation-with-pic .situation-pic { margin: 0; order: 2; }
+}

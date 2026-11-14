@@ -136,7 +136,8 @@
       li.className = "card question";
       const head = document.createElement("p"); head.className = "q-number eyebrow"; head.textContent = `${n + 1} / ${qs.length}`;
       const p = document.createElement("p"); p.className = "q-prompt"; p.textContent = q.p;
-      li.append(head, p);
+      const pic = q.g && document.querySelector(`[data-pictures] [data-pic="${q.g}"]`);
+      if (pic) { const svg = pic.cloneNode(true); svg.classList.add("q-pic"); li.append(head, svg, p); } else li.append(head, p);
       if (q.a) { const ar = document.createElement("p"); ar.className = "ar q-ar"; ar.lang = "ar"; ar.textContent = q.a; li.append(ar); }
       const opts = document.createElement("div"); opts.className = "options";
       const fb = document.createElement("div"); fb.className = "feedback"; fb.hidden = true;

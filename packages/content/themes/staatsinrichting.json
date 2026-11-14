@@ -56,6 +56,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "crown",
       "quiz": [
         {
           "id": "staatsinrichting-1-1",
@@ -237,6 +238,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "eu",
       "quiz": [
         {
           "id": "staatsinrichting-2-1",
@@ -418,6 +420,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "scales",
       "quiz": [
         {
           "id": "staatsinrichting-3-1",
@@ -601,6 +604,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "ballot",
       "quiz": [
         {
           "id": "staatsinrichting-4-1",
@@ -784,6 +788,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "speech",
       "quiz": [
         {
           "id": "staatsinrichting-5-1",
@@ -971,6 +976,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "lock",
       "quiz": [
         {
           "id": "staatsinrichting-6-1",
@@ -1162,6 +1168,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "homeheart",
       "quiz": [
         {
           "id": "staatsinrichting-7-1",

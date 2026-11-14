@@ -64,6 +64,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "home",
       "quiz": [
         {
           "id": "wonen-1-1",
@@ -251,6 +252,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "contract",
       "quiz": [
         {
           "id": "wonen-2-1",
@@ -430,6 +432,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "search",
       "quiz": [
         {
           "id": "wonen-3-1",
@@ -613,6 +616,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "plug",
       "quiz": [
         {
           "id": "wonen-4-1",
@@ -788,6 +792,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "meter",
       "quiz": [
         {
           "id": "wonen-5-1",
@@ -967,6 +972,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "bins",
       "quiz": [
         {
           "id": "wonen-6-1",

@@ -1,4 +1,5 @@
 ---
+import PictureLibrary from "../../components/PictureLibrary.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { fmt, localePaths, t } from "../../i18n";
 import { tx } from "@knm/content";
@@ -67,6 +68,7 @@ const texts = Object.fromEntries(
         <p class="exam-clock"><span class="sr-only">{E.timer}: </span><span data-clock role="timer"></span></p>
       </div>
       <div class="card question exam-q" data-q>
+        <div data-picwrap></div>
         <p class="q-prompt" data-prompt></p>
         <div class="options" data-options></div>
       </div>
@@ -103,5 +105,6 @@ const texts = Object.fromEntries(
     </section>
   </div>
 
+  <PictureLibrary />
   <script is:inline src={examScript}></script>
 </BaseLayout>

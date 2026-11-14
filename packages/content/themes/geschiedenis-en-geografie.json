@@ -60,6 +60,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "ship",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-1-1",
@@ -241,6 +242,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "chain",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-2-1",
@@ -428,6 +430,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "windmill",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-3-1",
@@ -619,6 +622,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "halfmast",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-4-1",
@@ -812,6 +816,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "eu",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-5-1",
@@ -991,6 +996,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "speech",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-6-1",
@@ -1174,6 +1180,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "map",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-7-1",
@@ -1357,6 +1364,7 @@
         }
       ],
       "checked": "2026-11-14",
+      "picture": "train",
       "quiz": [
         {
           "id": "geschiedenis-en-geografie-8-1",

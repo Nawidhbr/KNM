@@ -1,0 +1,9 @@
+---
+import { picture } from "../lib/pictures";
+
+/** A drawing in the house style (lib/pictures.ts). Decorative: the text beside it says the same. */
+interface Props { id: string; class?: string; }
+const { id, class: cls = "" } = Astro.props;
+---
+
+<svg class={`pic ${cls}`} viewBox="0 0 160 100" aria-hidden="true" focusable="false" data-pic={id} set:html={picture(id)} />
