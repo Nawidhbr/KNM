@@ -25,6 +25,44 @@ export function hasAccess(access, now) {
   return Boolean(access && typeof access.code === "string" && access.code && Number.isFinite(access.until) && access.until > now);
 }
 
+/**
+ * Smart review (slim herhalen): a question answered wrongly anywhere (a lesson test, review or the practice exam) comes
+ * back later. `entry` is what the browser keeps for one question in `review` ({ b: box 0–3, d: due time in ms }), or
+ * undefined. A wrong answer puts it in box 0, due at once; each right answer moves it up a box and further away (1, 3, 7
+ * days); a right answer in the last box retires it (null). A question answered right that was never wrong is not kept.
+ */
+export const REVIEW_DAYS = [0, 1, 3, 7];
+export function reviewAfter(entry, ok, now) {
+  if (!ok) return { b: 0, d: now };
+  if (!entry) return null;
+  const b = entry.b + 1;
+  if (b >= REVIEW_DAYS.length) return null;
+  return { b, d: now + REVIEW_DAYS[b] * 86400000 };
+}
+export function reviewDue(entry, now) {
+  return Boolean(entry && Number.isFinite(entry.d) && entry.d <= now);
+}
+
+/**
+ * Taking progress to another device (a link with the progress in it): the scores and review of two browsers merged so
+ * nothing is lost. The best score wins; seen pages are joined; for review the question stays in the lower box (it
+ * still needs work), due at the earlier time; access is kept that lasts longest.
+ */
+export function mergeProgress(mine, theirs) {
+  const scores = { ...mine.scores };
+  for (const [k, v] of Object.entries(theirs.scores ?? {})) if (Number.isFinite(v) && !(scores[k] >= v)) scores[k] = v;
+  const visited = [...new Set([...(mine.visited ?? []), ...(theirs.visited ?? [])])];
+  const review = { ...mine.review };
+  for (const [k, v] of Object.entries(theirs.review ?? {})) {
+    if (!v || !Number.isFinite(v.b) || !Number.isFinite(v.d)) continue;
+    const m = review[k];
+    review[k] = !m ? v : { b: Math.min(m.b, v.b), d: Math.min(m.d, v.d) };
+  }
+  const a = mine.access, b = theirs.access;
+  const access = !b || !Number.isFinite(b.until) || typeof b.code !== "string" ? a ?? null : !a || !(a.until >= b.until) ? b : a;
+  return { scores, visited, review, access };
+}
+
 export function progress(data, scores, visited) {
   const { path, tracks } = data;
   // Passed: two stars on its test, or, for a step without a test, seen.

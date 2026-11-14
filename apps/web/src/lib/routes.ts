@@ -7,6 +7,7 @@ export function offlinePages(locale = "nl"): string[] {
     `/${locale}/`,
     `/${locale}/study/`,
     ...themes().flatMap((t) => [themePath(locale, t.id), ...t.lessons.map((l) => lessonPath(locale, t.id, l.n))]),
+    `/${locale}/exam/`,
     `/${locale}/practice/`,
     `/${locale}/glossary/`,
     `/${locale}/topics/`,

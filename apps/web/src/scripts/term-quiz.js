@@ -56,6 +56,7 @@
         q.querySelector(".verdict").textContent = chosen === answer ? ds.rightText : ds.wrongText;
         q.querySelector(".feedback").hidden = false;
         answers[k] = chosen === answer;
+        if (q.dataset.q) window.__review?.(q.dataset.q, chosen === answer);
         if (Object.keys(answers).length === qs.length) finish();
       });
     });

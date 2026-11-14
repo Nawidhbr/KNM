@@ -28,7 +28,7 @@ const title = tx(lesson.title, locale);
 const of = fmt(L.of, { n: lesson.n, m: th.lessons.length });
 const path = `/study/${th.id}/${lesson.n}/`;
 const quiz = {
-  items: lesson.quiz.map((q) => ({ prompt: tx(q.prompt, locale), options: txl(q.options, locale), answer: q.answer, explanation: tx(q.explanation, locale) })),
+  items: lesson.quiz.map((q) => ({ id: q.id, prompt: tx(q.prompt, locale), options: txl(q.options, locale), answer: q.answer, explanation: tx(q.explanation, locale) })),
 };
 const codes = [...new Set(lesson.quiz.map((q) => q.eindterm))].sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
 const body = txl(lesson.body, locale);

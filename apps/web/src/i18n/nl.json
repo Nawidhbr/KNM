@@ -17,7 +17,8 @@
     "glossary": "Woorden",
     "themes": "Thema's",
     "contact": "Contact",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "exam": "Oefenexamen"
   },
   "header": {
     "search": "Zoeken",
@@ -150,7 +151,16 @@
     "choose": "Andere lessen kiezen",
     "question": "Vraag {n}",
     "yourPath": "",
-    "otherPaths": ""
+    "otherPaths": "",
+    "smartTitle": "Slim herhalen",
+    "smartDue": "{n} vragen die je eerder fout had, staan klaar om te herhalen.",
+    "smartOne": "1 vraag die je eerder fout had, staat klaar om te herhalen.",
+    "smartLater": "Nu niets te herhalen. Je volgende herhaling: {date}.",
+    "smartHow": "Een vraag die je fout hebt, komt terug: meteen, en daarna na 1, 3 en 7 dagen. Na vier keer goed ben je klaar met die vraag.",
+    "smartStart": "Herhaal je fouten",
+    "examCta": "Maak een oefenexamen",
+    "examLead": "Klaar voor een test met alle thema's door elkaar?",
+    "transferCta": "Voortgang meenemen naar een ander apparaat"
   },
   "term": {
     "draft": "Concept · nog niet nagekeken door een docent",
@@ -199,7 +209,8 @@
     "title": "Privacy",
     "description": "Wat deze site wel en niet bewaart: je voortgang staat alleen in je eigen browser.",
     "body": [
-      "Je voortgang (je scores en welke lessen open zijn) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
+      "Je voortgang (je scores, welke lessen open zijn en welke vragen je nog moet herhalen) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
+      "Maak je een link om je voortgang mee te nemen naar een ander apparaat, dan staat je voortgang in die link zelf (na het #-teken). Dat deel van een adres stuurt je browser niet naar onze server.",
       "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics). Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
       "Gaat er iets mis in een script op een pagina, dan sturen we een korte foutmelding naar onze server: de pagina, de melding, de versie van de site en de naam van je browser. Niets over jou.",
       "Als je het contactformulier gebruikt, gaat je bericht per e-mail naar ons. Het wordt niet op de site bewaard."
@@ -278,6 +289,10 @@
     "/news/": {
       "title": "Inburgering en KNM-examen: wat verandert er?",
       "description": "Veranderingen in de inburgering en het KNM-examen, kort uitgelegd, elk met de officiële bron."
+    },
+    "/exam/": {
+      "title": "KNM oefenexamen: 40 oefenvragen in 45 minuten",
+      "description": "Maak een proefexamen KNM met oefenvragen uit alle thema's en een klok van 45 minuten. Zie je score per thema en de uitleg bij je fouten."
     }
   },
   "buy": {
@@ -286,7 +301,7 @@
     "lead": "Thema 1 en de kennisbank zijn gratis. Voor €{price} oefen je een jaar lang alle andere thema's, met lessen, toetsen en herhalen.",
     "points": [
       "Alle thema's van het KNM-examen, met korte lessen en oefenvragen",
-      "Herhalen met een oefentoets van alles wat je hebt gehaald",
+      "Slim herhalen van je fouten en een oefenexamen met alle thema's",
       "Een jaar toegang, ook op je telefoon of een andere computer",
       "Eenmalig betalen, geen abonnement"
     ],
@@ -383,5 +398,59 @@
         ]
       }
     ]
+  },
+  "exam": {
+    "title": "Oefenexamen KNM",
+    "description": "Maak een oefenexamen KNM: 40 vragen uit alle thema's in 45 minuten. Aan het eind zie je je score per thema en de uitleg bij je fouten.",
+    "lead": "Oefen zoals op het examen: vragen uit alle thema's door elkaar, met een klok. Je ziet de goede antwoorden pas aan het eind.",
+    "how": [
+      "{n} vragen uit alle {themes} thema's",
+      "Je hebt {min} minuten, net als bij het echte examen",
+      "Je kunt terug naar een vraag en je antwoord veranderen",
+      "Aan het eind: je score per thema en uitleg bij je fouten"
+    ],
+    "start": "Begin het oefenexamen",
+    "note": "Het oefenexamen is geen echt examen en zegt niet of je slaagt bij DUO. Het helpt je zien wat je al weet.",
+    "position": "Vraag {n} van {m}",
+    "timer": "Tijd over",
+    "prev": "Vorige",
+    "next": "Volgende",
+    "submit": "Inleveren",
+    "submitSure": "Toch inleveren",
+    "unanswered": "Je hebt nog {n} vragen niet beantwoord.",
+    "overview": "Overzicht van de vragen",
+    "timeUp": "De tijd is om. Je antwoorden zijn ingeleverd.",
+    "resultTitle": "Je uitslag",
+    "score": "{n} van de {m} goed ({pct}%)",
+    "pass": "Goed gedaan! Je had 70% of meer goed.",
+    "fail": "Nog niet genoeg: je had minder dan 70% goed. Oefen de thema's met de meeste fouten.",
+    "perTheme": "Per thema",
+    "themeScore": "{n} van {m}",
+    "practiceTheme": "Oefen dit thema",
+    "mistakes": "Je fouten",
+    "noMistakes": "Je had alles goed!",
+    "yourAnswer": "Jouw antwoord: {a}",
+    "noAnswer": "Geen antwoord",
+    "rightAnswer": "Goed antwoord: {a}",
+    "again": "Nog een oefenexamen",
+    "toReview": "Herhaal je fouten",
+    "loading": "Vragen laden…",
+    "lockBody": "Het oefenexamen heeft vragen uit alle thema's. Het hoort bij volledige toegang, voor {price}."
+  },
+  "transfer": {
+    "title": "Voortgang meenemen",
+    "description": "Neem je voortgang mee naar een ander apparaat met een link, zonder account.",
+    "lead": "Je voortgang staat alleen in deze browser. Wil je verder op je telefoon of een andere computer? Maak dan een link en open die op het andere apparaat.",
+    "make": "Maak een link",
+    "copy": "Kopieer de link",
+    "copied": "Gekopieerd",
+    "warn": "In deze link staan je scores en, als je die hebt, je toegang. Deel hem niet met anderen.",
+    "summary": "{lessons} lessen gehaald, {review} vragen om te herhalen",
+    "foundTitle": "Voortgang gevonden",
+    "found": "Deze link bevat: {summary}. Neem je deze voortgang over op dit apparaat? Wat je hier al hebt, blijft bewaard: de beste score telt.",
+    "take": "Voortgang overnemen",
+    "done": "Klaar! Je voortgang staat nu ook op dit apparaat.",
+    "broken": "Deze link klopt niet (meer). Maak op je andere apparaat een nieuwe link.",
+    "toStudy": "Verder leren"
   }
 }

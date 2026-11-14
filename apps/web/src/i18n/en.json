@@ -17,7 +17,8 @@
     "glossary": "Words",
     "themes": "Themes",
     "contact": "Contact",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "exam": "Practice exam"
   },
   "header": {
     "search": "Search",
@@ -150,7 +151,16 @@
     "choose": "Choose other lessons",
     "question": "Question {n}",
     "yourPath": "",
-    "otherPaths": ""
+    "otherPaths": "",
+    "smartTitle": "Smart review",
+    "smartDue": "{n} questions you got wrong before are ready to review.",
+    "smartOne": "1 question you got wrong before is ready to review.",
+    "smartLater": "Nothing to review right now. Your next review: {date}.",
+    "smartHow": "A question you get wrong comes back: straight away, then after 1, 3 and 7 days. After four right answers you are done with it.",
+    "smartStart": "Review your mistakes",
+    "examCta": "Take a practice exam",
+    "examLead": "Ready for a test with all themes mixed together?",
+    "transferCta": "Take your progress to another device"
   },
   "term": {
     "draft": "Draft · not yet reviewed by a teacher",
@@ -199,7 +209,8 @@
     "title": "Privacy",
     "description": "What this site does and does not keep: your progress stays in your own browser.",
     "body": [
-      "Your progress (your scores and which lessons are open) is kept only in your own browser (localStorage). We never see it.",
+      "Your progress (your scores, which lessons are open and which questions you still need to review) is kept only in your own browser (localStorage). We never see it.",
+      "If you make a link to take your progress to another device, your progress is in the link itself (after the # sign). Your browser does not send that part of an address to our server.",
       "On the live site we count visits without cookies (Vercel Web Analytics). Nothing is kept that could identify you.",
       "If a script on a page goes wrong, a short error report is sent to our server: the page, the message, the site version and your browser's name. Nothing about you.",
       "If you use the contact form, your message is emailed to us. It is not stored on the site."
@@ -278,6 +289,10 @@
     "/news/": {
       "title": "Civic integration and the KNM exam: what is changing?",
       "description": "Changes in civic integration and the KNM exam, briefly explained, each with its official source."
+    },
+    "/exam/": {
+      "title": "KNM practice exam: 40 questions in 45 minutes",
+      "description": "Take a KNM mock exam with practice questions from all themes and a 45-minute clock. See your score per theme and explanations of your mistakes."
     }
   },
   "buy": {
@@ -286,7 +301,7 @@
     "lead": "Theme 1 and the knowledge base are free. For €{price} you practise every other theme for a year, with lessons, tests and review.",
     "points": [
       "Every theme of the KNM exam, with short lessons and practice questions",
-      "Review with a practice test of everything you have passed",
+      "Smart review of your mistakes, and a practice exam with all themes",
       "A year of access, also on your phone or another computer",
       "One payment, no subscription"
     ],
@@ -383,5 +398,59 @@
         ]
       }
     ]
+  },
+  "exam": {
+    "title": "KNM practice exam",
+    "description": "Take a KNM practice exam: 40 questions from all themes in 45 minutes. At the end you see your score per theme and explanations of your mistakes.",
+    "lead": "Practise as in the exam: questions from all themes mixed together, with a clock. You only see the right answers at the end.",
+    "how": [
+      "{n} questions from all {themes} themes",
+      "You have {min} minutes, just like the real exam",
+      "You can go back to a question and change your answer",
+      "At the end: your score per theme and explanations of your mistakes"
+    ],
+    "start": "Start the practice exam",
+    "note": "The practice exam is not a real exam and does not tell you whether you will pass at DUO. It helps you see what you already know.",
+    "position": "Question {n} of {m}",
+    "timer": "Time left",
+    "prev": "Previous",
+    "next": "Next",
+    "submit": "Hand in",
+    "submitSure": "Hand in anyway",
+    "unanswered": "You have not answered {n} questions yet.",
+    "overview": "Overview of the questions",
+    "timeUp": "Time is up. Your answers have been handed in.",
+    "resultTitle": "Your result",
+    "score": "{n} of {m} right ({pct}%)",
+    "pass": "Well done! You got 70% or more right.",
+    "fail": "Not enough yet: you got less than 70% right. Practise the themes with the most mistakes.",
+    "perTheme": "Per theme",
+    "themeScore": "{n} of {m}",
+    "practiceTheme": "Practise this theme",
+    "mistakes": "Your mistakes",
+    "noMistakes": "You got everything right!",
+    "yourAnswer": "Your answer: {a}",
+    "noAnswer": "No answer",
+    "rightAnswer": "Right answer: {a}",
+    "again": "Another practice exam",
+    "toReview": "Review your mistakes",
+    "loading": "Loading questions…",
+    "lockBody": "The practice exam has questions from all themes. It comes with full access, for {price}."
+  },
+  "transfer": {
+    "title": "Take your progress with you",
+    "description": "Take your progress to another device with a link, without an account.",
+    "lead": "Your progress is stored in this browser only. Want to continue on your phone or another computer? Make a link and open it on the other device.",
+    "make": "Make a link",
+    "copy": "Copy the link",
+    "copied": "Copied",
+    "warn": "This link contains your scores and, if you have it, your access. Don't share it with others.",
+    "summary": "{lessons} lessons passed, {review} questions to review",
+    "foundTitle": "Progress found",
+    "found": "This link contains: {summary}. Take over this progress on this device? What you already have here is kept: the best score counts.",
+    "take": "Take over progress",
+    "done": "Done! Your progress is now on this device too.",
+    "broken": "This link is not valid (any more). Make a new link on your other device.",
+    "toStudy": "Continue learning"
   }
 }

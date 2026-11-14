@@ -56,7 +56,7 @@ const ui = t(locale);
 const N = ui.nav;
 const under = (...xs: string[]) => xs.some((x) => here.startsWith(`/${locale}${x}`));
 // Two areas, as on The Mantiqi: the knowledge base (home, topics, news, about) and the study portal (themes, lessons, review, words).
-const studyHere = under("/study/", "/practice/", "/glossary/");
+const studyHere = under("/study/", "/exam/", "/practice/", "/glossary/", "/transfer/");
 const nav = [
   { href: `/${locale}/topics/`, label: N.topics, current: under("/topics/") },
   { href: `/${locale}/news/`, label: N.news, current: under("/news/") },
@@ -64,7 +64,8 @@ const nav = [
 ];
 const studyNav = [
   { href: `/${locale}/study/`, label: N.themes, current: under("/study/") },
-  { href: `/${locale}/practice/`, label: N.practice, current: under("/practice/") },
+  { href: `/${locale}/exam/`, label: N.exam, current: under("/exam/") },
+  { href: `/${locale}/practice/`, label: N.practice, current: under("/practice/", "/transfer/") },
   { href: `/${locale}/glossary/`, label: N.glossary, current: under("/glossary/") },
 ];
 const buildVersion = (process.env.VERCEL_GIT_COMMIT_SHA ?? "").slice(0, 7) || "local";
@@ -80,7 +81,7 @@ const tabs = studyHere
   ? [
       { href: `/${locale}/`, label: N.home, icon: icon.home, current: false },
       { href: `/${locale}/study/`, label: N.themes, icon: icon.book, current: under("/study/") },
-      { href: `/${locale}/practice/`, label: N.practice, icon: icon.review, current: under("/practice/") },
+      { href: `/${locale}/practice/`, label: N.practice, icon: icon.review, current: under("/practice/", "/exam/", "/transfer/") },
       { href: `/${locale}/glossary/`, label: N.glossary, icon: icon.words, current: under("/glossary/") },
     ]
   : [

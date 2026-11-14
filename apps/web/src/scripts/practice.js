@@ -121,9 +121,10 @@
   const result = test.querySelector(".quiz-result");
   let answered = 0, right = 0, total = 0;
 
+  // The last test asked for (chosen lessons or smart review), so "shuffle again" repeats it.
+  let source = async () => { const qs = await pool(); if (form.elements.shuffleQ.checked) shuffle(qs); return qs; };
   const run = async () => {
-    let qs = await pool();
-    if (form.elements.shuffleQ.checked) shuffle(qs);
+    const qs = await source();
     const shuffleA = form.elements.shuffleA.checked;
     list.replaceChildren();
     answered = 0; right = 0; total = qs.length;
@@ -160,6 +161,7 @@
           verdict.textContent = ok ? ds.rightText : ds.wrongText;
           fb.hidden = false;
           answered++; if (ok) right++;
+          window.__review?.(id, ok);
           if (answered === total) finish();
         });
         opts.append(b);
@@ -179,9 +181,52 @@
     result.hidden = false;
     result.scrollIntoView({ behavior: "smooth", block: "center" });
   };
-  form.addEventListener("submit", (e) => { e.preventDefault(); run(); });
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    source = async () => { const qs = await pool(); if (form.elements.shuffleQ.checked) shuffle(qs); return qs; };
+    run();
+  });
   test.querySelector("[data-reshuffle]").addEventListener("click", run);
-  test.querySelector("[data-choose]").addEventListener("click", () => { test.hidden = true; form.hidden = false; scrollTo({ top: 0 }); });
+  test.querySelector("[data-choose]").addEventListener("click", () => {
+    test.hidden = true;
+    if (passedAll) form.hidden = false; else document.querySelector("[data-empty]").hidden = false;
+    smartShow();
+    scrollTo({ top: 0 });
+  });
+
+  // Smart review (lib/progress.js reviewAfter/reviewDue): questions answered wrongly before, when they are due again.
+  const smart = document.querySelector("[data-smart]");
+  const readReview = () => { try { return JSON.parse(localStorage.getItem("review") || "{}") || {}; } catch { return {}; } };
+  const dueIds = () => {
+    const r = readReview(), now = Date.now();
+    return Object.keys(r).filter((id) => window.__progress?.reviewDue(r[id], now));
+  };
+  const smartShow = () => {
+    const r = readReview();
+    const ids = Object.keys(r);
+    smart.hidden = ids.length === 0;
+    // With questions to review, "nothing to review yet" (no lesson passed) would contradict the card above it.
+    if (!passedAll) document.querySelector("[data-empty]").hidden = ids.length > 0;
+    if (!ids.length) return;
+    const due = dueIds();
+    const text = smart.querySelector("[data-smart-text]");
+    const btn = smart.querySelector("[data-smart-start]");
+    if (due.length) {
+      text.textContent = due.length === 1 ? smart.dataset.one : fill(smart.dataset.due, { n: due.length });
+      btn.hidden = false;
+    } else {
+      const next = Math.min(...ids.map((id) => r[id].d).filter(Number.isFinite));
+      text.textContent = fill(smart.dataset.later, { date: new Date(next).toLocaleDateString(document.documentElement.lang, { weekday: "long", day: "numeric", month: "long" }) });
+      btn.hidden = true;
+    }
+  };
+  smart.querySelector("[data-smart-start]").addEventListener("click", () => {
+    source = async () => { const all = await load(); return shuffle(dueIds().filter((id) => all[id]).map((id) => [id, all[id]])); };
+    smart.hidden = true;
+    document.querySelector("[data-empty]").hidden = true;
+    run();
+  });
+  smartShow();
   sync();
 })();
 

@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { localePaths, t } from "../../i18n";
+import transferScript from "../../scripts/transfer.js?url";
+
+/**
+ * Taking progress to another device without an account: the progress kept in this browser (scores, seen pages, smart
+ * review, bought access) is put in a link (#p=…, never sent to the server: a fragment stays in the browser). Opened on
+ * another device, the page offers to merge it in (mergeProgress in lib/progress.js: the best score wins). Not indexed.
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const X = ui.transfer;
+const texts = Object.fromEntries(["summary", "found", "copied", "copy", "broken", "done"].map((k) => [k, (X as any)[k]]));
+---
+
+<BaseLayout title={X.title} description={X.description} path="/transfer/" locale={locale} noindex>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/practice/`}>{ui.practice.title}</a> / {X.title}</p>
+  <h1>{X.title}</h1>
+  <p class="lead">{X.lead}</p>
+
+  <div data-transfer data-vars={JSON.stringify({ locale, texts })}>
+    <section class="card" data-found hidden>
+      <h2>{X.foundTitle}</h2>
+      <p data-found-text></p>
+      <button type="button" class="btn btn-red" data-take>{X.take}</button>
+    </section>
+    <p class="card" data-status role="status" aria-live="polite" hidden></p>
+    <p data-done-link hidden><a class="btn btn-red" href={`/${locale}/study/`}>{X.toStudy}</a></p>
+
+    <section class="card" data-make>
+      <p data-mine></p>
+      <button type="button" class="btn btn-red" data-make-link>{X.make}</button>
+      <div class="transfer-link" data-link hidden>
+        <label class="sr-only" for="transfer-url">{X.title}</label>
+        <input id="transfer-url" type="text" readonly data-url />
+        <button type="button" class="btn btn-outline" data-copy>{X.copy}</button>
+      </div>
+      <p class="muted">{X.warn}</p>
+    </section>
+  </div>
+
+  <script is:inline src={transferScript}></script>
+</BaseLayout>

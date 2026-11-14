@@ -30,6 +30,13 @@ const letters = "ABC";
     ))}
   </ol>
 
+  <section class="card smart-review" id="smart" data-smart hidden data-due={P.smartDue} data-one={P.smartOne} data-later={P.smartLater}>
+    <h2>{P.smartTitle}</h2>
+    <p data-smart-text></p>
+    <p class="muted">{P.smartHow}</p>
+    <button type="button" class="btn btn-red" data-smart-start>{P.smartStart}</button>
+  </section>
+
   <section class="card tikrar-empty" data-empty hidden>
     <h2>{P.emptyTitle}</h2>
     <p>{P.emptyBody}</p>
@@ -95,6 +102,15 @@ const letters = "ABC";
         <button type="button" class="btn btn-outline" data-choose>{P.choose}</button>
       </div>
     </div>
+  </section>
+
+  <section class="card practice-exam">
+    <h2>{ui.exam.title}</h2>
+    <p>{P.examLead}</p>
+    <p class="practice-more">
+      <a class="btn btn-red" href={`/${locale}/exam/`}>{P.examCta}</a>
+      <a class="btn btn-outline" href={`/${locale}/transfer/`}>{P.transferCta}</a>
+    </p>
   </section>
 
   <script is:inline src={practiceScript}></script>

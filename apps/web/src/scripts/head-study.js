@@ -19,6 +19,17 @@
     if (access) root.dataset.access = "";
     const theme = location.pathname.match(/\/study\/([a-z-]+)\/(?:\d+\/)?$/);
     if (theme && paid.includes(theme[1]) && !access) root.dataset.paywall = "";
+    // The practice exam draws on every theme, so it needs access too while selling is on.
+    if (/\/exam\/$/.test(location.pathname) && paid.length && !access) root.dataset.paywall = "";
+    // Smart review: every answer to a question (lesson test, review, exam) is passed here; wrong ones come back later.
+    window.__review = (id, ok) => {
+      try {
+        const all = read("review", {});
+        const next = window.__progress.reviewAfter(all[id], ok, Date.now());
+        if (next) all[id] = next; else delete all[id];
+        localStorage.setItem("review", JSON.stringify(all));
+      } catch {}
+    };
     const lesson = location.pathname.match(/\/study\/([a-z-]+)\/(\d+)\/$/);
     if (lesson) {
       const x = pr.info(`${lesson[1]}-${lesson[2]}`);

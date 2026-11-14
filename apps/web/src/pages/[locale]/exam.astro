@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { fmt, localePaths, t } from "../../i18n";
+import { tx } from "@knm/content";
+import { themePath, themes } from "../../lib/course";
+import { priceText, selling } from "../../lib/offer";
+import { EXAM } from "../../config/exam";
+import { breadcrumbs } from "../../lib/structured-data";
+import examScript from "../../scripts/exam.js?url";
+
+/**
+ * The practice exam: EXAM.questions questions drawn from every theme (about the same number from each), shuffled, with
+ * a clock of EXAM.minutes. Answers are shown only at the end, with the score per theme and the explanation of each
+ * mistake; every answer goes to smart review (window.__review, scripts/head-study.js). While selling is on it needs
+ * access, like themes 2–8 (data-paywall, set before paint).
+ */
+export const getStaticPaths = localePaths;
+const { locale } = Astro.params as { locale: string };
+const ui = t(locale);
+const E = ui.exam;
+const list = themes().map((th) => ({ id: th.id, n: th.n, title: tx(th.title, locale), href: themePath(locale, th.id) }));
+const how = (E.how as string[]).map((x) => fmt(x, { n: String(EXAM.questions), themes: String(list.length), min: String(EXAM.minutes) }));
+const texts = Object.fromEntries(
+  ["position", "submit", "submitSure", "unanswered", "timeUp", "score", "pass", "fail", "themeScore", "practiceTheme", "yourAnswer", "noAnswer", "rightAnswer", "noMistakes"].map((k) => [k, (E as any)[k]]),
+);
+---
+
+<BaseLayout
+  title={E.title}
+  description={E.description}
+  path="/exam/"
+  locale={locale}
+  jsonLd={[breadcrumbs([{ name: ui.nav.home, path: `/${locale}/` }, { name: ui.study.title, path: `/${locale}/study/` }, { name: E.title, path: `/${locale}/exam/` }])]}
+>
+  <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/study/`}>{ui.study.title}</a> / {E.title}</p>
+  <h1>{E.title}</h1>
+  <p class="lead">{E.lead}</p>
+
+  {selling() && (
+    <section class="card paywall-note">
+      <p class="eyebrow"><span class="lock-glyph" aria-hidden="true"></span>{ui.buy.lockTitle}</p>
+      <p>{fmt(E.lockBody, { price: priceText(locale) })}</p>
+      <p class="paywall-actions">
+        <a class="btn btn-red" href={`/${locale}/unlock/`}>{fmt(ui.buy.cta, { price: priceText(locale) })}</a>
+        <a class="btn btn-outline" href={`/${locale}/study/`}>{ui.buy.tryFree}</a>
+      </p>
+    </section>
+  )}
+
+  <div class="exam lockable" data-exam data-src={`/${locale}/practice/questions.json`} data-vars={JSON.stringify({ count: EXAM.questions, minutes: EXAM.minutes, pass: EXAM.pass, themes: list, texts, letters: "ABC" })}>
+    <section class="card exam-intro" data-intro>
+      <ol class="tikrar-steps">
+        {how.map((x, i) => (
+          <li>
+            <span class="tile-wrap" aria-hidden="true"><span class={i === 0 ? "tile tile-current" : "tile"}><span>{i + 1}</span></span></span>
+            <span>{x}</span>
+          </li>
+        ))}
+      </ol>
+      <p class="muted">{E.note}</p>
+      <button type="button" class="btn btn-red" data-start>{E.start}</button>
+    </section>
+
+    <section class="exam-run" data-run hidden>
+      <div class="exam-bar">
+        <p class="exam-pos" data-pos aria-live="polite"></p>
+        <p class="exam-clock"><span class="sr-only">{E.timer}: </span><span data-clock role="timer"></span></p>
+      </div>
+      <div class="card question exam-q" data-q>
+        <p class="q-prompt" data-prompt></p>
+        <div class="options" data-options></div>
+      </div>
+      <div class="exam-nav">
+        <button type="button" class="btn btn-outline" data-prev>{E.prev}</button>
+        <button type="button" class="btn btn-red" data-next>{E.next}</button>
+      </div>
+      <nav class="exam-grid" aria-label={E.overview} data-grid></nav>
+      <div class="exam-submit">
+        <p class="muted" data-unanswered hidden></p>
+        <button type="button" class="btn btn-outline" data-submit>{E.submit}</button>
+      </div>
+    </section>
+
+    <section class="exam-result" data-result hidden>
+      <div class="card">
+        <h2>{E.resultTitle}</h2>
+        <p class="muted" data-timeup hidden>{E.timeUp}</p>
+        <p class="exam-score" data-score></p>
+        <p data-verdict></p>
+        <div class="hero-actions">
+          <button type="button" class="btn btn-red" data-again>{E.again}</button>
+          <a class="btn btn-outline" href={`/${locale}/practice/#smart`}>{E.toReview}</a>
+        </div>
+      </div>
+      <section class="card">
+        <h2>{E.perTheme}</h2>
+        <ul class="exam-themes" data-themes></ul>
+      </section>
+      <section class="card">
+        <h2>{E.mistakes}</h2>
+        <ol class="exam-mistakes" data-mistakes></ol>
+      </section>
+    </section>
+  </div>
+
+  <script is:inline src={examScript}></script>
+</BaseLayout>
