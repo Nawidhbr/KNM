@@ -12,6 +12,18 @@
   const fill = (text, v) => text.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
   // Help translations (config/help.ts), folded under the question and the explanation; shown when the reader turned one on.
   const helpLangs = JSON.parse(ds.helpLangs || "[]");
+  // Dutch words and numbers keep their own order inside the right-to-left text: the pattern of lib/bidi.js.
+  const LATIN_RUN = /[A-Za-z0-9\u00C0-\u024F](?:[A-Za-z0-9\u00C0-\u024F .,:'’\/&+\-]*[A-Za-z0-9\u00C0-\u024F!?])?/g;
+  const iso = (el, text) => {
+    let at = 0;
+    for (const m of text.matchAll(LATIN_RUN)) {
+      if (m.index > at) el.append(text.slice(at, m.index));
+      const b = document.createElement("bdi"); b.textContent = m[0]; el.append(b);
+      at = m.index + m[0].length;
+    }
+    if (at < text.length) el.append(text.slice(at));
+    return el;
+  };
   const helpBox = (x, pick) => helpLangs.filter((h) => x?.[h.code]).map((h) => {
     const d = document.createElement("details");
     d.className = "help-tr"; d.dataset.helpLang = h.code;
@@ -21,13 +33,13 @@
     s.append(name, sr);
     const box = document.createElement("div"); box.className = "help-text"; box.lang = h.lang; box.dir = "rtl";
     const { text, options } = pick(x[h.code]);
-    const p = document.createElement("p"); p.textContent = text; box.append(p);
+    box.append(iso(document.createElement("p"), text));
     if (options) {
       const ol = document.createElement("ol"); ol.className = "help-options";
       options.forEach(([letter, o]) => {
         const li = document.createElement("li");
         const k = document.createElement("span"); k.className = "help-key"; k.dir = "ltr"; k.textContent = letter;
-        const t = document.createElement("span"); t.textContent = o;
+        const t = iso(document.createElement("span"), o);
         li.append(k, t); ol.append(li);
       });
       box.append(ol);

@@ -50,3 +50,32 @@ follows in brackets the first time in a lesson; abbreviations (UWV, KVK, cao, ID
 | rijbewijs | لایسنس رانندگی |
 | formulier invullen | فورم خانه‌پری کردن |
 | ja / nee | بلی / نخیر |
+| statushouder / verblijfsvergunning / azc | دارندۀ اجازۀ اقامت / اجازۀ اقامت / کمپ پناهندگان |
+| huurcontract, huurder, verhuurder, borg | قرارداد کرایه، کرایه‌نشین، مالک خانه، پول ضمانت |
+| Huurcommissie / Juridisch Loket | کمیسیون کرایه / مرکز مشورۀ حقوقی |
+| makelaar | رهنمای معاملات |
+| afval, gft, restafval | کثافات، کثافات سبزیجات، میوه و باغ، کثافات باقی‌مانده |
+| termijnbedrag / meterstanden | قسط ماهانه / عددهای میتر |
+| huisartsenpost / spoedeisende hulp | مرکز داکتر نوکریوال / بخش عاجل شفاخانه |
+| ziekenhuis, specialist, verwijsbrief, recept | شفاخانه، داکتر متخصص، معرفی‌نامه، نسخه |
+| eigen risico / eigen bijdrage | سهم خود بیمه‌شده / سهم پرداخت شخصی |
+| basisverzekering / aanvullende verzekering | بیمۀ اساسی / بیمۀ اضافی |
+| verloskundige, kraamzorg, consultatiebureau | قابله، مراقبت پس از زایمان، مرکز صحت طفل |
+| tolk | ترجمان |
+| BSN | شمارۀ خدمات شهروندی (BSN) |
+| aangifte (Belastingdienst) / aangifte (politie) | اظهارنامۀ مالیاتی / شکایت رسمی |
+| bruto / netto | ناخالص / خالص |
+| kinderbijslag | پول اطفال |
+| bezwaar / klacht / hoger beroep | اعتراض / شکایت / استیناف |
+| advocaat / rechter / kinderrechter | وکیل مدافع / قاضی، محکمه / قاضی اطفال |
+| naturalisatie | اخذ تابعیت |
+| Grondwet / rechtsstaat | قانون اساسی / دولت قانون‌محور |
+| koning, minister-president, minister | پادشاه، صدراعظم، وزیر |
+| scheiding der machten (wetgevend, uitvoerend, rechterlijk) | تفکیک قوا (مقننه، اجرائیه، قضائیه) |
+| kiesrecht (actief / passief) | حق رأی (فعال / غیرفعال) |
+| huiselijk geweld / huwelijksdwang | خشونت خانگی / ازدواج اجباری |
+| basisschool / groep / middelbare school | مکتب ابتدائیه / صنف / مکتب متوسطه |
+| leerplicht / kwalificatieplicht / startkwalificatie | تعلیم اجباری / مکلفیت گرفتن مدرک / مدرک پایه |
+| kinderopvang / bso | کودکستان / مراقبت بیرون از مکتب |
+| universiteit / studiefinanciering | پوهنتون / کمک مالی تحصیلی |
+| openbaar vervoer, trein, bus, inchecken | ترانسپورت عامه، قطار، بس، کارت زدن (inchecken) |
