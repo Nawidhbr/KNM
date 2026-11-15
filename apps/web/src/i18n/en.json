@@ -209,7 +209,7 @@
     "title": "Privacy",
     "description": "What this site does and does not keep: your progress stays in your own browser.",
     "body": [
-      "Your progress (your scores, which lessons are open and which questions you still need to review) is kept only in your own browser (localStorage). We never see it.",
+      "Your progress (your scores, which lessons are open and which questions you still need to review) and your settings (dark theme, help translation) are kept only in your own browser (localStorage). We never see it.",
       "If you make a link to take your progress to another device, your progress is in the link itself (after the # sign). Your browser does not send that part of an address to our server.",
       "Reading aloud uses the voice of your own browser or device; we send nothing for it. Some browsers do use an online service of the browser's maker for their voices.",
       "On the live site we count visits without cookies (Vercel Web Analytics), and a few steps: a test or practice exam finished (passed or not), a payment started or completed. Nothing is kept that could identify you.",
@@ -458,5 +458,10 @@
     "lesson": "Read the lesson aloud",
     "question": "Read aloud",
     "stop": "Stop"
+  },
+  "help": {
+    "label": "help translation",
+    "toggle": "Help translation",
+    "setting": "Help translation {lang}"
   }
 }

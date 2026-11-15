@@ -4,6 +4,7 @@ import topicData from "../generated/topics.json" with { type: "json" };
 import glossaryData from "../generated/glossary.json" with { type: "json" };
 import newsData from "../generated/news.json" with { type: "json" };
 import reviewData from "../generated/reviews.json" with { type: "json" };
+import helpData from "../generated/help.json" with { type: "json" };
 
 export * from "./schema.ts";
 
@@ -39,3 +40,10 @@ export const getReview = (key: string): ReviewState => {
   const r = (reviewData as Record<string, { by: string; date: string }>)[key];
   return r ? { status: "reviewed", by: r.by, date: r.date } : { status: "draft" };
 };
+
+/**
+ * A help translation of a theme: whether it exists in this language and who checked it (null: a draft not checked by a
+ * speaker yet). Undefined when the theme has no translation in that language.
+ */
+export const getHelp = (code: string, theme: string): { by: string; date: string } | null | undefined =>
+  (helpData as Record<string, Record<string, { by: string; date: string } | null>>)[code]?.[theme];

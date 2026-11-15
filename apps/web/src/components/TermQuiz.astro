@@ -1,6 +1,7 @@
 ---
 import { fmt, t } from "../i18n";
 import { gloss } from "../lib/gloss";
+import Help from "./Help.astro";
 
 import termQuizScript from "../scripts/term-quiz.js?url";
 /**
@@ -9,7 +10,8 @@ import termQuizScript from "../scripts/term-quiz.js?url";
  * as the test is passed.
  */
 interface Props {
-  quiz: { items: { id?: string; prompt: string; options: string[]; answer: number; explanation: string; arabic?: string }[] };
+  /** `src`: the question itself, for its help translations (components/Help.astro). */
+  quiz: { items: { id?: string; prompt: string; options: string[]; answer: number; explanation: string; arabic?: string; src?: { prompt: any; options: any; explanation: any } }[] };
   slug: string;
   locale: string;
   /** Texts for a lesson of level 2 or later instead of a term ("the next lesson opens"). */
@@ -35,6 +37,7 @@ const letters = "ABCDEFG";
           <p class="q-number eyebrow">{fmt(ui.practice.question, { n: n + 1 })}</p>
           <p class="q-prompt">{item.prompt}</p>
           {item.arabic && <p class="ar q-ar" lang="ar">{item.arabic}</p>}
+          {item.src && <Help text={item.src.prompt} options={item.src.options} locale={locale} />}
           <div class="options">
             {item.options.map((option, i) => (
               <button type="button" class="option" data-index={i}>
@@ -46,6 +49,7 @@ const letters = "ABCDEFG";
           <div class="feedback" hidden aria-live="polite">
             <p class="verdict" />
             <p set:html={gloss(item.explanation, locale)} />
+            {item.src && <Help text={item.src.explanation} locale={locale} />}
           </div>
         </li>
       ))

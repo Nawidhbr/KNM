@@ -4,8 +4,10 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import ReviewBadge from "../../../../components/ReviewBadge.astro";
 import TermQuiz from "../../../../components/TermQuiz.astro";
 import Picture from "../../../../components/Picture.astro";
+import Help from "../../../../components/Help.astro";
+import { helpFor } from "../../../../config/help";
 import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
-import { getReview, tx, txl, type Lesson, type Theme } from "@knm/content";
+import { getHelp, getReview, tx, txl, type Lesson, type Theme } from "@knm/content";
 import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course";
 import { gloss } from "../../../../lib/gloss";
 import { breadcrumbs } from "../../../../lib/structured-data";
@@ -30,10 +32,12 @@ const title = tx(lesson.title, locale);
 const of = fmt(L.of, { n: lesson.n, m: th.lessons.length });
 const path = `/study/${th.id}/${lesson.n}/`;
 const quiz = {
-  items: lesson.quiz.map((q) => ({ id: q.id, prompt: tx(q.prompt, locale), options: txl(q.options, locale), answer: q.answer, explanation: tx(q.explanation, locale) })),
+  items: lesson.quiz.map((q) => ({ id: q.id, prompt: tx(q.prompt, locale), options: txl(q.options, locale), answer: q.answer, explanation: tx(q.explanation, locale), src: q })),
 };
 const codes = [...new Set(lesson.quiz.map((q) => q.eindterm))].sort((a, b) => a.localeCompare(b, "en", { numeric: true }));
 const body = txl(lesson.body, locale);
+// Help translations of this lesson (config/help.ts): the languages it has, and whether a speaker has checked them.
+const helps = helpFor(locale).filter((h) => lesson.title[h.code]).map((h) => ({ ...h, checked: getHelp(h.code, th.id) }));
 ---
 
 <BaseLayout
@@ -69,12 +73,18 @@ const body = txl(lesson.body, locale);
       <p class="eyebrow">{fmt(ui.study.themeLabel, { n: th.n })} · {theme} · {of}</p>
       <div class="term-hero lesson-hero">
         <span class="tile-wrap" aria-hidden="true"><span class="tile tile-current"><span>{lesson.n}</span></span></span>
-        <div class="titles"><h1>{title}</h1></div>
+        <div class="titles"><h1>{title}</h1><Help text={lesson.title} locale={locale} open class="help-title" /></div>
       </div>
       <ReviewBadge review={getReview(lessonKey(th.id, lesson.n))} locale={locale} />
     </section>
 
-    <p class="say-row"><button type="button" class="say-btn" data-say="lesson" aria-pressed="false" hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" fill="none"/></svg><span class="say-label">{ui.say.lesson}</span></button></p>
+    <p class="say-row">{helps.map((h) => (
+      <button type="button" class="say-btn help-btn" data-help-switch={h.code} aria-pressed="false"><svg viewBox="0 0 24 24" width="18" height="18" class="help-icon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 8 6 6"></path><path d="m4 14 6-6 2-3"></path><path d="M2 5h12"></path><path d="M7 2h1"></path><path d="m22 22-5-10-5 10"></path><path d="M14 18h6"></path></svg><span>{ui.help.toggle}</span> <span lang={h.lang} dir="rtl">{h.name}</span></button>
+    ))}<button type="button" class="say-btn" data-say="lesson" aria-pressed="false" hidden><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" fill="none"/></svg><span class="say-label">{ui.say.lesson}</span></button></p>
+
+    {helps.map((h) => (
+      <p class="help-tr help-note" data-help-lang={h.code} lang={h.lang} dir="rtl">{h.checked ? fmt(h.noteChecked, { by: h.checked.by }) : h.note}</p>
+    ))}
 
     <section class="card">
       <h2>{L.situation}</h2>
@@ -86,16 +96,18 @@ const body = txl(lesson.body, locale);
       ) : (
         <p class="situation" data-say-part>{tx(lesson.situation, locale)}</p>
       )}
+      <Help text={lesson.situation} locale={locale} />
     </section>
 
     <section class="card primer-body">
       <h2>{L.theLesson}</h2>
-      {body.map((para) => <p data-say-part set:html={gloss(para, locale)} />)}
+      {body.map((para, k) => <><p data-say-part set:html={gloss(para, locale)} /><Help text={lesson.body} index={k} locale={locale} /></>)}
     </section>
 
     <section class="card remember">
       <h2>{L.remember}</h2>
       <p data-say-part set:html={gloss(tx(lesson.remember, locale), locale)} />
+      <Help text={lesson.remember} locale={locale} />
     </section>
 
     <TermQuiz quiz={quiz} slug={lessonKey(th.id, lesson.n)} locale={locale} intro={L.quizIntro} passed={next ? L.quizPassed : L.themeDoneQuiz} failed={L.quizFailed} />

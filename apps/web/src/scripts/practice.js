@@ -10,6 +10,31 @@
   const load = () => (data ??= fetch(ds.src).then((r) => r.json()));
 
   const fill = (text, v) => text.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
+  // Help translations (config/help.ts), folded under the question and the explanation; shown when the reader turned one on.
+  const helpLangs = JSON.parse(ds.helpLangs || "[]");
+  const helpBox = (x, pick) => helpLangs.filter((h) => x?.[h.code]).map((h) => {
+    const d = document.createElement("details");
+    d.className = "help-tr"; d.dataset.helpLang = h.code;
+    const s = document.createElement("summary");
+    const name = document.createElement("span"); name.lang = h.lang; name.dir = "rtl"; name.textContent = h.name;
+    const sr = document.createElement("span"); sr.className = "sr-only"; sr.textContent = ` (${h.label})`;
+    s.append(name, sr);
+    const box = document.createElement("div"); box.className = "help-text"; box.lang = h.lang; box.dir = "rtl";
+    const { text, options } = pick(x[h.code]);
+    const p = document.createElement("p"); p.textContent = text; box.append(p);
+    if (options) {
+      const ol = document.createElement("ol"); ol.className = "help-options";
+      options.forEach(([letter, o]) => {
+        const li = document.createElement("li");
+        const k = document.createElement("span"); k.className = "help-key"; k.dir = "ltr"; k.textContent = letter;
+        const t = document.createElement("span"); t.textContent = o;
+        li.append(k, t); ol.append(li);
+      });
+      box.append(ol);
+    }
+    d.append(s, box);
+    return d;
+  });
 
   // Passed lessons can be chosen, with their stars; the others are not listed one by one but counted per chapter.
   let passedAll = 0;
@@ -139,11 +164,13 @@
       const pic = q.g && document.querySelector(`[data-pictures] [data-pic="${q.g}"]`);
       if (pic) { const svg = pic.cloneNode(true); svg.classList.add("q-pic"); li.append(head, svg, p); } else li.append(head, p);
       if (q.a) { const ar = document.createElement("p"); ar.className = "ar q-ar"; ar.lang = "ar"; ar.textContent = q.a; li.append(ar); }
+      // The options in the order shown, with the letters of their buttons.
+      li.append(...helpBox(q.x, (x) => ({ text: x.p, options: order.map((orig, i) => [ds.letters[i], x.o[orig]]) })));
       const opts = document.createElement("div"); opts.className = "options";
       const fb = document.createElement("div"); fb.className = "feedback"; fb.hidden = true;
       const verdict = document.createElement("p"); verdict.className = "verdict";
       const expl = document.createElement("p"); expl.textContent = q.e;
-      fb.append(verdict, expl);
+      fb.append(verdict, expl, ...helpBox(q.x, (x) => ({ text: x.e })));
       order.forEach((orig, i) => {
         const b = document.createElement("button");
         b.type = "button"; b.className = "option";

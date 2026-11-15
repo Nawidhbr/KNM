@@ -13,11 +13,19 @@ import { z } from "zod";
 export const LOCALES = ["nl", "en"] as const;
 export type Locale = (typeof LOCALES)[number];
 
+/**
+ * Help translations: shown beside the Dutch on the Dutch pages (folded under each paragraph and question), for learners
+ * who read Dutch with difficulty. They live apart from the lessons, in i18n/<code>/themes/<theme>.json (schema
+ * HelpTheme), and are merged into the text fields when the bundle is written. Dari (fa-af: Afghan Persian) is the first.
+ */
+export const HELP_LANGS = ["fa-af"] as const;
+export type HelpLang = (typeof HELP_LANGS)[number];
+
 /** One string per language; Dutch is required. */
-export const Text = z.object({ nl: z.string().min(1), en: z.string().min(1).optional() });
+export const Text = z.object({ nl: z.string().min(1), en: z.string().min(1).optional(), "fa-af": z.string().min(1).optional() });
 export type Text = z.infer<typeof Text>;
 /** A list of strings per language (paragraphs, answer options). */
-export const TextList = z.object({ nl: z.array(z.string().min(1)).min(1), en: z.array(z.string().min(1)).min(1).optional() });
+export const TextList = z.object({ nl: z.array(z.string().min(1)).min(1), en: z.array(z.string().min(1)).min(1).optional(), "fa-af": z.array(z.string().min(1)).min(1).optional() });
 export type TextList = z.infer<typeof TextList>;
 
 /** An eindterm code: theme.action (1.1) or theme.action.knowledge (1.1.2). */
@@ -94,6 +102,28 @@ export const Theme = z.object({
   lessons: z.array(Lesson).min(1),
 });
 export type Theme = z.infer<typeof Theme>;
+
+/**
+ * A help translation of one theme (i18n/<code>/themes/<theme>.json): per lesson, by its number, the same parts as the
+ * Dutch, and per question, by its id. A lesson may be missing while the translation is under way; a lesson that is
+ * there is complete (as many paragraphs and options as the Dutch). Machine-drafted translations are drafts until a
+ * speaker of the language has checked them (`checked`: by whom and when).
+ */
+export const HelpTheme = z.object({
+  theme: z.string().regex(/^[a-z-]+$/),
+  title: z.string().min(1),
+  lead: z.string().min(1),
+  checked: z.object({ by: z.string().min(1), date: Day }).optional(),
+  lessons: z.array(z.object({
+    n: z.number().int().min(1),
+    title: z.string().min(1),
+    situation: z.string().min(1),
+    body: z.array(z.string().min(1)).min(1),
+    remember: z.string().min(1),
+    quiz: z.array(z.object({ id: z.string(), prompt: z.string().min(1), options: z.array(z.string().min(1)).min(2), explanation: z.string().min(1) })),
+  })),
+});
+export type HelpTheme = z.infer<typeof HelpTheme>;
 
 /** The list of all eight themes, in order; a theme without a course yet is shown as "in preparation". */
 export const ThemeIndex = z.object({

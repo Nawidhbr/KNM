@@ -1,0 +1,46 @@
+---
+import { helpFor } from "../config/help";
+import { t } from "../i18n";
+
+/**
+ * A help translation of one text, folded under the Dutch (config/help.ts). Shown only on the Dutch pages, only for a
+ * language the reader turned on (data-help on <html>), and only when the translation exists. `open` shows it without
+ * a fold (for a title); `list` gives answer options with their letters.
+ */
+interface Props {
+  /** A content text field ({ nl, en?, "fa-af"? }). */
+  text?: Record<string, string | string[] | undefined>;
+  locale: string;
+  open?: boolean;
+  /** Answer options, with the letters of the buttons. */
+  options?: Record<string, string[] | undefined>;
+  /** For a list field (the paragraphs): which one. */
+  index?: number;
+  class?: string;
+}
+const { text, options, locale, index, open = false } = Astro.props;
+const ui = t(locale);
+const letters = "ABCDEFG";
+const pick = (v: string | string[] | undefined) => (index === undefined || !Array.isArray(v) ? v : v[index]);
+const langs = helpFor(locale).filter((h) => pick(text?.[h.code]));
+---
+
+{langs.map((h) => {
+  const v = pick(text![h.code])!;
+  const paras = Array.isArray(v) ? v : [v];
+  const opts = options?.[h.code];
+  const inner = (
+    <div class="help-text" lang={h.lang} dir="rtl">
+      {paras.map((p) => <p>{p}</p>)}
+      {opts && <ol class="help-options">{opts.map((o, i) => <li><span class="help-key" dir="ltr">{letters[i]}</span><span>{o}</span></li>)}</ol>}
+    </div>
+  );
+  return open ? (
+    <div class:list={["help-tr help-open", Astro.props.class]} data-help-lang={h.code}>{inner}</div>
+  ) : (
+    <details class:list={["help-tr", Astro.props.class]} data-help-lang={h.code}>
+      <summary><span lang={h.lang} dir="rtl">{h.name}</span><span class="sr-only"> ({ui.help.label})</span></summary>
+      {inner}
+    </details>
+  );
+})}

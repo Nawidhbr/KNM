@@ -10,6 +10,24 @@ themeButton.addEventListener("click", () => {
   syncTheme();
 });
 
+// Help translations (config/help.ts): the switch in this menu and the button on a lesson turn one language on or off,
+// for every page (localStorage `help`, applied before paint by head-settings.js).
+(() => {
+  const root = document.documentElement;
+  const switches = [...document.querySelectorAll("[data-help-switch]")];
+  const sync = () => switches.forEach((b) => b.setAttribute(b.getAttribute("role") === "switch" ? "aria-checked" : "aria-pressed", String(root.dataset.help === b.dataset.helpSwitch)));
+  for (const b of switches) {
+    b.addEventListener("click", () => {
+      const on = root.dataset.help !== b.dataset.helpSwitch;
+      if (on) root.dataset.help = b.dataset.helpSwitch; else delete root.dataset.help;
+      try { if (on) localStorage.setItem("help", b.dataset.helpSwitch); else localStorage.removeItem("help"); } catch {}
+      window.__track?.("Help translation", { lang: b.dataset.helpSwitch, on: on ? "yes" : "no" });
+      sync();
+    });
+  }
+  sync();
+})();
+
 // Progress, kept only in this browser: lessons passed (with their stars), the current one, locked ones.
 (() => {
   const study = window.__study;

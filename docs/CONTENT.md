@@ -36,7 +36,17 @@ were checked against a source; a theme is done when every item of it is tested a
 ## Translations
 
 Dutch is the source. English follows in the same file (`en`), complete per lesson (title, situation, body,
-remember, every question). Other languages come later, in the same way.
+remember, every question).
+
+Help translations are a different thing: a translation folded under the Dutch on the Dutch pages, for learners who
+read Dutch with difficulty (the exam is in Dutch, so the Dutch stays the text). They live apart from the lessons, one
+file per theme in `packages/content/i18n/<code>/themes/<theme>.json` (schema `HelpTheme`): per lesson (by `n`) the
+title, situation, body (as many paragraphs as the Dutch), remember and every question (by `id`, as many options as
+the Dutch, in the same order). Validation merges them into the text fields under the language code. Keep key Dutch
+words in brackets after the translation, the first time in a lesson (`شاروالی (gemeente)`), so the learner meets the
+word the exam uses. The terminology is fixed in `i18n/<code>/GLOSSARY.md`. A file gets `checked` (by, date) only when
+a speaker has checked it; until then the page says it is a draft. Dari (`fa-af`) is the first help language; to add
+another, add it to `HELP_LANGS` (schema) and `HELP` (apps/web/src/config/help.ts) with a CSS rule in knm.css.
 
 ## Drafts and review
 

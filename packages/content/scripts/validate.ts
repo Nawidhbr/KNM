@@ -6,7 +6,7 @@
  */
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
-import { Eindtermen, Glossary, LOCALES, News, Reviews, Theme, ThemeIndex, Topic } from "../src/schema.ts";
+import { Eindtermen, Glossary, HELP_LANGS, HelpTheme, LOCALES, News, Reviews, Theme, ThemeIndex, Topic } from "../src/schema.ts";
 
 const root = new URL("..", import.meta.url).pathname;
 const read = (p: string) => JSON.parse(readFileSync(join(root, p), "utf8"));
@@ -99,6 +99,51 @@ for (const loc of LOCALES) {
   glossary[loc] = g;
 }
 
+// Help translations (i18n/<code>/themes/<theme>.json): every lesson and question must exist, and a translated lesson
+// must be complete, with as many paragraphs and options as the Dutch. They are merged into the text fields.
+const helpCount: Record<string, { lessons: number; checked: number }> = {};
+const helpState: Record<string, Record<string, { by: string; date: string } | null>> = {};
+for (const code of HELP_LANGS) {
+  const dir = join(root, "i18n", code, "themes");
+  helpCount[code] = { lessons: 0, checked: 0 };
+  if (!existsSync(dir)) continue;
+  for (const f of readdirSync(dir).filter((x) => x.endsWith(".json"))) {
+    const where = `i18n/${code}/themes/${f}`;
+    const h = parse(HelpTheme, read(`i18n/${code}/themes/${f}`), where);
+    if (!h) continue;
+    const t = themes.find((x) => x.t.id === h.theme)?.t;
+    if (!t) { fail(where, `theme ${h.theme} has no course`); continue; }
+    if (`${h.theme}.json` !== f) fail(where, `theme ${h.theme} does not match the file name`);
+    (helpState[code] ??= {})[h.theme] = h.checked ?? null;
+    t.title[code] = h.title;
+    t.lead[code] = h.lead;
+    const entry = index?.themes.find((x) => x.id === h.theme);
+    if (entry) { entry.title[code] = h.title; entry.lead[code] = h.lead; }
+    for (const hl of h.lessons) {
+      const lw = `${where} lesson ${hl.n}`;
+      const l = t.lessons.find((x) => x.n === hl.n);
+      if (!l) { fail(lw, "no such lesson"); continue; }
+      if (hl.body.length !== l.body.nl.length) fail(lw, `${hl.body.length} paragraph(s), the Dutch has ${l.body.nl.length}`);
+      const ids = new Set(hl.quiz.map((q) => q.id));
+      for (const q of l.quiz) if (!ids.has(q.id)) fail(lw, `question ${q.id} is not translated`);
+      for (const hq of hl.quiz) {
+        const q = l.quiz.find((x) => x.id === hq.id);
+        if (!q) { fail(lw, `question ${hq.id} is not in this lesson`); continue; }
+        if (hq.options.length !== q.options.nl.length) fail(lw, `question ${hq.id}: ${hq.options.length} option(s), the Dutch has ${q.options.nl.length}`);
+        q.prompt[code] = hq.prompt;
+        q.options[code] = hq.options;
+        q.explanation[code] = hq.explanation;
+      }
+      l.title[code] = hl.title;
+      l.situation[code] = hl.situation;
+      l.body[code] = hl.body;
+      l.remember[code] = hl.remember;
+      helpCount[code].lessons++;
+      if (h.checked) helpCount[code].checked++;
+    }
+  }
+}
+
 const news = parse(News, read("news.json"), "news.json");
 const reviews = parse(Reviews, read("reviews.json"), "reviews.json") ?? {};
 const lessonKeys = new Set(themes.flatMap(({ t }) => t.lessons.map((l) => `${t.id}-${l.n}`)));
@@ -120,6 +165,7 @@ write("topics.json", topics.map((x) => x.t).sort((a, b) => a.title.nl.localeComp
 write("glossary.json", glossary);
 write("news.json", [...news!.items].sort((a, b) => b.date.localeCompare(a.date)));
 write("reviews.json", reviews);
+write("help.json", helpState);
 
 // Coverage: per knowledge item of the eindtermen, the lessons and questions that test it and the topics that explain
 // it (a question on a crucial action counts for that action's items). `npm run coverage` prints it.
@@ -137,3 +183,4 @@ write("coverage.json", coverage);
 const lessonCount = themes.reduce((n, x) => n + x.t.lessons.length, 0);
 const covered = coverage.filter((c) => c.questions > 0).length;
 console.log(`Content OK: ${themes.length} course(s), ${lessonCount} lessons, ${questionIds.size} questions, ${topics.length} topics; ${covered} of ${coverage.length} eindtermen tested.`);
+for (const [code, c] of Object.entries(helpCount)) if (c.lessons) console.log(`Help translation ${code}: ${c.lessons} of ${lessonCount} lessons (${c.checked} checked).`);

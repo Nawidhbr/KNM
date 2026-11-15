@@ -209,7 +209,7 @@
     "title": "Privacy",
     "description": "Wat deze site wel en niet bewaart: je voortgang staat alleen in je eigen browser.",
     "body": [
-      "Je voortgang (je scores, welke lessen open zijn en welke vragen je nog moet herhalen) staat alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
+      "Je voortgang (je scores, welke lessen open zijn en welke vragen je nog moet herhalen) en je instellingen (donker thema, hulpvertaling) staan alleen in je eigen browser (localStorage). Wij krijgen die niet te zien.",
       "Maak je een link om je voortgang mee te nemen naar een ander apparaat, dan staat je voortgang in die link zelf (na het #-teken). Dat deel van een adres stuurt je browser niet naar onze server.",
       "Voorlezen gebruikt de stem van je eigen browser of apparaat; wij sturen daarvoor niets door. Sommige browsers gebruiken voor hun stemmen wel een online dienst van de maker van de browser.",
       "Op de live site tellen we bezoeken zonder cookies (Vercel Web Analytics), en een paar stappen: een toets of oefenexamen afgerond (gehaald of niet), een betaling gestart of gelukt. Daarbij bewaren we niets waarmee we jou kunnen herkennen.",
@@ -458,5 +458,10 @@
     "lesson": "Lees de les voor",
     "question": "Lees voor",
     "stop": "Stop"
+  },
+  "help": {
+    "label": "hulpvertaling",
+    "toggle": "Hulpvertaling",
+    "setting": "Hulpvertaling {lang}"
   }
 }
