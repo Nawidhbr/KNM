@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { localePaths, t } from "../../../i18n";
-import { getThemeIndex, getTopics, tx } from "@knm/content";
+import { dutchAttrs, localePaths, t } from "../../../i18n";
+import { getThemeIndex, getTopics, has, tx } from "@knm/content";
 import { breadcrumbs } from "../../../lib/structured-data";
 
 /** The knowledge base: every page, grouped by theme (the page about the exam first). */
@@ -24,7 +24,7 @@ const groups = [
     <section>
       <h2>{g.title}</h2>
       <ul class="topic-list">
-        {g.items.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
+        {g.items.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`} {...dutchAttrs(locale, has(x.title, locale))}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
       </ul>
     </section>
   ))}

@@ -7,6 +7,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { Eindtermen, Glossary, HELP_LANGS, HelpTheme, LOCALES, News, Reviews, Theme, ThemeIndex, Topic } from "../src/schema.ts";
+import { RTL_LANGS, isolate } from "../src/bidi.ts";
 
 const root = new URL("..", import.meta.url).pathname;
 const read = (p: string) => JSON.parse(readFileSync(join(root, p), "utf8"));
@@ -109,8 +110,18 @@ for (const code of HELP_LANGS) {
   if (!existsSync(dir)) continue;
   for (const f of readdirSync(dir).filter((x) => x.endsWith(".json"))) {
     const where = `i18n/${code}/themes/${f}`;
-    const h = parse(HelpTheme, read(`i18n/${code}/themes/${f}`), where);
-    if (!h) continue;
+    const parsed = parse(HelpTheme, read(`i18n/${code}/themes/${f}`), where);
+    if (!parsed) continue;
+    // Right-to-left languages: Dutch words and numbers keep their own order (src/bidi.ts). Only the texts, not the ids.
+    const iso = RTL_LANGS.includes(code) ? isolate : (s: string) => s;
+    const h = {
+      ...parsed,
+      title: iso(parsed.title), lead: iso(parsed.lead), indexLead: parsed.indexLead && iso(parsed.indexLead),
+      lessons: parsed.lessons.map((l) => ({
+        ...l, title: iso(l.title), situation: iso(l.situation), body: l.body.map(iso), remember: iso(l.remember),
+        quiz: l.quiz.map((q) => ({ ...q, prompt: iso(q.prompt), options: q.options.map(iso), explanation: iso(q.explanation) })),
+      })),
+    };
     const t = themes.find((x) => x.t.id === h.theme)?.t;
     if (!t) { fail(where, `theme ${h.theme} has no course`); continue; }
     if (`${h.theme}.json` !== f) fail(where, `theme ${h.theme} does not match the file name`);
@@ -118,7 +129,7 @@ for (const code of HELP_LANGS) {
     t.title[code] = h.title;
     t.lead[code] = h.lead;
     const entry = index?.themes.find((x) => x.id === h.theme);
-    if (entry) { entry.title[code] = h.title; entry.lead[code] = h.lead; }
+    if (entry) { entry.title[code] = h.title; entry.lead[code] = h.indexLead ?? h.lead; }
     for (const hl of h.lessons) {
       const lw = `${where} lesson ${hl.n}`;
       const l = t.lessons.find((x) => x.n === hl.n);

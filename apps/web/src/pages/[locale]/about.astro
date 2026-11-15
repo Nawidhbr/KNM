@@ -15,5 +15,5 @@ const v = { site: SITE.name };
   <h1>{fmt(A.title, v)}</h1>
   <p class="lead">{fmt(A.lead, v)}</p>
   {(A.body as string[]).map((p) => <p>{fmt(p, v)}</p>)}
-  <p><a href={`/${locale}/contact/`}>{ui.nav.contact} →</a> · <a href={`/${locale}/privacy/`}>{ui.nav.privacy} →</a></p>
+  <p><a href={`/${locale}/contact/`}>{ui.nav.contact} <span class="arr" aria-hidden="true">→</span></a> · <a href={`/${locale}/privacy/`}>{ui.nav.privacy} <span class="arr" aria-hidden="true">→</span></a></p>
 </BaseLayout>

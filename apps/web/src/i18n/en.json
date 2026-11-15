@@ -102,7 +102,8 @@
     "quizIntro": "Five questions about this lesson. With 7 out of 10 (two stars) the next lesson opens.",
     "quizPassed": "Passed! The next lesson is open.",
     "quizFailed": "Not passed yet. Read the lesson again and try once more.",
-    "themeDoneQuiz": "Passed! You have passed all lessons of this theme."
+    "themeDoneQuiz": "Passed! You have passed all lessons of this theme.",
+    "translated": ""
   },
   "lock": {
     "title": "Not open yet",
@@ -345,6 +346,7 @@
     "title": "Terms",
     "description": "The terms for access to every theme: what you buy, delivery, withdrawal, refunds and who we are.",
     "missing": "The company details will follow.",
+    "binding": "",
     "sections": [
       {
         "h": "Who we are",

@@ -12,26 +12,15 @@
   const fill = (text, v) => text.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
   // Help translations (config/help.ts), folded under the question and the explanation; shown when the reader turned one on.
   const helpLangs = JSON.parse(ds.helpLangs || "[]");
-  // Dutch words and numbers keep their own order inside the right-to-left text: the pattern of lib/bidi.js.
-  const LATIN_RUN = /[A-Za-z0-9\u00C0-\u024F](?:[A-Za-z0-9\u00C0-\u024F .,:'’\/&+\-]*[A-Za-z0-9\u00C0-\u024F!?])?/g;
-  const iso = (el, text) => {
-    let at = 0;
-    for (const m of text.matchAll(LATIN_RUN)) {
-      if (m.index > at) el.append(text.slice(at, m.index));
-      const b = document.createElement("bdi"); b.textContent = m[0]; el.append(b);
-      at = m.index + m[0].length;
-    }
-    if (at < text.length) el.append(text.slice(at));
-    return el;
-  };
   const helpBox = (x, pick) => helpLangs.filter((h) => x?.[h.code]).map((h) => {
     const d = document.createElement("details");
     d.className = "help-tr"; d.dataset.helpLang = h.code;
     const s = document.createElement("summary");
-    const name = document.createElement("span"); name.lang = h.lang; name.dir = "rtl"; name.textContent = h.name;
+    const name = document.createElement("span"); name.lang = h.lang; name.dir = h.dir; name.textContent = h.name;
     const sr = document.createElement("span"); sr.className = "sr-only"; sr.textContent = ` (${h.label})`;
     s.append(name, sr);
-    const box = document.createElement("div"); box.className = "help-text"; box.lang = h.lang; box.dir = "rtl";
+    const box = document.createElement("div"); box.className = "help-text"; box.lang = h.lang; box.dir = h.dir;
+    const iso = (el, text) => { el.textContent = text; return el; };
     const { text, options } = pick(x[h.code]);
     box.append(iso(document.createElement("p"), text));
     if (options) {
@@ -256,7 +245,7 @@
       btn.hidden = false;
     } else {
       const next = Math.min(...ids.map((id) => r[id].d).filter(Number.isFinite));
-      text.textContent = fill(smart.dataset.later, { date: new Date(next).toLocaleDateString(document.documentElement.lang, { weekday: "long", day: "numeric", month: "long" }) });
+      text.textContent = fill(smart.dataset.later, { date: new Date(next).toLocaleDateString(document.documentElement.lang === "fa-af" ? "fa-AF-u-ca-gregory" : document.documentElement.lang, { weekday: "long", day: "numeric", month: "long" }) });
       btn.hidden = true;
     }
   };

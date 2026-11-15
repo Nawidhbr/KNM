@@ -113,6 +113,8 @@ export const HelpTheme = z.object({
   theme: z.string().regex(/^[a-z-]+$/),
   title: z.string().min(1),
   lead: z.string().min(1),
+  /** The short lead on the theme cards, where the Dutch index has one of its own. */
+  indexLead: z.string().min(1).optional(),
   checked: z.object({ by: z.string().min(1), date: Day }).optional(),
   lessons: z.array(z.object({
     n: z.number().int().min(1),

@@ -12,7 +12,7 @@
     status.textContent = text || "";
     status.dataset.kind = kind;
   };
-  const date = (ms) => new Date(ms).toLocaleDateString(locale === "en" ? "en-GB" : "nl-NL", { day: "numeric", month: "long", year: "numeric" });
+  const date = (ms) => new Date(ms).toLocaleDateString(locale === "en" ? "en-GB" : locale === "fa-af" ? "fa-AF-u-ca-gregory" : "nl-NL", { day: "numeric", month: "long", year: "numeric" });
   const read = () => {
     try {
       return JSON.parse(localStorage.getItem("access") || "null");

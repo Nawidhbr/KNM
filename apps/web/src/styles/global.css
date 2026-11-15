@@ -200,7 +200,7 @@ button.btn { font: inherit; font-weight: 700; cursor: pointer; }
 .tile-current { width: 44px; height: 44px; background: var(--red-fill); border-color: var(--red-fill); color: var(--on-red); box-shadow: 0 0 0 5px var(--red-soft); font-family: var(--font-arabic); font-size: 1.05rem; }
 
 .path { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
-.path a { display: flex; align-items: center; gap: 12px; padding: 4px 10px 4px 0; border-radius: var(--radius-m); text-decoration: none; color: var(--ink); }
+.path a { display: flex; align-items: center; gap: 12px; padding-block: 4px; padding-inline: 0 10px; border-radius: var(--radius-m); text-decoration: none; color: var(--ink); }
 .path a:hover { background: var(--primary-soft); }
 .path .name { flex: 1; min-width: 0; }
 .path .name small { color: var(--muted); font-size: 0.88rem; }

@@ -46,7 +46,7 @@ const letters = "ABC";
     <a class="btn btn-red" href={`/${locale}/study/`}>{P.emptyCta}</a>
   </section>
 
-  <form class="tikrar" data-src={`/${locale}/practice/questions.json`} data-count={P.count} data-none={P.none} data-right-text={P.right} data-wrong-text={P.wrong} data-score-text={ui.quiz.score} data-letters={letters} data-of={P.passedOf} data-rest={P.notYet} data-chosen-text={P.chosen} data-help-langs={JSON.stringify(helpFor(locale).map((h) => ({ code: h.code, lang: h.lang, name: h.name, label: ui.help.label })))}>
+  <form class="tikrar" data-src={`/${locale}/practice/questions.json`} data-count={P.count} data-none={P.none} data-right-text={P.right} data-wrong-text={P.wrong} data-score-text={ui.quiz.score} data-letters={letters} data-of={P.passedOf} data-rest={P.notYet} data-chosen-text={P.chosen} data-help-langs={JSON.stringify(helpFor(locale).map((h) => ({ code: h.code, lang: h.lang, dir: h.dir, name: h.name, label: ui.help.label })))}>
     <div class="tikrar-bar card">
       <label class="check tikrar-all"><input type="checkbox" data-all /> <span>{P.selectAll}</span></label>
       <p class="tikrar-count" aria-live="polite"></p>
@@ -86,7 +86,7 @@ const letters = "ABC";
                 </ul>
                 <p class="tikrar-rest muted" hidden><span class="lock-glyph" aria-hidden="true"></span><span data-rest-text></span></p>
               </fieldset>
-              <p class="tikrar-go"><a href={themePath(locale, th.id)}>{fmt(P.toBook, { book: tx(th.title, locale) })} →</a></p>
+              <p class="tikrar-go"><a href={themePath(locale, th.id)}>{fmt(P.toBook, { book: tx(th.title, locale) })} <span class="arr" aria-hidden="true">→</span></a></p>
             </div>
           </details>
         ))}

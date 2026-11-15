@@ -1,6 +1,6 @@
 ---
 import type { ReviewState } from "@knm/content";
-import { fmt, t } from "../i18n";
+import { fmt, intlLocale, t } from "../i18n";
 
 /**
  * The review of a lesson, term or text, the same everywhere: "Draft · awaiting review", or "Reviewed by <teacher> ·
@@ -13,7 +13,7 @@ interface Props {
 }
 const { review, locale, class: cls = "badge u-ib" } = Astro.props;
 const ui = t(locale);
-const date = review.date ? new Date(`${review.date}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : "";
+const date = review.date ? new Date(`${review.date}T12:00:00Z`).toLocaleDateString(intlLocale(locale), { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : "";
 ---
 
 {review.status === "reviewed" ? (

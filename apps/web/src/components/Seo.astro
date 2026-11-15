@@ -1,6 +1,6 @@
 ---
 import { INDEXING, SITE, absoluteUrl } from "../config/site";
-import { LIVE_LOCALES, seoFor, t } from "../i18n";
+import { LIVE_LOCALES, seoFor, t, untranslated } from "../i18n";
 
 interface Props {
   title: string;
@@ -17,10 +17,12 @@ interface Props {
 const { title, description, path, locale = SITE.defaultLocale, jsonLd = [], noindex = false } = Astro.props;
 const shareImage = absoluteUrl("/og/default.jpg");
 const shareAlt = SITE.name;
-const canonical = absoluteUrl(`/${locale}${path}`);
+// A page whose content is not translated yet points to the Dutch page and names no other languages (i18n UNTRANSLATED).
+const fallback = untranslated(locale, path);
+const canonical = absoluteUrl(`/${fallback ? SITE.defaultLocale : locale}${path}`);
 // The error page is no page of its own: no canonical, no other languages. Pages kept out of the index name no other languages either.
 const isError = path === "/404/";
-const alternates = !noindex && !isError ? LIVE_LOCALES : [];
+const alternates = !noindex && !isError && !fallback ? LIVE_LOCALES.filter((l) => !untranslated(l, path)) : [];
 // Search results show about 60 characters of a title and 155 of a description: keep both within that,
 // cutting at a word (or, for a description, at the end of a sentence) rather than letting Google cut.
 const clip = (text: string, max: number) => {

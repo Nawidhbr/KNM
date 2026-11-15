@@ -18,6 +18,7 @@ const complete = companyComplete();
 <BaseLayout title={T.title} description={T.description} path="/terms/" locale={locale} noindex>
   <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {T.title}</p>
   <h1>{T.title}</h1>
+  {T.binding && <p class="lead">{T.binding}</p>}
   {(T.sections as { h: string; p: string[] }[]).map((s, i) => (
     <section>
       <h2>{s.h}</h2>

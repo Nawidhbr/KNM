@@ -40,7 +40,7 @@
   --on-blue: #ffffff;
   --radius-l: 0px;
   --radius-m: 0px;
-  --font-head: "Inter Tight", system-ui, sans-serif;
+  --font-head: "Inter Tight", "Vazirmatn", system-ui, sans-serif;
   --band: linear-gradient(90deg,
     var(--stijl-red) 0 6%, var(--ink) 6% calc(6% + 2px),
     var(--bg) calc(6% + 2px) 78%, var(--ink) 78% calc(78% + 2px),

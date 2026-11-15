@@ -1,7 +1,6 @@
 ---
 import { helpFor } from "../config/help";
 import { t } from "../i18n";
-import { bidiRuns } from "../lib/bidi.js";
 
 /**
  * A help translation of one text, folded under the Dutch (config/help.ts). Shown only on the Dutch pages, only for a
@@ -30,18 +29,17 @@ const langs = helpFor(locale).filter((h) => pick(text?.[h.code]));
   const v = pick(text![h.code])!;
   const paras = Array.isArray(v) ? v : [v];
   const opts = options?.[h.code];
-  // Dutch words and numbers are isolated (<bdi>) so they keep their own order inside the right-to-left text (lib/bidi.js).
   const inner = (
-    <div class="help-text" lang={h.lang} dir="rtl">
-      {paras.map((p) => <p>{bidiRuns(p).map((r) => (r.latin ? <bdi>{r.t}</bdi> : r.t))}</p>)}
-      {opts && <ol class="help-options">{opts.map((o, i) => <li><span class="help-key" dir="ltr">{letters[i]}</span><span>{bidiRuns(o).map((r) => (r.latin ? <bdi>{r.t}</bdi> : r.t))}</span></li>)}</ol>}
+    <div class="help-text" lang={h.lang} dir={h.dir}>
+      {paras.map((p) => <p>{p}</p>)}
+      {opts && <ol class="help-options">{opts.map((o, i) => <li><span class="help-key" dir="ltr">{letters[i]}</span><span>{o}</span></li>)}</ol>}
     </div>
   );
   return open ? (
     <div class:list={["help-tr help-open", Astro.props.class]} data-help-lang={h.code}>{inner}</div>
   ) : (
     <details class:list={["help-tr", Astro.props.class]} data-help-lang={h.code}>
-      <summary><span lang={h.lang} dir="rtl">{h.name}</span><span class="sr-only"> ({ui.help.label})</span></summary>
+      <summary><span lang={h.lang} dir={h.dir}>{h.name}</span><span class="sr-only"> ({ui.help.label})</span></summary>
       {inner}
     </details>
   );

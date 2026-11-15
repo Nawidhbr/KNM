@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { SITE } from "../../config/site";
-import { fmt, localePaths, t } from "../../i18n";
-import { getNews, getThemeIndex, getTopics, tx } from "@knm/content";
+import { dutchAttrs, fmt, intlLocale, localePaths, t } from "../../i18n";
+import { getNews, getThemeIndex, getTopics, has, tx } from "@knm/content";
 import { lessonPath, themePath, themes } from "../../lib/course";
 import { organization, website } from "../../lib/structured-data";
 
@@ -15,7 +15,7 @@ const courses = new Map(themes().map((x) => [x.id, x]));
 const first = themes()[0];
 const topics = getTopics().filter((x) => x.slug !== "knm-examen").slice(0, 6);
 const news = getNews().slice(0, 3);
-const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(intlLocale(locale), { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 ---
 
 <BaseLayout title={ui.meta.tagline} description={ui.meta.homeDescription} path="/" locale={locale} wide jsonLd={[organization(), website(locale)]}>
@@ -79,10 +79,10 @@ const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(loca
       <p class="muted">{H.topicsLead}</p>
       <ul class="topic-list">
         {topics.map((x) => (
-          <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>
+          <li><a href={`/${locale}/topics/${x.slug}/`} {...dutchAttrs(locale, has(x.title, locale))}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>
         ))}
       </ul>
-      <p><a href={`/${locale}/topics/`}>{H.allTopics} →</a></p>
+      <p><a href={`/${locale}/topics/`}>{H.allTopics} <span class="arr" aria-hidden="true">→</span></a></p>
     </section>
     <section aria-labelledby="news-title">
       <h2 id="news-title">{H.newsTitle}</h2>
@@ -90,16 +90,16 @@ const dateOf = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString(loca
         {news.map((n) => (
           <li class="card">
             <time datetime={n.date}>{dateOf(n.date)}</time>
-            <h3>{tx(n.headline, locale)}</h3>
-            <p>{tx(n.gist, locale)}</p>
+            <h3 {...dutchAttrs(locale, has(n.headline, locale))}>{tx(n.headline, locale)}</h3>
+            <p {...dutchAttrs(locale, has(n.gist, locale))}>{tx(n.gist, locale)}</p>
           </li>
         ))}
       </ul>
-      <p><a href={`/${locale}/news/`}>{H.allNews} →</a></p>
+      <p><a href={`/${locale}/news/`}>{H.allNews} <span class="arr" aria-hidden="true">→</span></a></p>
       <section class="card">
         <h3 class="u-m0">{H.examTitle}</h3>
         <p class="muted">{H.examLead}</p>
-        <a href={`/${locale}/topics/knm-examen/`}>{H.examCta} →</a>
+        <a href={`/${locale}/topics/knm-examen/`}>{H.examCta} <span class="arr" aria-hidden="true">→</span></a>
       </section>
     </section>
   </div>

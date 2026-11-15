@@ -4,5 +4,5 @@ try {
   if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
   // The help translation the reader turned on (config/help.ts), shown under the Dutch on the Dutch pages.
   const help = localStorage.getItem("help");
-  if (help && /^[a-z-]+$/.test(help)) document.documentElement.dataset.help = help;
+  if (help && /^[a-z -]+$/.test(help)) document.documentElement.dataset.help = help;
 } catch {}

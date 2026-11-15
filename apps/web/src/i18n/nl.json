@@ -102,7 +102,8 @@
     "quizIntro": "Vijf vragen over deze les. Met 7 van de 10 (twee sterren) gaat de volgende les open.",
     "quizPassed": "Gehaald! De volgende les is open.",
     "quizFailed": "Nog niet gehaald. Lees de les nog eens en probeer het opnieuw.",
-    "themeDoneQuiz": "Gehaald! Je hebt alle lessen van dit thema gehaald."
+    "themeDoneQuiz": "Gehaald! Je hebt alle lessen van dit thema gehaald.",
+    "translated": ""
   },
   "lock": {
     "title": "Nog niet open",
@@ -345,6 +346,7 @@
     "title": "Voorwaarden",
     "description": "De voorwaarden voor toegang tot alle thema's: wat je koopt, levering, bedenktijd, geld terug en wie wij zijn.",
     "missing": "De gegevens van het bedrijf volgen.",
+    "binding": "",
     "sections": [
       {
         "h": "Wie wij zijn",

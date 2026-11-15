@@ -30,7 +30,7 @@
 .theme-card[data-soon] .tile { border-style: dashed; opacity: 0.6; }
 
 /* Lesson page: the situation and the rule to remember. */
-.situation { border-inline-start: 4px solid var(--primary); padding: 4px 0 4px 16px; margin: 0; font-size: 1.1rem; }
+.situation { border-inline-start: 4px solid var(--primary); padding-block: 4px; padding-inline: 16px 0; margin: 0; font-size: 1.1rem; }
 .remember { background: var(--red-soft); border-color: transparent; }
 .remember p:last-child { margin-bottom: 0; }
 .codes { display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 8px 0 0; list-style: none; }
@@ -160,12 +160,13 @@ html[data-access] [data-buy] { display: none !important; }
 .say-btn svg { width: 20px; height: 20px; fill: var(--ink); stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .say-btn[aria-pressed="true"] { background: var(--red-fill); color: var(--on-red); }
 .say-btn:hover { background: var(--primary-soft); }
-.question > .say-btn { float: inline-end; margin: 0 0 8px 12px; min-height: 36px; padding: 4px 10px; font-size: 0.88rem; }
+.question > .say-btn { float: inline-end; margin-block: 0 8px; margin-inline: 12px 0; min-height: 36px; padding: 4px 10px; font-size: 0.88rem; }
 .say-btn[hidden] { display: none; }
 
 /* Help translations (components/Help.astro, config/help.ts): hidden until the reader turns a language on. */
 .help-tr { display: none; }
-html[data-help="fa-af"] .help-tr[data-help-lang="fa-af"] { display: block; }
+html[data-help~="fa-af"] .help-tr[data-help-lang="fa-af"],
+html[data-help~="nl"] .help-tr[data-help-lang="nl"] { display: block; }
 .help-tr { margin: -6px 0 16px; }
 .help-tr > summary { display: inline-flex; align-items: center; gap: 6px; min-height: 30px; padding: 2px 10px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); font-size: 0.85rem; font-weight: 700; cursor: pointer; list-style: none; }
 .help-tr > summary::-webkit-details-marker { display: none; }
@@ -186,3 +187,12 @@ html[data-help="fa-af"] .help-tr[data-help-lang="fa-af"] { display: block; }
 .say-btn svg.help-icon { fill: none; stroke: currentColor; stroke-width: 2; }
 .help-btn { margin-inline-end: 8px; }
 .say-row .help-btn { margin-bottom: 6px; }
+
+/* Dari pages: Vazirmatn for the Arabic script (loaded only for those letters), the Latin letters as everywhere. */
+:root { --font-body: "Atkinson Hyperlegible", "Vazirmatn", system-ui, sans-serif; }
+:lang(fa) { line-height: 1.85; }
+:lang(fa) :is(h1, h2, h3) { line-height: 1.5; }
+
+/* Arrows that point onward point to the left in right-to-left pages. */
+.arr { display: inline-block; }
+[dir="rtl"] .arr { transform: scaleX(-1); }

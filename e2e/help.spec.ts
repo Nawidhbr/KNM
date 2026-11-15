@@ -69,3 +69,36 @@ test("review questions carry the help translation, the exam and English pages do
   await page.goto("/en/study/werk-en-inkomen/1/");
   await expect(page.locator(".help-tr, .help-btn")).toHaveCount(0);
 });
+
+test("the Dari pages are right to left, with the Dutch original folded under each part", async ({ page }) => {
+  await page.goto("/fa-af/study/werk-en-inkomen/1/");
+  await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
+  await expect(page.locator("html")).toHaveAttribute("lang", "fa-af");
+  const fold = page.locator('.primer-body details.help-tr[data-help-lang="nl"]').first();
+  await expect(fold).toBeHidden();
+  await page.locator(".help-btn").click();
+  await fold.locator("summary").click();
+  await expect(fold.locator(".help-text")).toHaveAttribute("dir", "ltr");
+  await expect(fold.locator(".help-text")).toContainText("vacature");
+  // Turning Dutch on here leaves the Dari help on the Dutch pages as it was.
+  await page.goto("/nl/study/werk-en-inkomen/1/");
+  await expect(page.locator(".help-btn")).toHaveAttribute("aria-pressed", "false");
+  await page.locator(".help-btn").click();
+  await page.goto("/fa-af/study/werk-en-inkomen/1/");
+  await expect(page.locator(".help-btn")).toHaveAttribute("aria-pressed", "true");
+  expect(await page.evaluate(() => localStorage.getItem("help"))).toBe("nl fa-af");
+});
+
+test("parts not translated into Dari show the Dutch, point to the Dutch page and stay out of the sitemap", async ({ page, request }) => {
+  await page.goto("/fa-af/topics/digid/");
+  await expect(page.locator("h1")).toHaveAttribute("lang", "nl");
+  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/nl\/topics\/digid\/$/);
+  await expect(page.locator('link[rel="alternate"]')).toHaveCount(0);
+  await page.goto("/nl/topics/digid/");
+  await expect(page.locator('link[rel="alternate"][hreflang="fa-af"]')).toHaveCount(0);
+  await page.goto("/nl/study/werk-en-inkomen/1/");
+  await expect(page.locator('link[rel="alternate"][hreflang="fa-af"]')).toHaveCount(1);
+  const sitemap = await (await request.get("/sitemap-0.xml")).text();
+  expect(sitemap).toContain("/fa-af/study/werk-en-inkomen/1/");
+  expect(sitemap).not.toContain("/fa-af/topics/");
+});

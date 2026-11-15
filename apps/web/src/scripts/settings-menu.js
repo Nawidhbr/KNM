@@ -15,13 +15,17 @@ themeButton.addEventListener("click", () => {
 (() => {
   const root = document.documentElement;
   const switches = [...document.querySelectorAll("[data-help-switch]")];
-  const sync = () => switches.forEach((b) => b.setAttribute(b.getAttribute("role") === "switch" ? "aria-checked" : "aria-pressed", String(root.dataset.help === b.dataset.helpSwitch)));
+  // data-help holds the codes turned on, separated by spaces (Dari on the Dutch pages, Dutch on the Dari pages).
+  const codes = () => (root.dataset.help || "").split(" ").filter(Boolean);
+  const sync = () => switches.forEach((b) => b.setAttribute(b.getAttribute("role") === "switch" ? "aria-checked" : "aria-pressed", String(codes().includes(b.dataset.helpSwitch))));
   for (const b of switches) {
     b.addEventListener("click", () => {
-      const on = root.dataset.help !== b.dataset.helpSwitch;
-      if (on) root.dataset.help = b.dataset.helpSwitch; else delete root.dataset.help;
-      try { if (on) localStorage.setItem("help", b.dataset.helpSwitch); else localStorage.removeItem("help"); } catch {}
-      window.__track?.("Help translation", { lang: b.dataset.helpSwitch, on: on ? "yes" : "no" });
+      const code = b.dataset.helpSwitch;
+      const on = !codes().includes(code);
+      const next = on ? [...codes(), code] : codes().filter((c) => c !== code);
+      if (next.length) root.dataset.help = next.join(" "); else delete root.dataset.help;
+      try { if (next.length) localStorage.setItem("help", next.join(" ")); else localStorage.removeItem("help"); } catch {}
+      window.__track?.("Help translation", { lang: code, on: on ? "yes" : "no" });
       sync();
     });
   }

@@ -10,5 +10,5 @@ const ui = t(locale);
 <BaseLayout title={ui.offline.title} description={ui.offline.description} path="/offline/" locale={locale} noindex>
   <h1>{ui.offline.title}</h1>
   <p>{ui.offline.body}</p>
-  <p><a href={`/${locale}/study/`}>{ui.nav.themes} →</a></p>
+  <p><a href={`/${locale}/study/`}>{ui.nav.themes} <span class="arr" aria-hidden="true">→</span></a></p>
 </BaseLayout>

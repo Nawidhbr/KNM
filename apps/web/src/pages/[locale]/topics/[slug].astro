@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import ReviewBadge from "../../../components/ReviewBadge.astro";
-import { LIVE_LOCALES, fmt, t } from "../../../i18n";
-import { getReview, getThemeIndex, getTopics, tx, txl, type Topic } from "@knm/content";
+import { dutchAttrs, fmt, intlLocale, LIVE_LOCALES, t } from "../../../i18n";
+import { getReview, getThemeIndex, getTopics, tx, txl, type Topic, has } from "@knm/content";
 import { themePath, themes } from "../../../lib/course";
 import { gloss } from "../../../lib/gloss";
 import { article, breadcrumbs } from "../../../lib/structured-data";
@@ -18,8 +18,10 @@ const T = ui.topics;
 const title = tx(topic.title, locale);
 const theme = getThemeIndex().find((x) => x.id === topic.theme);
 const hasCourse = theme && themes().some((x) => x.id === theme.id);
-const checked = new Date(`${topic.checked}T12:00:00Z`).toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+const checked = new Date(`${topic.checked}T12:00:00Z`).toLocaleDateString(intlLocale(locale), { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 const path = `/topics/${topic.slug}/`;
+// Not translated yet into this language: the Dutch, marked as Dutch (i18n UNTRANSLATED).
+const nlAttrs = dutchAttrs(locale, has(topic.title, locale));
 ---
 
 <BaseLayout
@@ -35,10 +37,10 @@ const path = `/topics/${topic.slug}/`;
   <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / <a href={`/${locale}/topics/`}>{T.title}</a> / {title}</p>
   <article>
     <p class="eyebrow">{theme ? `${T.theme} ${theme.n} · ${tx(theme.title, locale)}` : T.general}</p>
-    <h1>{title}</h1>
-    <p class="lead">{tx(topic.summary, locale)}</p>
+    <h1 {...nlAttrs}>{title}</h1>
+    <p class="lead" {...nlAttrs}>{tx(topic.summary, locale)}</p>
     <ReviewBadge review={getReview(`topic:${topic.slug}`)} locale={locale} />
-    <div class="topic-body">
+    <div class="topic-body" {...nlAttrs}>
       {topic.sections.map((s) => (
         <section>
           <h2>{tx(s.heading, locale)}</h2>
@@ -54,7 +56,7 @@ const path = `/topics/${topic.slug}/`;
     )}
     <section class="card">
       <h2>{T.sources}</h2>
-      <ul class="sources-list">
+      <ul class="sources-list" lang="nl" dir="ltr">
         {topic.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.title} ↗</a></li>)}
       </ul>
       <p class="muted u-mt14">{T.eindtermen}</p>

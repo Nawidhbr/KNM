@@ -1,8 +1,8 @@
 ---
 import { needsAccess, priceText } from "../../../../lib/offer";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import { LIVE_LOCALES, fmt, t } from "../../../../i18n";
-import { getTopics, tx } from "@knm/content";
+import { LIVE_LOCALES, dutchAttrs, fmt, t } from "../../../../i18n";
+import { getTopics, has, tx } from "@knm/content";
 import { lessonKey, lessonPath, themePath, themes } from "../../../../lib/course";
 import { breadcrumbs, course } from "../../../../lib/structured-data";
 
@@ -80,7 +80,7 @@ const related = getTopics().filter((x) => x.theme === th.id);
     <section class="card">
       <h2>{ui.topics.title}</h2>
       <ul class="topic-list">
-        {related.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
+        {related.map((x) => <li><a href={`/${locale}/topics/${x.slug}/`} {...dutchAttrs(locale, has(x.title, locale))}><strong>{tx(x.title, locale)}</strong><span>{tx(x.summary, locale)}</span></a></li>)}
       </ul>
     </section>
   )}

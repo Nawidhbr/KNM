@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { localePaths, t } from "../../../i18n";
+import { dutchAttrs, localePaths, t } from "../../../i18n";
 import { getGlossary } from "@knm/content";
 
 /** The words of the pop-ups, A–Z, each with its plain explanation and, where there is one, the page about it. */
@@ -8,14 +8,16 @@ export const getStaticPaths = localePaths;
 const { locale } = Astro.params as { locale: string };
 const ui = t(locale);
 const G = ui.glossary;
-const words = [...getGlossary(locale).entries].sort((a, b) => a.forms[0].localeCompare(b.forms[0], locale, { sensitivity: "base" }));
+// A language without its own word list shows the Dutch one (the words of the exam), marked as Dutch.
+const own = getGlossary(locale).entries.length > 0;
+const words = [...getGlossary(own ? locale : "nl").entries].sort((a, b) => a.forms[0].localeCompare(b.forms[0], locale, { sensitivity: "base" }));
 ---
 
 <BaseLayout title={G.title} description={G.description} path="/glossary/" locale={locale}>
   <p class="crumbs"><a href={`/${locale}/`}>{ui.nav.home}</a> / {G.title}</p>
   <h1>{G.title}</h1>
   <p class="lead">{G.lead}</p>
-  <dl class="word-list">
+  <dl class="word-list" {...dutchAttrs(locale, own)}>
     {words.map((w) => (
       <div id={w.id}>
         <dt>{w.forms[0]}</dt>

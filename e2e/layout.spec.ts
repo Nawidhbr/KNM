@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 // The main pages on desktop and phone: no page scrolls sideways, no script error, every image loads.
 
-const pages = ["/nl/", "/nl/study/", "/nl/exam/", "/nl/transfer/", "/nl/study/werk-en-inkomen/", "/nl/study/werk-en-inkomen/1/", "/nl/practice/", "/nl/topics/", "/nl/topics/digid/", "/nl/news/", "/nl/glossary/", "/nl/contact/", "/nl/unlock/", "/nl/terms/", "/en/", "/en/study/werk-en-inkomen/1/"];
+const pages = ["/nl/", "/nl/study/", "/nl/exam/", "/nl/transfer/", "/nl/study/werk-en-inkomen/", "/nl/study/werk-en-inkomen/1/", "/nl/practice/", "/nl/topics/", "/nl/topics/digid/", "/nl/news/", "/nl/glossary/", "/nl/contact/", "/nl/unlock/", "/nl/terms/", "/en/", "/en/study/werk-en-inkomen/1/", "/fa-af/", "/fa-af/study/", "/fa-af/study/werk-en-inkomen/1/", "/fa-af/exam/", "/fa-af/practice/", "/fa-af/topics/digid/", "/fa-af/glossary/", "/fa-af/terms/"];
 
 for (const path of pages) {
   test(`${path} fits the screen and runs without errors`, async ({ page }) => {

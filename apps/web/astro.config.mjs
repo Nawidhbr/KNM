@@ -13,8 +13,9 @@ export default defineConfig({
   integrations: [
     sitemap({
       // The root only redirects; the offline page is a fallback; the buy and terms pages are not indexed.
-      filter: (page) => page !== `${site}/` && !/\/(offline|unlock|terms|transfer)\/$/.test(page),
-      i18n: { defaultLocale: SITE.defaultLocale, locales: { nl: "nl", en: "en" } },
+      // Parts not yet translated into Dari show the Dutch there (UNTRANSLATED in src/i18n/index.ts): left out.
+      filter: (page) => page !== `${site}/` && !/\/(offline|unlock|terms|transfer)\/$/.test(page) && !/\/fa-af\/(topics|news|glossary)\//.test(page),
+      i18n: { defaultLocale: SITE.defaultLocale, locales: { nl: "nl", en: "en", "fa-af": "fa-AF" } },
     }),
   ],
 });

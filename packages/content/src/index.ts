@@ -7,6 +7,7 @@ import reviewData from "../generated/reviews.json" with { type: "json" };
 import helpData from "../generated/help.json" with { type: "json" };
 
 export * from "./schema.ts";
+export * from "./bidi.ts";
 
 /**
  * The validated content. The bundles are written by `npm run validate -w @knm/content`, which fails on any content
